@@ -17,7 +17,8 @@ Så räknas chansen att vinna:
    Vem som startar är osäkert (den som stått flest av de senaste matcherna
    startar bara ungefär sex gånger av tio), så chansen vägs ihop över lagets
    målvakter efter hur ofta var och en startat i de senaste 10 matcherna.
-   Den som startade dagen innan startar nästan aldrig igen.
+   Den som startade dagen innan startar nästan aldrig igen. Skadade målvakter
+   (listan "skadade_malvakter" i config.json) räknas inte med i kommande matcher.
 5. Förväntade mål i matchen = eget anfall × motståndarens försvar / ligasnitt
    × motståndarmålvaktens kvot, med fördel för hemmalaget och nackdel för lag
    som spelade dagen innan.
@@ -32,7 +33,9 @@ prognos bara får se matcherna innan.
 """
 
 import datetime as dt
+import json
 import math
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -137,8 +140,9 @@ def styrka(rows: pd.DataFrame, fore: str, forra=None, med_mv=False):
 class Malvakter:
     """Målvakternas kvot (insläppta / xG mot) och vem som troligen startar."""
 
-    def __init__(self, GK, forra_mv=None):
+    def __init__(self, GK, forra_mv=None, skadade=()):
         self.ok = GK is not None and len(GK) > 0 and "xG mot" in GK and GK["xG mot"].notna().any()
+        self.skadade = set()
         self.forra = {}
         if forra_mv is not None and len(forra_mv) and "Skott mot" in forra_mv:
             sv_lg = 1 - forra_mv["Insläppta"].sum() / max(1, forra_mv["Skott mot"].sum())
@@ -153,6 +157,13 @@ class Malvakter:
         g = g[g["xG mot"].notna()]
         self.g = g.sort_values(["Datum", "Match-id"])
         self.namn = dict(zip(g["Spelar-id"], g["Spelare"]))
+        # skadade anges med namn eller spelar-id
+        efter_namn = {str(n).strip().lower(): pid for pid, n in self.namn.items()}
+        for x in skadade or ():
+            x = str(x).strip()
+            pid = int(x) if x.isdigit() else efter_namn.get(x.lower())
+            if pid is not None:
+                self.skadade.add(pid)
 
     def kvot(self, pid, fore):
         if pid is None:
@@ -182,6 +193,15 @@ class Malvakter:
         h = h[h["Spelar-id"].map(alla.groupby("Spelar-id")["Lag"].last()) == lag]
         if not len(h):
             return []
+        st_alla = h[h["Startade"] == "ja"].sort_values(["Datum", "Match-id"])
+        igar = set(st_alla[st_alla["Datum"] == st_alla["Datum"].max()]["Spelar-id"]) if spelade_igar and len(st_alla) else set()
+        forst_skadad = False
+        if self.skadade:
+            senaste_alla = st_alla.tail(MV_SENASTE)["Spelar-id"]
+            forst_skadad = len(senaste_alla) > 0 and senaste_alla.value_counts().idxmax() in self.skadade
+            h = h[~h["Spelar-id"].isin(self.skadade)]
+            if not len(h):
+                return [(None, 1.0, "förstemålvakten skadad")]
         st = h[h["Startade"] == "ja"].sort_values(["Datum", "Match-id"])
         senaste = st.tail(MV_SENASTE)
         # vid lika: den som startade senast först, sedan övriga efter senaste match
@@ -193,7 +213,7 @@ class Malvakter:
         tot = sum(w.values())
         p = {pid: v / tot for pid, v in w.items()}
         forst = max(p, key=lambda k: (k is not None, p[k]))
-        igar = set(st[st["Datum"] == st["Datum"].max()]["Spelar-id"]) if spelade_igar and len(st) else set()
+        igar &= set(p)
         if igar:
             # den som startade dagen innan vilar nästan alltid: hans chans flyttas till de andra
             borta = sum(v * (1 - MV_IGEN) for k, v in p.items() if k in igar)
@@ -206,7 +226,8 @@ class Malvakter:
             if k in igar:
                 varfor = "spelade igår"
             elif not ut or all(x[0] is None for x in ut):
-                varfor = "förstemålvakten spelade igår" if forst in igar else "flest starter"
+                varfor = ("förstemålvakten skadad" if forst_skadad else
+                          "förstemålvakten spelade igår" if forst in igar else "flest starter")
             else:
                 varfor = "reserv"
             ut.append((k, p[k], varfor))
@@ -313,12 +334,22 @@ def lagfakta(rows: pd.DataFrame):
     return ut
 
 
-def kommande(T: pd.DataFrame, matcher: list, GK=None, forra_lag=None, forra_mv=None) -> pd.DataFrame:
+def skadade_malvakter():
+    """Målvakter som är skadade just nu, från config.json (namn eller spelar-id)."""
+    try:
+        cfg = json.loads((Path(__file__).resolve().parent / "config.json").read_text(encoding="utf-8"))
+        lista = cfg.get("skadade_malvakter") or []
+        return [lista] if isinstance(lista, (str, int)) else list(lista)
+    except (OSError, ValueError, AttributeError):
+        return []
+
+
+def kommande(T: pd.DataFrame, matcher: list, GK=None, forra_lag=None, forra_mv=None, skadade=None) -> pd.DataFrame:
     """Prognos för kommande matcher. `matcher` kommer från NHL:s schema."""
     if not matcher:
         return pd.DataFrame()
     rows = lagmatcher(T)
-    MV = Malvakter(GK, forra_mv)
+    MV = Malvakter(GK, forra_mv, skadade_malvakter() if skadade is None else skadade)
     snitt, lag = styrka(rows, "9999-12-31", forra_niva(forra_lag), MV.ok)
     fakta = lagfakta(rows)
     namn = {}

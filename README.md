@@ -49,6 +49,7 @@ Har du redan satt upp projektet? Ladda upp de nya filerna på samma sätt som i 
 | `kontakt` | Länk dit man kan höra av sig, till exempel med frågor eller om något ska tas bort. Standard är projektets Issues-sida på GitHub. |
 | `visa_loggor` | `true` visar lagens loggor från NHL. `false` visar i stället en prick i lagets färg bredvid förkortningen. |
 | `dagar_med_bilder` | Hur många dagar bakåt det skapas nedladdningsbara bilder (standard 21). |
+| `skadade_malvakter` | Målvakter som är skadade just nu, med namn som på sidan (till exempel `["Jacob Markstrom"]`) eller spelar-id. De räknas inte med i vinstchansen för kommande matcher. Har laget bara en frisk målvakt kvar räknas reserven som en okänd målvakt. Ta bort namnet när han är tillbaka. Tom lista (`[]`) betyder att alla är friska. |
 
 ## Game Score+
 

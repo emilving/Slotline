@@ -3,5 +3,8 @@
   "namn": "",
   "kontakt": "https://github.com/emilving/slotline/issues",
   "visa_loggor": true,
-  "dagar_med_bilder": 21
+  "dagar_med_bilder": 21,
+  "skadade_malvakter": [
+    "Jacob Markstrom"
+  ]
 }
