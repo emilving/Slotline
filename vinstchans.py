@@ -14,14 +14,18 @@ Så räknas chansen att vinna:
 4. Målvakten: hur många mål han släpper in jämfört med chanserna han möter
    (insläppta / xG mot). Dras mot förra säsongens räddningsprocent och mot
    snittet med MV_KRYMP förväntade mål, eftersom målvaktsspel svänger mycket.
-   Trolig startare: den som stått flest av lagets senaste 10 matcher. Spelade
-   han dagen innan räknas reserven som trolig.
+   Vem som startar är osäkert (den som stått flest av de senaste matcherna
+   startar bara ungefär sex gånger av tio), så chansen vägs ihop över lagets
+   målvakter efter hur ofta var och en startat i de senaste 10 matcherna.
+   Den som startade dagen innan startar nästan aldrig igen.
 5. Förväntade mål i matchen = eget anfall × motståndarens försvar / ligasnitt
    × motståndarmålvaktens kvot, med fördel för hemmalaget och nackdel för lag
    som spelade dagen innan.
-6. Chansen räknas med Poissonfördelningen. Blir det lika efter full tid avgörs
-   en del i förlängning (där det bästa anfallet har en liten fördel) och resten
-   på straffar (lika chans).
+6. Chansen räknas med Poissonfördelningen. Ren Poisson ger för få matcher som
+   är lika efter full tid (ungefär 17 % mot verkliga 22 %), eftersom lag som
+   ligger under pressar på och tar ut målvakten. Därför förstärks oavgjort med
+   OAVGJORT_EXTRA. Blir det lika avgörs en del i förlängning (där det bästa
+   anfallet har en liten fördel) och resten på straffar (lika chans).
 
 Inställningarna är valda genom att testa på säsongens spelade matcher, där varje
 prognos bara får se matcherna innan.
@@ -41,11 +45,13 @@ FORRA_VIKT = 0.5        # hur mycket av förra säsongens nivå som behålls (re
 MV_KRYMP = 50.0         # förväntade mål en målvakt dras mot sin utgångsnivå (ungefär 18 matcher)
 MV_FORRA_VIKT = 0.5     # hur mycket av förra säsongens räddningsprocent som behålls
 MV_NY = 1.03            # utgångsnivå för målvakt utan NHL-matcher förra säsongen (lite sämre än snittet)
-SKARPA = 0.9           # < 1 dämpar de mest extrema matcherna (få matcher in på säsongen gör ytterlägena osäkra)
-MV_SENASTE = 10         # så många av lagets senaste matcher avgör vem som är förstemålvakt
+MV_SENASTE = 10         # så många av lagets senaste matcher avgör hur troligt det är att varje målvakt startar
+MV_UTJAMNING = 0.5      # starter som varje målvakt får på köpet, så att en enda match inte avgör
+MV_IGEN = 0.05          # chansen att en målvakt som startade dagen innan startar igen (jämfört med annars)
 HEMMA = 1.05            # hemmalagets anfall gånger, bortalagets delat med
 TROTT = 0.97            # anfall gånger (och försvar delat med) dagen efter en match
 ANDEL_FORLANGNING = 0.6 # andel av de oavgjorda matcherna som avgörs i förlängning
+OAVGJORT_EXTRA = 0.4    # så mycket vanligare lika efter full tid är än ren Poisson säger (ger cirka 22 %)
 MAX_MAL = 15
 MIN_MATCHER_TRAFF = 3   # båda lagen ska ha spelat så här många matcher innan en prognos räknas i träffsäkerheten
 
@@ -61,6 +67,7 @@ def _poisson(lam):
 def chans(mal_hemma, mal_borta):
     """Chansen att vinna (hemma, borta) givet förväntade mål för respektive lag."""
     m = np.outer(_poisson(mal_hemma), _poisson(mal_borta))  # rad = hemmamål, kolumn = bortamål
+    m = m + np.diag(np.diag(m)) * OAVGJORT_EXTRA
     total = m.sum()
     hemma_ordinarie = np.tril(m, -1).sum() / total
     oavgjort = np.trace(m) / total
@@ -164,35 +171,72 @@ class Malvakter:
         return {"matcher": int(len(h)), "sv": round(float(1 - h["Insläppta"].sum() / sa), 4) if sa else None,
                 "gsax": round(float(h["xG mot"].sum() - h["Insläppta (xG-skott)"].sum()), 2)}
 
-    def troliga(self, lag, fore, spelade_igar):
-        """[(id, namn, anledning)] – trolig startare först, sedan reserven."""
-        if not self.ok:
+    def fordelning(self, lag, fore, spelade_igar):
+        """[(id, chans att starta, anledning)], mest trolig först. id None = en målvakt som inte spelat
+        för laget än (bara när laget har en enda känd målvakt)."""
+        if not self.ok or not lag:
             return []
-        h = self.g[(self.g["Lag"] == lag) & (self.g["Datum"] < fore)]
-        if not len(h):
-            return []
+        alla = self.g[self.g["Datum"] < fore]
+        h = alla[alla["Lag"] == lag]
         # målvakter som fortfarande spelar för laget: senaste laget per målvakt
-        senaste_lag = self.g[self.g["Datum"] < fore].groupby("Spelar-id")["Lag"].last()
-        h = h[h["Spelar-id"].map(senaste_lag) == lag]
+        h = h[h["Spelar-id"].map(alla.groupby("Spelar-id")["Lag"].last()) == lag]
         if not len(h):
             return []
-        matcher = sorted(h["Match-id"].unique(), key=lambda m: h[h["Match-id"] == m]["Datum"].iloc[0])[-MV_SENASTE:]
-        st = h[(h["Match-id"].isin(matcher)) & (h["Startade"] == "ja")]
-        rank = st.groupby("Spelar-id").agg(n=("Match-id", "size"), sist=("Datum", "max")).reset_index()
-        rank = rank.sort_values(["n", "sist"], ascending=False)
-        ordning = list(rank["Spelar-id"])
-        for pid in h.sort_values("Datum", ascending=False)["Spelar-id"]:
-            if pid not in ordning:
-                ordning.append(pid)
-        ordning = ordning[:2]
-        skal = ["flest starter"] + ["reserv"] * (len(ordning) - 1)
-        if spelade_igar and len(ordning) == 2:
-            igar = h[h["Datum"] == max(h["Datum"])]
-            igar_start = igar[igar["Startade"] == "ja"]["Spelar-id"].tolist()
-            if igar_start and igar_start[0] == ordning[0]:
-                ordning = [ordning[1], ordning[0]]
-                skal = ["förstemålvakten spelade igår", "spelade igår"]
-        return [(int(pid), self.namn.get(pid, ""), s) for pid, s in zip(ordning, skal)]
+        st = h[h["Startade"] == "ja"].sort_values(["Datum", "Match-id"])
+        senaste = st.tail(MV_SENASTE)
+        # vid lika: den som startade senast först, sedan övriga efter senaste match
+        pids = list(dict.fromkeys(list(senaste["Spelar-id"])[::-1]
+                                  + list(h.sort_values(["Datum", "Match-id"], ascending=False)["Spelar-id"])))
+        w = {pid: float((senaste["Spelar-id"] == pid).sum()) + MV_UTJAMNING for pid in pids}
+        if len(pids) == 1:
+            w[None] = MV_UTJAMNING
+        tot = sum(w.values())
+        p = {pid: v / tot for pid, v in w.items()}
+        forst = max(p, key=lambda k: (k is not None, p[k]))
+        igar = set(st[st["Datum"] == st["Datum"].max()]["Spelar-id"]) if spelade_igar and len(st) else set()
+        if igar:
+            # den som startade dagen innan vilar nästan alltid: hans chans flyttas till de andra
+            borta = sum(v * (1 - MV_IGEN) for k, v in p.items() if k in igar)
+            rest = sum(v for k, v in p.items() if k not in igar)
+            for k in p:
+                p[k] = p[k] * MV_IGEN if k in igar else p[k] + (borta * p[k] / rest if rest else 0)
+        ordning = sorted(p, key=lambda k: -p[k])
+        ut = []
+        for k in ordning:
+            if k in igar:
+                varfor = "spelade igår"
+            elif not ut or all(x[0] is None for x in ut):
+                varfor = "förstemålvakten spelade igår" if forst in igar else "flest starter"
+            else:
+                varfor = "reserv"
+            ut.append((k, p[k], varfor))
+        return ut
+
+    def troliga(self, lag, fore, spelade_igar):
+        """[(id, namn, anledning, chans att starta)] – trolig startare först, sedan reserven."""
+        ut = [(int(pid), self.namn.get(pid, ""), varfor, p)
+              for pid, p, varfor in self.fordelning(lag, fore, spelade_igar) if pid is not None]
+        return ut[:2]
+
+    def vikter(self, lag, fore, spelade_igar):
+        """[(kvot, chans att starta)] för alla målvakter laget kan ställa upp med."""
+        f = self.fordelning(lag, fore, spelade_igar)
+        if not f:
+            return [(1.0, 1.0)]
+        return [(self.kvot(pid, fore) if pid is not None else MV_NY, p) for pid, p, _ in f]
+
+
+def matchup_mv(snitt, lag, hemma, borta, trott_hemma, trott_borta, mv_hemma, mv_borta):
+    """Som matchup, men vägt över vem som står: mv_hemma/mv_borta = [(kvot, chans att starta)]."""
+    ph = mh = mb = 0.0
+    for kh, wh in mv_hemma or [(1.0, 1.0)]:
+        for kb, wb in mv_borta or [(1.0, 1.0)]:
+            m = matchup(snitt, lag, hemma, borta, trott_hemma, trott_borta, kh, kb)
+            ph += wh * wb * m["chans_hemma"]
+            mh += wh * wb * m["mal_hemma"]
+            mb += wh * wb * m["mal_borta"]
+    m.update({"chans_hemma": ph, "chans_borta": 1 - ph, "mal_hemma": mh, "mal_borta": mb})
+    return m
 
 
 def matchup(snitt, lag, hemma, borta, trott_hemma=False, trott_borta=False, mv_hemma=1.0, mv_borta=1.0):
@@ -202,8 +246,6 @@ def matchup(snitt, lag, hemma, borta, trott_hemma=False, trott_borta=False, mv_h
     th, tb = (TROTT if trott_hemma else 1.0), (TROTT if trott_borta else 1.0)
     mal_hemma = (h["anfall"] * th) * (b["forsvar"] / tb) / snitt * HEMMA * mv_borta
     mal_borta = (b["anfall"] * tb) * (h["forsvar"] / th) / snitt / HEMMA * mv_hemma
-    mal_hemma = snitt * (mal_hemma / snitt) ** SKARPA
-    mal_borta = snitt * (mal_borta / snitt) ** SKARPA
     ph, pb = chans(mal_hemma, mal_borta)
     return {"mal_hemma": mal_hemma, "mal_borta": mal_borta, "chans_hemma": ph, "chans_borta": pb,
             "matcher_hemma": h["matcher"], "matcher_borta": b["matcher"]}
@@ -231,12 +273,9 @@ def prognoser(T: pd.DataFrame, GK=None, forra_lag=None, forra_mv=None) -> pd.Dat
                 continue
             b = borta.loc[h["Match-id"]]
             th, tb = (h["Lag-id"], igar) in spelat, (b["Lag-id"], igar) in spelat
-            # samma gissning om målvakt som inför matchen – inte facit
-            mh = MV.troliga(h["Lag"], datum, th)
-            mb = MV.troliga(b["Lag"], datum, tb)
-            kh = MV.kvot(mh[0][0], datum) if mh else 1.0
-            kb = MV.kvot(mb[0][0], datum) if mb else 1.0
-            m = matchup(snitt, lag, h["Lag-id"], b["Lag-id"], th, tb, kh, kb)
+            # samma bedömning av målvakterna som inför matchen – inte facit
+            m = matchup_mv(snitt, lag, h["Lag-id"], b["Lag-id"], th, tb,
+                           MV.vikter(h["Lag"], datum, th), MV.vikter(b["Lag"], datum, tb))
             fav_hemma = m["chans_hemma"] >= m["chans_borta"]
             hemma_vann = h["Resultat"] == "V"
             ut.append({"Match-id": int(h["Match-id"]), "Datum": datum,
@@ -297,15 +336,18 @@ def kommande(T: pd.DataFrame, matcher: list, GK=None, forra_lag=None, forra_mv=N
         hnamn, bnamn = namn.get(hid, (None,))[0], namn.get(bid, (None,))[0]
         mh = MV.troliga(hnamn, "9999-12-31", th) if hnamn else []
         mb = MV.troliga(bnamn, "9999-12-31", tb) if bnamn else []
+        vh = MV.vikter(hnamn, "9999-12-31", th)
+        vb = MV.vikter(bnamn, "9999-12-31", tb)
         kv = lambda lst, i: MV.kvot(lst[i][0], "9999-12-31") if len(lst) > i else 1.0
-        m = matchup(snitt, lag, hid, bid, th, tb, kv(mh, 0), kv(mb, 0))
+        m = matchup_mv(snitt, lag, hid, bid, th, tb, vh, vb)
         rad = {"Match-id": g["id"], "Datum": g["date"], "Start (UTC)": g.get("start", ""), "Status": g.get("state", "")}
-        # målvakter: trolig startare och reserv, och chansen om reserven står i stället
-        for sida, lst, alt in (("Borta", mb, lambda: matchup(snitt, lag, hid, bid, th, tb, kv(mh, 0), kv(mb, 1))),
-                               ("Hemma", mh, lambda: matchup(snitt, lag, hid, bid, th, tb, kv(mh, 1), kv(mb, 0)))):
-            for i, (pid, mnamn, varfor) in enumerate(lst[:2], 1):
+        # målvakter: trolig startare och reserv, och chansen om reserven säkert står
+        for sida, lst, alt in (("Borta", mb, lambda: matchup_mv(snitt, lag, hid, bid, th, tb, vh, [(kv(mb, 1), 1.0)])),
+                               ("Hemma", mh, lambda: matchup_mv(snitt, lag, hid, bid, th, tb, [(kv(mh, 1), 1.0)], vb))):
+            for i, (pid, mnamn, varfor, startchans) in enumerate(lst[:2], 1):
                 st = MV.stats(pid, "9999-12-31")
                 rad.update({f"{sida} mv{i}": mnamn, f"{sida} mv{i}-id": pid, f"{sida} mv{i} varför": varfor,
+                            f"{sida} mv{i} startchans": round(startchans, 3),
                             f"{sida} mv{i} matcher": st["matcher"], f"{sida} mv{i} rädd%": st["sv"], f"{sida} mv{i} GSAx": st["gsax"],
                             f"{sida} mv{i} kvot": round(kv(lst, i - 1), 3)})
             if len(lst) > 1:

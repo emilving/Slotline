@@ -336,6 +336,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
                 namn_ = r.get(f"{sida} mv{i}")
                 if isinstance(namn_, str) and namn_:
                     mv_.append({"n": namn_, "id": val(r.get(f"{sida} mv{i}-id")), "varfor": r.get(f"{sida} mv{i} varför", ""),
+                                "st": num(r.get(f"{sida} mv{i} startchans"), 3),
                                 "gp": val(r.get(f"{sida} mv{i} matcher")), "sv": num(r.get(f"{sida} mv{i} rädd%"), 4),
                                 "gsax": num(r.get(f"{sida} mv{i} GSAx"))})
             g[key]["mv"] = mv_
