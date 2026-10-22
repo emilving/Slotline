@@ -251,7 +251,8 @@
         var m = (t.mv || [])[0];
         if (m) {
           var ln = el('a', 'sp-lank', m.n); ln.href = 'spelare.html?id=' + m.id; c.appendChild(ln);
-          c.appendChild(el('div', 'mu-mv-sub', (m.sv != null ? (m.sv * 100).toFixed(1).replace('.', ',') + ' %' : '–') + ' · GSAx ' + f2(m.gsax)));
+          c.appendChild(el('div', 'mu-mv-sub', (m.st != null ? pct(m.st) + ' att starta · ' : '') +
+            (m.sv != null ? (m.sv * 100).toFixed(1).replace('.', ',') + ' %' : '–') + ' · GSAx ' + f2(m.gsax)));
         } else c.textContent = '–';
         namnrad.appendChild(c);
       });

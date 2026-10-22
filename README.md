@@ -49,6 +49,7 @@ Har du redan satt upp projektet? Ladda upp de nya filerna på samma sätt som i 
 | `kontakt` | Länk dit man kan höra av sig, till exempel med frågor eller om något ska tas bort. Standard är projektets Issues-sida på GitHub. |
 | `visa_loggor` | `true` visar lagens loggor från NHL. `false` visar i stället en prick i lagets färg bredvid förkortningen. |
 | `dagar_med_bilder` | Hur många dagar bakåt det skapas nedladdningsbara bilder (standard 21). |
+| `skadade_malvakter` | Målvakter som är skadade just nu, med namn som på sidan (till exempel `["Jacob Markstrom"]`) eller spelar-id. De räknas inte med i vinstchansen för kommande matcher. Har laget bara en frisk målvakt kvar räknas reserven som en okänd målvakt. Ta bort namnet när han är tillbaka. Tom lista (`[]`) betyder att alla är friska. |
 
 ## Game Score+
 
@@ -68,10 +69,10 @@ Modellen (`vinstchans.py`) räknar fram varje lags anfall och försvar ur säson
 
 - **Anfall:** gjorda mål (utan mål i tom bur) och förväntade mål. Förväntade mål väger 70 %.
 - **Försvar:** förväntade mål emot, alltså hur mycket chanser laget släpper till.
-- **Målvakten** räknas för sig: insläppta mål delat med förväntade mål emot. Trolig startare är den som stått flest av lagets senaste tio matcher. Spelade han dagen innan räknas reserven som trolig. Kortet visar också chansen om reserven står.
+- **Målvakten** räknas för sig: insläppta mål delat med förväntade mål emot. Det är osäkert vem som startar (den som stått flest av de senaste matcherna startar bara ungefär sex gånger av tio), så chansen vägs ihop över lagets målvakter efter hur ofta var och en stått i de senaste tio matcherna. Den som startade dagen innan startar nästan aldrig igen. Kortet visar hur troligt det är att målvakten startar, och chansen om reserven står.
 - **Form och förra säsongen:** senare matcher väger mer än tidiga. Varje lag utgår från förra säsongens nivå, halvvägs mot ligasnittet, och målvakterna från förra säsongens räddningsprocent. Det gör att några matcher i början av säsongen inte ger orimliga siffror.
 - **Matchen:** förväntade mål = eget anfall × motståndarens försvar / ligasnittet × motståndarmålvaktens kvot. Hemmalaget får 5 % fördel, och ett lag som spelade dagen innan får 3 % nackdel.
-- **Chansen:** räknas med Poissonfördelning, där förlängning och straffar ingår.
+- **Chansen:** räknas med Poissonfördelning, där förlängning och straffar ingår. Ren Poisson ger för få matcher som är lika efter full tid (17 % mot verkliga 22 %), så oavgjort räknas upp till rätt nivå.
 
 Inställningarna är testade på säsongens spelade matcher, där varje prognos bara får se matcherna innan. Sidan visar också hur modellen hade tippat varje spelad match, så att man kan se hur bra den träffar.
 
