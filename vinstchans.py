@@ -270,6 +270,7 @@ def lagfakta(rows: pd.DataFrame):
             "xga": round(g["xGA"].sum() / n, 2) if has_xg else None,
             "gsax": round((g["xGA"].sum() - g["Insläppta (ej tom bur)"].sum()) / n, 2) if has_xg else None,
             "form": _form(g),
+            "senaste3": g.sort_values(["Datum", "Match-id"]).tail(3),
         }
     return ut
 
@@ -323,5 +324,13 @@ def kommande(T: pd.DataFrame, matcher: list, GK=None, forra_lag=None, forra_mv=N
                         f"{sida} insläppta/match": f.get("inslappta"), f"{sida} xG för/match": f.get("xgf"),
                         f"{sida} xG mot/match": f.get("xga"), f"{sida} GSAx/match": f.get("gsax"),
                         f"{sida} form": f.get("form", "")})
+            s3 = f.get("senaste3")
+            if s3 is not None and len(s3) and s3["xGF"].notna().all():
+                mot = {r["Match-id"]: r["Lagförkortning"] for _, r in rows[rows["Match-id"].isin(s3["Match-id"]) & (rows["Lag-id"] != tid)].iterrows()}
+                rad.update({f"{sida} senaste3 xGF": ";".join(f"{v:.2f}" for v in s3["xGF"]),
+                            f"{sida} senaste3 xGA": ";".join(f"{v:.2f}" for v in s3["xGA"]),
+                            f"{sida} senaste3 mål": ";".join(f"{int(a)}-{int(b)}" for a, b in zip(s3["Mål för"], s3["Mål mot"])),
+                            f"{sida} senaste3 mot": ";".join(mot.get(m, "") for m in s3["Match-id"]),
+                            f"{sida} senaste3 hemma": ";".join("1" if h == "Hemma" else "0" for h in s3["Hemma/borta"])})
         ut.append(rad)
     return pd.DataFrame(ut)

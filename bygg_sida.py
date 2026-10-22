@@ -198,7 +198,14 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
         "rook": 1 if r.get("Rookie") == "ja" else 0,
     } for _, r in G.iterrows()] if not G.empty else []
 
+    senaste3 = {}
+    if "xGF" in T and T["xGF"].notna().any():
+        for namn_, g_ in T.sort_values(["Datum", "Match-id"]).groupby("Lag"):
+            g_ = g_.tail(3)
+            if g_["xGF"].notna().all():
+                senaste3[namn_] = (num(g_["xGF"].mean()), num(g_["xGA"].mean()))
     lag = [{
+        "x3f": senaste3.get(r["Lag"], (None, None))[0], "x3a": senaste3.get(r["Lag"], (None, None))[1],
         "lag": r["Lag"], "k": abbr.get(r["Lag"], ""), "gp": integer(r["Matcher"]), "w": integer(r["V"]),
         "l": integer(r["F"]), "otl": integer(r["FÖ"]), "pts": integer(r["Poäng"]),
         "gf": integer(r["Mål för"]), "ga": integer(r["Mål mot"]),
@@ -339,6 +346,15 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
                                 "gp": val(r.get(f"{sida} mv{i} matcher")), "sv": num(r.get(f"{sida} mv{i} rädd%"), 4),
                                 "gsax": num(r.get(f"{sida} mv{i} GSAx"))})
             g[key]["mv"] = mv_
+            s3 = r.get(f"{sida} senaste3 xGF")
+            if isinstance(s3, str) and s3:
+                xf = [float(x) for x in s3.split(";")]
+                xa = [float(x) for x in str(r.get(f"{sida} senaste3 xGA")).split(";")]
+                mal = str(r.get(f"{sida} senaste3 mål", "")).split(";")
+                mot = str(r.get(f"{sida} senaste3 mot", "")).split(";")
+                hem = str(r.get(f"{sida} senaste3 hemma", "")).split(";")
+                g[key]["s3"] = [{"xf": a, "xa": b, "m": mal[i] if i < len(mal) else "", "mot": mot[i] if i < len(mot) else "",
+                                 "hemma": hem[i] == "1" if i < len(hem) else False} for i, (a, b) in enumerate(zip(xf, xa))]
             alt = num(r.get(f"Chans hemma om {sida.lower()} mv2"), 4)
             if alt is not None:
                 g[key]["alt"] = alt  # hemmalagets chans om reserven står för det här laget

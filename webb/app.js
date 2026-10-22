@@ -15,6 +15,7 @@
   var page = 'oversikt';
   var state = { lag: '', pos: '', min: MIN, rookie: false, q: '', sort: 'avg' };
   var mvState = { min: 1, rookie: false };
+  var lagSort = 'tabell';
   var turState = { min: MIN, rookie: false, pos: '', vy: 'otur' };
 
   // ---------- små hjälpare ----------
@@ -197,6 +198,9 @@
   document.querySelectorAll('#t-spelare th button').forEach(function (b) {
     b.addEventListener('click', function () { state.sort = b.dataset.sort; drawPlayers(); });
   });
+  document.querySelectorAll('#t-lag th button').forEach(function (b) {
+    b.addEventListener('click', function () { lagSort = b.dataset.lsort; drawTeams(); });
+  });
   function visaLag(lag) {
     state.lag = lag;
     $('#f-lag').value = lag;
@@ -305,6 +309,34 @@
         var fmt = function (v) { return v == null ? '–' : r[2] ? (v < 0 ? '−' : '') + Math.abs(v).toFixed(r[2]) : String(v); };
         rad(fmt(vb), r[0], fmt(vh), bb, hb);
       });
+      if (g.b.s3 || g.h.s3) {
+        var snitt3 = function (t) {
+          if (!t.s3 || !t.s3.length) return null;
+          var f = 0, a = 0; t.s3.forEach(function (m) { f += m.xf; a += m.xa; });
+          return [f / t.s3.length, a / t.s3.length];
+        };
+        var sb = snitt3(g.b), sh = snitt3(g.h);
+        var txt = function (s) { return s ? f1(s[0]) + '–' + f1(s[1]) : '–'; };
+        var db = sb ? sb[0] - sb[1] : null, dh = sh ? sh[0] - sh[1] : null;
+        rad(txt(sb), 'xG för–emot, senaste 3', txt(sh), db != null && dh != null && db > dh, db != null && dh != null && dh > db);
+        var hi = 0.5;
+        [g.b, g.h].forEach(function (t) { (t.s3 || []).forEach(function (m) { hi = Math.max(hi, m.xf, m.xa); }); });
+        var staplar = function (t) {
+          var box = el('div', 'x3-matcher');
+          (t.s3 || []).forEach(function (m) {
+            var k = el('div', 'x3-m');
+            k.title = (m.hemma ? 'mot ' : '@ ') + m.mot + ' ' + m.m + ': xG ' + f2(m.xf) + '–' + f2(m.xa);
+            var st = el('div', 'x3-st');
+            var bf = el('i', 'f'); bf.style.height = Math.max(4, m.xf / hi * 100) + '%';
+            var ba = el('i', 'a'); ba.style.height = Math.max(4, m.xa / hi * 100) + '%';
+            st.appendChild(bf); st.appendChild(ba); k.appendChild(st);
+            k.appendChild(el('div', 'x3-mot', (m.hemma ? '' : '@') + m.mot));
+            box.appendChild(k);
+          });
+          return box;
+        };
+        rad(staplar(g.b), 'Match för match', staplar(g.h), false, false, 'x3-row');
+      }
       rad(form(g.b.form), 'Form, senaste 5 matcherna', form(g.h.form), false, false, 'form-row');
       det.appendChild(tab);
       a.appendChild(det);
@@ -547,6 +579,11 @@
       if (!best[p.lag] || avg(p) > avg(best[p.lag])) best[p.lag] = p;
     });
     var list = tabellOrdning();
+    var x3 = function (t) { return t.x3f == null ? null : t.x3f - t.x3a; };
+    if (lagSort === 'x3') list = list.slice().sort(function (a, b) { return (x3(b) == null ? -99 : x3(b)) - (x3(a) == null ? -99 : x3(a)); });
+    document.querySelectorAll('#t-lag th button').forEach(function (b) {
+      b.parentElement.setAttribute('aria-sort', b.dataset.lsort === lagSort ? 'descending' : 'none');
+    });
     var dom = domain(list.map(avg));
     var tb = $('#t-lag tbody');
     tb.textContent = '';
@@ -561,6 +598,13 @@
       td(tr, String(t.otl), 'n hn');
       td(tr, String(t.pts), 'n val');
       td(tr, t.gf + '–' + t.ga, 'n hn');
+      var xc = el('span', 'x3');
+      var d3 = x3(t);
+      if (d3 != null) {
+        xc.appendChild(el('b', d3 > 0.05 ? 'upp' : d3 < -0.05 ? 'ned' : '', (d3 > 0 ? '+' : '') + f2(d3)));
+        xc.appendChild(el('small', null, f1(t.x3f) + '–' + f1(t.x3a)));
+      } else xc.textContent = '–';
+      td(tr, xc, 'n hn');
       barCell(tr, avg(t), dom[0], dom[1], avg(t) >= 0 ? 'var(--bra)' : 'var(--svag)', 'hn');
       td(tr, f2(avg(t)), 'n val');
       td(tr, best[t.lag] ? best[t.lag].n : '', 'm hn');
