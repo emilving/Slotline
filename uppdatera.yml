@@ -2,12 +2,14 @@ name: Slotline – uppdatera statistik
 
 on:
   schedule:
-    # Varje dag 07:17 UTC = 09:17 svensk sommartid, 08:17 vintertid.
-    # Då har alla nordamerikanska kvällsmatcher hunnit bli klara.
-    - cron: "17 7 * * *"
-    # Kvällskörning 17:47 UTC = 19:47 svensk sommartid, 18:47 vintertid.
-    # Uppdaterar vinstchansen inför kvällens matcher.
-    - cron: "47 17 * * *"
+    # GitHub räknar i UTC och följer inte sommartid, så varje körning finns två gånger:
+    # en för sommartid och en för vintertid. Jobbet "klocka" släpper bara igenom den
+    # som stämmer med svensk tid just nu. GitHub startar ofta 20–40 minuter sent,
+    # därför ligger tiderna en halvtimme före målet.
+    - cron: "33 6 * * *"   # morgon, sommartid (mål 09.00)
+    - cron: "33 7 * * *"   # morgon, vintertid (mål 09.00)
+    - cron: "33 19 * * *"  # kväll, sommartid (mål 22.00)
+    - cron: "33 20 * * *"  # kväll, vintertid (mål 22.00)
   workflow_dispatch: # gör att du kan starta en körning för hand under fliken Actions
 
 permissions:
@@ -20,7 +22,23 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  klocka:
+    runs-on: ubuntu-latest
+    outputs:
+      kor: ${{ steps.tid.outputs.kor }}
+    steps:
+      - name: Stämmer tiden med svensk tid?
+        id: tid
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "kor=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          H=$(echo "${{ github.event.schedule }}" | awk '{print $2}')
+          OFF=$(TZ=Europe/Stockholm date +%z | cut -c2-3)
+          L=$(( (10#$H + 10#$OFF) % 24 ))
+          if [ "$L" -eq 8 ] || [ "$L" -eq 21 ]; then echo "kor=true" >> "$GITHUB_OUTPUT"; else echo "kor=false" >> "$GITHUB_OUTPUT"; echo "Fel tid för årstiden – hoppar över."; fi
+
   bygg:
+    needs: klocka
+    if: needs.klocka.outputs.kor == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 150
     steps:
