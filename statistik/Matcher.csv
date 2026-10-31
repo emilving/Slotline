@@ -1,214 +1,217 @@
 ﻿Match-id,Datum,Bortalag,Hemmalag,Bortamål,Hemmamål,Avgjord i,Bortaskott,Hemmaskott,Hemmalagets Game Score,Hemmalagets Game Score+,Bortalagets Game Score,Bortalagets Game Score+,Bortalag kort,Hemmalag kort
-2026020001,2026-09-29,Florida Panthers,Carolina Hurricanes,1,0,Förlängning,20.0,15.0,0.16,-0.07,7.87,9.28,FLA,CAR
-2026020002,2026-09-29,Montréal Canadiens,Toronto Maple Leafs,3,2,Ordinarie,24.0,28.0,5.54,9.43,9.16,5.63,MTL,TOR
-2026020003,2026-09-29,New York Rangers,Boston Bruins,0,3,Ordinarie,24.0,23.0,13.88,13.12,-0.6,0.89,NYR,BOS
-2026020004,2026-09-29,Vancouver Canucks,Edmonton Oilers,6,5,Förlängning,23.0,37.0,15.54,16.25,5.5,4.83,VAN,EDM
-2026020005,2026-09-29,Chicago Blackhawks,Vegas Golden Knights,2,5,Ordinarie,26.0,37.0,17.66,17.59,1.82,1.49,CHI,VGK
-2026020006,2026-09-30,Pittsburgh Penguins,Philadelphia Flyers,7,0,Ordinarie,38.0,19.0,-8.59,-15.74,27.01,35.7,PIT,PHI
-2026020007,2026-09-30,Los Angeles Kings,Colorado Avalanche,4,8,Ordinarie,31.0,29.0,18.36,20.29,5.64,5.0,LAK,COL
-2026020008,2026-09-30,New York Islanders,Toronto Maple Leafs,1,2,Ordinarie,27.0,26.0,6.2,9.82,7.62,4.88,NYI,TOR
-2026020009,2026-10-01,Philadelphia Flyers,New Jersey Devils,2,3,Förlängning,25.0,44.0,19.2,18.9,-2.12,-2.92,PHI,NJD
-2026020010,2026-10-01,Tampa Bay Lightning,New York Rangers,1,5,Ordinarie,24.0,25.0,11.53,14.02,3.17,2.69,TBL,NYR
-2026020011,2026-10-01,Buffalo Sabres,Columbus Blue Jackets,3,6,Ordinarie,26.0,23.0,11.74,13.33,8.38,7.62,BUF,CBJ
-2026020012,2026-10-01,Minnesota Wild,Nashville Predators,3,1,Ordinarie,30.0,20.0,0.88,0.46,13.62,15.36,MIN,NSH
-2026020013,2026-10-01,Chicago Blackhawks,Utah Mammoth,0,6,Ordinarie,15.0,32.0,24.39,29.31,-8.72,-11.63,CHI,UTA
-2026020014,2026-10-01,Seattle Kraken,Calgary Flames,6,1,Ordinarie,32.0,25.0,1.64,-2.88,16.78,23.31,SEA,CGY
-2026020015,2026-10-01,Edmonton Oilers,Vancouver Canucks,9,7,Ordinarie,32.0,22.0,11.81,14.74,12.64,12.36,EDM,VAN
-2026020016,2026-10-01,Florida Panthers,San Jose Sharks,3,4,Förlängning,26.0,32.0,7.22,7.23,10.28,12.68,FLA,SJS
+2026020001,2026-09-29,Florida Panthers,Carolina Hurricanes,1,0,Förlängning,20.0,15.0,0.16,-0.06,7.87,9.33,FLA,CAR
+2026020002,2026-09-29,Montréal Canadiens,Toronto Maple Leafs,3,2,Ordinarie,24.0,28.0,5.54,9.48,9.16,5.61,MTL,TOR
+2026020003,2026-09-29,New York Rangers,Boston Bruins,0,3,Ordinarie,24.0,23.0,13.88,13.13,-0.6,0.91,NYR,BOS
+2026020004,2026-09-29,Vancouver Canucks,Edmonton Oilers,6,5,Förlängning,23.0,37.0,15.54,16.3,5.5,4.83,VAN,EDM
+2026020005,2026-09-29,Chicago Blackhawks,Vegas Golden Knights,2,5,Ordinarie,26.0,37.0,17.66,17.64,1.82,1.5,CHI,VGK
+2026020006,2026-09-30,Pittsburgh Penguins,Philadelphia Flyers,7,0,Ordinarie,38.0,19.0,-8.59,-15.82,27.01,35.79,PIT,PHI
+2026020007,2026-09-30,Los Angeles Kings,Colorado Avalanche,4,8,Ordinarie,31.0,29.0,18.36,20.36,5.64,5.0,LAK,COL
+2026020008,2026-09-30,New York Islanders,Toronto Maple Leafs,1,2,Ordinarie,27.0,26.0,6.2,9.82,7.62,4.9,NYI,TOR
+2026020009,2026-10-01,Philadelphia Flyers,New Jersey Devils,2,3,Förlängning,25.0,44.0,19.2,19.0,-2.12,-2.97,PHI,NJD
+2026020010,2026-10-01,Tampa Bay Lightning,New York Rangers,1,5,Ordinarie,24.0,25.0,11.53,14.1,3.17,2.63,TBL,NYR
+2026020011,2026-10-01,Buffalo Sabres,Columbus Blue Jackets,3,6,Ordinarie,26.0,23.0,11.74,13.36,8.38,7.65,BUF,CBJ
+2026020012,2026-10-01,Minnesota Wild,Nashville Predators,3,1,Ordinarie,30.0,20.0,0.88,0.47,13.62,15.39,MIN,NSH
+2026020013,2026-10-01,Chicago Blackhawks,Utah Mammoth,0,6,Ordinarie,15.0,32.0,24.39,29.33,-8.72,-11.62,CHI,UTA
+2026020014,2026-10-01,Seattle Kraken,Calgary Flames,6,1,Ordinarie,32.0,25.0,1.64,-2.84,16.78,23.3,SEA,CGY
+2026020015,2026-10-01,Edmonton Oilers,Vancouver Canucks,9,7,Ordinarie,32.0,22.0,11.81,14.73,12.64,12.41,EDM,VAN
+2026020016,2026-10-01,Florida Panthers,San Jose Sharks,3,4,Förlängning,26.0,32.0,7.22,7.23,10.28,12.74,FLA,SJS
 2026020017,2026-10-02,New York Rangers,Detroit Red Wings,2,0,Ordinarie,21.0,22.0,5.39,1.55,6.44,8.87,NYR,DET
-2026020018,2026-10-02,Washington Capitals,Carolina Hurricanes,5,2,Ordinarie,27.0,33.0,6.78,2.82,13.06,18.63,WSH,CAR
-2026020019,2026-10-02,Boston Bruins,Winnipeg Jets,4,3,Förlängning,30.0,33.0,6.46,9.0,14.27,13.39,BOS,WPG
-2026020020,2026-10-02,St. Louis Blues,Dallas Stars,4,0,Ordinarie,24.0,25.0,2.22,3.12,12.21,12.69,STL,DAL
-2026020021,2026-10-02,Anaheim Ducks,Vegas Golden Knights,4,3,Ordinarie,20.0,30.0,9.38,8.63,8.92,11.38,ANA,VGK
-2026020022,2026-10-03,Chicago Blackhawks,Buffalo Sabres,3,4,Ordinarie,15.0,28.0,15.58,20.08,0.4,0.76,CHI,BUF
-2026020023,2026-10-03,Ottawa Senators,Toronto Maple Leafs,3,2,Ordinarie,29.0,29.0,10.14,9.84,7.42,12.2,OTT,TOR
-2026020024,2026-10-03,Washington Capitals,Tampa Bay Lightning,1,3,Ordinarie,21.0,30.0,12.97,19.47,2.96,-1.9,WSH,TBL
-2026020025,2026-10-03,Carolina Hurricanes,Philadelphia Flyers,3,2,Förlängning,40.0,18.0,-0.41,0.47,17.31,18.35,CAR,PHI
-2026020026,2026-10-03,Montréal Canadiens,Pittsburgh Penguins,5,6,Förlängning,25.0,30.0,10.07,13.79,13.1,11.19,MTL,PIT
-2026020027,2026-10-03,Utah Mammoth,Columbus Blue Jackets,4,1,Ordinarie,31.0,19.0,1.0,6.54,14.9,10.78,UTA,CBJ
-2026020028,2026-10-03,Seattle Kraken,Edmonton Oilers,1,3,Ordinarie,20.0,26.0,13.6,13.64,-0.0,0.24,SEA,EDM
-2026020029,2026-10-03,New Jersey Devils,New York Islanders,0,6,Ordinarie,37.0,32.0,14.77,17.23,4.76,3.49,NJD,NYI
-2026020030,2026-10-03,Dallas Stars,Nashville Predators,1,2,Ordinarie,30.0,26.0,6.19,10.05,8.46,3.34,DAL,NSH
-2026020031,2026-10-03,Boston Bruins,Minnesota Wild,1,4,Ordinarie,27.0,30.0,11.42,8.42,4.7,7.42,BOS,MIN
-2026020032,2026-10-03,St. Louis Blues,Colorado Avalanche,1,6,Ordinarie,26.0,36.0,21.38,24.61,-2.78,-6.85,STL,COL
-2026020033,2026-10-03,Calgary Flames,Vancouver Canucks,1,4,Ordinarie,24.0,26.0,11.13,13.97,5.72,2.94,CGY,VAN
-2026020034,2026-10-03,Los Angeles Kings,San Jose Sharks,4,5,Förlängning,35.0,25.0,7.04,3.0,12.62,15.86,LAK,SJS
-2026020035,2026-10-04,Winnipeg Jets,Detroit Red Wings,3,2,Ordinarie,27.0,36.0,13.47,14.83,4.5,4.99,WPG,DET
-2026020036,2026-10-04,Utah Mammoth,New York Rangers,2,4,Ordinarie,30.0,22.0,8.14,9.46,8.46,10.78,UTA,NYR
-2026020037,2026-10-04,Florida Panthers,Anaheim Ducks,2,3,Förlängning,31.0,20.0,4.14,3.35,11.48,13.37,FLA,ANA
-2026020038,2026-10-04,Calgary Flames,Seattle Kraken,1,6,Ordinarie,33.0,27.0,13.86,18.84,4.44,-0.51,CGY,SEA
-2026020039,2026-10-04,Vegas Golden Knights,Vancouver Canucks,3,2,Ordinarie,28.0,20.0,1.7,-1.89,13.25,18.82,VGK,VAN
-2026020040,2026-10-05,Philadelphia Flyers,Tampa Bay Lightning,1,4,Ordinarie,15.0,36.0,20.05,22.36,-4.12,-4.43,PHI,TBL
-2026020041,2026-10-05,Ottawa Senators,Boston Bruins,4,1,Ordinarie,24.0,19.0,-2.26,1.6,12.98,10.62,OTT,BOS
-2026020042,2026-10-05,Winnipeg Jets,Pittsburgh Penguins,3,2,Ordinarie,35.0,31.0,7.98,8.07,8.72,6.96,WPG,PIT
-2026020043,2026-10-05,San Jose Sharks,Dallas Stars,0,5,Ordinarie,13.0,26.0,23.56,26.42,-11.08,-10.33,SJS,DAL
-2026020044,2026-10-06,Nashville Predators,Toronto Maple Leafs,4,5,Förlängning,25.0,37.0,16.27,15.06,5.08,8.95,NSH,TOR
-2026020045,2026-10-06,Carolina Hurricanes,Montréal Canadiens,6,4,Ordinarie,33.0,20.0,-0.45,-0.08,21.82,22.66,CAR,MTL
-2026020046,2026-10-06,Ottawa Senators,Detroit Red Wings,3,5,Ordinarie,25.0,36.0,16.17,17.95,6.06,4.76,OTT,DET
-2026020047,2026-10-06,Utah Mammoth,New Jersey Devils,5,3,Ordinarie,31.0,33.0,7.6,6.78,14.0,15.99,UTA,NJD
-2026020048,2026-10-06,New York Islanders,New York Rangers,2,5,Ordinarie,19.0,24.0,14.6,15.35,3.38,6.13,NYI,NYR
-2026020049,2026-10-06,Minnesota Wild,Buffalo Sabres,2,3,Förlängning,20.0,28.0,11.41,17.48,3.84,-0.08,MIN,BUF
-2026020050,2026-10-06,St. Louis Blues,Chicago Blackhawks,2,4,Ordinarie,27.0,21.0,5.2,4.4,10.84,12.38,STL,CHI
-2026020051,2026-10-06,Vegas Golden Knights,Seattle Kraken,6,2,Ordinarie,28.0,27.0,0.7,1.69,17.58,18.39,VGK,SEA
-2026020052,2026-10-06,Florida Panthers,Los Angeles Kings,2,1,Ordinarie,30.0,20.0,0.25,1.22,11.78,11.02,FLA,LAK
-2026020053,2026-10-07,Pittsburgh Penguins,Washington Capitals,3,5,Ordinarie,30.0,27.0,12.22,13.96,4.86,6.05,PIT,WSH
+2026020018,2026-10-02,Washington Capitals,Carolina Hurricanes,5,2,Ordinarie,27.0,33.0,6.78,2.84,13.06,18.7,WSH,CAR
+2026020019,2026-10-02,Boston Bruins,Winnipeg Jets,4,3,Förlängning,30.0,33.0,6.46,9.0,14.27,13.44,BOS,WPG
+2026020020,2026-10-02,St. Louis Blues,Dallas Stars,4,0,Ordinarie,24.0,25.0,2.22,3.15,12.21,12.74,STL,DAL
+2026020021,2026-10-02,Anaheim Ducks,Vegas Golden Knights,4,3,Ordinarie,20.0,30.0,9.38,8.6,8.92,11.46,ANA,VGK
+2026020022,2026-10-03,Chicago Blackhawks,Buffalo Sabres,3,4,Ordinarie,15.0,28.0,15.58,20.17,0.4,0.75,CHI,BUF
+2026020023,2026-10-03,Ottawa Senators,Toronto Maple Leafs,3,2,Ordinarie,29.0,29.0,10.14,9.78,7.42,12.36,OTT,TOR
+2026020024,2026-10-03,Washington Capitals,Tampa Bay Lightning,1,3,Ordinarie,21.0,30.0,12.97,19.57,2.96,-1.95,WSH,TBL
+2026020025,2026-10-03,Carolina Hurricanes,Philadelphia Flyers,3,2,Förlängning,40.0,18.0,-0.41,0.42,17.31,18.47,CAR,PHI
+2026020026,2026-10-03,Montréal Canadiens,Pittsburgh Penguins,5,6,Förlängning,25.0,30.0,10.07,13.82,13.1,11.19,MTL,PIT
+2026020027,2026-10-03,Utah Mammoth,Columbus Blue Jackets,4,1,Ordinarie,31.0,19.0,1.0,6.61,14.9,10.77,UTA,CBJ
+2026020028,2026-10-03,Seattle Kraken,Edmonton Oilers,1,3,Ordinarie,20.0,26.0,13.6,13.7,-0.0,0.22,SEA,EDM
+2026020029,2026-10-03,New Jersey Devils,New York Islanders,0,6,Ordinarie,37.0,32.0,14.77,17.27,4.76,3.51,NJD,NYI
+2026020030,2026-10-03,Dallas Stars,Nashville Predators,1,2,Ordinarie,30.0,26.0,6.19,10.08,8.46,3.34,DAL,NSH
+2026020031,2026-10-03,Boston Bruins,Minnesota Wild,1,4,Ordinarie,27.0,30.0,11.42,8.4,4.7,7.48,BOS,MIN
+2026020032,2026-10-03,St. Louis Blues,Colorado Avalanche,1,6,Ordinarie,26.0,36.0,21.38,24.64,-2.78,-6.84,STL,COL
+2026020033,2026-10-03,Calgary Flames,Vancouver Canucks,1,4,Ordinarie,24.0,26.0,11.13,14.02,5.72,2.91,CGY,VAN
+2026020034,2026-10-03,Los Angeles Kings,San Jose Sharks,4,5,Förlängning,35.0,25.0,7.04,2.98,12.62,15.89,LAK,SJS
+2026020035,2026-10-04,Winnipeg Jets,Detroit Red Wings,3,2,Ordinarie,27.0,36.0,13.47,14.84,4.5,5.03,WPG,DET
+2026020036,2026-10-04,Utah Mammoth,New York Rangers,2,4,Ordinarie,30.0,22.0,8.14,9.43,8.46,10.88,UTA,NYR
+2026020037,2026-10-04,Florida Panthers,Anaheim Ducks,2,3,Förlängning,31.0,20.0,4.14,3.33,11.48,13.44,FLA,ANA
+2026020038,2026-10-04,Calgary Flames,Seattle Kraken,1,6,Ordinarie,33.0,27.0,13.86,18.91,4.44,-0.57,CGY,SEA
+2026020039,2026-10-04,Vegas Golden Knights,Vancouver Canucks,3,2,Ordinarie,28.0,20.0,1.7,-1.96,13.25,18.95,VGK,VAN
+2026020040,2026-10-05,Philadelphia Flyers,Tampa Bay Lightning,1,4,Ordinarie,15.0,36.0,20.05,22.43,-4.12,-4.43,PHI,TBL
+2026020041,2026-10-05,Ottawa Senators,Boston Bruins,4,1,Ordinarie,24.0,19.0,-2.26,1.59,12.98,10.64,OTT,BOS
+2026020042,2026-10-05,Winnipeg Jets,Pittsburgh Penguins,3,2,Ordinarie,35.0,31.0,7.98,8.06,8.72,6.98,WPG,PIT
+2026020043,2026-10-05,San Jose Sharks,Dallas Stars,0,5,Ordinarie,13.0,26.0,23.56,26.48,-11.08,-10.32,SJS,DAL
+2026020044,2026-10-06,Nashville Predators,Toronto Maple Leafs,4,5,Förlängning,25.0,37.0,16.27,15.06,5.08,9.01,NSH,TOR
+2026020045,2026-10-06,Carolina Hurricanes,Montréal Canadiens,6,4,Ordinarie,33.0,20.0,-0.45,-0.1,21.82,22.72,CAR,MTL
+2026020046,2026-10-06,Ottawa Senators,Detroit Red Wings,3,5,Ordinarie,25.0,36.0,16.17,17.98,6.06,4.79,OTT,DET
+2026020047,2026-10-06,Utah Mammoth,New Jersey Devils,5,3,Ordinarie,31.0,33.0,7.6,6.79,14.0,16.04,UTA,NJD
+2026020048,2026-10-06,New York Islanders,New York Rangers,2,5,Ordinarie,19.0,24.0,14.6,15.43,3.38,6.12,NYI,NYR
+2026020049,2026-10-06,Minnesota Wild,Buffalo Sabres,2,3,Förlängning,20.0,28.0,11.41,17.48,3.84,-0.05,MIN,BUF
+2026020050,2026-10-06,St. Louis Blues,Chicago Blackhawks,2,4,Ordinarie,27.0,21.0,5.2,4.38,10.84,12.42,STL,CHI
+2026020051,2026-10-06,Vegas Golden Knights,Seattle Kraken,6,2,Ordinarie,28.0,27.0,0.7,1.77,17.58,18.35,VGK,SEA
+2026020052,2026-10-06,Florida Panthers,Los Angeles Kings,2,1,Ordinarie,30.0,20.0,0.25,1.23,11.78,11.02,FLA,LAK
+2026020053,2026-10-07,Pittsburgh Penguins,Washington Capitals,3,5,Ordinarie,30.0,27.0,12.22,14.04,4.86,6.03,PIT,WSH
 2026020054,2026-10-07,Colorado Avalanche,Winnipeg Jets,2,3,Ordinarie,34.0,19.0,6.36,6.9,8.91,8.17,COL,WPG
-2026020055,2026-10-07,Edmonton Oilers,Anaheim Ducks,5,2,Ordinarie,19.0,31.0,7.76,6.69,9.14,13.46,EDM,ANA
-2026020056,2026-10-08,Utah Mammoth,Boston Bruins,1,6,Ordinarie,37.0,22.0,10.6,10.56,8.52,10.86,UTA,BOS
-2026020057,2026-10-08,Dallas Stars,Buffalo Sabres,4,0,Ordinarie,18.0,26.0,5.25,4.64,8.3,11.71,DAL,BUF
-2026020058,2026-10-08,Nashville Predators,Montréal Canadiens,5,2,Ordinarie,20.0,33.0,10.84,15.26,7.29,4.43,NSH,MTL
-2026020059,2026-10-08,Philadelphia Flyers,Ottawa Senators,1,2,Ordinarie,29.0,26.0,6.68,8.81,7.8,6.04,PHI,OTT
-2026020060,2026-10-08,Minnesota Wild,Tampa Bay Lightning,2,3,Ordinarie,36.0,35.0,14.8,15.8,5.07,4.6,MIN,TBL
-2026020061,2026-10-08,Vancouver Canucks,Carolina Hurricanes,2,7,Ordinarie,20.0,33.0,21.22,32.6,-1.34,-8.67,VAN,CAR
-2026020062,2026-10-08,Chicago Blackhawks,New York Islanders,1,4,Ordinarie,23.0,19.0,8.86,12.23,5.08,3.33,CHI,NYI
-2026020063,2026-10-08,San Jose Sharks,St. Louis Blues,3,2,Förlängning,27.0,26.0,6.56,7.83,8.52,8.29,SJS,STL
-2026020064,2026-10-08,Colorado Avalanche,Calgary Flames,7,3,Ordinarie,30.0,29.0,1.2,2.78,20.62,19.14,COL,CGY
-2026020065,2026-10-08,Toronto Maple Leafs,Vegas Golden Knights,3,4,Straffar,24.0,43.0,12.06,14.52,6.32,5.13,TOR,VGK
-2026020066,2026-10-09,Seattle Kraken,Detroit Red Wings,6,3,Ordinarie,24.0,40.0,11.72,10.96,9.83,13.19,SEA,DET
-2026020067,2026-10-09,New York Rangers,Washington Capitals,1,3,Ordinarie,22.0,27.0,10.88,13.31,2.29,1.45,NYR,WSH
-2026020068,2026-10-09,Pittsburgh Penguins,Columbus Blue Jackets,2,3,Straffar,22.0,47.0,14.68,15.21,2.6,3.1,PIT,CBJ
-2026020069,2026-10-09,Anaheim Ducks,Winnipeg Jets,5,1,Ordinarie,17.0,17.0,1.86,-2.6,12.64,19.6,ANA,WPG
-2026020070,2026-10-10,Philadelphia Flyers,Boston Bruins,1,5,Ordinarie,15.0,32.0,23.85,26.88,-8.07,-10.52,PHI,BOS
-2026020071,2026-10-10,Vancouver Canucks,New Jersey Devils,1,4,Ordinarie,21.0,37.0,16.68,16.65,-0.24,1.12,VAN,NJD
-2026020072,2026-10-10,Edmonton Oilers,San Jose Sharks,3,1,Ordinarie,20.0,20.0,1.46,-2.45,10.59,16.29,EDM,SJS
-2026020073,2026-10-10,Minnesota Wild,Florida Panthers,4,1,Ordinarie,29.0,30.0,2.17,2.89,12.9,13.5,MIN,FLA
-2026020074,2026-10-10,Utah Mammoth,Buffalo Sabres,4,1,Ordinarie,30.0,24.0,-0.34,-5.08,16.99,24.97,UTA,BUF
-2026020075,2026-10-10,Detroit Red Wings,Montréal Canadiens,0,1,Straffar,30.0,30.0,11.93,9.1,0.12,3.88,DET,MTL
-2026020076,2026-10-10,Nashville Predators,Ottawa Senators,2,3,Straffar,18.0,20.0,8.06,8.0,5.09,6.22,NSH,OTT
-2026020077,2026-10-10,Dallas Stars,Pittsburgh Penguins,1,2,Straffar,25.0,20.0,9.31,10.79,2.16,2.93,DAL,PIT
-2026020078,2026-10-10,Carolina Hurricanes,Chicago Blackhawks,5,2,Ordinarie,39.0,26.0,-1.72,-2.61,20.4,22.25,CAR,CHI
-2026020079,2026-10-10,Columbus Blue Jackets,St. Louis Blues,3,5,Ordinarie,23.0,27.0,10.68,12.81,8.12,6.28,CBJ,STL
-2026020080,2026-10-10,Toronto Maple Leafs,Colorado Avalanche,6,3,Ordinarie,23.0,33.0,10.62,9.73,9.34,13.45,TOR,COL
-2026020081,2026-10-10,Tampa Bay Lightning,New York Islanders,5,3,Ordinarie,26.0,23.0,6.54,7.31,11.69,11.78,TBL,NYI
-2026020082,2026-10-10,Anaheim Ducks,Calgary Flames,4,2,Ordinarie,28.0,29.0,7.44,6.14,10.24,12.29,ANA,CGY
-2026020083,2026-10-10,Los Angeles Kings,Vegas Golden Knights,1,2,Förlängning,27.0,32.0,12.3,16.75,2.82,-2.96,LAK,VGK
-2026020084,2026-10-11,Seattle Kraken,Washington Capitals,5,3,Ordinarie,27.0,36.0,6.07,6.65,14.1,14.95,SEA,WSH
-2026020085,2026-10-11,Vancouver Canucks,New York Rangers,2,6,Ordinarie,21.0,25.0,16.2,21.84,1.36,-2.11,VAN,NYR
-2026020086,2026-10-11,Carolina Hurricanes,Philadelphia Flyers,4,1,Ordinarie,30.0,19.0,-1.38,-4.94,16.25,21.05,CAR,PHI
-2026020087,2026-10-12,Florida Panthers,Buffalo Sabres,3,5,Ordinarie,23.0,32.0,13.17,21.35,6.06,1.45,FLA,BUF
-2026020088,2026-10-12,Ottawa Senators,New Jersey Devils,4,1,Ordinarie,20.0,30.0,12.97,7.77,2.63,8.36,OTT,NJD
-2026020089,2026-10-12,Vegas Golden Knights,Minnesota Wild,2,4,Ordinarie,23.0,28.0,10.83,14.58,6.4,6.46,VGK,MIN
-2026020090,2026-10-13,New Jersey Devils,Detroit Red Wings,5,4,Förlängning,37.0,27.0,5.98,3.29,16.48,19.77,NJD,DET
-2026020091,2026-10-13,Florida Panthers,Columbus Blue Jackets,7,3,Ordinarie,28.0,27.0,5.14,7.04,16.54,18.57,FLA,CBJ
-2026020092,2026-10-13,Buffalo Sabres,Montréal Canadiens,3,4,Straffar,17.0,38.0,9.44,9.95,8.04,7.92,BUF,MTL
-2026020093,2026-10-13,Washington Capitals,Carolina Hurricanes,2,4,Ordinarie,22.0,35.0,15.76,13.47,2.12,6.08,WSH,CAR
-2026020094,2026-10-13,Seattle Kraken,Philadelphia Flyers,3,2,Straffar,31.0,26.0,9.47,10.58,5.9,5.08,SEA,PHI
-2026020095,2026-10-13,Tampa Bay Lightning,New York Rangers,1,4,Ordinarie,26.0,23.0,10.3,12.72,6.13,4.27,TBL,NYR
-2026020096,2026-10-13,St. Louis Blues,Ottawa Senators,7,2,Ordinarie,26.0,17.0,-2.4,-5.53,21.53,28.01,STL,OTT
-2026020097,2026-10-13,Vancouver Canucks,New York Islanders,2,3,Ordinarie,26.0,38.0,12.9,11.25,4.75,6.13,VAN,NYI
-2026020098,2026-10-13,Pittsburgh Penguins,Chicago Blackhawks,3,5,Ordinarie,27.0,20.0,6.8,7.84,11.88,12.66,PIT,CHI
-2026020099,2026-10-13,Minnesota Wild,Winnipeg Jets,2,5,Ordinarie,21.0,25.0,12.94,14.5,1.76,2.22,MIN,WPG
-2026020100,2026-10-13,Colorado Avalanche,Dallas Stars,3,2,Ordinarie,25.0,26.0,8.06,9.03,7.92,8.02,COL,DAL
-2026020101,2026-10-13,Vegas Golden Knights,Nashville Predators,5,2,Ordinarie,25.0,27.0,2.64,1.48,14.76,15.58,VGK,NSH
-2026020102,2026-10-13,Toronto Maple Leafs,Utah Mammoth,4,5,Ordinarie,26.0,28.0,17.28,17.9,1.97,3.35,TOR,UTA
-2026020103,2026-10-13,Calgary Flames,Anaheim Ducks,4,2,Ordinarie,36.0,25.0,2.78,3.25,15.49,15.88,CGY,ANA
-2026020104,2026-10-13,Edmonton Oilers,Los Angeles Kings,4,1,Ordinarie,17.0,40.0,12.59,10.05,5.34,6.31,EDM,LAK
-2026020105,2026-10-13,Boston Bruins,San Jose Sharks,6,3,Ordinarie,26.0,38.0,8.67,4.78,13.23,17.46,BOS,SJS
-2026020106,2026-10-14,Montréal Canadiens,Washington Capitals,4,5,Ordinarie,30.0,23.0,5.06,6.03,11.87,13.44,MTL,WSH
-2026020107,2026-10-14,Dallas Stars,Colorado Avalanche,3,2,Straffar,22.0,27.0,11.62,12.91,2.1,0.49,DAL,COL
-2026020108,2026-10-15,Buffalo Sabres,Toronto Maple Leafs,5,4,Förlängning,35.0,30.0,6.12,9.48,14.66,11.73,BUF,TOR
-2026020109,2026-10-15,New York Islanders,Ottawa Senators,1,2,Straffar,21.0,20.0,1.71,4.71,8.12,6.63,NYI,OTT
-2026020110,2026-10-15,Philadelphia Flyers,Detroit Red Wings,1,2,Ordinarie,18.0,26.0,12.46,16.25,-0.61,-1.52,PHI,DET
-2026020111,2026-10-15,Seattle Kraken,Tampa Bay Lightning,3,4,Förlängning,27.0,35.0,10.98,9.14,5.92,9.34,SEA,TBL
-2026020112,2026-10-15,Vancouver Canucks,Florida Panthers,2,3,Förlängning,18.0,39.0,16.22,16.87,0.31,0.23,VAN,FLA
-2026020113,2026-10-15,New York Rangers,New Jersey Devils,1,7,Ordinarie,19.0,31.0,26.84,28.85,-8.64,-10.16,NYR,NJD
-2026020114,2026-10-15,Winnipeg Jets,Chicago Blackhawks,3,4,Förlängning,34.0,28.0,5.1,6.27,14.05,15.04,WPG,CHI
-2026020115,2026-10-15,San Jose Sharks,Nashville Predators,3,2,Straffar,32.0,34.0,6.14,8.69,11.41,10.51,SJS,NSH
-2026020116,2026-10-15,St. Louis Blues,Minnesota Wild,4,5,Ordinarie,26.0,39.0,18.84,18.54,3.84,4.98,STL,MIN
-2026020117,2026-10-15,Utah Mammoth,Edmonton Oilers,4,2,Ordinarie,25.0,24.0,7.79,6.6,10.04,12.2,UTA,EDM
-2026020118,2026-10-15,Calgary Flames,Vegas Golden Knights,2,6,Ordinarie,30.0,33.0,14.44,12.75,5.54,10.01,CGY,VGK
-2026020119,2026-10-16,Pittsburgh Penguins,Colorado Avalanche,2,5,Ordinarie,31.0,32.0,14.11,14.33,6.32,8.94,PIT,COL
-2026020120,2026-10-16,Boston Bruins,Anaheim Ducks,4,2,Ordinarie,22.0,27.0,10.01,8.2,6.17,11.23,BOS,ANA
-2026020121,2026-10-17,New Jersey Devils,Washington Capitals,2,4,Ordinarie,31.0,25.0,7.04,9.26,10.66,11.32,NJD,WSH
-2026020122,2026-10-17,Carolina Hurricanes,Winnipeg Jets,3,2,Ordinarie,37.0,23.0,0.76,4.3,14.54,11.6,CAR,WPG
-2026020123,2026-10-17,Vancouver Canucks,Tampa Bay Lightning,2,4,Ordinarie,14.0,35.0,16.8,19.53,-1.28,-2.81,VAN,TBL
-2026020124,2026-10-17,Seattle Kraken,Florida Panthers,3,8,Ordinarie,23.0,37.0,26.24,24.76,-4.7,-3.11,SEA,FLA
-2026020125,2026-10-17,New York Islanders,Toronto Maple Leafs,4,1,Ordinarie,20.0,29.0,-1.82,4.6,15.34,10.21,NYI,TOR
-2026020126,2026-10-17,Buffalo Sabres,Montréal Canadiens,3,4,Förlängning,26.0,34.0,11.95,14.42,6.2,6.27,BUF,MTL
-2026020127,2026-10-17,San Jose Sharks,Detroit Red Wings,3,4,Straffar,34.0,27.0,6.06,11.4,13.07,10.12,SJS,DET
-2026020128,2026-10-17,Ottawa Senators,Philadelphia Flyers,1,3,Ordinarie,26.0,28.0,9.6,4.15,6.1,11.42,OTT,PHI
-2026020129,2026-10-17,New York Rangers,Columbus Blue Jackets,0,1,Förlängning,29.0,29.0,5.3,5.36,7.54,9.17,NYR,CBJ
-2026020130,2026-10-17,Dallas Stars,Chicago Blackhawks,4,0,Ordinarie,32.0,19.0,-0.82,1.34,14.49,14.34,DAL,CHI
-2026020131,2026-10-17,St. Louis Blues,Nashville Predators,2,5,Ordinarie,26.0,24.0,8.81,11.76,7.79,5.33,STL,NSH
-2026020132,2026-10-17,Boston Bruins,Los Angeles Kings,4,1,Ordinarie,28.0,26.0,4.91,6.97,12.44,10.3,BOS,LAK
-2026020133,2026-10-17,Edmonton Oilers,Utah Mammoth,6,2,Ordinarie,21.0,28.0,3.24,3.63,12.08,13.0,EDM,UTA
-2026020134,2026-10-17,Pittsburgh Penguins,Vegas Golden Knights,2,6,Ordinarie,24.0,20.0,12.8,10.13,3.9,8.02,PIT,VGK
-2026020135,2026-10-18,Columbus Blue Jackets,Minnesota Wild,1,2,Ordinarie,14.0,34.0,15.07,18.81,-2.67,-5.76,CBJ,MIN
-2026020136,2026-10-18,Carolina Hurricanes,Calgary Flames,2,3,Ordinarie,36.0,34.0,5.93,5.2,12.92,13.26,CAR,CGY
-2026020137,2026-10-19,Anaheim Ducks,New York Rangers,2,5,Ordinarie,31.0,30.0,13.55,23.18,4.58,-1.44,ANA,NYR
-2026020138,2026-10-19,Colorado Avalanche,Philadelphia Flyers,2,3,Ordinarie,26.0,24.0,4.43,11.31,12.02,6.57,COL,PHI
-2026020139,2026-10-19,San Jose Sharks,Toronto Maple Leafs,1,3,Ordinarie,31.0,32.0,10.46,8.49,6.62,11.1,SJS,TOR
-2026020140,2026-10-19,Pittsburgh Penguins,Utah Mammoth,4,5,Ordinarie,19.0,29.0,16.66,22.1,3.48,0.78,PIT,UTA
-2026020141,2026-10-20,San Jose Sharks,Montréal Canadiens,4,3,Förlängning,30.0,34.0,15.48,13.08,3.02,6.88,SJS,MTL
-2026020142,2026-10-20,Colorado Avalanche,New Jersey Devils,3,4,Ordinarie,34.0,41.0,12.0,12.32,10.03,7.27,COL,NJD
-2026020143,2026-10-20,Anaheim Ducks,New York Islanders,2,3,Ordinarie,17.0,25.0,14.42,22.6,0.88,-2.18,ANA,NYI
-2026020144,2026-10-20,Los Angeles Kings,Washington Capitals,5,2,Ordinarie,26.0,32.0,8.44,9.89,9.16,10.61,LAK,WSH
-2026020145,2026-10-20,Toronto Maple Leafs,Columbus Blue Jackets,6,2,Ordinarie,22.0,37.0,8.0,8.16,11.83,12.96,TOR,CBJ
-2026020146,2026-10-20,Winnipeg Jets,St. Louis Blues,1,2,Ordinarie,33.0,28.0,7.5,8.07,7.18,6.35,WPG,STL
-2026020147,2026-10-20,Boston Bruins,Dallas Stars,2,3,Förlängning,20.0,25.0,13.32,13.86,1.81,4.41,BOS,DAL
-2026020148,2026-10-20,Minnesota Wild,Edmonton Oilers,3,4,Förlängning,30.0,32.0,8.03,4.96,11.47,20.11,MIN,EDM
-2026020149,2026-10-20,Detroit Red Wings,Seattle Kraken,3,4,Straffar,25.0,27.0,3.76,7.32,11.54,8.51,DET,SEA
-2026020150,2026-10-20,Carolina Hurricanes,Vancouver Canucks,6,3,Ordinarie,44.0,17.0,0.86,-1.65,19.97,25.25,CAR,VAN
-2026020151,2026-10-20,Tampa Bay Lightning,Vegas Golden Knights,6,2,Ordinarie,21.0,34.0,0.12,6.94,13.56,9.2,TBL,VGK
-2026020152,2026-10-21,Philadelphia Flyers,Buffalo Sabres,3,1,Ordinarie,26.0,28.0,3.56,6.59,11.24,11.91,PHI,BUF
-2026020153,2026-10-21,Florida Panthers,Ottawa Senators,1,5,Ordinarie,19.0,30.0,17.88,17.74,-2.7,-2.47,FLA,OTT
-2026020154,2026-10-22,Nashville Predators,Boston Bruins,0,6,Ordinarie,28.0,31.0,21.52,27.75,-3.69,-6.62,NSH,BOS
-2026020155,2026-10-22,New York Rangers,Toronto Maple Leafs,4,5,Ordinarie,25.0,35.0,13.16,16.54,8.78,5.47,NYR,TOR
-2026020156,2026-10-22,San Jose Sharks,Ottawa Senators,6,2,Ordinarie,28.0,43.0,13.3,14.8,9.97,10.14,SJS,OTT
-2026020157,2026-10-22,Anaheim Ducks,New Jersey Devils,1,4,Ordinarie,17.0,29.0,10.78,15.53,3.22,-1.34,ANA,NJD
-2026020158,2026-10-22,Florida Panthers,Pittsburgh Penguins,0,4,Ordinarie,26.0,21.0,14.88,17.83,-0.16,-2.94,FLA,PIT
-2026020159,2026-10-22,Los Angeles Kings,New York Islanders,3,2,Förlängning,27.0,43.0,11.22,9.47,6.58,9.39,LAK,NYI
-2026020160,2026-10-22,Vegas Golden Knights,St. Louis Blues,2,6,Ordinarie,29.0,31.0,14.24,15.76,6.66,5.52,VGK,STL
-2026020161,2026-10-22,Winnipeg Jets,Dallas Stars,2,3,Förlängning,19.0,38.0,12.35,18.04,3.58,-0.22,WPG,DAL
-2026020162,2026-10-22,Minnesota Wild,Calgary Flames,1,2,Ordinarie,37.0,22.0,4.28,5.2,9.99,9.22,MIN,CGY
-2026020163,2026-10-22,Carolina Hurricanes,Edmonton Oilers,5,6,Straffar,27.0,21.0,5.84,3.94,13.2,17.86,CAR,EDM
-2026020164,2026-10-22,Utah Mammoth,Seattle Kraken,3,5,Ordinarie,36.0,23.0,6.94,6.36,12.64,12.57,UTA,SEA
-2026020165,2026-10-22,Detroit Red Wings,Vancouver Canucks,5,2,Ordinarie,31.0,13.0,-4.88,-3.63,21.02,21.79,DET,VAN
-2026020166,2026-10-23,Montréal Canadiens,Chicago Blackhawks,4,1,Ordinarie,28.0,21.0,-1.04,-0.04,15.42,15.05,MTL,CHI
-2026020167,2026-10-23,Tampa Bay Lightning,Colorado Avalanche,3,6,Ordinarie,34.0,24.0,10.33,11.61,11.32,11.2,TBL,COL
-2026020168,2026-10-24,Anaheim Ducks,Philadelphia Flyers,5,4,Ordinarie,26.0,32.0,8.38,8.94,11.67,13.96,ANA,PHI
-2026020169,2026-10-24,Los Angeles Kings,New Jersey Devils,1,3,Ordinarie,13.0,26.0,14.04,17.44,-0.52,-2.53,LAK,NJD
-2026020170,2026-10-24,San Jose Sharks,Boston Bruins,4,6,Ordinarie,27.0,35.0,20.92,27.47,-0.42,-4.19,SJS,BOS
-2026020171,2026-10-24,New York Rangers,Ottawa Senators,4,7,Ordinarie,28.0,24.0,12.73,17.24,9.77,8.29,NYR,OTT
-2026020172,2026-10-24,Nashville Predators,Pittsburgh Penguins,2,3,Förlängning,26.0,37.0,14.72,13.31,2.31,4.79,NSH,PIT
-2026020173,2026-10-24,Buffalo Sabres,Washington Capitals,3,4,Förlängning,21.0,34.0,10.78,18.05,7.14,1.66,BUF,WSH
-2026020174,2026-10-24,Vegas Golden Knights,Columbus Blue Jackets,1,2,Förlängning,27.0,20.0,8.41,4.79,4.82,8.53,VGK,CBJ
-2026020175,2026-10-24,Carolina Hurricanes,St. Louis Blues,4,0,Ordinarie,39.0,24.0,-1.78,-6.28,17.95,22.32,CAR,STL
-2026020176,2026-10-24,Toronto Maple Leafs,Edmonton Oilers,7,2,Ordinarie,32.0,32.0,1.4,0.6,19.25,20.18,TOR,EDM
-2026020177,2026-10-24,Tampa Bay Lightning,Utah Mammoth,4,5,Förlängning,33.0,28.0,11.91,13.78,6.56,7.55,TBL,UTA
-2026020178,2026-10-24,Detroit Red Wings,Calgary Flames,1,4,Ordinarie,29.0,25.0,9.48,9.74,6.08,4.56,DET,CGY
-2026020179,2026-10-24,Minnesota Wild,Seattle Kraken,5,1,Ordinarie,36.0,24.0,-2.26,-3.36,19.46,21.07,MIN,SEA
-2026020180,2026-10-25,Florida Panthers,Chicago Blackhawks,3,2,Ordinarie,33.0,21.0,2.48,5.72,13.32,12.84,FLA,CHI
-2026020181,2026-10-25,New York Islanders,Dallas Stars,3,6,Ordinarie,20.0,38.0,20.46,25.31,-1.16,-4.71,NYI,DAL
-2026020182,2026-10-25,Montréal Canadiens,Winnipeg Jets,2,1,Ordinarie,21.0,34.0,6.24,4.48,8.48,13.02,MTL,WPG
-2026020183,2026-10-25,Colorado Avalanche,Nashville Predators,2,6,Ordinarie,21.0,35.0,17.96,18.37,2.08,2.82,COL,NSH
-2026020184,2026-10-25,Minnesota Wild,Vancouver Canucks,4,2,Ordinarie,34.0,17.0,1.9,-4.03,13.62,22.42,MIN,VAN
-2026020185,2026-10-26,Los Angeles Kings,New York Rangers,6,3,Ordinarie,26.0,26.0,5.61,9.21,14.29,12.47,LAK,NYR
-2026020186,2026-10-26,Toronto Maple Leafs,Calgary Flames,2,5,Ordinarie,28.0,34.0,19.4,15.21,1.45,5.2,TOR,CGY
-2026020187,2026-10-26,Detroit Red Wings,Edmonton Oilers,4,3,Straffar,29.0,28.0,9.43,7.86,8.14,10.9,DET,EDM
-2026020188,2026-10-27,Columbus Blue Jackets,Philadelphia Flyers,4,3,Förlängning,15.0,31.0,12.86,16.14,4.78,3.19,CBJ,PHI
-2026020189,2026-10-27,Boston Bruins,Carolina Hurricanes,1,2,Ordinarie,15.0,30.0,15.47,16.94,-3.14,-1.46,BOS,CAR
-2026020190,2026-10-27,Los Angeles Kings,Chicago Blackhawks,1,2,Ordinarie,26.0,27.0,11.58,11.78,2.69,6.17,LAK,CHI
-2026020191,2026-10-27,Montréal Canadiens,St. Louis Blues,2,0,Ordinarie,20.0,46.0,7.91,10.08,7.29,4.49,MTL,STL
-2026020192,2026-10-27,New York Islanders,Nashville Predators,4,3,Straffar,28.0,23.0,8.32,10.08,8.35,10.72,NYI,NSH
-2026020193,2026-10-27,New Jersey Devils,Dallas Stars,5,1,Ordinarie,27.0,18.0,-2.46,1.54,18.84,15.64,NJD,DAL
-2026020194,2026-10-27,Florida Panthers,Winnipeg Jets,5,1,Ordinarie,24.0,25.0,2.84,4.89,12.33,13.2,FLA,WPG
-2026020195,2026-10-27,Minnesota Wild,Utah Mammoth,3,1,Ordinarie,30.0,27.0,4.2,6.7,11.03,9.28,MIN,UTA
-2026020196,2026-10-27,Ottawa Senators,Vegas Golden Knights,1,4,Ordinarie,26.0,29.0,12.9,18.88,4.38,0.28,OTT,VGK
-2026020197,2026-10-27,Vancouver Canucks,Anaheim Ducks,6,5,Förlängning,33.0,23.0,9.68,9.56,10.88,13.62,VAN,ANA
-2026020198,2026-10-27,Buffalo Sabres,San Jose Sharks,2,0,Ordinarie,40.0,23.0,3.04,-1.27,12.49,17.68,BUF,SJS
-2026020199,2026-10-28,Philadelphia Flyers,Washington Capitals,2,5,Ordinarie,25.0,30.0,17.02,20.37,2.1,-1.05,PHI,WSH
-2026020200,2026-10-28,Calgary Flames,Edmonton Oilers,0,4,Ordinarie,24.0,32.0,13.75,16.14,0.3,-1.82,CGY,EDM
-2026020201,2026-10-28,New Jersey Devils,Colorado Avalanche,2,5,Ordinarie,22.0,44.0,25.05,24.93,-5.4,-3.91,NJD,COL
-2026020202,2026-10-28,Toronto Maple Leafs,Seattle Kraken,4,5,Ordinarie,21.0,17.0,10.34,16.38,7.06,2.99,TOR,SEA
-2026020203,2026-10-29,Chicago Blackhawks,Detroit Red Wings,1,4,Ordinarie,19.0,31.0,14.58,26.92,1.26,-8.1,CHI,DET
-2026020204,2026-10-29,Winnipeg Jets,Tampa Bay Lightning,4,6,Ordinarie,21.0,31.0,15.56,18.24,7.04,7.63,WPG,TBL
-2026020205,2026-10-29,Utah Mammoth,Pittsburgh Penguins,4,3,Förlängning,34.0,34.0,9.78,6.83,9.42,13.76,UTA,PIT
-2026020206,2026-10-29,Columbus Blue Jackets,Carolina Hurricanes,2,3,Ordinarie,26.0,27.0,12.76,14.62,3.82,2.87,CBJ,CAR
-2026020207,2026-10-29,Boston Bruins,St. Louis Blues,1,4,Ordinarie,32.0,18.0,5.38,10.86,8.97,4.43,BOS,STL
-2026020208,2026-10-29,Washington Capitals,Nashville Predators,4,3,Ordinarie,29.0,27.0,3.94,5.69,14.26,12.94,WSH,NSH
-2026020209,2026-10-29,Montréal Canadiens,Dallas Stars,5,2,Ordinarie,21.0,19.0,0.78,-0.61,15.42,18.14,MTL,DAL
-2026020210,2026-10-29,New York Islanders,Minnesota Wild,4,3,Förlängning,26.0,25.0,6.0,3.07,9.28,12.8,NYI,MIN
-2026020211,2026-10-29,Buffalo Sabres,Anaheim Ducks,7,6,Ordinarie,31.0,35.0,4.2,5.6,20.3,22.21,BUF,ANA
-2026020212,2026-10-29,Ottawa Senators,Los Angeles Kings,5,6,Förlängning,22.0,38.0,9.97,11.52,11.18,12.76,OTT,LAK
-2026020213,2026-10-29,Vancouver Canucks,San Jose Sharks,2,3,Ordinarie,25.0,24.0,9.79,9.06,4.58,6.56,VAN,SJS
+2026020055,2026-10-07,Edmonton Oilers,Anaheim Ducks,5,2,Ordinarie,19.0,31.0,7.76,6.7,9.14,13.51,EDM,ANA
+2026020056,2026-10-08,Utah Mammoth,Boston Bruins,1,6,Ordinarie,37.0,22.0,10.6,10.53,8.52,10.96,UTA,BOS
+2026020057,2026-10-08,Dallas Stars,Buffalo Sabres,4,0,Ordinarie,18.0,26.0,5.25,4.64,8.3,11.76,DAL,BUF
+2026020058,2026-10-08,Nashville Predators,Montréal Canadiens,5,2,Ordinarie,20.0,33.0,10.84,15.34,7.29,4.4,NSH,MTL
+2026020059,2026-10-08,Philadelphia Flyers,Ottawa Senators,1,2,Ordinarie,29.0,26.0,6.68,8.82,7.8,6.06,PHI,OTT
+2026020060,2026-10-08,Minnesota Wild,Tampa Bay Lightning,2,3,Ordinarie,36.0,35.0,14.8,15.84,5.07,4.58,MIN,TBL
+2026020061,2026-10-08,Vancouver Canucks,Carolina Hurricanes,2,7,Ordinarie,20.0,33.0,21.22,32.73,-1.34,-8.71,VAN,CAR
+2026020062,2026-10-08,Chicago Blackhawks,New York Islanders,1,4,Ordinarie,23.0,19.0,8.86,12.27,5.08,3.32,CHI,NYI
+2026020063,2026-10-08,San Jose Sharks,St. Louis Blues,3,2,Förlängning,27.0,26.0,6.56,7.82,8.52,8.34,SJS,STL
+2026020064,2026-10-08,Colorado Avalanche,Calgary Flames,7,3,Ordinarie,30.0,29.0,1.2,2.8,20.62,19.12,COL,CGY
+2026020065,2026-10-08,Toronto Maple Leafs,Vegas Golden Knights,3,4,Straffar,24.0,43.0,12.06,14.56,6.32,5.15,TOR,VGK
+2026020066,2026-10-09,Seattle Kraken,Detroit Red Wings,6,3,Ordinarie,24.0,40.0,11.72,10.98,9.83,13.25,SEA,DET
+2026020067,2026-10-09,New York Rangers,Washington Capitals,1,3,Ordinarie,22.0,27.0,10.88,13.36,2.29,1.45,NYR,WSH
+2026020068,2026-10-09,Pittsburgh Penguins,Columbus Blue Jackets,2,3,Straffar,22.0,47.0,14.68,15.26,2.6,3.12,PIT,CBJ
+2026020069,2026-10-09,Anaheim Ducks,Winnipeg Jets,5,1,Ordinarie,17.0,17.0,1.86,-2.61,12.64,19.65,ANA,WPG
+2026020070,2026-10-10,Philadelphia Flyers,Boston Bruins,1,5,Ordinarie,15.0,32.0,23.85,26.91,-8.07,-10.52,PHI,BOS
+2026020071,2026-10-10,Vancouver Canucks,New Jersey Devils,1,4,Ordinarie,21.0,37.0,16.68,16.66,-0.24,1.15,VAN,NJD
+2026020072,2026-10-10,Edmonton Oilers,San Jose Sharks,3,1,Ordinarie,20.0,20.0,1.46,-2.42,10.59,16.29,EDM,SJS
+2026020073,2026-10-10,Minnesota Wild,Florida Panthers,4,1,Ordinarie,29.0,30.0,2.17,2.97,12.9,13.48,MIN,FLA
+2026020074,2026-10-10,Utah Mammoth,Buffalo Sabres,4,1,Ordinarie,30.0,24.0,-0.34,-5.09,16.99,25.04,UTA,BUF
+2026020075,2026-10-10,Detroit Red Wings,Montréal Canadiens,0,1,Straffar,30.0,30.0,11.93,9.13,0.12,3.94,DET,MTL
+2026020076,2026-10-10,Nashville Predators,Ottawa Senators,2,3,Straffar,18.0,20.0,8.06,7.98,5.09,6.26,NSH,OTT
+2026020077,2026-10-10,Dallas Stars,Pittsburgh Penguins,1,2,Straffar,25.0,20.0,9.31,10.83,2.16,2.93,DAL,PIT
+2026020078,2026-10-10,Carolina Hurricanes,Chicago Blackhawks,5,2,Ordinarie,39.0,26.0,-1.72,-2.6,20.4,22.26,CAR,CHI
+2026020079,2026-10-10,Columbus Blue Jackets,St. Louis Blues,3,5,Ordinarie,23.0,27.0,10.68,12.84,8.12,6.28,CBJ,STL
+2026020080,2026-10-10,Toronto Maple Leafs,Colorado Avalanche,6,3,Ordinarie,23.0,33.0,10.62,9.75,9.34,13.49,TOR,COL
+2026020081,2026-10-10,Tampa Bay Lightning,New York Islanders,5,3,Ordinarie,26.0,23.0,6.54,7.3,11.69,11.84,TBL,NYI
+2026020082,2026-10-10,Anaheim Ducks,Calgary Flames,4,2,Ordinarie,28.0,29.0,7.44,6.15,10.24,12.3,ANA,CGY
+2026020083,2026-10-10,Los Angeles Kings,Vegas Golden Knights,1,2,Förlängning,27.0,32.0,12.3,16.78,2.82,-2.97,LAK,VGK
+2026020084,2026-10-11,Seattle Kraken,Washington Capitals,5,3,Ordinarie,27.0,36.0,6.07,6.64,14.1,15.02,SEA,WSH
+2026020085,2026-10-11,Vancouver Canucks,New York Rangers,2,6,Ordinarie,21.0,25.0,16.2,21.86,1.36,-2.12,VAN,NYR
+2026020086,2026-10-11,Carolina Hurricanes,Philadelphia Flyers,4,1,Ordinarie,30.0,19.0,-1.38,-4.95,16.25,21.09,CAR,PHI
+2026020087,2026-10-12,Florida Panthers,Buffalo Sabres,3,5,Ordinarie,23.0,32.0,13.17,21.43,6.06,1.45,FLA,BUF
+2026020088,2026-10-12,Ottawa Senators,New Jersey Devils,4,1,Ordinarie,20.0,30.0,12.97,7.78,2.63,8.38,OTT,NJD
+2026020089,2026-10-12,Vegas Golden Knights,Minnesota Wild,2,4,Ordinarie,23.0,28.0,10.83,14.63,6.4,6.45,VGK,MIN
+2026020090,2026-10-13,New Jersey Devils,Detroit Red Wings,5,4,Förlängning,37.0,27.0,5.98,3.26,16.48,19.85,NJD,DET
+2026020091,2026-10-13,Florida Panthers,Columbus Blue Jackets,7,3,Ordinarie,28.0,27.0,5.14,7.14,16.54,18.53,FLA,CBJ
+2026020092,2026-10-13,Buffalo Sabres,Montréal Canadiens,3,4,Straffar,17.0,38.0,9.44,9.96,8.04,7.96,BUF,MTL
+2026020093,2026-10-13,Washington Capitals,Carolina Hurricanes,2,4,Ordinarie,22.0,35.0,15.76,13.52,2.12,6.12,WSH,CAR
+2026020094,2026-10-13,Seattle Kraken,Philadelphia Flyers,3,2,Straffar,31.0,26.0,9.47,10.63,5.9,5.07,SEA,PHI
+2026020095,2026-10-13,Tampa Bay Lightning,New York Rangers,1,4,Ordinarie,26.0,23.0,10.3,12.73,6.13,4.28,TBL,NYR
+2026020096,2026-10-13,St. Louis Blues,Ottawa Senators,7,2,Ordinarie,26.0,17.0,-2.4,-5.57,21.53,28.08,STL,OTT
+2026020097,2026-10-13,Vancouver Canucks,New York Islanders,2,3,Ordinarie,26.0,38.0,12.9,11.25,4.75,6.17,VAN,NYI
+2026020098,2026-10-13,Pittsburgh Penguins,Chicago Blackhawks,3,5,Ordinarie,27.0,20.0,6.8,7.83,11.88,12.71,PIT,CHI
+2026020099,2026-10-13,Minnesota Wild,Winnipeg Jets,2,5,Ordinarie,21.0,25.0,12.94,14.52,1.76,2.22,MIN,WPG
+2026020100,2026-10-13,Colorado Avalanche,Dallas Stars,3,2,Ordinarie,25.0,26.0,8.06,9.08,7.92,8.02,COL,DAL
+2026020101,2026-10-13,Vegas Golden Knights,Nashville Predators,5,2,Ordinarie,25.0,27.0,2.64,1.48,14.76,15.59,VGK,NSH
+2026020102,2026-10-13,Toronto Maple Leafs,Utah Mammoth,4,5,Ordinarie,26.0,28.0,17.28,17.94,1.97,3.37,TOR,UTA
+2026020103,2026-10-13,Calgary Flames,Anaheim Ducks,4,2,Ordinarie,36.0,25.0,2.78,3.27,15.49,15.88,CGY,ANA
+2026020104,2026-10-13,Edmonton Oilers,Los Angeles Kings,4,1,Ordinarie,17.0,40.0,12.59,10.06,5.34,6.32,EDM,LAK
+2026020105,2026-10-13,Boston Bruins,San Jose Sharks,6,3,Ordinarie,26.0,38.0,8.67,4.81,13.23,17.46,BOS,SJS
+2026020106,2026-10-14,Montréal Canadiens,Washington Capitals,4,5,Ordinarie,30.0,23.0,5.06,6.06,11.87,13.47,MTL,WSH
+2026020107,2026-10-14,Dallas Stars,Colorado Avalanche,3,2,Straffar,22.0,27.0,11.62,12.9,2.1,0.5,DAL,COL
+2026020108,2026-10-15,Buffalo Sabres,Toronto Maple Leafs,5,4,Förlängning,35.0,30.0,6.12,9.5,14.66,11.74,BUF,TOR
+2026020109,2026-10-15,New York Islanders,Ottawa Senators,1,2,Straffar,21.0,20.0,1.71,4.7,8.12,6.69,NYI,OTT
+2026020110,2026-10-15,Philadelphia Flyers,Detroit Red Wings,1,2,Ordinarie,18.0,26.0,12.46,16.25,-0.61,-1.47,PHI,DET
+2026020111,2026-10-15,Seattle Kraken,Tampa Bay Lightning,3,4,Förlängning,27.0,35.0,10.98,9.07,5.92,9.46,SEA,TBL
+2026020112,2026-10-15,Vancouver Canucks,Florida Panthers,2,3,Förlängning,18.0,39.0,16.22,16.94,0.31,0.23,VAN,FLA
+2026020113,2026-10-15,New York Rangers,New Jersey Devils,1,7,Ordinarie,19.0,31.0,26.84,28.9,-8.64,-10.17,NYR,NJD
+2026020114,2026-10-15,Winnipeg Jets,Chicago Blackhawks,3,4,Förlängning,34.0,28.0,5.1,6.29,14.05,15.1,WPG,CHI
+2026020115,2026-10-15,San Jose Sharks,Nashville Predators,3,2,Straffar,32.0,34.0,6.14,8.72,11.41,10.51,SJS,NSH
+2026020116,2026-10-15,St. Louis Blues,Minnesota Wild,4,5,Ordinarie,26.0,39.0,18.84,18.58,3.84,4.98,STL,MIN
+2026020117,2026-10-15,Utah Mammoth,Edmonton Oilers,4,2,Ordinarie,25.0,24.0,7.79,6.62,10.04,12.19,UTA,EDM
+2026020118,2026-10-15,Calgary Flames,Vegas Golden Knights,2,6,Ordinarie,30.0,33.0,14.44,12.77,5.54,10.05,CGY,VGK
+2026020119,2026-10-16,Pittsburgh Penguins,Colorado Avalanche,2,5,Ordinarie,31.0,32.0,14.11,14.35,6.32,8.98,PIT,COL
+2026020120,2026-10-16,Boston Bruins,Anaheim Ducks,4,2,Ordinarie,22.0,27.0,10.01,8.22,6.17,11.28,BOS,ANA
+2026020121,2026-10-17,New Jersey Devils,Washington Capitals,2,4,Ordinarie,31.0,25.0,7.04,9.33,10.66,11.35,NJD,WSH
+2026020122,2026-10-17,Carolina Hurricanes,Winnipeg Jets,3,2,Ordinarie,37.0,23.0,0.76,4.26,14.54,11.65,CAR,WPG
+2026020123,2026-10-17,Vancouver Canucks,Tampa Bay Lightning,2,4,Ordinarie,14.0,35.0,16.8,19.55,-1.28,-2.8,VAN,TBL
+2026020124,2026-10-17,Seattle Kraken,Florida Panthers,3,8,Ordinarie,23.0,37.0,26.24,24.82,-4.7,-3.13,SEA,FLA
+2026020125,2026-10-17,New York Islanders,Toronto Maple Leafs,4,1,Ordinarie,20.0,29.0,-1.82,4.61,15.34,10.26,NYI,TOR
+2026020126,2026-10-17,Buffalo Sabres,Montréal Canadiens,3,4,Förlängning,26.0,34.0,11.95,14.47,6.2,6.28,BUF,MTL
+2026020127,2026-10-17,San Jose Sharks,Detroit Red Wings,3,4,Straffar,34.0,27.0,6.06,11.44,13.07,10.15,SJS,DET
+2026020128,2026-10-17,Ottawa Senators,Philadelphia Flyers,1,3,Ordinarie,26.0,28.0,9.6,4.15,6.1,11.48,OTT,PHI
+2026020129,2026-10-17,New York Rangers,Columbus Blue Jackets,0,1,Förlängning,29.0,29.0,5.3,5.31,7.54,9.26,NYR,CBJ
+2026020130,2026-10-17,Dallas Stars,Chicago Blackhawks,4,0,Ordinarie,32.0,19.0,-0.82,1.35,14.49,14.36,DAL,CHI
+2026020131,2026-10-17,St. Louis Blues,Nashville Predators,2,5,Ordinarie,26.0,24.0,8.81,11.77,7.79,5.35,STL,NSH
+2026020132,2026-10-17,Boston Bruins,Los Angeles Kings,4,1,Ordinarie,28.0,26.0,4.91,6.99,12.44,10.32,BOS,LAK
+2026020133,2026-10-17,Edmonton Oilers,Utah Mammoth,6,2,Ordinarie,21.0,28.0,3.24,3.65,12.08,13.02,EDM,UTA
+2026020134,2026-10-17,Pittsburgh Penguins,Vegas Golden Knights,2,6,Ordinarie,24.0,20.0,12.8,10.17,3.9,8.02,PIT,VGK
+2026020135,2026-10-18,Columbus Blue Jackets,Minnesota Wild,1,2,Ordinarie,14.0,34.0,15.07,18.78,-2.67,-5.71,CBJ,MIN
+2026020136,2026-10-18,Carolina Hurricanes,Calgary Flames,2,3,Ordinarie,36.0,34.0,5.93,5.25,12.92,13.24,CAR,CGY
+2026020137,2026-10-19,Anaheim Ducks,New York Rangers,2,5,Ordinarie,31.0,30.0,13.55,23.28,4.58,-1.47,ANA,NYR
+2026020138,2026-10-19,Colorado Avalanche,Philadelphia Flyers,2,3,Ordinarie,26.0,24.0,4.43,11.4,12.02,6.53,COL,PHI
+2026020139,2026-10-19,San Jose Sharks,Toronto Maple Leafs,1,3,Ordinarie,31.0,32.0,10.46,8.51,6.62,11.1,SJS,TOR
+2026020140,2026-10-19,Pittsburgh Penguins,Utah Mammoth,4,5,Ordinarie,19.0,29.0,16.66,22.15,3.48,0.79,PIT,UTA
+2026020141,2026-10-20,San Jose Sharks,Montréal Canadiens,4,3,Förlängning,30.0,34.0,15.48,13.11,3.02,6.92,SJS,MTL
+2026020142,2026-10-20,Colorado Avalanche,New Jersey Devils,3,4,Ordinarie,34.0,41.0,12.0,12.34,10.03,7.27,COL,NJD
+2026020143,2026-10-20,Anaheim Ducks,New York Islanders,2,3,Ordinarie,17.0,25.0,14.42,22.72,0.88,-2.24,ANA,NYI
+2026020144,2026-10-20,Los Angeles Kings,Washington Capitals,5,2,Ordinarie,26.0,32.0,8.44,9.92,9.16,10.68,LAK,WSH
+2026020145,2026-10-20,Toronto Maple Leafs,Columbus Blue Jackets,6,2,Ordinarie,22.0,37.0,8.0,8.2,11.83,12.96,TOR,CBJ
+2026020146,2026-10-20,Winnipeg Jets,St. Louis Blues,1,2,Ordinarie,33.0,28.0,7.5,8.06,7.18,6.39,WPG,STL
+2026020147,2026-10-20,Boston Bruins,Dallas Stars,2,3,Förlängning,20.0,25.0,13.32,13.92,1.81,4.42,BOS,DAL
+2026020148,2026-10-20,Minnesota Wild,Edmonton Oilers,3,4,Förlängning,30.0,32.0,8.03,4.95,11.47,20.24,MIN,EDM
+2026020149,2026-10-20,Detroit Red Wings,Seattle Kraken,3,4,Straffar,25.0,27.0,3.76,7.38,11.54,8.48,DET,SEA
+2026020150,2026-10-20,Carolina Hurricanes,Vancouver Canucks,6,3,Ordinarie,44.0,17.0,0.86,-1.65,19.97,25.28,CAR,VAN
+2026020151,2026-10-20,Tampa Bay Lightning,Vegas Golden Knights,6,2,Ordinarie,21.0,34.0,0.12,7.01,13.56,9.16,TBL,VGK
+2026020152,2026-10-21,Philadelphia Flyers,Buffalo Sabres,3,1,Ordinarie,26.0,28.0,3.56,6.66,11.24,11.88,PHI,BUF
+2026020153,2026-10-21,Florida Panthers,Ottawa Senators,1,5,Ordinarie,19.0,30.0,17.88,17.76,-2.7,-2.44,FLA,OTT
+2026020154,2026-10-22,Nashville Predators,Boston Bruins,0,6,Ordinarie,28.0,31.0,21.52,27.78,-3.69,-6.61,NSH,BOS
+2026020155,2026-10-22,New York Rangers,Toronto Maple Leafs,4,5,Ordinarie,25.0,35.0,13.16,16.55,8.78,5.47,NYR,TOR
+2026020156,2026-10-22,San Jose Sharks,Ottawa Senators,6,2,Ordinarie,28.0,43.0,13.3,14.82,9.97,10.16,SJS,OTT
+2026020157,2026-10-22,Anaheim Ducks,New Jersey Devils,1,4,Ordinarie,17.0,29.0,10.78,15.55,3.22,-1.35,ANA,NJD
+2026020158,2026-10-22,Florida Panthers,Pittsburgh Penguins,0,4,Ordinarie,26.0,21.0,14.88,17.86,-0.16,-2.96,FLA,PIT
+2026020159,2026-10-22,Los Angeles Kings,New York Islanders,3,2,Förlängning,27.0,43.0,11.22,9.5,6.58,9.44,LAK,NYI
+2026020160,2026-10-22,Vegas Golden Knights,St. Louis Blues,2,6,Ordinarie,29.0,31.0,14.24,15.76,6.66,5.54,VGK,STL
+2026020161,2026-10-22,Winnipeg Jets,Dallas Stars,2,3,Förlängning,19.0,38.0,12.35,18.11,3.58,-0.22,WPG,DAL
+2026020162,2026-10-22,Minnesota Wild,Calgary Flames,1,2,Ordinarie,37.0,22.0,4.28,5.23,9.99,9.25,MIN,CGY
+2026020163,2026-10-22,Carolina Hurricanes,Edmonton Oilers,5,6,Straffar,27.0,21.0,5.84,3.94,13.2,17.88,CAR,EDM
+2026020164,2026-10-22,Utah Mammoth,Seattle Kraken,3,5,Ordinarie,36.0,23.0,6.94,6.38,12.64,12.56,UTA,SEA
+2026020165,2026-10-22,Detroit Red Wings,Vancouver Canucks,5,2,Ordinarie,31.0,13.0,-4.88,-3.65,21.02,21.83,DET,VAN
+2026020166,2026-10-23,Montréal Canadiens,Chicago Blackhawks,4,1,Ordinarie,28.0,21.0,-1.04,-0.01,15.42,15.04,MTL,CHI
+2026020167,2026-10-23,Tampa Bay Lightning,Colorado Avalanche,3,6,Ordinarie,34.0,24.0,10.33,11.62,11.32,11.23,TBL,COL
+2026020168,2026-10-24,Anaheim Ducks,Philadelphia Flyers,5,4,Ordinarie,26.0,32.0,8.38,8.98,11.67,13.98,ANA,PHI
+2026020169,2026-10-24,Los Angeles Kings,New Jersey Devils,1,3,Ordinarie,13.0,26.0,14.04,17.47,-0.52,-2.53,LAK,NJD
+2026020170,2026-10-24,San Jose Sharks,Boston Bruins,4,6,Ordinarie,27.0,35.0,20.92,27.52,-0.42,-4.2,SJS,BOS
+2026020171,2026-10-24,New York Rangers,Ottawa Senators,4,7,Ordinarie,28.0,24.0,12.73,17.26,9.77,8.31,NYR,OTT
+2026020172,2026-10-24,Nashville Predators,Pittsburgh Penguins,2,3,Förlängning,26.0,37.0,14.72,13.32,2.31,4.82,NSH,PIT
+2026020173,2026-10-24,Buffalo Sabres,Washington Capitals,3,4,Förlängning,21.0,34.0,10.78,18.13,7.14,1.64,BUF,WSH
+2026020174,2026-10-24,Vegas Golden Knights,Columbus Blue Jackets,1,2,Förlängning,27.0,20.0,8.41,4.8,4.82,8.58,VGK,CBJ
+2026020175,2026-10-24,Carolina Hurricanes,St. Louis Blues,4,0,Ordinarie,39.0,24.0,-1.78,-6.31,17.95,22.37,CAR,STL
+2026020176,2026-10-24,Toronto Maple Leafs,Edmonton Oilers,7,2,Ordinarie,32.0,32.0,1.4,0.63,19.25,20.22,TOR,EDM
+2026020177,2026-10-24,Tampa Bay Lightning,Utah Mammoth,4,5,Förlängning,33.0,28.0,11.91,13.81,6.56,7.58,TBL,UTA
+2026020178,2026-10-24,Detroit Red Wings,Calgary Flames,1,4,Ordinarie,29.0,25.0,9.48,9.76,6.08,4.57,DET,CGY
+2026020179,2026-10-24,Minnesota Wild,Seattle Kraken,5,1,Ordinarie,36.0,24.0,-2.26,-3.37,19.46,21.11,MIN,SEA
+2026020180,2026-10-25,Florida Panthers,Chicago Blackhawks,3,2,Ordinarie,33.0,21.0,2.48,5.78,13.32,12.81,FLA,CHI
+2026020181,2026-10-25,New York Islanders,Dallas Stars,3,6,Ordinarie,20.0,38.0,20.46,25.45,-1.16,-4.78,NYI,DAL
+2026020182,2026-10-25,Montréal Canadiens,Winnipeg Jets,2,1,Ordinarie,21.0,34.0,6.24,4.51,8.48,13.03,MTL,WPG
+2026020183,2026-10-25,Colorado Avalanche,Nashville Predators,2,6,Ordinarie,21.0,35.0,17.96,18.42,2.08,2.8,COL,NSH
+2026020184,2026-10-25,Minnesota Wild,Vancouver Canucks,4,2,Ordinarie,34.0,17.0,1.9,-4.07,13.62,22.53,MIN,VAN
+2026020185,2026-10-26,Los Angeles Kings,New York Rangers,6,3,Ordinarie,26.0,26.0,5.61,9.18,14.29,12.5,LAK,NYR
+2026020186,2026-10-26,Toronto Maple Leafs,Calgary Flames,2,5,Ordinarie,28.0,34.0,19.4,15.22,1.45,5.2,TOR,CGY
+2026020187,2026-10-26,Detroit Red Wings,Edmonton Oilers,4,3,Straffar,29.0,28.0,9.43,7.88,8.14,10.92,DET,EDM
+2026020188,2026-10-27,Columbus Blue Jackets,Philadelphia Flyers,4,3,Förlängning,15.0,31.0,12.86,16.21,4.78,3.15,CBJ,PHI
+2026020189,2026-10-27,Boston Bruins,Carolina Hurricanes,1,2,Ordinarie,15.0,30.0,15.47,16.99,-3.14,-1.43,BOS,CAR
+2026020190,2026-10-27,Los Angeles Kings,Chicago Blackhawks,1,2,Ordinarie,26.0,27.0,11.58,11.8,2.69,6.17,LAK,CHI
+2026020191,2026-10-27,Montréal Canadiens,St. Louis Blues,2,0,Ordinarie,20.0,46.0,7.91,10.14,7.29,4.44,MTL,STL
+2026020192,2026-10-27,New York Islanders,Nashville Predators,4,3,Straffar,28.0,23.0,8.32,10.13,8.35,10.76,NYI,NSH
+2026020193,2026-10-27,New Jersey Devils,Dallas Stars,5,1,Ordinarie,27.0,18.0,-2.46,1.56,18.84,15.67,NJD,DAL
+2026020194,2026-10-27,Florida Panthers,Winnipeg Jets,5,1,Ordinarie,24.0,25.0,2.84,4.92,12.33,13.21,FLA,WPG
+2026020195,2026-10-27,Minnesota Wild,Utah Mammoth,3,1,Ordinarie,30.0,27.0,4.2,6.71,11.03,9.31,MIN,UTA
+2026020196,2026-10-27,Ottawa Senators,Vegas Golden Knights,1,4,Ordinarie,26.0,29.0,12.9,18.9,4.38,0.28,OTT,VGK
+2026020197,2026-10-27,Vancouver Canucks,Anaheim Ducks,6,5,Förlängning,33.0,23.0,9.68,9.57,10.88,13.64,VAN,ANA
+2026020198,2026-10-27,Buffalo Sabres,San Jose Sharks,2,0,Ordinarie,40.0,23.0,3.04,-1.28,12.49,17.7,BUF,SJS
+2026020199,2026-10-28,Philadelphia Flyers,Washington Capitals,2,5,Ordinarie,25.0,30.0,17.02,20.44,2.1,-1.07,PHI,WSH
+2026020200,2026-10-28,Calgary Flames,Edmonton Oilers,0,4,Ordinarie,24.0,32.0,13.75,16.12,0.3,-1.79,CGY,EDM
+2026020201,2026-10-28,New Jersey Devils,Colorado Avalanche,2,5,Ordinarie,22.0,44.0,25.05,24.99,-5.4,-3.91,NJD,COL
+2026020202,2026-10-28,Toronto Maple Leafs,Seattle Kraken,4,5,Ordinarie,21.0,17.0,10.34,16.42,7.06,2.96,TOR,SEA
+2026020203,2026-10-29,Chicago Blackhawks,Detroit Red Wings,1,4,Ordinarie,19.0,31.0,14.58,27.08,1.26,-8.19,CHI,DET
+2026020204,2026-10-29,Winnipeg Jets,Tampa Bay Lightning,4,6,Ordinarie,21.0,31.0,15.56,18.33,7.04,7.59,WPG,TBL
+2026020205,2026-10-29,Utah Mammoth,Pittsburgh Penguins,4,3,Förlängning,34.0,34.0,9.78,6.84,9.42,13.75,UTA,PIT
+2026020206,2026-10-29,Columbus Blue Jackets,Carolina Hurricanes,2,3,Ordinarie,26.0,27.0,12.76,14.66,3.82,2.88,CBJ,CAR
+2026020207,2026-10-29,Boston Bruins,St. Louis Blues,1,4,Ordinarie,32.0,18.0,5.38,10.86,8.97,4.47,BOS,STL
+2026020208,2026-10-29,Washington Capitals,Nashville Predators,4,3,Ordinarie,29.0,27.0,3.94,5.64,14.26,13.02,WSH,NSH
+2026020209,2026-10-29,Montréal Canadiens,Dallas Stars,5,2,Ordinarie,21.0,19.0,0.78,-0.62,15.42,18.21,MTL,DAL
+2026020210,2026-10-29,New York Islanders,Minnesota Wild,4,3,Förlängning,26.0,25.0,6.0,3.06,9.28,12.83,NYI,MIN
+2026020211,2026-10-29,Buffalo Sabres,Anaheim Ducks,7,6,Ordinarie,31.0,35.0,4.2,5.66,20.3,22.21,BUF,ANA
+2026020212,2026-10-29,Ottawa Senators,Los Angeles Kings,5,6,Förlängning,22.0,38.0,9.97,11.54,11.18,12.79,OTT,LAK
+2026020213,2026-10-29,Vancouver Canucks,San Jose Sharks,2,3,Ordinarie,25.0,24.0,9.79,9.08,4.58,6.59,VAN,SJS
+2026020214,2026-10-30,New Jersey Devils,Vegas Golden Knights,5,2,Ordinarie,32.0,21.0,-1.14,1.05,15.17,12.38,NJD,VGK
+2026020215,2026-10-30,Winnipeg Jets,Florida Panthers,2,5,Ordinarie,24.0,38.0,19.35,21.26,0.25,-1.29,WPG,FLA
+2026020216,2026-10-30,Seattle Kraken,Calgary Flames,2,6,Ordinarie,22.0,27.0,18.77,16.48,-0.9,0.94,SEA,CGY
