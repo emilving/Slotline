@@ -2,17 +2,15 @@ name: Slotline – uppdatera statistik
 
 on:
   schedule:
-    # GitHub räknar i UTC och följer inte sommartid, så varje körning finns två gånger:
-    # en för sommartid och en för vintertid. Jobbet "klocka" släpper bara igenom den
-    # som stämmer med svensk tid just nu. GitHub startar ofta 20–40 minuter sent,
-    # därför ligger tiderna en halvtimme före målet.
-    - cron: "33 6 * * *"   # morgon, sommartid (mål 09.00)
-    - cron: "33 7 * * *"   # morgon, vintertid (mål 09.00)
-    - cron: "33 19 * * *"  # kväll, sommartid (mål 22.00)
-    - cron: "33 20 * * *"  # kväll, vintertid (mål 22.00)
+    # Uppdateringarna startas av schemalagda uppgifter i Claude kl. 08.55 och 21.55 svensk tid.
+    # GitHubs eget schema startar ofta flera timmar sent och används bara som reserv:
+    # jobbet "klocka" hoppar över körningen om sidan redan uppdaterats de senaste 8 timmarna.
+    - cron: "33 7 * * *"
+    - cron: "33 20 * * *"
   workflow_dispatch: # gör att du kan starta en körning för hand under fliken Actions
 
 permissions:
+  actions: read
   contents: write
   pages: write
   id-token: write
@@ -27,14 +25,18 @@ jobs:
     outputs:
       kor: ${{ steps.tid.outputs.kor }}
     steps:
-      - name: Stämmer tiden med svensk tid?
+      - name: Behövs en reservkörning?
         id: tid
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ "${{ github.event_name }}" != "schedule" ]; then echo "kor=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-          H=$(echo "${{ github.event.schedule }}" | awk '{print $2}')
-          OFF=$(TZ=Europe/Stockholm date +%z | cut -c2-3)
-          L=$(( (10#$H + 10#$OFF) % 24 ))
-          if [ "$L" -eq 8 ] || [ "$L" -eq 21 ]; then echo "kor=true" >> "$GITHUB_OUTPUT"; else echo "kor=false" >> "$GITHUB_OUTPUT"; echo "Fel tid för årstiden – hoppar över."; fi
+          SIST=$(gh api "repos/${{ github.repository }}/actions/workflows/uppdatera.yml/runs?event=workflow_dispatch&status=success&per_page=1" --jq '.workflow_runs[0].created_at' || echo "")
+          if [ -n "$SIST" ] && [ $(( $(date +%s) - $(date -d "$SIST" +%s) )) -lt 28800 ]; then
+            echo "kor=false" >> "$GITHUB_OUTPUT"; echo "Sidan uppdaterades $SIST – ingen reservkörning behövs."
+          else
+            echo "kor=true" >> "$GITHUB_OUTPUT"
+          fi
 
   bygg:
     needs: klocka
