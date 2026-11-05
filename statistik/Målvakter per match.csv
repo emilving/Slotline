@@ -1,520 +1,528 @@
 ﻿Match-id,Datum,Spelar-id,Spelare,Nummer,Lag,Lagförkortning,Motståndare,Hemma/borta,Resultat,Mål för,Mål mot,Avgjord i,Istid (min),Byteslista,Position,Skott mot,Räddningar,Insläppta,Skott mot 5v5,Insläppta 5v5,xG mot,Insläppta (xG-skott),Startade,Beslut,Räddnings-%,Game Score,GSAx,Game Score+
-2026020001,2026-09-29,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Florida Panthers,Hemma,FÖ,0,1,Förlängning,64.92,ja,Målvakt,20.0,19.0,1.0,12.0,0.0,1.817,1.0,ja,Förlust (förl./str.),0.95,1.15,0.817,0.613
-2026020001,2026-09-29,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Carolina Hurricanes,Borta,V,1,0,Förlängning,64.92,ja,Målvakt,15.0,15.0,0.0,5.0,0.0,2.393,0.0,ja,Vinst,1.0,1.5,2.393,1.795
+2026020001,2026-09-29,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Florida Panthers,Hemma,FÖ,0,1,Förlängning,64.92,ja,Målvakt,20.0,19.0,1.0,12.0,0.0,1.819,1.0,ja,Förlust (förl./str.),0.95,1.15,0.819,0.614
+2026020001,2026-09-29,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Carolina Hurricanes,Borta,V,1,0,Förlängning,64.92,ja,Målvakt,15.0,15.0,0.0,5.0,0.0,2.388,0.0,ja,Vinst,1.0,1.5,2.388,1.791
 2026020002,2026-09-29,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Montréal Canadiens,Hemma,F,2,3,Ordinarie,58.75,ja,Målvakt,24.0,21.0,3.0,19.0,3.0,2.089,3.0,ja,Förlust,0.875,-0.15,-0.911,-0.683
-2026020002,2026-09-29,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Toronto Maple Leafs,Borta,V,3,2,Ordinarie,59.6,ja,Målvakt,28.0,26.0,2.0,23.0,2.0,3.053,2.0,ja,Vinst,0.929,1.1,1.053,0.79
-2026020003,2026-09-29,8480280,Jeremy Swayman,1,Boston Bruins,BOS,New York Rangers,Hemma,V,3,0,Ordinarie,60.0,ja,Målvakt,24.0,24.0,0.0,22.0,0.0,2.414,0.0,ja,Vinst,1.0,2.4,2.414,1.811
-2026020003,2026-09-29,8478048,Igor Shesterkin,31,New York Rangers,NYR,Boston Bruins,Borta,F,0,3,Ordinarie,59.38,ja,Målvakt,22.0,20.0,2.0,21.0,2.0,2.582,2.0,ja,Förlust,0.909,0.5,0.582,0.436
-2026020004,2026-09-29,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Vancouver Canucks,Hemma,FÖ,5,6,Förlängning,61.55,ja,Målvakt,23.0,17.0,6.0,17.0,3.0,1.941,6.0,ja,Förlust (förl./str.),0.739,-2.8,-4.059,-3.044
-2026020004,2026-09-29,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Edmonton Oilers,Borta,V,6,5,Förlängning,61.72,ja,Målvakt,37.0,32.0,5.0,31.0,4.0,3.545,5.0,ja,Vinst,0.865,-0.55,-1.455,-1.091
+2026020002,2026-09-29,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Toronto Maple Leafs,Borta,V,3,2,Ordinarie,59.6,ja,Målvakt,28.0,26.0,2.0,23.0,2.0,3.052,2.0,ja,Vinst,0.929,1.1,1.052,0.789
+2026020003,2026-09-29,8480280,Jeremy Swayman,1,Boston Bruins,BOS,New York Rangers,Hemma,V,3,0,Ordinarie,60.0,ja,Målvakt,24.0,24.0,0.0,22.0,0.0,2.412,0.0,ja,Vinst,1.0,2.4,2.412,1.809
+2026020003,2026-09-29,8478048,Igor Shesterkin,31,New York Rangers,NYR,Boston Bruins,Borta,F,0,3,Ordinarie,59.38,ja,Målvakt,22.0,20.0,2.0,21.0,2.0,2.584,2.0,ja,Förlust,0.909,0.5,0.584,0.438
+2026020004,2026-09-29,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Vancouver Canucks,Hemma,FÖ,5,6,Förlängning,61.55,ja,Målvakt,23.0,17.0,6.0,17.0,3.0,1.948,6.0,ja,Förlust (förl./str.),0.739,-2.8,-4.052,-3.039
+2026020004,2026-09-29,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Edmonton Oilers,Borta,V,6,5,Förlängning,61.72,ja,Målvakt,37.0,32.0,5.0,31.0,4.0,3.529,5.0,ja,Vinst,0.865,-0.55,-1.471,-1.103
 2026020005,2026-09-29,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Chicago Blackhawks,Hemma,V,5,2,Ordinarie,59.95,ja,Målvakt,26.0,24.0,2.0,22.0,2.0,2.35,2.0,ja,Vinst,0.923,0.9,0.35,0.262
-2026020005,2026-09-29,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Vegas Golden Knights,Borta,F,2,5,Ordinarie,59.78,ja,Målvakt,36.0,32.0,4.0,31.0,3.0,3.39,4.0,ja,Förlust,0.889,0.2,-0.61,-0.458
-2026020006,2026-09-30,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Philadelphia Flyers,Borta,V,7,0,Ordinarie,60.0,ja,Målvakt,19.0,19.0,0.0,11.0,0.0,1.841,0.0,ja,Vinst,1.0,1.9,1.841,1.381
-2026020006,2026-09-30,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Pittsburgh Penguins,Hemma,F,0,7,Ordinarie,59.68,ja,Målvakt,38.0,31.0,7.0,31.0,4.0,4.426,7.0,ja,Förlust,0.816,-2.15,-2.574,-1.93
-2026020007,2026-09-30,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Colorado Avalanche,Borta,F,4,8,Ordinarie,59.42,ja,Målvakt,29.0,21.0,8.0,22.0,4.0,3.003,8.0,ja,Förlust,0.724,-3.9,-4.997,-3.748
-2026020007,2026-09-30,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Los Angeles Kings,Hemma,V,8,4,Ordinarie,60.0,ja,Målvakt,31.0,27.0,4.0,24.0,1.0,3.115,4.0,ja,Vinst,0.871,-0.3,-0.885,-0.664
-2026020008,2026-09-30,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,New York Islanders,Hemma,V,2,1,Ordinarie,58.37,ja,Målvakt,27.0,26.0,1.0,21.0,0.0,2.971,1.0,ja,Vinst,0.963,1.85,1.971,1.478
-2026020008,2026-09-30,8478009,Ilya Sorokin,30,New York Islanders,NYI,Toronto Maple Leafs,Borta,F,1,2,Ordinarie,57.93,ja,Målvakt,26.0,24.0,2.0,18.0,1.0,2.686,2.0,ja,Förlust,0.923,0.9,0.686,0.515
-2026020009,2026-10-01,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,New Jersey Devils,Borta,FÖ,2,3,Förlängning,62.82,ja,Målvakt,44.0,41.0,3.0,33.0,2.0,4.377,3.0,ja,Förlust (förl./str.),0.932,1.85,1.377,1.033
-2026020009,2026-10-01,8474596,Jake Allen,34,New Jersey Devils,NJD,Philadelphia Flyers,Hemma,V,3,2,Förlängning,63.38,ja,Målvakt,25.0,23.0,2.0,20.0,1.0,1.637,2.0,ja,Vinst,0.92,0.8,-0.363,-0.272
-2026020010,2026-10-01,8478048,Igor Shesterkin,31,New York Rangers,NYR,Tampa Bay Lightning,Hemma,V,5,1,Ordinarie,60.0,ja,Målvakt,24.0,23.0,1.0,12.0,1.0,2.923,1.0,ja,Vinst,0.958,1.55,1.923,1.442
+2026020005,2026-09-29,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Vegas Golden Knights,Borta,F,2,5,Ordinarie,59.78,ja,Målvakt,36.0,32.0,4.0,31.0,3.0,3.381,4.0,ja,Förlust,0.889,0.2,-0.619,-0.464
+2026020006,2026-09-30,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Philadelphia Flyers,Borta,V,7,0,Ordinarie,60.0,ja,Målvakt,19.0,19.0,0.0,11.0,0.0,1.838,0.0,ja,Vinst,1.0,1.9,1.838,1.378
+2026020006,2026-09-30,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Pittsburgh Penguins,Hemma,F,0,7,Ordinarie,59.68,ja,Målvakt,38.0,31.0,7.0,31.0,4.0,4.422,7.0,ja,Förlust,0.816,-2.15,-2.578,-1.934
+2026020007,2026-09-30,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Colorado Avalanche,Borta,F,4,8,Ordinarie,59.42,ja,Målvakt,29.0,21.0,8.0,22.0,4.0,2.998,8.0,ja,Förlust,0.724,-3.9,-5.002,-3.752
+2026020007,2026-09-30,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Los Angeles Kings,Hemma,V,8,4,Ordinarie,60.0,ja,Målvakt,31.0,27.0,4.0,24.0,1.0,3.124,4.0,ja,Vinst,0.871,-0.3,-0.876,-0.657
+2026020008,2026-09-30,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,New York Islanders,Hemma,V,2,1,Ordinarie,58.37,ja,Målvakt,27.0,26.0,1.0,21.0,0.0,2.968,1.0,ja,Vinst,0.963,1.85,1.968,1.476
+2026020008,2026-09-30,8478009,Ilya Sorokin,30,New York Islanders,NYI,Toronto Maple Leafs,Borta,F,1,2,Ordinarie,57.93,ja,Målvakt,26.0,24.0,2.0,18.0,1.0,2.69,2.0,ja,Förlust,0.923,0.9,0.69,0.518
+2026020009,2026-10-01,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,New Jersey Devils,Borta,FÖ,2,3,Förlängning,62.82,ja,Målvakt,44.0,41.0,3.0,33.0,2.0,4.368,3.0,ja,Förlust (förl./str.),0.932,1.85,1.368,1.026
+2026020009,2026-10-01,8474596,Jake Allen,34,New Jersey Devils,NJD,Philadelphia Flyers,Hemma,V,3,2,Förlängning,63.38,ja,Målvakt,25.0,23.0,2.0,20.0,1.0,1.636,2.0,ja,Vinst,0.92,0.8,-0.364,-0.273
+2026020010,2026-10-01,8478048,Igor Shesterkin,31,New York Rangers,NYR,Tampa Bay Lightning,Hemma,V,5,1,Ordinarie,60.0,ja,Målvakt,24.0,23.0,1.0,12.0,1.0,2.926,1.0,ja,Vinst,0.958,1.55,1.926,1.444
 2026020010,2026-10-01,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,New York Rangers,Borta,F,1,5,Ordinarie,55.87,ja,Målvakt,24.0,20.0,4.0,20.0,3.0,2.799,4.0,ja,Förlust,0.833,-1.0,-1.201,-0.901
-2026020011,2026-10-01,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Columbus Blue Jackets,Borta,F,3,6,Ordinarie,59.13,ja,Målvakt,22.0,17.0,5.0,14.0,3.0,2.169,5.0,ja,Förlust,0.773,-2.05,-2.831,-2.123
-2026020011,2026-10-01,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Buffalo Sabres,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,26.0,23.0,3.0,19.0,2.0,2.761,3.0,ja,Vinst,0.885,0.05,-0.239,-0.179
-2026020012,2026-10-01,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Nashville Predators,Borta,V,3,1,Ordinarie,59.23,ja,Målvakt,20.0,19.0,1.0,13.0,1.0,2.069,1.0,ja,Vinst,0.95,1.15,1.069,0.802
-2026020012,2026-10-01,8477424,Juuse Saros,74,Nashville Predators,NSH,Minnesota Wild,Hemma,F,1,3,Ordinarie,58.32,ja,Målvakt,30.0,27.0,3.0,20.0,2.0,3.529,3.0,ja,Förlust,0.9,0.45,0.529,0.397
-2026020013,2026-10-01,8482821,Arvid Soderblom,40,Chicago Blackhawks,CHI,Utah Mammoth,Borta,F,0,6,Ordinarie,60.0,ja,Målvakt,32.0,26.0,6.0,28.0,4.0,3.874,6.0,ja,Förlust,0.812,-1.9,-2.126,-1.594
-2026020013,2026-10-01,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Chicago Blackhawks,Hemma,V,6,0,Ordinarie,60.0,ja,Målvakt,15.0,15.0,0.0,14.0,0.0,1.727,0.0,ja,Vinst,1.0,1.5,1.727,1.295
-2026020014,2026-10-01,8481692,Dustin Wolf,32,Calgary Flames,CGY,Seattle Kraken,Hemma,F,1,6,Ordinarie,59.83,ja,Målvakt,32.0,26.0,6.0,25.0,5.0,3.796,6.0,ja,Förlust,0.812,-1.9,-2.204,-1.653
-2026020014,2026-10-01,8478916,Joey Daccord,35,Seattle Kraken,SEA,Calgary Flames,Borta,V,6,1,Ordinarie,59.5,ja,Målvakt,25.0,24.0,1.0,23.0,1.0,2.671,1.0,ja,Vinst,0.96,1.65,1.671,1.253
-2026020015,2026-10-01,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Edmonton Oilers,Hemma,F,7,9,Ordinarie,30.68,ja,Målvakt,11.0,10.0,1.0,6.0,0.0,0.976,1.0,nej,,0.909,0.25,-0.024,-0.018
-2026020015,2026-10-01,8482221,Devon Levi,27,Edmonton Oilers,EDM,Vancouver Canucks,Borta,V,9,7,Ordinarie,59.85,ja,Målvakt,22.0,15.0,7.0,16.0,6.0,2.751,7.0,ja,Vinst,0.682,-3.75,-4.249,-3.187
-2026020015,2026-10-01,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Edmonton Oilers,Hemma,F,7,9,Ordinarie,28.38,ja,Målvakt,21.0,13.0,8.0,15.0,5.0,2.34,8.0,ja,Förlust,0.619,-4.7,-5.66,-4.245
-2026020016,2026-10-01,8481033,Akira Schmid,40,Florida Panthers,FLA,San Jose Sharks,Borta,FÖ,3,4,Förlängning,63.23,ja,Målvakt,32.0,28.0,4.0,17.0,1.0,3.089,4.0,ja,Förlust (förl./str.),0.875,-0.2,-0.911,-0.683
-2026020016,2026-10-01,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Florida Panthers,Hemma,V,4,3,Förlängning,63.23,ja,Målvakt,26.0,23.0,3.0,17.0,2.0,3.772,3.0,ja,Vinst,0.885,0.05,0.772,0.579
-2026020017,2026-10-02,8476434,John Gibson,36,Detroit Red Wings,DET,New York Rangers,Hemma,F,0,2,Ordinarie,59.03,ja,Målvakt,20.0,19.0,1.0,16.0,0.0,1.982,1.0,ja,Förlust,0.95,1.15,0.982,0.736
-2026020017,2026-10-02,8482193,Dylan Garand,33,New York Rangers,NYR,Detroit Red Wings,Borta,V,2,0,Ordinarie,60.0,ja,Målvakt,22.0,22.0,0.0,19.0,0.0,1.402,0.0,ja,Vinst,1.0,2.2,1.402,1.051
-2026020018,2026-10-02,8480313,Logan Thompson,48,Washington Capitals,WSH,Carolina Hurricanes,Borta,V,5,2,Ordinarie,59.88,ja,Målvakt,33.0,31.0,2.0,16.0,1.0,4.008,2.0,ja,Vinst,0.939,1.6,2.008,1.506
-2026020018,2026-10-02,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Washington Capitals,Hemma,F,2,5,Ordinarie,60.0,ja,Målvakt,27.0,22.0,5.0,22.0,4.0,2.637,5.0,ja,Förlust,0.815,-1.55,-2.363,-1.772
-2026020019,2026-10-02,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Winnipeg Jets,Borta,V,4,3,Förlängning,62.42,ja,Målvakt,33.0,30.0,3.0,24.0,2.0,4.054,3.0,ja,Vinst,0.909,0.75,1.054,0.79
-2026020019,2026-10-02,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Boston Bruins,Hemma,FÖ,3,4,Förlängning,63.35,ja,Målvakt,30.0,26.0,4.0,25.0,2.0,2.841,4.0,ja,Förlust (förl./str.),0.867,-0.4,-1.159,-0.869
-2026020020,2026-10-02,8480981,Joel Hofer,30,St. Louis Blues,STL,Dallas Stars,Borta,V,4,0,Ordinarie,60.0,ja,Målvakt,25.0,25.0,0.0,16.0,0.0,3.329,0.0,ja,Vinst,1.0,2.5,3.329,2.497
-2026020020,2026-10-02,8479979,Jake Oettinger,29,Dallas Stars,DAL,St. Louis Blues,Hemma,F,0,4,Ordinarie,58.28,ja,Målvakt,22.0,20.0,2.0,15.0,2.0,2.262,2.0,ja,Förlust,0.909,0.5,0.262,0.196
-2026020021,2026-10-02,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Vegas Golden Knights,Borta,V,4,3,Ordinarie,60.0,ja,Målvakt,30.0,27.0,3.0,23.0,2.0,3.538,3.0,ja,Vinst,0.9,0.45,0.538,0.404
-2026020021,2026-10-02,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Anaheim Ducks,Hemma,F,3,4,Ordinarie,57.67,ja,Målvakt,20.0,16.0,4.0,18.0,4.0,2.13,4.0,ja,Förlust,0.8,-1.4,-1.87,-1.402
-2026020022,2026-10-03,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Chicago Blackhawks,Hemma,V,4,3,Ordinarie,60.0,ja,Målvakt,15.0,12.0,3.0,13.0,3.0,2.38,3.0,ja,Vinst,0.8,-1.05,-0.62,-0.465
-2026020022,2026-10-03,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Buffalo Sabres,Borta,F,3,4,Ordinarie,59.02,ja,Målvakt,28.0,24.0,4.0,25.0,3.0,4.439,4.0,ja,Förlust,0.857,-0.6,0.439,0.329
-2026020023,2026-10-03,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Ottawa Senators,Hemma,F,2,3,Ordinarie,58.83,ja,Målvakt,29.0,26.0,3.0,18.0,3.0,4.524,3.0,ja,Förlust,0.897,0.35,1.524,1.143
-2026020023,2026-10-03,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Toronto Maple Leafs,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,24.0,1.0,3.644,2.0,ja,Vinst,0.931,1.2,1.644,1.233
-2026020024,2026-10-03,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Tampa Bay Lightning,Borta,F,1,3,Ordinarie,57.6,ja,Målvakt,29.0,27.0,2.0,24.0,2.0,3.633,2.0,ja,Förlust,0.931,1.2,1.633,1.225
-2026020024,2026-10-03,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Washington Capitals,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,21.0,20.0,1.0,13.0,1.0,2.268,1.0,ja,Vinst,0.952,1.25,1.268,0.951
-2026020025,2026-10-03,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Philadelphia Flyers,Borta,V,3,2,Förlängning,62.85,ja,Målvakt,18.0,16.0,2.0,15.0,2.0,2.539,2.0,ja,Vinst,0.889,0.1,0.539,0.404
-2026020025,2026-10-03,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Carolina Hurricanes,Hemma,FÖ,2,3,Förlängning,62.8,ja,Målvakt,40.0,37.0,3.0,31.0,1.0,4.225,3.0,ja,Förlust (förl./str.),0.925,1.45,1.225,0.919
-2026020026,2026-10-03,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Montréal Canadiens,Hemma,V,6,5,Förlängning,61.55,ja,Målvakt,25.0,20.0,5.0,19.0,2.0,2.938,5.0,ja,Vinst,0.8,-1.75,-2.062,-1.546
-2026020026,2026-10-03,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Pittsburgh Penguins,Borta,FÖ,5,6,Förlängning,59.07,ja,Målvakt,30.0,24.0,6.0,20.0,3.0,3.028,6.0,ja,Förlust (förl./str.),0.8,-2.1,-2.972,-2.229
-2026020027,2026-10-03,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Columbus Blue Jackets,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,19.0,18.0,1.0,17.0,1.0,2.576,1.0,ja,Vinst,0.947,1.05,1.576,1.182
-2026020027,2026-10-03,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Utah Mammoth,Hemma,F,1,4,Ordinarie,60.0,ja,Målvakt,31.0,27.0,4.0,22.0,1.0,3.029,4.0,ja,Förlust,0.871,-0.3,-0.971,-0.728
-2026020028,2026-10-03,8482221,Devon Levi,27,Edmonton Oilers,EDM,Seattle Kraken,Hemma,V,3,1,Ordinarie,59.63,ja,Målvakt,20.0,19.0,1.0,16.0,0.0,1.631,1.0,ja,Vinst,0.95,1.15,0.631,0.473
-2026020028,2026-10-03,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Edmonton Oilers,Borta,F,1,3,Ordinarie,59.1,ja,Målvakt,25.0,23.0,2.0,15.0,2.0,2.969,2.0,ja,Förlust,0.92,0.8,0.969,0.727
-2026020029,2026-10-03,8482076,Nico Daws,50,New Jersey Devils,NJD,New York Islanders,Borta,F,0,6,Ordinarie,59.87,ja,Målvakt,32.0,26.0,6.0,22.0,4.0,3.627,6.0,ja,Förlust,0.812,-1.9,-2.373,-1.78
-2026020029,2026-10-03,8478009,Ilya Sorokin,30,New York Islanders,NYI,New Jersey Devils,Hemma,V,6,0,Ordinarie,60.0,ja,Målvakt,37.0,37.0,0.0,30.0,0.0,3.707,0.0,ja,Vinst,1.0,3.7,3.707,2.78
-2026020030,2026-10-03,8479193,Casey DeSmith,1,Dallas Stars,DAL,Nashville Predators,Borta,F,1,2,Ordinarie,58.4,ja,Målvakt,26.0,24.0,2.0,23.0,0.0,2.531,2.0,ja,Förlust,0.923,0.9,0.531,0.398
-2026020030,2026-10-03,8477424,Juuse Saros,74,Nashville Predators,NSH,Dallas Stars,Hemma,V,2,1,Ordinarie,59.95,ja,Målvakt,30.0,29.0,1.0,23.0,1.0,2.195,1.0,ja,Vinst,0.967,2.15,1.195,0.896
-2026020031,2026-10-03,8480022,Michael DiPietro,30,Boston Bruins,BOS,Minnesota Wild,Borta,F,1,4,Ordinarie,57.88,ja,Målvakt,29.0,26.0,3.0,22.0,1.0,2.504,3.0,ja,Förlust,0.897,0.35,-0.496,-0.372
-2026020031,2026-10-03,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Boston Bruins,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,21.0,1.0,2.774,1.0,ja,Vinst,0.963,1.85,1.774,1.33
-2026020032,2026-10-03,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,St. Louis Blues,Hemma,V,6,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,22.0,1.0,1.989,1.0,ja,Vinst,0.962,1.75,0.989,0.742
-2026020032,2026-10-03,8476412,Jordan Binnington,50,St. Louis Blues,STL,Colorado Avalanche,Borta,F,1,6,Ordinarie,60.0,ja,Målvakt,36.0,30.0,6.0,28.0,6.0,3.412,6.0,ja,Förlust,0.833,-1.5,-2.588,-1.941
-2026020033,2026-10-03,8482445,Devin Cooley,1,Calgary Flames,CGY,Vancouver Canucks,Borta,F,1,4,Ordinarie,59.77,ja,Målvakt,25.0,22.0,3.0,20.0,2.0,2.726,3.0,ja,Förlust,0.88,-0.05,-0.274,-0.206
-2026020033,2026-10-03,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Calgary Flames,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,24.0,23.0,1.0,22.0,0.0,2.049,1.0,ja,Vinst,0.958,1.55,1.049,0.787
-2026020034,2026-10-03,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Los Angeles Kings,Hemma,V,5,4,Förlängning,63.3,ja,Målvakt,35.0,31.0,4.0,27.0,2.0,3.482,4.0,ja,Vinst,0.886,0.1,-0.518,-0.388
+2026020011,2026-10-01,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Columbus Blue Jackets,Borta,F,3,6,Ordinarie,59.13,ja,Målvakt,22.0,17.0,5.0,14.0,3.0,2.167,5.0,ja,Förlust,0.773,-2.05,-2.833,-2.125
+2026020011,2026-10-01,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Buffalo Sabres,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,26.0,23.0,3.0,19.0,2.0,2.755,3.0,ja,Vinst,0.885,0.05,-0.245,-0.184
+2026020012,2026-10-01,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Nashville Predators,Borta,V,3,1,Ordinarie,59.23,ja,Målvakt,20.0,19.0,1.0,13.0,1.0,2.07,1.0,ja,Vinst,0.95,1.15,1.07,0.802
+2026020012,2026-10-01,8477424,Juuse Saros,74,Nashville Predators,NSH,Minnesota Wild,Hemma,F,1,3,Ordinarie,58.32,ja,Målvakt,30.0,27.0,3.0,20.0,2.0,3.528,3.0,ja,Förlust,0.9,0.45,0.528,0.396
+2026020013,2026-10-01,8482821,Arvid Soderblom,40,Chicago Blackhawks,CHI,Utah Mammoth,Borta,F,0,6,Ordinarie,60.0,ja,Målvakt,32.0,26.0,6.0,28.0,4.0,3.869,6.0,ja,Förlust,0.812,-1.9,-2.131,-1.598
+2026020013,2026-10-01,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Chicago Blackhawks,Hemma,V,6,0,Ordinarie,60.0,ja,Målvakt,15.0,15.0,0.0,14.0,0.0,1.721,0.0,ja,Vinst,1.0,1.5,1.721,1.291
+2026020014,2026-10-01,8481692,Dustin Wolf,32,Calgary Flames,CGY,Seattle Kraken,Hemma,F,1,6,Ordinarie,59.83,ja,Målvakt,32.0,26.0,6.0,25.0,5.0,3.801,6.0,ja,Förlust,0.812,-1.9,-2.199,-1.649
+2026020014,2026-10-01,8478916,Joey Daccord,35,Seattle Kraken,SEA,Calgary Flames,Borta,V,6,1,Ordinarie,59.5,ja,Målvakt,25.0,24.0,1.0,23.0,1.0,2.672,1.0,ja,Vinst,0.96,1.65,1.672,1.254
+2026020015,2026-10-01,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Edmonton Oilers,Hemma,F,7,9,Ordinarie,30.68,ja,Målvakt,11.0,10.0,1.0,6.0,0.0,0.974,1.0,nej,,0.909,0.25,-0.026,-0.02
+2026020015,2026-10-01,8482221,Devon Levi,27,Edmonton Oilers,EDM,Vancouver Canucks,Borta,V,9,7,Ordinarie,59.85,ja,Målvakt,22.0,15.0,7.0,16.0,6.0,2.744,7.0,ja,Vinst,0.682,-3.75,-4.256,-3.192
+2026020015,2026-10-01,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Edmonton Oilers,Hemma,F,7,9,Ordinarie,28.38,ja,Målvakt,21.0,13.0,8.0,15.0,5.0,2.341,8.0,ja,Förlust,0.619,-4.7,-5.659,-4.244
+2026020016,2026-10-01,8481033,Akira Schmid,40,Florida Panthers,FLA,San Jose Sharks,Borta,FÖ,3,4,Förlängning,63.23,ja,Målvakt,32.0,28.0,4.0,17.0,1.0,3.086,4.0,ja,Förlust (förl./str.),0.875,-0.2,-0.914,-0.686
+2026020016,2026-10-01,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Florida Panthers,Hemma,V,4,3,Förlängning,63.23,ja,Målvakt,26.0,23.0,3.0,17.0,2.0,3.767,3.0,ja,Vinst,0.885,0.05,0.767,0.575
+2026020017,2026-10-02,8476434,John Gibson,36,Detroit Red Wings,DET,New York Rangers,Hemma,F,0,2,Ordinarie,59.03,ja,Målvakt,20.0,19.0,1.0,16.0,0.0,1.986,1.0,ja,Förlust,0.95,1.15,0.986,0.74
+2026020017,2026-10-02,8482193,Dylan Garand,33,New York Rangers,NYR,Detroit Red Wings,Borta,V,2,0,Ordinarie,60.0,ja,Målvakt,22.0,22.0,0.0,19.0,0.0,1.401,0.0,ja,Vinst,1.0,2.2,1.401,1.051
+2026020018,2026-10-02,8480313,Logan Thompson,48,Washington Capitals,WSH,Carolina Hurricanes,Borta,V,5,2,Ordinarie,59.88,ja,Målvakt,33.0,31.0,2.0,16.0,1.0,4.0,2.0,ja,Vinst,0.939,1.6,2.0,1.5
+2026020018,2026-10-02,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Washington Capitals,Hemma,F,2,5,Ordinarie,60.0,ja,Målvakt,27.0,22.0,5.0,22.0,4.0,2.635,5.0,ja,Förlust,0.815,-1.55,-2.365,-1.774
+2026020019,2026-10-02,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Winnipeg Jets,Borta,V,4,3,Förlängning,62.42,ja,Målvakt,33.0,30.0,3.0,24.0,2.0,4.038,3.0,ja,Vinst,0.909,0.75,1.038,0.778
+2026020019,2026-10-02,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Boston Bruins,Hemma,FÖ,3,4,Förlängning,63.35,ja,Målvakt,30.0,26.0,4.0,25.0,2.0,2.837,4.0,ja,Förlust (förl./str.),0.867,-0.4,-1.163,-0.872
+2026020020,2026-10-02,8480981,Joel Hofer,30,St. Louis Blues,STL,Dallas Stars,Borta,V,4,0,Ordinarie,60.0,ja,Målvakt,25.0,25.0,0.0,16.0,0.0,3.316,0.0,ja,Vinst,1.0,2.5,3.316,2.487
+2026020020,2026-10-02,8479979,Jake Oettinger,29,Dallas Stars,DAL,St. Louis Blues,Hemma,F,0,4,Ordinarie,58.28,ja,Målvakt,22.0,20.0,2.0,15.0,2.0,2.259,2.0,ja,Förlust,0.909,0.5,0.259,0.194
+2026020021,2026-10-02,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Vegas Golden Knights,Borta,V,4,3,Ordinarie,60.0,ja,Målvakt,30.0,27.0,3.0,23.0,2.0,3.544,3.0,ja,Vinst,0.9,0.45,0.544,0.408
+2026020021,2026-10-02,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Anaheim Ducks,Hemma,F,3,4,Ordinarie,57.67,ja,Målvakt,20.0,16.0,4.0,18.0,4.0,2.123,4.0,ja,Förlust,0.8,-1.4,-1.877,-1.408
+2026020022,2026-10-03,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Chicago Blackhawks,Hemma,V,4,3,Ordinarie,60.0,ja,Målvakt,15.0,12.0,3.0,13.0,3.0,2.371,3.0,ja,Vinst,0.8,-1.05,-0.629,-0.472
+2026020022,2026-10-03,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Buffalo Sabres,Borta,F,3,4,Ordinarie,59.02,ja,Målvakt,28.0,24.0,4.0,25.0,3.0,4.421,4.0,ja,Förlust,0.857,-0.6,0.421,0.316
+2026020023,2026-10-03,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Ottawa Senators,Hemma,F,2,3,Ordinarie,58.83,ja,Målvakt,29.0,26.0,3.0,18.0,3.0,4.51,3.0,ja,Förlust,0.897,0.35,1.51,1.132
+2026020023,2026-10-03,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Toronto Maple Leafs,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,24.0,1.0,3.651,2.0,ja,Vinst,0.931,1.2,1.651,1.238
+2026020024,2026-10-03,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Tampa Bay Lightning,Borta,F,1,3,Ordinarie,57.6,ja,Målvakt,29.0,27.0,2.0,24.0,2.0,3.623,2.0,ja,Förlust,0.931,1.2,1.623,1.217
+2026020024,2026-10-03,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Washington Capitals,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,21.0,20.0,1.0,13.0,1.0,2.26,1.0,ja,Vinst,0.952,1.25,1.26,0.945
+2026020025,2026-10-03,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Philadelphia Flyers,Borta,V,3,2,Förlängning,62.85,ja,Målvakt,18.0,16.0,2.0,15.0,2.0,2.536,2.0,ja,Vinst,0.889,0.1,0.536,0.402
+2026020025,2026-10-03,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Carolina Hurricanes,Hemma,FÖ,2,3,Förlängning,62.8,ja,Målvakt,40.0,37.0,3.0,31.0,1.0,4.203,3.0,ja,Förlust (förl./str.),0.925,1.45,1.203,0.902
+2026020026,2026-10-03,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Montréal Canadiens,Hemma,V,6,5,Förlängning,61.55,ja,Målvakt,25.0,20.0,5.0,19.0,2.0,2.939,5.0,ja,Vinst,0.8,-1.75,-2.061,-1.546
+2026020026,2026-10-03,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Pittsburgh Penguins,Borta,FÖ,5,6,Förlängning,59.07,ja,Målvakt,30.0,24.0,6.0,20.0,3.0,3.035,6.0,ja,Förlust (förl./str.),0.8,-2.1,-2.965,-2.224
+2026020027,2026-10-03,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Columbus Blue Jackets,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,19.0,18.0,1.0,17.0,1.0,2.569,1.0,ja,Vinst,0.947,1.05,1.569,1.177
+2026020027,2026-10-03,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Utah Mammoth,Hemma,F,1,4,Ordinarie,60.0,ja,Målvakt,31.0,27.0,4.0,22.0,1.0,3.021,4.0,ja,Förlust,0.871,-0.3,-0.979,-0.734
+2026020028,2026-10-03,8482221,Devon Levi,27,Edmonton Oilers,EDM,Seattle Kraken,Hemma,V,3,1,Ordinarie,59.63,ja,Målvakt,20.0,19.0,1.0,16.0,0.0,1.629,1.0,ja,Vinst,0.95,1.15,0.629,0.472
+2026020028,2026-10-03,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Edmonton Oilers,Borta,F,1,3,Ordinarie,59.1,ja,Målvakt,25.0,23.0,2.0,15.0,2.0,2.963,2.0,ja,Förlust,0.92,0.8,0.963,0.722
+2026020029,2026-10-03,8482076,Nico Daws,50,New Jersey Devils,NJD,New York Islanders,Borta,F,0,6,Ordinarie,59.87,ja,Målvakt,32.0,26.0,6.0,22.0,4.0,3.622,6.0,ja,Förlust,0.812,-1.9,-2.378,-1.784
+2026020029,2026-10-03,8478009,Ilya Sorokin,30,New York Islanders,NYI,New Jersey Devils,Hemma,V,6,0,Ordinarie,60.0,ja,Målvakt,37.0,37.0,0.0,30.0,0.0,3.703,0.0,ja,Vinst,1.0,3.7,3.703,2.777
+2026020030,2026-10-03,8479193,Casey DeSmith,1,Dallas Stars,DAL,Nashville Predators,Borta,F,1,2,Ordinarie,58.4,ja,Målvakt,26.0,24.0,2.0,23.0,0.0,2.528,2.0,ja,Förlust,0.923,0.9,0.528,0.396
+2026020030,2026-10-03,8477424,Juuse Saros,74,Nashville Predators,NSH,Dallas Stars,Hemma,V,2,1,Ordinarie,59.95,ja,Målvakt,30.0,29.0,1.0,23.0,1.0,2.191,1.0,ja,Vinst,0.967,2.15,1.191,0.893
+2026020031,2026-10-03,8480022,Michael DiPietro,30,Boston Bruins,BOS,Minnesota Wild,Borta,F,1,4,Ordinarie,57.88,ja,Målvakt,29.0,26.0,3.0,22.0,1.0,2.501,3.0,ja,Förlust,0.897,0.35,-0.499,-0.374
+2026020031,2026-10-03,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Boston Bruins,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,21.0,1.0,2.776,1.0,ja,Vinst,0.963,1.85,1.776,1.332
+2026020032,2026-10-03,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,St. Louis Blues,Hemma,V,6,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,22.0,1.0,1.985,1.0,ja,Vinst,0.962,1.75,0.985,0.739
+2026020032,2026-10-03,8476412,Jordan Binnington,50,St. Louis Blues,STL,Colorado Avalanche,Borta,F,1,6,Ordinarie,60.0,ja,Målvakt,36.0,30.0,6.0,28.0,6.0,3.406,6.0,ja,Förlust,0.833,-1.5,-2.594,-1.946
+2026020033,2026-10-03,8482445,Devin Cooley,1,Calgary Flames,CGY,Vancouver Canucks,Borta,F,1,4,Ordinarie,59.77,ja,Målvakt,25.0,22.0,3.0,20.0,2.0,2.719,3.0,ja,Förlust,0.88,-0.05,-0.281,-0.211
+2026020033,2026-10-03,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Calgary Flames,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,24.0,23.0,1.0,22.0,0.0,2.036,1.0,ja,Vinst,0.958,1.55,1.036,0.777
+2026020034,2026-10-03,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Los Angeles Kings,Hemma,V,5,4,Förlängning,63.3,ja,Målvakt,35.0,31.0,4.0,27.0,2.0,3.483,4.0,ja,Vinst,0.886,0.1,-0.517,-0.388
 2026020034,2026-10-03,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,San Jose Sharks,Borta,FÖ,4,5,Förlängning,62.87,ja,Målvakt,25.0,20.0,5.0,19.0,3.0,1.558,5.0,ja,Förlust (förl./str.),0.8,-1.75,-3.442,-2.582
-2026020035,2026-10-04,8476434,John Gibson,36,Detroit Red Wings,DET,Winnipeg Jets,Hemma,F,2,3,Ordinarie,57.18,ja,Målvakt,27.0,24.0,3.0,18.0,0.0,2.845,3.0,ja,Förlust,0.889,0.15,-0.155,-0.116
-2026020035,2026-10-04,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Detroit Red Wings,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,36.0,34.0,2.0,23.0,1.0,4.356,2.0,ja,Vinst,0.944,1.9,2.356,1.767
-2026020036,2026-10-04,8478048,Igor Shesterkin,31,New York Rangers,NYR,Utah Mammoth,Hemma,V,4,2,Ordinarie,59.97,ja,Målvakt,30.0,28.0,2.0,26.0,1.0,4.189,2.0,ja,Vinst,0.933,1.3,2.189,1.642
-2026020036,2026-10-04,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,New York Rangers,Borta,F,2,4,Ordinarie,58.67,ja,Målvakt,21.0,18.0,3.0,18.0,3.0,2.916,3.0,ja,Förlust,0.857,-0.45,-0.084,-0.063
-2026020037,2026-10-04,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Florida Panthers,Hemma,V,3,2,Förlängning,63.72,ja,Målvakt,31.0,29.0,2.0,18.0,1.0,3.554,2.0,ja,Vinst,0.935,1.4,1.554,1.166
-2026020037,2026-10-04,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Anaheim Ducks,Borta,FÖ,2,3,Förlängning,63.72,ja,Målvakt,20.0,17.0,3.0,13.0,0.0,2.024,3.0,ja,Förlust (förl./str.),0.85,-0.55,-0.976,-0.732
-2026020038,2026-10-04,8481692,Dustin Wolf,32,Calgary Flames,CGY,Seattle Kraken,Borta,F,1,6,Ordinarie,60.0,ja,Målvakt,27.0,21.0,6.0,27.0,6.0,2.602,6.0,ja,Förlust,0.778,-2.4,-3.398,-2.548
-2026020038,2026-10-04,8478916,Joey Daccord,35,Seattle Kraken,SEA,Calgary Flames,Hemma,V,6,1,Ordinarie,60.0,ja,Målvakt,33.0,32.0,1.0,29.0,0.0,3.073,1.0,ja,Vinst,0.97,2.45,2.073,1.555
-2026020039,2026-10-04,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Vancouver Canucks,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,20.0,18.0,2.0,14.0,1.0,1.615,2.0,ja,Vinst,0.9,0.3,-0.385,-0.289
-2026020039,2026-10-04,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Vegas Golden Knights,Hemma,F,2,3,Ordinarie,57.48,ja,Målvakt,28.0,25.0,3.0,20.0,2.0,4.161,3.0,ja,Förlust,0.893,0.25,1.161,0.871
-2026020040,2026-10-05,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Philadelphia Flyers,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,15.0,14.0,1.0,11.0,1.0,1.869,1.0,ja,Vinst,0.933,0.65,0.869,0.652
-2026020040,2026-10-05,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Tampa Bay Lightning,Borta,F,1,4,Ordinarie,57.4,ja,Målvakt,35.0,32.0,3.0,31.0,3.0,4.23,3.0,ja,Förlust,0.914,0.95,1.23,0.922
-2026020041,2026-10-05,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Boston Bruins,Borta,V,4,1,Ordinarie,20.0,ja,Målvakt,9.0,8.0,1.0,9.0,1.0,0.76,1.0,nej,,0.889,0.05,-0.24,-0.18
-2026020041,2026-10-05,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Ottawa Senators,Hemma,F,1,4,Ordinarie,60.0,ja,Målvakt,24.0,20.0,4.0,23.0,3.0,2.404,4.0,ja,Förlust,0.833,-1.0,-1.596,-1.197
-2026020041,2026-10-05,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Boston Bruins,Borta,V,4,1,Ordinarie,40.0,ja,Målvakt,10.0,10.0,0.0,4.0,0.0,1.722,0.0,ja,Vinst,1.0,1.0,1.722,1.292
-2026020042,2026-10-05,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Winnipeg Jets,Hemma,F,2,3,Ordinarie,57.38,ja,Målvakt,35.0,32.0,3.0,33.0,3.0,2.557,3.0,ja,Förlust,0.914,0.95,-0.443,-0.332
-2026020042,2026-10-05,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Pittsburgh Penguins,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,27.0,2.0,2.838,2.0,ja,Vinst,0.935,1.4,0.838,0.628
-2026020043,2026-10-05,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Dallas Stars,Borta,F,0,5,Ordinarie,59.82,ja,Målvakt,26.0,21.0,5.0,19.0,5.0,3.951,5.0,ja,Förlust,0.808,-1.65,-1.049,-0.787
-2026020043,2026-10-05,8479979,Jake Oettinger,29,Dallas Stars,DAL,San Jose Sharks,Hemma,V,5,0,Ordinarie,60.0,ja,Målvakt,13.0,13.0,0.0,9.0,0.0,1.848,0.0,ja,Vinst,1.0,1.3,1.848,1.386
-2026020044,2026-10-06,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Nashville Predators,Hemma,V,5,4,Förlängning,64.77,ja,Målvakt,25.0,21.0,4.0,21.0,3.0,3.115,4.0,ja,Vinst,0.84,-0.9,-0.885,-0.664
-2026020044,2026-10-06,8477424,Juuse Saros,74,Nashville Predators,NSH,Toronto Maple Leafs,Borta,FÖ,4,5,Förlängning,64.58,ja,Målvakt,37.0,32.0,5.0,27.0,3.0,4.079,5.0,ja,Förlust (förl./str.),0.865,-0.55,-0.921,-0.691
-2026020045,2026-10-06,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Carolina Hurricanes,Hemma,F,4,6,Ordinarie,57.22,ja,Målvakt,32.0,27.0,5.0,23.0,4.0,3.525,5.0,ja,Förlust,0.844,-1.05,-1.475,-1.106
-2026020045,2026-10-06,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Montréal Canadiens,Borta,V,6,4,Ordinarie,60.0,ja,Målvakt,20.0,16.0,4.0,10.0,2.0,1.986,4.0,ja,Vinst,0.8,-1.4,-2.014,-1.51
-2026020046,2026-10-06,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Detroit Red Wings,Borta,F,3,5,Ordinarie,57.93,ja,Målvakt,35.0,31.0,4.0,26.0,3.0,3.326,4.0,ja,Förlust,0.886,0.1,-0.674,-0.506
-2026020046,2026-10-06,8476434,John Gibson,36,Detroit Red Wings,DET,Ottawa Senators,Hemma,V,5,3,Ordinarie,59.9,ja,Målvakt,25.0,22.0,3.0,15.0,2.0,2.641,3.0,ja,Vinst,0.88,-0.05,-0.359,-0.269
-2026020047,2026-10-06,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,New Jersey Devils,Borta,V,5,3,Ordinarie,59.77,ja,Målvakt,33.0,30.0,3.0,21.0,2.0,2.882,3.0,ja,Vinst,0.909,0.75,-0.118,-0.088
-2026020047,2026-10-06,8474596,Jake Allen,34,New Jersey Devils,NJD,Utah Mammoth,Hemma,F,3,5,Ordinarie,57.48,ja,Målvakt,31.0,26.0,5.0,20.0,3.0,3.829,5.0,ja,Förlust,0.839,-1.15,-1.171,-0.878
-2026020048,2026-10-06,8478048,Igor Shesterkin,31,New York Rangers,NYR,New York Islanders,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,19.0,17.0,2.0,16.0,1.0,2.366,2.0,ja,Vinst,0.895,0.2,0.366,0.274
-2026020048,2026-10-06,8473575,Semyon Varlamov,40,New York Islanders,NYI,New York Rangers,Borta,F,2,5,Ordinarie,59.43,ja,Målvakt,22.0,19.0,3.0,15.0,2.0,3.681,3.0,ja,Förlust,0.864,-0.35,0.681,0.511
-2026020049,2026-10-06,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Minnesota Wild,Hemma,V,3,2,Förlängning,64.37,ja,Målvakt,20.0,18.0,2.0,16.0,1.0,1.768,2.0,ja,Vinst,0.9,0.3,-0.232,-0.174
-2026020049,2026-10-06,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Buffalo Sabres,Borta,FÖ,2,3,Förlängning,64.37,ja,Målvakt,28.0,25.0,3.0,19.0,2.0,4.041,3.0,ja,Förlust (förl./str.),0.893,0.25,1.041,0.781
-2026020050,2026-10-06,8480981,Joel Hofer,30,St. Louis Blues,STL,Chicago Blackhawks,Borta,F,2,4,Ordinarie,58.23,ja,Målvakt,19.0,17.0,2.0,14.0,1.0,1.576,2.0,ja,Förlust,0.895,0.2,-0.424,-0.318
+2026020035,2026-10-04,8476434,John Gibson,36,Detroit Red Wings,DET,Winnipeg Jets,Hemma,F,2,3,Ordinarie,57.18,ja,Målvakt,27.0,24.0,3.0,18.0,0.0,2.849,3.0,ja,Förlust,0.889,0.15,-0.151,-0.113
+2026020035,2026-10-04,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Detroit Red Wings,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,36.0,34.0,2.0,23.0,1.0,4.341,2.0,ja,Vinst,0.944,1.9,2.341,1.756
+2026020036,2026-10-04,8478048,Igor Shesterkin,31,New York Rangers,NYR,Utah Mammoth,Hemma,V,4,2,Ordinarie,59.97,ja,Målvakt,30.0,28.0,2.0,26.0,1.0,4.184,2.0,ja,Vinst,0.933,1.3,2.184,1.638
+2026020036,2026-10-04,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,New York Rangers,Borta,F,2,4,Ordinarie,58.67,ja,Målvakt,21.0,18.0,3.0,18.0,3.0,2.915,3.0,ja,Förlust,0.857,-0.45,-0.085,-0.064
+2026020037,2026-10-04,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Florida Panthers,Hemma,V,3,2,Förlängning,63.72,ja,Målvakt,31.0,29.0,2.0,18.0,1.0,3.544,2.0,ja,Vinst,0.935,1.4,1.544,1.158
+2026020037,2026-10-04,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Anaheim Ducks,Borta,FÖ,2,3,Förlängning,63.72,ja,Målvakt,20.0,17.0,3.0,13.0,0.0,2.019,3.0,ja,Förlust (förl./str.),0.85,-0.55,-0.981,-0.736
+2026020038,2026-10-04,8481692,Dustin Wolf,32,Calgary Flames,CGY,Seattle Kraken,Borta,F,1,6,Ordinarie,60.0,ja,Målvakt,27.0,21.0,6.0,27.0,6.0,2.61,6.0,ja,Förlust,0.778,-2.4,-3.39,-2.542
+2026020038,2026-10-04,8478916,Joey Daccord,35,Seattle Kraken,SEA,Calgary Flames,Hemma,V,6,1,Ordinarie,60.0,ja,Målvakt,33.0,32.0,1.0,29.0,0.0,3.072,1.0,ja,Vinst,0.97,2.45,2.072,1.554
+2026020039,2026-10-04,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Vancouver Canucks,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,20.0,18.0,2.0,14.0,1.0,1.617,2.0,ja,Vinst,0.9,0.3,-0.383,-0.287
+2026020039,2026-10-04,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Vegas Golden Knights,Hemma,F,2,3,Ordinarie,57.48,ja,Målvakt,28.0,25.0,3.0,20.0,2.0,4.148,3.0,ja,Förlust,0.893,0.25,1.148,0.861
+2026020040,2026-10-05,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Philadelphia Flyers,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,15.0,14.0,1.0,11.0,1.0,1.864,1.0,ja,Vinst,0.933,0.65,0.864,0.648
+2026020040,2026-10-05,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Tampa Bay Lightning,Borta,F,1,4,Ordinarie,57.4,ja,Målvakt,35.0,32.0,3.0,31.0,3.0,4.221,3.0,ja,Förlust,0.914,0.95,1.221,0.916
+2026020041,2026-10-05,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Boston Bruins,Borta,V,4,1,Ordinarie,20.0,ja,Målvakt,9.0,8.0,1.0,9.0,1.0,0.759,1.0,nej,,0.889,0.05,-0.241,-0.181
+2026020041,2026-10-05,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Ottawa Senators,Hemma,F,1,4,Ordinarie,60.0,ja,Målvakt,24.0,20.0,4.0,23.0,3.0,2.405,4.0,ja,Förlust,0.833,-1.0,-1.595,-1.196
+2026020041,2026-10-05,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Boston Bruins,Borta,V,4,1,Ordinarie,40.0,ja,Målvakt,10.0,10.0,0.0,4.0,0.0,1.728,0.0,ja,Vinst,1.0,1.0,1.728,1.296
+2026020042,2026-10-05,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Winnipeg Jets,Hemma,F,2,3,Ordinarie,57.38,ja,Målvakt,35.0,32.0,3.0,33.0,3.0,2.556,3.0,ja,Förlust,0.914,0.95,-0.444,-0.333
+2026020042,2026-10-05,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Pittsburgh Penguins,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,27.0,2.0,2.842,2.0,ja,Vinst,0.935,1.4,0.842,0.632
+2026020043,2026-10-05,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Dallas Stars,Borta,F,0,5,Ordinarie,59.82,ja,Målvakt,26.0,21.0,5.0,19.0,5.0,3.946,5.0,ja,Förlust,0.808,-1.65,-1.054,-0.79
+2026020043,2026-10-05,8479979,Jake Oettinger,29,Dallas Stars,DAL,San Jose Sharks,Hemma,V,5,0,Ordinarie,60.0,ja,Målvakt,13.0,13.0,0.0,9.0,0.0,1.843,0.0,ja,Vinst,1.0,1.3,1.843,1.382
+2026020044,2026-10-06,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Nashville Predators,Hemma,V,5,4,Förlängning,64.77,ja,Målvakt,25.0,21.0,4.0,21.0,3.0,3.114,4.0,ja,Vinst,0.84,-0.9,-0.886,-0.664
+2026020044,2026-10-06,8477424,Juuse Saros,74,Nashville Predators,NSH,Toronto Maple Leafs,Borta,FÖ,4,5,Förlängning,64.58,ja,Målvakt,37.0,32.0,5.0,27.0,3.0,4.087,5.0,ja,Förlust (förl./str.),0.865,-0.55,-0.913,-0.685
+2026020045,2026-10-06,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Carolina Hurricanes,Hemma,F,4,6,Ordinarie,57.22,ja,Målvakt,32.0,27.0,5.0,23.0,4.0,3.516,5.0,ja,Förlust,0.844,-1.05,-1.484,-1.113
+2026020045,2026-10-06,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Montréal Canadiens,Borta,V,6,4,Ordinarie,60.0,ja,Målvakt,20.0,16.0,4.0,10.0,2.0,1.98,4.0,ja,Vinst,0.8,-1.4,-2.02,-1.515
+2026020046,2026-10-06,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Detroit Red Wings,Borta,F,3,5,Ordinarie,57.93,ja,Målvakt,35.0,31.0,4.0,26.0,3.0,3.329,4.0,ja,Förlust,0.886,0.1,-0.671,-0.503
+2026020046,2026-10-06,8476434,John Gibson,36,Detroit Red Wings,DET,Ottawa Senators,Hemma,V,5,3,Ordinarie,59.9,ja,Målvakt,25.0,22.0,3.0,15.0,2.0,2.634,3.0,ja,Vinst,0.88,-0.05,-0.366,-0.274
+2026020047,2026-10-06,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,New Jersey Devils,Borta,V,5,3,Ordinarie,59.77,ja,Målvakt,33.0,30.0,3.0,21.0,2.0,2.883,3.0,ja,Vinst,0.909,0.75,-0.117,-0.088
+2026020047,2026-10-06,8474596,Jake Allen,34,New Jersey Devils,NJD,Utah Mammoth,Hemma,F,3,5,Ordinarie,57.48,ja,Målvakt,31.0,26.0,5.0,20.0,3.0,3.824,5.0,ja,Förlust,0.839,-1.15,-1.176,-0.882
+2026020048,2026-10-06,8478048,Igor Shesterkin,31,New York Rangers,NYR,New York Islanders,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,19.0,17.0,2.0,16.0,1.0,2.367,2.0,ja,Vinst,0.895,0.2,0.367,0.275
+2026020048,2026-10-06,8473575,Semyon Varlamov,40,New York Islanders,NYI,New York Rangers,Borta,F,2,5,Ordinarie,59.43,ja,Målvakt,22.0,19.0,3.0,15.0,2.0,3.675,3.0,ja,Förlust,0.864,-0.35,0.675,0.506
+2026020049,2026-10-06,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Minnesota Wild,Hemma,V,3,2,Förlängning,64.37,ja,Målvakt,20.0,18.0,2.0,16.0,1.0,1.764,2.0,ja,Vinst,0.9,0.3,-0.236,-0.177
+2026020049,2026-10-06,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Buffalo Sabres,Borta,FÖ,2,3,Förlängning,64.37,ja,Målvakt,28.0,25.0,3.0,19.0,2.0,4.047,3.0,ja,Förlust (förl./str.),0.893,0.25,1.047,0.785
+2026020050,2026-10-06,8480981,Joel Hofer,30,St. Louis Blues,STL,Chicago Blackhawks,Borta,F,2,4,Ordinarie,58.23,ja,Målvakt,19.0,17.0,2.0,14.0,1.0,1.572,2.0,ja,Förlust,0.895,0.2,-0.428,-0.321
 2026020050,2026-10-06,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,St. Louis Blues,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,19.0,1.0,3.307,2.0,ja,Vinst,0.926,1.0,1.307,0.98
-2026020051,2026-10-06,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Seattle Kraken,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,18.0,1.0,2.35,2.0,ja,Vinst,0.926,1.0,0.35,0.262
+2026020051,2026-10-06,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Seattle Kraken,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,18.0,1.0,2.344,2.0,ja,Vinst,0.926,1.0,0.344,0.258
 2026020051,2026-10-06,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Vegas Golden Knights,Hemma,F,2,6,Ordinarie,20.0,ja,Målvakt,7.0,6.0,1.0,3.0,0.0,1.343,1.0,nej,,0.857,-0.15,0.343,0.257
-2026020051,2026-10-06,8478916,Joey Daccord,35,Seattle Kraken,SEA,Vegas Golden Knights,Hemma,F,2,6,Ordinarie,39.88,ja,Målvakt,21.0,16.0,5.0,17.0,3.0,2.409,5.0,ja,Förlust,0.762,-2.15,-2.591,-1.943
-2026020052,2026-10-06,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Florida Panthers,Hemma,F,1,2,Ordinarie,57.93,ja,Målvakt,30.0,28.0,2.0,20.0,2.0,2.981,2.0,ja,Förlust,0.933,1.3,0.981,0.736
-2026020052,2026-10-06,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Los Angeles Kings,Borta,V,2,1,Ordinarie,60.0,ja,Målvakt,20.0,19.0,1.0,10.0,1.0,1.931,1.0,ja,Vinst,0.95,1.15,0.931,0.698
-2026020053,2026-10-07,8480313,Logan Thompson,48,Washington Capitals,WSH,Pittsburgh Penguins,Hemma,V,5,3,Ordinarie,60.0,ja,Målvakt,30.0,27.0,3.0,24.0,3.0,3.189,3.0,ja,Vinst,0.9,0.45,0.189,0.142
-2026020053,2026-10-07,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Washington Capitals,Borta,F,3,5,Ordinarie,56.07,ja,Målvakt,27.0,22.0,5.0,19.0,4.0,3.792,5.0,ja,Förlust,0.815,-1.55,-1.208,-0.906
+2026020051,2026-10-06,8478916,Joey Daccord,35,Seattle Kraken,SEA,Vegas Golden Knights,Hemma,F,2,6,Ordinarie,39.88,ja,Målvakt,21.0,16.0,5.0,17.0,3.0,2.415,5.0,ja,Förlust,0.762,-2.15,-2.585,-1.939
+2026020052,2026-10-06,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Florida Panthers,Hemma,F,1,2,Ordinarie,57.93,ja,Målvakt,30.0,28.0,2.0,20.0,2.0,2.977,2.0,ja,Förlust,0.933,1.3,0.977,0.733
+2026020052,2026-10-06,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Los Angeles Kings,Borta,V,2,1,Ordinarie,60.0,ja,Målvakt,20.0,19.0,1.0,10.0,1.0,1.934,1.0,ja,Vinst,0.95,1.15,0.934,0.7
+2026020053,2026-10-07,8480313,Logan Thompson,48,Washington Capitals,WSH,Pittsburgh Penguins,Hemma,V,5,3,Ordinarie,60.0,ja,Målvakt,30.0,27.0,3.0,24.0,3.0,3.183,3.0,ja,Vinst,0.9,0.45,0.183,0.137
+2026020053,2026-10-07,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Washington Capitals,Borta,F,3,5,Ordinarie,56.07,ja,Målvakt,27.0,22.0,5.0,19.0,4.0,3.788,5.0,ja,Förlust,0.815,-1.55,-1.212,-0.909
 2026020054,2026-10-07,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Winnipeg Jets,Borta,F,2,3,Ordinarie,59.22,ja,Målvakt,19.0,16.0,3.0,19.0,3.0,2.057,3.0,ja,Förlust,0.842,-0.65,-0.943,-0.707
-2026020054,2026-10-07,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Colorado Avalanche,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,34.0,32.0,2.0,28.0,2.0,2.936,2.0,ja,Vinst,0.941,1.7,0.936,0.702
-2026020055,2026-10-07,8478024,Ville Husso,33,Anaheim Ducks,ANA,Edmonton Oilers,Hemma,F,2,5,Ordinarie,15.97,ja,Målvakt,2.0,2.0,0.0,1.0,0.0,0.41,0.0,nej,,1.0,0.2,0.41,0.308
+2026020054,2026-10-07,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Colorado Avalanche,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,34.0,32.0,2.0,28.0,2.0,2.931,2.0,ja,Vinst,0.941,1.7,0.931,0.698
+2026020055,2026-10-07,8478024,Ville Husso,33,Anaheim Ducks,ANA,Edmonton Oilers,Hemma,F,2,5,Ordinarie,15.97,ja,Målvakt,2.0,2.0,0.0,1.0,0.0,0.407,0.0,nej,,1.0,0.2,0.407,0.305
 2026020055,2026-10-07,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Edmonton Oilers,Hemma,F,2,5,Ordinarie,39.68,ja,Målvakt,17.0,12.0,5.0,11.0,3.0,2.201,5.0,ja,Förlust,0.706,-2.55,-2.799,-2.099
-2026020055,2026-10-07,8482221,Devon Levi,27,Edmonton Oilers,EDM,Anaheim Ducks,Borta,V,5,2,Ordinarie,59.82,ja,Målvakt,31.0,29.0,2.0,19.0,0.0,3.953,2.0,ja,Vinst,0.935,1.4,1.953,1.465
-2026020056,2026-10-08,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Utah Mammoth,Hemma,V,6,1,Ordinarie,60.0,ja,Målvakt,37.0,36.0,1.0,26.0,1.0,4.823,1.0,ja,Vinst,0.973,2.85,3.823,2.867
-2026020056,2026-10-08,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Boston Bruins,Borta,F,1,6,Ordinarie,15.85,ja,Målvakt,8.0,5.0,3.0,7.0,2.0,0.681,3.0,ja,Förlust,0.625,-1.75,-2.319,-1.739
-2026020056,2026-10-08,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Boston Bruins,Borta,F,1,6,Ordinarie,43.82,ja,Målvakt,14.0,11.0,3.0,12.0,1.0,1.415,3.0,nej,,0.786,-1.15,-1.585,-1.189
-2026020057,2026-10-08,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Dallas Stars,Hemma,F,0,4,Ordinarie,59.9,ja,Målvakt,18.0,14.0,4.0,13.0,3.0,2.605,4.0,ja,Förlust,0.778,-1.6,-1.395,-1.046
-2026020057,2026-10-08,8479979,Jake Oettinger,29,Dallas Stars,DAL,Buffalo Sabres,Borta,V,4,0,Ordinarie,72.33,ja,Målvakt,26.0,26.0,0.0,22.0,0.0,3.269,0.0,ja,Vinst,1.0,2.6,3.269,2.452
-2026020058,2026-10-08,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Nashville Predators,Hemma,F,2,5,Ordinarie,58.88,ja,Målvakt,18.0,15.0,3.0,10.0,1.0,2.402,3.0,ja,Förlust,0.833,-0.75,-0.598,-0.448
-2026020058,2026-10-08,8477424,Juuse Saros,74,Nashville Predators,NSH,Montréal Canadiens,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,33.0,31.0,2.0,27.0,1.0,3.494,2.0,ja,Vinst,0.939,1.6,1.494,1.12
-2026020059,2026-10-08,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Philadelphia Flyers,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,29.0,28.0,1.0,19.0,0.0,2.987,1.0,ja,Vinst,0.966,2.05,1.987,1.49
-2026020059,2026-10-08,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Ottawa Senators,Borta,F,1,2,Ordinarie,58.25,ja,Målvakt,26.0,24.0,2.0,19.0,1.0,2.638,2.0,ja,Förlust,0.923,0.9,0.638,0.479
-2026020060,2026-10-08,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Tampa Bay Lightning,Borta,F,2,3,Ordinarie,59.05,ja,Målvakt,35.0,32.0,3.0,29.0,2.0,3.892,3.0,ja,Förlust,0.914,0.95,0.892,0.669
-2026020060,2026-10-08,8483710,Dennis Hildeby,35,Tampa Bay Lightning,TBL,Minnesota Wild,Hemma,V,3,2,Ordinarie,59.62,ja,Målvakt,36.0,34.0,2.0,28.0,1.0,3.296,2.0,ja,Vinst,0.944,1.9,1.296,0.972
-2026020061,2026-10-08,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Vancouver Canucks,Hemma,V,7,2,Ordinarie,60.0,ja,Målvakt,20.0,18.0,2.0,13.0,2.0,1.942,2.0,ja,Vinst,0.9,0.3,-0.058,-0.044
-2026020061,2026-10-08,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Carolina Hurricanes,Borta,F,2,7,Ordinarie,20.0,ja,Målvakt,15.0,14.0,1.0,15.0,1.0,2.154,1.0,nej,,0.933,0.65,1.154,0.865
-2026020061,2026-10-08,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Carolina Hurricanes,Borta,F,2,7,Ordinarie,39.7,ja,Målvakt,18.0,12.0,6.0,11.0,2.0,3.161,6.0,ja,Förlust,0.667,-3.3,-2.839,-2.129
-2026020062,2026-10-08,8482821,Arvid Soderblom,40,Chicago Blackhawks,CHI,New York Islanders,Borta,F,1,4,Ordinarie,57.85,ja,Målvakt,18.0,15.0,3.0,12.0,2.0,2.466,3.0,ja,Förlust,0.833,-0.75,-0.534,-0.4
-2026020062,2026-10-08,8478009,Ilya Sorokin,30,New York Islanders,NYI,Chicago Blackhawks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,23.0,22.0,1.0,19.0,0.0,2.449,1.0,ja,Vinst,0.957,1.45,1.449,1.087
-2026020063,2026-10-08,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,St. Louis Blues,Borta,V,3,2,Förlängning,61.05,ja,Målvakt,26.0,24.0,2.0,19.0,1.0,3.116,2.0,ja,Vinst,0.923,0.9,1.116,0.837
-2026020063,2026-10-08,8480981,Joel Hofer,30,St. Louis Blues,STL,San Jose Sharks,Hemma,FÖ,2,3,Förlängning,60.87,ja,Målvakt,27.0,24.0,3.0,21.0,2.0,2.5,3.0,ja,Förlust (förl./str.),0.889,0.15,-0.5,-0.375
-2026020064,2026-10-08,8482445,Devin Cooley,1,Calgary Flames,CGY,Colorado Avalanche,Hemma,F,3,7,Ordinarie,60.0,ja,Målvakt,30.0,23.0,7.0,27.0,7.0,2.61,7.0,ja,Förlust,0.767,-2.95,-4.39,-3.292
-2026020064,2026-10-08,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,Calgary Flames,Borta,V,7,3,Ordinarie,60.0,ja,Målvakt,29.0,26.0,3.0,24.0,3.0,2.779,3.0,ja,Vinst,0.897,0.35,-0.221,-0.166
-2026020065,2026-10-08,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Vegas Golden Knights,Borta,FÖ,3,4,Straffar,65.0,ja,Målvakt,43.0,40.0,3.0,30.0,2.0,4.576,3.0,ja,Förlust (förl./str.),0.93,1.75,1.576,1.182
-2026020065,2026-10-08,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Toronto Maple Leafs,Hemma,V,4,3,Straffar,64.67,ja,Målvakt,24.0,21.0,3.0,19.0,3.0,2.591,3.0,ja,Vinst,0.875,-0.15,-0.409,-0.307
-2026020066,2026-10-09,8476434,John Gibson,36,Detroit Red Wings,DET,Seattle Kraken,Hemma,F,3,6,Ordinarie,34.08,ja,Målvakt,15.0,10.0,5.0,14.0,5.0,1.935,5.0,ja,Förlust,0.667,-2.75,-3.065,-2.299
-2026020066,2026-10-09,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Detroit Red Wings,Borta,V,6,3,Ordinarie,59.92,ja,Målvakt,40.0,37.0,3.0,36.0,2.0,3.984,3.0,ja,Vinst,0.925,1.45,0.984,0.738
-2026020066,2026-10-09,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Seattle Kraken,Hemma,F,3,6,Ordinarie,25.92,ja,Målvakt,9.0,8.0,1.0,5.0,0.0,1.556,1.0,nej,,0.889,0.05,0.556,0.417
-2026020067,2026-10-09,8480313,Logan Thompson,48,Washington Capitals,WSH,New York Rangers,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,22.0,21.0,1.0,15.0,0.0,2.613,1.0,ja,Vinst,0.955,1.35,1.613,1.21
-2026020067,2026-10-09,8478048,Igor Shesterkin,31,New York Rangers,NYR,Washington Capitals,Borta,F,1,3,Ordinarie,28.33,ja,Målvakt,14.0,13.0,1.0,11.0,1.0,1.792,1.0,ja,,0.929,0.55,0.792,0.594
-2026020067,2026-10-09,8482193,Dylan Garand,33,New York Rangers,NYR,Washington Capitals,Borta,F,1,3,Ordinarie,29.75,ja,Målvakt,12.0,11.0,1.0,8.0,1.0,1.266,1.0,nej,Förlust,0.917,0.35,0.266,0.2
-2026020068,2026-10-09,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Pittsburgh Penguins,Hemma,V,3,2,Straffar,65.0,ja,Målvakt,22.0,20.0,2.0,18.0,2.0,2.821,2.0,ja,Vinst,0.909,0.5,0.821,0.616
-2026020068,2026-10-09,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Columbus Blue Jackets,Borta,FÖ,2,3,Straffar,65.0,ja,Målvakt,47.0,45.0,2.0,34.0,2.0,4.622,2.0,ja,Förlust (förl./str.),0.957,3.0,2.622,1.966
-2026020069,2026-10-09,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Winnipeg Jets,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,17.0,16.0,1.0,13.0,1.0,2.209,1.0,ja,Vinst,0.941,0.85,1.209,0.907
-2026020069,2026-10-09,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Anaheim Ducks,Hemma,F,1,5,Ordinarie,56.13,ja,Målvakt,16.0,12.0,4.0,15.0,4.0,2.365,4.0,ja,Förlust,0.75,-1.8,-1.635,-1.226
-2026020070,2026-10-10,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Philadelphia Flyers,Hemma,V,5,1,Ordinarie,59.5,ja,Målvakt,15.0,14.0,1.0,12.0,0.0,1.409,1.0,ja,Vinst,0.933,0.65,0.409,0.307
-2026020070,2026-10-10,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Boston Bruins,Borta,F,1,5,Ordinarie,60.0,ja,Målvakt,32.0,27.0,5.0,31.0,5.0,3.293,5.0,ja,Förlust,0.844,-1.05,-1.707,-1.28
-2026020071,2026-10-10,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,New Jersey Devils,Borta,F,1,4,Ordinarie,54.55,ja,Målvakt,34.0,31.0,3.0,26.0,0.0,3.326,3.0,ja,,0.912,0.85,0.326,0.244
+2026020055,2026-10-07,8482221,Devon Levi,27,Edmonton Oilers,EDM,Anaheim Ducks,Borta,V,5,2,Ordinarie,59.82,ja,Målvakt,31.0,29.0,2.0,19.0,0.0,3.951,2.0,ja,Vinst,0.935,1.4,1.951,1.463
+2026020056,2026-10-08,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Utah Mammoth,Hemma,V,6,1,Ordinarie,60.0,ja,Målvakt,37.0,36.0,1.0,26.0,1.0,4.806,1.0,ja,Vinst,0.973,2.85,3.806,2.854
+2026020056,2026-10-08,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Boston Bruins,Borta,F,1,6,Ordinarie,15.85,ja,Målvakt,8.0,5.0,3.0,7.0,2.0,0.682,3.0,ja,Förlust,0.625,-1.75,-2.318,-1.739
+2026020056,2026-10-08,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Boston Bruins,Borta,F,1,6,Ordinarie,43.82,ja,Målvakt,14.0,11.0,3.0,12.0,1.0,1.416,3.0,nej,,0.786,-1.15,-1.584,-1.188
+2026020057,2026-10-08,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Dallas Stars,Hemma,F,0,4,Ordinarie,59.9,ja,Målvakt,18.0,14.0,4.0,13.0,3.0,2.6,4.0,ja,Förlust,0.778,-1.6,-1.4,-1.05
+2026020057,2026-10-08,8479979,Jake Oettinger,29,Dallas Stars,DAL,Buffalo Sabres,Borta,V,4,0,Ordinarie,72.33,ja,Målvakt,26.0,26.0,0.0,22.0,0.0,3.265,0.0,ja,Vinst,1.0,2.6,3.265,2.449
+2026020058,2026-10-08,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Nashville Predators,Hemma,F,2,5,Ordinarie,58.88,ja,Målvakt,18.0,15.0,3.0,10.0,1.0,2.392,3.0,ja,Förlust,0.833,-0.75,-0.608,-0.456
+2026020058,2026-10-08,8477424,Juuse Saros,74,Nashville Predators,NSH,Montréal Canadiens,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,33.0,31.0,2.0,27.0,1.0,3.487,2.0,ja,Vinst,0.939,1.6,1.487,1.115
+2026020059,2026-10-08,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Philadelphia Flyers,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,29.0,28.0,1.0,19.0,0.0,2.979,1.0,ja,Vinst,0.966,2.05,1.979,1.484
+2026020059,2026-10-08,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Ottawa Senators,Borta,F,1,2,Ordinarie,58.25,ja,Målvakt,26.0,24.0,2.0,19.0,1.0,2.64,2.0,ja,Förlust,0.923,0.9,0.64,0.48
+2026020060,2026-10-08,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Tampa Bay Lightning,Borta,F,2,3,Ordinarie,59.05,ja,Målvakt,35.0,32.0,3.0,29.0,2.0,3.895,3.0,ja,Förlust,0.914,0.95,0.895,0.671
+2026020060,2026-10-08,8483710,Dennis Hildeby,35,Tampa Bay Lightning,TBL,Minnesota Wild,Hemma,V,3,2,Ordinarie,59.62,ja,Målvakt,36.0,34.0,2.0,28.0,1.0,3.298,2.0,ja,Vinst,0.944,1.9,1.298,0.974
+2026020061,2026-10-08,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Vancouver Canucks,Hemma,V,7,2,Ordinarie,60.0,ja,Målvakt,20.0,18.0,2.0,13.0,2.0,1.937,2.0,ja,Vinst,0.9,0.3,-0.063,-0.047
+2026020061,2026-10-08,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Carolina Hurricanes,Borta,F,2,7,Ordinarie,20.0,ja,Målvakt,15.0,14.0,1.0,15.0,1.0,2.15,1.0,nej,,0.933,0.65,1.15,0.862
+2026020061,2026-10-08,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Carolina Hurricanes,Borta,F,2,7,Ordinarie,39.7,ja,Målvakt,18.0,12.0,6.0,11.0,2.0,3.162,6.0,ja,Förlust,0.667,-3.3,-2.838,-2.128
+2026020062,2026-10-08,8482821,Arvid Soderblom,40,Chicago Blackhawks,CHI,New York Islanders,Borta,F,1,4,Ordinarie,57.85,ja,Målvakt,18.0,15.0,3.0,12.0,2.0,2.459,3.0,ja,Förlust,0.833,-0.75,-0.541,-0.406
+2026020062,2026-10-08,8478009,Ilya Sorokin,30,New York Islanders,NYI,Chicago Blackhawks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,23.0,22.0,1.0,19.0,0.0,2.455,1.0,ja,Vinst,0.957,1.45,1.455,1.091
+2026020063,2026-10-08,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,St. Louis Blues,Borta,V,3,2,Förlängning,61.05,ja,Målvakt,26.0,24.0,2.0,19.0,1.0,3.12,2.0,ja,Vinst,0.923,0.9,1.12,0.84
+2026020063,2026-10-08,8480981,Joel Hofer,30,St. Louis Blues,STL,San Jose Sharks,Hemma,FÖ,2,3,Förlängning,60.87,ja,Målvakt,27.0,24.0,3.0,21.0,2.0,2.498,3.0,ja,Förlust (förl./str.),0.889,0.15,-0.502,-0.376
+2026020064,2026-10-08,8482445,Devin Cooley,1,Calgary Flames,CGY,Colorado Avalanche,Hemma,F,3,7,Ordinarie,60.0,ja,Målvakt,30.0,23.0,7.0,27.0,7.0,2.614,7.0,ja,Förlust,0.767,-2.95,-4.386,-3.29
+2026020064,2026-10-08,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,Calgary Flames,Borta,V,7,3,Ordinarie,60.0,ja,Målvakt,29.0,26.0,3.0,24.0,3.0,2.781,3.0,ja,Vinst,0.897,0.35,-0.219,-0.164
+2026020065,2026-10-08,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Vegas Golden Knights,Borta,FÖ,3,4,Straffar,65.0,ja,Målvakt,43.0,40.0,3.0,30.0,2.0,4.574,3.0,ja,Förlust (förl./str.),0.93,1.75,1.574,1.18
+2026020065,2026-10-08,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Toronto Maple Leafs,Hemma,V,4,3,Straffar,64.67,ja,Målvakt,24.0,21.0,3.0,19.0,3.0,2.593,3.0,ja,Vinst,0.875,-0.15,-0.407,-0.305
+2026020066,2026-10-09,8476434,John Gibson,36,Detroit Red Wings,DET,Seattle Kraken,Hemma,F,3,6,Ordinarie,34.08,ja,Målvakt,15.0,10.0,5.0,14.0,5.0,1.933,5.0,ja,Förlust,0.667,-2.75,-3.067,-2.3
+2026020066,2026-10-09,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Detroit Red Wings,Borta,V,6,3,Ordinarie,59.92,ja,Målvakt,40.0,37.0,3.0,36.0,2.0,3.982,3.0,ja,Vinst,0.925,1.45,0.982,0.736
+2026020066,2026-10-09,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Seattle Kraken,Hemma,F,3,6,Ordinarie,25.92,ja,Målvakt,9.0,8.0,1.0,5.0,0.0,1.549,1.0,nej,,0.889,0.05,0.549,0.412
+2026020067,2026-10-09,8480313,Logan Thompson,48,Washington Capitals,WSH,New York Rangers,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,22.0,21.0,1.0,15.0,0.0,2.607,1.0,ja,Vinst,0.955,1.35,1.607,1.205
+2026020067,2026-10-09,8478048,Igor Shesterkin,31,New York Rangers,NYR,Washington Capitals,Borta,F,1,3,Ordinarie,28.33,ja,Målvakt,14.0,13.0,1.0,11.0,1.0,1.785,1.0,ja,,0.929,0.55,0.785,0.589
+2026020067,2026-10-09,8482193,Dylan Garand,33,New York Rangers,NYR,Washington Capitals,Borta,F,1,3,Ordinarie,29.75,ja,Målvakt,12.0,11.0,1.0,8.0,1.0,1.268,1.0,nej,Förlust,0.917,0.35,0.268,0.201
+2026020068,2026-10-09,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Pittsburgh Penguins,Hemma,V,3,2,Straffar,65.0,ja,Målvakt,22.0,20.0,2.0,18.0,2.0,2.822,2.0,ja,Vinst,0.909,0.5,0.822,0.616
+2026020068,2026-10-09,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Columbus Blue Jackets,Borta,FÖ,2,3,Straffar,65.0,ja,Målvakt,47.0,45.0,2.0,34.0,2.0,4.62,2.0,ja,Förlust (förl./str.),0.957,3.0,2.62,1.965
+2026020069,2026-10-09,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Winnipeg Jets,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,17.0,16.0,1.0,13.0,1.0,2.206,1.0,ja,Vinst,0.941,0.85,1.206,0.904
+2026020069,2026-10-09,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Anaheim Ducks,Hemma,F,1,5,Ordinarie,56.13,ja,Målvakt,16.0,12.0,4.0,15.0,4.0,2.371,4.0,ja,Förlust,0.75,-1.8,-1.629,-1.222
+2026020070,2026-10-10,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Philadelphia Flyers,Hemma,V,5,1,Ordinarie,59.5,ja,Målvakt,15.0,14.0,1.0,12.0,0.0,1.408,1.0,ja,Vinst,0.933,0.65,0.408,0.306
+2026020070,2026-10-10,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Boston Bruins,Borta,F,1,5,Ordinarie,60.0,ja,Målvakt,32.0,27.0,5.0,31.0,5.0,3.302,5.0,ja,Förlust,0.844,-1.05,-1.698,-1.273
+2026020071,2026-10-10,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,New Jersey Devils,Borta,F,1,4,Ordinarie,54.55,ja,Målvakt,34.0,31.0,3.0,26.0,0.0,3.325,3.0,ja,,0.912,0.85,0.325,0.244
 2026020071,2026-10-10,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,New Jersey Devils,Borta,F,1,4,Ordinarie,5.45,ja,Målvakt,3.0,2.0,1.0,3.0,1.0,0.56,1.0,nej,Förlust,0.667,-0.55,-0.44,-0.33
-2026020071,2026-10-10,8474596,Jake Allen,34,New Jersey Devils,NJD,Vancouver Canucks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,21.0,20.0,1.0,19.0,0.0,2.396,1.0,ja,Vinst,0.952,1.25,1.396,1.047
-2026020072,2026-10-10,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,San Jose Sharks,Borta,V,3,1,Ordinarie,60.0,ja,Målvakt,20.0,19.0,1.0,17.0,1.0,1.492,1.0,ja,Vinst,0.95,1.15,0.492,0.369
+2026020071,2026-10-10,8474596,Jake Allen,34,New Jersey Devils,NJD,Vancouver Canucks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,21.0,20.0,1.0,19.0,0.0,2.4,1.0,ja,Vinst,0.952,1.25,1.4,1.05
+2026020072,2026-10-10,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,San Jose Sharks,Borta,V,3,1,Ordinarie,60.0,ja,Målvakt,20.0,19.0,1.0,17.0,1.0,1.483,1.0,ja,Vinst,0.95,1.15,0.483,0.362
 2026020072,2026-10-10,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Edmonton Oilers,Hemma,F,1,3,Ordinarie,56.47,ja,Målvakt,20.0,17.0,3.0,13.0,3.0,3.375,3.0,ja,Förlust,0.85,-0.55,0.375,0.281
-2026020073,2026-10-10,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Florida Panthers,Borta,V,4,1,Ordinarie,59.97,ja,Målvakt,30.0,29.0,1.0,19.0,1.0,3.576,1.0,ja,Vinst,0.967,2.15,2.576,1.932
-2026020073,2026-10-10,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Minnesota Wild,Hemma,F,1,4,Ordinarie,57.77,ja,Målvakt,28.0,25.0,3.0,21.0,2.0,2.95,3.0,ja,Förlust,0.893,0.25,-0.05,-0.038
-2026020074,2026-10-10,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Utah Mammoth,Hemma,F,1,4,Ordinarie,59.47,ja,Målvakt,30.0,26.0,4.0,21.0,2.0,4.219,4.0,ja,Förlust,0.867,-0.4,0.219,0.164
-2026020074,2026-10-10,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Buffalo Sabres,Borta,V,4,1,Ordinarie,59.9,ja,Målvakt,24.0,23.0,1.0,16.0,0.0,2.887,1.0,ja,Vinst,0.958,1.55,1.887,1.415
-2026020075,2026-10-10,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Detroit Red Wings,Hemma,V,1,0,Straffar,64.77,ja,Målvakt,30.0,30.0,0.0,17.0,0.0,3.314,0.0,ja,Vinst,1.0,3.0,3.314,2.486
-2026020075,2026-10-10,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Montréal Canadiens,Borta,FÖ,0,1,Straffar,65.0,ja,Målvakt,30.0,30.0,0.0,21.0,0.0,3.372,0.0,ja,Förlust (förl./str.),1.0,3.0,3.372,2.529
-2026020076,2026-10-10,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Nashville Predators,Hemma,V,3,2,Straffar,63.72,ja,Målvakt,18.0,16.0,2.0,10.0,1.0,1.498,2.0,ja,Vinst,0.889,0.1,-0.502,-0.376
-2026020076,2026-10-10,8483575,Matt Murray,32,Nashville Predators,NSH,Ottawa Senators,Borta,FÖ,2,3,Straffar,64.95,ja,Målvakt,20.0,18.0,2.0,9.0,0.0,2.7,2.0,ja,Förlust (förl./str.),0.9,0.3,0.7,0.525
+2026020073,2026-10-10,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Florida Panthers,Borta,V,4,1,Ordinarie,59.97,ja,Målvakt,30.0,29.0,1.0,19.0,1.0,3.563,1.0,ja,Vinst,0.967,2.15,2.563,1.922
+2026020073,2026-10-10,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Minnesota Wild,Hemma,F,1,4,Ordinarie,57.77,ja,Målvakt,28.0,25.0,3.0,21.0,2.0,2.943,3.0,ja,Förlust,0.893,0.25,-0.057,-0.043
+2026020074,2026-10-10,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Utah Mammoth,Hemma,F,1,4,Ordinarie,59.47,ja,Målvakt,30.0,26.0,4.0,21.0,2.0,4.208,4.0,ja,Förlust,0.867,-0.4,0.208,0.156
+2026020074,2026-10-10,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Buffalo Sabres,Borta,V,4,1,Ordinarie,59.9,ja,Målvakt,24.0,23.0,1.0,16.0,0.0,2.881,1.0,ja,Vinst,0.958,1.55,1.881,1.411
+2026020075,2026-10-10,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Detroit Red Wings,Hemma,V,1,0,Straffar,64.77,ja,Målvakt,30.0,30.0,0.0,17.0,0.0,3.301,0.0,ja,Vinst,1.0,3.0,3.301,2.476
+2026020075,2026-10-10,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Montréal Canadiens,Borta,FÖ,0,1,Straffar,65.0,ja,Målvakt,30.0,30.0,0.0,21.0,0.0,3.357,0.0,ja,Förlust (förl./str.),1.0,3.0,3.357,2.518
+2026020076,2026-10-10,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Nashville Predators,Hemma,V,3,2,Straffar,63.72,ja,Målvakt,18.0,16.0,2.0,10.0,1.0,1.499,2.0,ja,Vinst,0.889,0.1,-0.501,-0.376
+2026020076,2026-10-10,8483575,Matt Murray,32,Nashville Predators,NSH,Ottawa Senators,Borta,FÖ,2,3,Straffar,64.95,ja,Målvakt,20.0,18.0,2.0,9.0,0.0,2.696,2.0,ja,Förlust (förl./str.),0.9,0.3,0.696,0.522
 2026020077,2026-10-10,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Dallas Stars,Hemma,V,2,1,Straffar,64.87,ja,Målvakt,25.0,24.0,1.0,13.0,0.0,2.829,1.0,ja,Vinst,0.96,1.65,1.829,1.372
 2026020077,2026-10-10,8479979,Jake Oettinger,29,Dallas Stars,DAL,Pittsburgh Penguins,Borta,FÖ,1,2,Straffar,63.87,ja,Målvakt,20.0,19.0,1.0,11.0,1.0,2.879,1.0,ja,Förlust (förl./str.),0.95,1.15,1.879,1.409
-2026020078,2026-10-10,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Chicago Blackhawks,Borta,V,5,2,Ordinarie,59.28,ja,Målvakt,26.0,24.0,2.0,22.0,2.0,2.655,2.0,ja,Vinst,0.923,0.9,0.655,0.491
-2026020078,2026-10-10,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Carolina Hurricanes,Hemma,F,2,5,Ordinarie,57.82,ja,Målvakt,39.0,34.0,5.0,32.0,4.0,3.945,5.0,ja,Förlust,0.872,-0.35,-1.055,-0.791
-2026020079,2026-10-10,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,St. Louis Blues,Borta,F,3,5,Ordinarie,58.77,ja,Målvakt,26.0,22.0,4.0,21.0,3.0,3.071,4.0,ja,Förlust,0.846,-0.8,-0.929,-0.697
-2026020079,2026-10-10,8476412,Jordan Binnington,50,St. Louis Blues,STL,Columbus Blue Jackets,Hemma,V,5,3,Ordinarie,59.93,ja,Målvakt,23.0,20.0,3.0,22.0,3.0,1.696,3.0,ja,Vinst,0.87,-0.25,-1.304,-0.978
-2026020080,2026-10-10,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Colorado Avalanche,Borta,V,6,3,Ordinarie,59.92,ja,Målvakt,33.0,30.0,3.0,22.0,3.0,4.269,3.0,ja,Vinst,0.909,0.75,1.269,0.952
-2026020080,2026-10-10,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Toronto Maple Leafs,Hemma,F,3,6,Ordinarie,56.93,ja,Målvakt,22.0,17.0,5.0,19.0,3.0,2.771,5.0,ja,Förlust,0.773,-2.05,-2.229,-1.672
-2026020081,2026-10-10,8478009,Ilya Sorokin,30,New York Islanders,NYI,Tampa Bay Lightning,Hemma,F,3,5,Ordinarie,59.82,ja,Målvakt,25.0,21.0,4.0,17.0,3.0,2.843,4.0,ja,Förlust,0.84,-0.9,-1.157,-0.868
-2026020081,2026-10-10,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,New York Islanders,Borta,V,5,3,Ordinarie,60.0,ja,Målvakt,23.0,20.0,3.0,19.0,2.0,2.168,3.0,ja,Vinst,0.87,-0.25,-0.832,-0.624
-2026020082,2026-10-10,8478024,Ville Husso,33,Anaheim Ducks,ANA,Calgary Flames,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,25.0,2.0,3.051,2.0,ja,Vinst,0.931,1.2,1.051,0.788
-2026020082,2026-10-10,8481692,Dustin Wolf,32,Calgary Flames,CGY,Anaheim Ducks,Hemma,F,2,4,Ordinarie,57.18,ja,Målvakt,28.0,24.0,4.0,26.0,2.0,2.75,4.0,ja,Förlust,0.857,-0.6,-1.25,-0.938
-2026020083,2026-10-10,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Los Angeles Kings,Hemma,V,2,1,Förlängning,62.67,ja,Målvakt,27.0,26.0,1.0,18.0,0.0,1.979,1.0,ja,Vinst,0.963,1.85,0.979,0.734
-2026020083,2026-10-10,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Vegas Golden Knights,Borta,FÖ,1,2,Förlängning,61.33,ja,Målvakt,32.0,30.0,2.0,29.0,0.0,3.035,2.0,ja,Förlust (förl./str.),0.938,1.5,1.035,0.776
-2026020084,2026-10-11,8480313,Logan Thompson,48,Washington Capitals,WSH,Seattle Kraken,Hemma,F,3,5,Ordinarie,57.7,ja,Målvakt,27.0,22.0,5.0,24.0,5.0,3.258,5.0,ja,Förlust,0.815,-1.55,-1.742,-1.306
-2026020084,2026-10-11,8478916,Joey Daccord,35,Seattle Kraken,SEA,Washington Capitals,Borta,V,5,3,Ordinarie,60.0,ja,Målvakt,36.0,33.0,3.0,29.0,3.0,3.543,3.0,ja,Vinst,0.917,1.05,0.543,0.407
-2026020085,2026-10-11,8482193,Dylan Garand,33,New York Rangers,NYR,Vancouver Canucks,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,19.0,1.0,2.059,2.0,ja,Vinst,0.905,0.4,0.059,0.044
-2026020085,2026-10-11,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,New York Rangers,Borta,F,2,6,Ordinarie,60.0,ja,Målvakt,25.0,19.0,6.0,20.0,5.0,3.337,6.0,ja,Förlust,0.76,-2.6,-2.663,-1.997
-2026020086,2026-10-11,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Philadelphia Flyers,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,19.0,18.0,1.0,17.0,1.0,1.715,1.0,ja,Vinst,0.947,1.05,0.715,0.536
-2026020086,2026-10-11,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Carolina Hurricanes,Hemma,F,1,4,Ordinarie,59.83,ja,Målvakt,30.0,26.0,4.0,24.0,4.0,3.544,4.0,ja,Förlust,0.867,-0.4,-0.456,-0.342
-2026020087,2026-10-12,8481033,Akira Schmid,40,Florida Panthers,FLA,Buffalo Sabres,Borta,F,3,5,Ordinarie,38.13,ja,Målvakt,21.0,18.0,3.0,15.0,2.0,2.237,3.0,nej,Förlust,0.857,-0.45,-0.763,-0.572
-2026020087,2026-10-12,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Florida Panthers,Hemma,V,5,3,Ordinarie,26.43,ja,Målvakt,9.0,7.0,2.0,6.0,1.0,1.175,2.0,ja,,0.778,-0.8,-0.825,-0.619
-2026020087,2026-10-12,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Florida Panthers,Hemma,V,5,3,Ordinarie,33.57,ja,Målvakt,14.0,13.0,1.0,6.0,0.0,2.341,1.0,nej,Vinst,0.929,0.55,1.341,1.006
+2026020078,2026-10-10,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Chicago Blackhawks,Borta,V,5,2,Ordinarie,59.28,ja,Målvakt,26.0,24.0,2.0,22.0,2.0,2.656,2.0,ja,Vinst,0.923,0.9,0.656,0.492
+2026020078,2026-10-10,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Carolina Hurricanes,Hemma,F,2,5,Ordinarie,57.82,ja,Målvakt,39.0,34.0,5.0,32.0,4.0,3.952,5.0,ja,Förlust,0.872,-0.35,-1.048,-0.786
+2026020079,2026-10-10,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,St. Louis Blues,Borta,F,3,5,Ordinarie,58.77,ja,Målvakt,26.0,22.0,4.0,21.0,3.0,3.062,4.0,ja,Förlust,0.846,-0.8,-0.938,-0.704
+2026020079,2026-10-10,8476412,Jordan Binnington,50,St. Louis Blues,STL,Columbus Blue Jackets,Hemma,V,5,3,Ordinarie,59.93,ja,Målvakt,23.0,20.0,3.0,22.0,3.0,1.692,3.0,ja,Vinst,0.87,-0.25,-1.308,-0.981
+2026020080,2026-10-10,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Colorado Avalanche,Borta,V,6,3,Ordinarie,59.92,ja,Målvakt,33.0,30.0,3.0,22.0,3.0,4.268,3.0,ja,Vinst,0.909,0.75,1.268,0.951
+2026020080,2026-10-10,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Toronto Maple Leafs,Hemma,F,3,6,Ordinarie,56.93,ja,Målvakt,22.0,17.0,5.0,19.0,3.0,2.768,5.0,ja,Förlust,0.773,-2.05,-2.232,-1.674
+2026020081,2026-10-10,8478009,Ilya Sorokin,30,New York Islanders,NYI,Tampa Bay Lightning,Hemma,F,3,5,Ordinarie,59.82,ja,Målvakt,25.0,21.0,4.0,17.0,3.0,2.838,4.0,ja,Förlust,0.84,-0.9,-1.162,-0.871
+2026020081,2026-10-10,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,New York Islanders,Borta,V,5,3,Ordinarie,60.0,ja,Målvakt,23.0,20.0,3.0,19.0,2.0,2.165,3.0,ja,Vinst,0.87,-0.25,-0.835,-0.626
+2026020082,2026-10-10,8478024,Ville Husso,33,Anaheim Ducks,ANA,Calgary Flames,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,25.0,2.0,3.049,2.0,ja,Vinst,0.931,1.2,1.049,0.787
+2026020082,2026-10-10,8481692,Dustin Wolf,32,Calgary Flames,CGY,Anaheim Ducks,Hemma,F,2,4,Ordinarie,57.18,ja,Målvakt,28.0,24.0,4.0,26.0,2.0,2.744,4.0,ja,Förlust,0.857,-0.6,-1.256,-0.942
+2026020083,2026-10-10,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Los Angeles Kings,Hemma,V,2,1,Förlängning,62.67,ja,Målvakt,27.0,26.0,1.0,18.0,0.0,1.974,1.0,ja,Vinst,0.963,1.85,0.974,0.73
+2026020083,2026-10-10,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Vegas Golden Knights,Borta,FÖ,1,2,Förlängning,61.33,ja,Målvakt,32.0,30.0,2.0,29.0,0.0,3.029,2.0,ja,Förlust (förl./str.),0.938,1.5,1.029,0.772
+2026020084,2026-10-11,8480313,Logan Thompson,48,Washington Capitals,WSH,Seattle Kraken,Hemma,F,3,5,Ordinarie,57.7,ja,Målvakt,27.0,22.0,5.0,24.0,5.0,3.249,5.0,ja,Förlust,0.815,-1.55,-1.751,-1.313
+2026020084,2026-10-11,8478916,Joey Daccord,35,Seattle Kraken,SEA,Washington Capitals,Borta,V,5,3,Ordinarie,60.0,ja,Målvakt,36.0,33.0,3.0,29.0,3.0,3.527,3.0,ja,Vinst,0.917,1.05,0.527,0.395
+2026020085,2026-10-11,8482193,Dylan Garand,33,New York Rangers,NYR,Vancouver Canucks,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,19.0,1.0,2.057,2.0,ja,Vinst,0.905,0.4,0.057,0.043
+2026020085,2026-10-11,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,New York Rangers,Borta,F,2,6,Ordinarie,60.0,ja,Målvakt,25.0,19.0,6.0,20.0,5.0,3.341,6.0,ja,Förlust,0.76,-2.6,-2.659,-1.994
+2026020086,2026-10-11,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Philadelphia Flyers,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,19.0,18.0,1.0,17.0,1.0,1.705,1.0,ja,Vinst,0.947,1.05,0.705,0.529
+2026020086,2026-10-11,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Carolina Hurricanes,Hemma,F,1,4,Ordinarie,59.83,ja,Målvakt,30.0,26.0,4.0,24.0,4.0,3.537,4.0,ja,Förlust,0.867,-0.4,-0.463,-0.347
+2026020087,2026-10-12,8481033,Akira Schmid,40,Florida Panthers,FLA,Buffalo Sabres,Borta,F,3,5,Ordinarie,38.13,ja,Målvakt,21.0,18.0,3.0,15.0,2.0,2.226,3.0,nej,Förlust,0.857,-0.45,-0.774,-0.58
+2026020087,2026-10-12,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Florida Panthers,Hemma,V,5,3,Ordinarie,26.43,ja,Målvakt,9.0,7.0,2.0,6.0,1.0,1.163,2.0,ja,,0.778,-0.8,-0.837,-0.628
+2026020087,2026-10-12,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Florida Panthers,Hemma,V,5,3,Ordinarie,33.57,ja,Målvakt,14.0,13.0,1.0,6.0,0.0,2.336,1.0,nej,Vinst,0.929,0.55,1.336,1.002
 2026020087,2026-10-12,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Buffalo Sabres,Borta,F,3,5,Ordinarie,20.0,ja,Målvakt,11.0,9.0,2.0,10.0,1.0,1.47,2.0,ja,,0.818,-0.6,-0.53,-0.398
-2026020088,2026-10-12,8482076,Nico Daws,50,New Jersey Devils,NJD,Ottawa Senators,Hemma,F,1,4,Ordinarie,58.13,ja,Målvakt,19.0,16.0,3.0,15.0,2.0,1.98,3.0,ja,Förlust,0.842,-0.65,-1.02,-0.765
-2026020088,2026-10-12,8476999,Linus Ullmark,35,Ottawa Senators,OTT,New Jersey Devils,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,30.0,29.0,1.0,24.0,1.0,3.051,1.0,ja,Vinst,0.967,2.15,2.051,1.538
+2026020088,2026-10-12,8482076,Nico Daws,50,New Jersey Devils,NJD,Ottawa Senators,Hemma,F,1,4,Ordinarie,58.13,ja,Målvakt,19.0,16.0,3.0,15.0,2.0,1.986,3.0,ja,Förlust,0.842,-0.65,-1.014,-0.76
+2026020088,2026-10-12,8476999,Linus Ullmark,35,Ottawa Senators,OTT,New Jersey Devils,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,30.0,29.0,1.0,24.0,1.0,3.05,1.0,ja,Vinst,0.967,2.15,2.05,1.537
 2026020089,2026-10-12,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Vegas Golden Knights,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,23.0,21.0,2.0,18.0,2.0,3.253,2.0,ja,Vinst,0.913,0.6,1.253,0.94
-2026020089,2026-10-12,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Minnesota Wild,Borta,F,2,4,Ordinarie,58.27,ja,Målvakt,27.0,24.0,3.0,19.0,2.0,3.773,3.0,ja,Förlust,0.889,0.15,0.773,0.58
-2026020090,2026-10-13,8476434,John Gibson,36,Detroit Red Wings,DET,New Jersey Devils,Hemma,FÖ,4,5,Förlängning,61.08,ja,Målvakt,37.0,32.0,5.0,34.0,3.0,3.912,5.0,ja,Förlust (förl./str.),0.865,-0.55,-1.088,-0.816
-2026020090,2026-10-13,8474596,Jake Allen,34,New Jersey Devils,NJD,Detroit Red Wings,Borta,V,5,4,Förlängning,61.08,ja,Målvakt,27.0,23.0,4.0,24.0,4.0,2.386,4.0,ja,Vinst,0.852,-0.7,-1.614,-1.211
-2026020091,2026-10-13,8481033,Akira Schmid,40,Florida Panthers,FLA,Columbus Blue Jackets,Borta,V,7,3,Ordinarie,60.0,ja,Målvakt,27.0,24.0,3.0,21.0,3.0,3.342,3.0,ja,Vinst,0.889,0.15,0.342,0.256
-2026020091,2026-10-13,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Florida Panthers,Hemma,F,3,7,Ordinarie,43.4,ja,Målvakt,23.0,17.0,6.0,15.0,2.0,2.974,6.0,ja,Förlust,0.739,-2.8,-3.026,-2.27
-2026020091,2026-10-13,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Florida Panthers,Hemma,F,3,7,Ordinarie,14.07,ja,Målvakt,4.0,4.0,0.0,3.0,0.0,0.889,0.0,nej,,1.0,0.4,0.889,0.667
-2026020092,2026-10-13,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Montréal Canadiens,Borta,FÖ,3,4,Straffar,65.0,ja,Målvakt,38.0,35.0,3.0,25.0,2.0,3.239,3.0,ja,Förlust (förl./str.),0.921,1.25,0.239,0.179
-2026020092,2026-10-13,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Buffalo Sabres,Hemma,V,4,3,Straffar,65.0,ja,Målvakt,17.0,14.0,3.0,13.0,3.0,2.22,3.0,ja,Vinst,0.824,-0.85,-0.78,-0.585
-2026020093,2026-10-13,8480313,Logan Thompson,48,Washington Capitals,WSH,Carolina Hurricanes,Borta,F,2,4,Ordinarie,58.7,ja,Målvakt,34.0,31.0,3.0,28.0,2.0,3.748,3.0,ja,Förlust,0.912,0.85,0.748,0.561
-2026020093,2026-10-13,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Washington Capitals,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,22.0,20.0,2.0,18.0,2.0,2.688,2.0,ja,Vinst,0.909,0.5,0.688,0.516
-2026020094,2026-10-13,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Philadelphia Flyers,Borta,V,3,2,Straffar,74.4,ja,Målvakt,26.0,24.0,2.0,21.0,1.0,2.702,2.0,ja,Vinst,0.923,0.9,0.702,0.526
-2026020094,2026-10-13,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Seattle Kraken,Hemma,FÖ,2,3,Straffar,65.0,ja,Målvakt,31.0,29.0,2.0,21.0,1.0,3.0,2.0,ja,Förlust (förl./str.),0.935,1.4,1.0,0.75
-2026020095,2026-10-13,8482193,Dylan Garand,33,New York Rangers,NYR,Tampa Bay Lightning,Hemma,V,4,1,Ordinarie,59.75,ja,Målvakt,26.0,25.0,1.0,18.0,1.0,2.673,1.0,ja,Vinst,0.962,1.75,1.673,1.255
-2026020095,2026-10-13,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,New York Rangers,Borta,F,1,4,Ordinarie,57.43,ja,Målvakt,22.0,19.0,3.0,14.0,3.0,2.285,3.0,ja,Förlust,0.864,-0.35,-0.715,-0.536
-2026020096,2026-10-13,8481035,Samuel Ersson,30,Ottawa Senators,OTT,St. Louis Blues,Hemma,F,2,7,Ordinarie,58.88,ja,Målvakt,26.0,19.0,7.0,19.0,5.0,3.852,7.0,ja,Förlust,0.731,-3.35,-3.148,-2.361
-2026020096,2026-10-13,8480981,Joel Hofer,30,St. Louis Blues,STL,Ottawa Senators,Borta,V,7,2,Ordinarie,59.2,ja,Målvakt,17.0,15.0,2.0,12.0,1.0,1.905,2.0,ja,Vinst,0.882,0.0,-0.095,-0.071
-2026020097,2026-10-13,8478009,Ilya Sorokin,30,New York Islanders,NYI,Vancouver Canucks,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,19.0,1.0,2.949,2.0,ja,Vinst,0.923,0.9,0.949,0.712
+2026020089,2026-10-12,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Minnesota Wild,Borta,F,2,4,Ordinarie,58.27,ja,Målvakt,27.0,24.0,3.0,19.0,2.0,3.781,3.0,ja,Förlust,0.889,0.15,0.781,0.586
+2026020090,2026-10-13,8476434,John Gibson,36,Detroit Red Wings,DET,New Jersey Devils,Hemma,FÖ,4,5,Förlängning,61.08,ja,Målvakt,37.0,32.0,5.0,34.0,3.0,3.898,5.0,ja,Förlust (förl./str.),0.865,-0.55,-1.102,-0.826
+2026020090,2026-10-13,8474596,Jake Allen,34,New Jersey Devils,NJD,Detroit Red Wings,Borta,V,5,4,Förlängning,61.08,ja,Målvakt,27.0,23.0,4.0,24.0,4.0,2.374,4.0,ja,Vinst,0.852,-0.7,-1.626,-1.22
+2026020091,2026-10-13,8481033,Akira Schmid,40,Florida Panthers,FLA,Columbus Blue Jackets,Borta,V,7,3,Ordinarie,60.0,ja,Målvakt,27.0,24.0,3.0,21.0,3.0,3.328,3.0,ja,Vinst,0.889,0.15,0.328,0.246
+2026020091,2026-10-13,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Florida Panthers,Hemma,F,3,7,Ordinarie,43.4,ja,Målvakt,23.0,17.0,6.0,15.0,2.0,2.969,6.0,ja,Förlust,0.739,-2.8,-3.031,-2.273
+2026020091,2026-10-13,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Florida Panthers,Hemma,F,3,7,Ordinarie,14.07,ja,Målvakt,4.0,4.0,0.0,3.0,0.0,0.886,0.0,nej,,1.0,0.4,0.886,0.664
+2026020092,2026-10-13,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Montréal Canadiens,Borta,FÖ,3,4,Straffar,65.0,ja,Målvakt,38.0,35.0,3.0,25.0,2.0,3.233,3.0,ja,Förlust (förl./str.),0.921,1.25,0.233,0.175
+2026020092,2026-10-13,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Buffalo Sabres,Hemma,V,4,3,Straffar,65.0,ja,Målvakt,17.0,14.0,3.0,13.0,3.0,2.209,3.0,ja,Vinst,0.824,-0.85,-0.791,-0.593
+2026020093,2026-10-13,8480313,Logan Thompson,48,Washington Capitals,WSH,Carolina Hurricanes,Borta,F,2,4,Ordinarie,58.7,ja,Målvakt,34.0,31.0,3.0,28.0,2.0,3.727,3.0,ja,Förlust,0.912,0.85,0.727,0.545
+2026020093,2026-10-13,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Washington Capitals,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,22.0,20.0,2.0,18.0,2.0,2.685,2.0,ja,Vinst,0.909,0.5,0.685,0.514
+2026020094,2026-10-13,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Philadelphia Flyers,Borta,V,3,2,Straffar,74.4,ja,Målvakt,26.0,24.0,2.0,21.0,1.0,2.695,2.0,ja,Vinst,0.923,0.9,0.695,0.521
+2026020094,2026-10-13,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Seattle Kraken,Hemma,FÖ,2,3,Straffar,65.0,ja,Målvakt,31.0,29.0,2.0,21.0,1.0,3.002,2.0,ja,Förlust (förl./str.),0.935,1.4,1.002,0.752
+2026020095,2026-10-13,8482193,Dylan Garand,33,New York Rangers,NYR,Tampa Bay Lightning,Hemma,V,4,1,Ordinarie,59.75,ja,Målvakt,26.0,25.0,1.0,18.0,1.0,2.672,1.0,ja,Vinst,0.962,1.75,1.672,1.254
+2026020095,2026-10-13,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,New York Rangers,Borta,F,1,4,Ordinarie,57.43,ja,Målvakt,22.0,19.0,3.0,14.0,3.0,2.291,3.0,ja,Förlust,0.864,-0.35,-0.709,-0.532
+2026020096,2026-10-13,8481035,Samuel Ersson,30,Ottawa Senators,OTT,St. Louis Blues,Hemma,F,2,7,Ordinarie,58.88,ja,Målvakt,26.0,19.0,7.0,19.0,5.0,3.851,7.0,ja,Förlust,0.731,-3.35,-3.149,-2.362
+2026020096,2026-10-13,8480981,Joel Hofer,30,St. Louis Blues,STL,Ottawa Senators,Borta,V,7,2,Ordinarie,59.2,ja,Målvakt,17.0,15.0,2.0,12.0,1.0,1.907,2.0,ja,Vinst,0.882,0.0,-0.093,-0.07
+2026020097,2026-10-13,8478009,Ilya Sorokin,30,New York Islanders,NYI,Vancouver Canucks,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,19.0,1.0,2.946,2.0,ja,Vinst,0.923,0.9,0.946,0.71
 2026020097,2026-10-13,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,New York Islanders,Borta,F,2,3,Ordinarie,59.48,ja,Målvakt,38.0,35.0,3.0,27.0,3.0,3.079,3.0,ja,Förlust,0.921,1.25,0.079,0.059
-2026020098,2026-10-13,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Chicago Blackhawks,Borta,F,3,5,Ordinarie,57.95,ja,Målvakt,19.0,15.0,4.0,17.0,3.0,1.853,4.0,ja,Förlust,0.789,-1.5,-2.147,-1.61
-2026020098,2026-10-13,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Pittsburgh Penguins,Hemma,V,5,3,Ordinarie,60.0,ja,Målvakt,27.0,24.0,3.0,22.0,3.0,3.44,3.0,ja,Vinst,0.889,0.15,0.44,0.33
-2026020099,2026-10-13,8475717,Calvin Pickard,31,Minnesota Wild,MIN,Winnipeg Jets,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,25.0,20.0,5.0,21.0,4.0,2.572,5.0,ja,Förlust,0.8,-1.75,-2.428,-1.821
-2026020099,2026-10-13,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Minnesota Wild,Hemma,V,5,2,Ordinarie,59.82,ja,Målvakt,21.0,19.0,2.0,18.0,2.0,2.772,2.0,ja,Vinst,0.905,0.4,0.772,0.579
-2026020100,2026-10-13,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Dallas Stars,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,18.0,1.0,2.807,2.0,ja,Vinst,0.923,0.9,0.807,0.605
-2026020100,2026-10-13,8479979,Jake Oettinger,29,Dallas Stars,DAL,Colorado Avalanche,Hemma,F,2,3,Ordinarie,58.13,ja,Målvakt,25.0,22.0,3.0,17.0,2.0,2.73,3.0,ja,Förlust,0.88,-0.05,-0.27,-0.202
-2026020101,2026-10-13,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Nashville Predators,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,20.0,1.0,2.662,2.0,ja,Vinst,0.926,1.0,0.662,0.497
-2026020101,2026-10-13,8477424,Juuse Saros,74,Nashville Predators,NSH,Vegas Golden Knights,Hemma,F,2,5,Ordinarie,75.53,ja,Målvakt,25.0,20.0,5.0,23.0,5.0,1.967,5.0,ja,Förlust,0.8,-1.75,-3.033,-2.275
-2026020102,2026-10-13,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Utah Mammoth,Borta,F,4,5,Ordinarie,57.43,ja,Målvakt,28.0,23.0,5.0,21.0,4.0,3.035,5.0,ja,Förlust,0.821,-1.45,-1.965,-1.474
-2026020102,2026-10-13,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Toronto Maple Leafs,Hemma,V,5,4,Ordinarie,59.97,ja,Målvakt,26.0,22.0,4.0,12.0,1.0,3.064,4.0,ja,Vinst,0.846,-0.8,-0.936,-0.702
-2026020103,2026-10-13,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Calgary Flames,Hemma,F,2,4,Ordinarie,58.23,ja,Målvakt,35.0,32.0,3.0,28.0,3.0,3.156,3.0,ja,Förlust,0.914,0.95,0.156,0.117
-2026020103,2026-10-13,8481692,Dustin Wolf,32,Calgary Flames,CGY,Anaheim Ducks,Borta,V,4,2,Ordinarie,59.65,ja,Målvakt,25.0,23.0,2.0,22.0,0.0,3.165,2.0,ja,Vinst,0.92,0.8,1.165,0.874
-2026020104,2026-10-13,8482221,Devon Levi,27,Edmonton Oilers,EDM,Los Angeles Kings,Borta,V,4,1,Ordinarie,59.63,ja,Målvakt,40.0,39.0,1.0,31.0,1.0,3.192,1.0,ja,Vinst,0.975,3.15,2.192,1.644
-2026020104,2026-10-13,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Edmonton Oilers,Hemma,F,1,4,Ordinarie,20.0,ja,Målvakt,7.0,4.0,3.0,5.0,2.0,0.522,3.0,ja,Förlust,0.571,-1.85,-2.478,-1.859
-2026020104,2026-10-13,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Edmonton Oilers,Hemma,F,1,4,Ordinarie,39.12,ja,Målvakt,9.0,9.0,0.0,5.0,0.0,0.837,0.0,nej,,1.0,0.9,0.837,0.628
-2026020105,2026-10-13,8480280,Jeremy Swayman,1,Boston Bruins,BOS,San Jose Sharks,Borta,V,6,3,Ordinarie,60.0,ja,Målvakt,38.0,35.0,3.0,31.0,1.0,2.981,3.0,ja,Vinst,0.921,1.25,-0.019,-0.014
-2026020105,2026-10-13,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Boston Bruins,Hemma,F,3,6,Ordinarie,57.68,ja,Målvakt,25.0,20.0,5.0,21.0,5.0,3.153,5.0,ja,Förlust,0.8,-1.75,-1.847,-1.385
-2026020106,2026-10-14,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Montréal Canadiens,Hemma,V,5,4,Ordinarie,60.0,ja,Målvakt,30.0,26.0,4.0,22.0,3.0,3.665,4.0,ja,Vinst,0.867,-0.4,-0.335,-0.251
-2026020106,2026-10-14,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Washington Capitals,Borta,F,4,5,Ordinarie,57.23,ja,Målvakt,23.0,18.0,5.0,18.0,3.0,2.728,5.0,ja,Förlust,0.783,-1.95,-2.272,-1.704
-2026020107,2026-10-14,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,Dallas Stars,Hemma,FÖ,2,3,Straffar,65.0,ja,Målvakt,22.0,20.0,2.0,17.0,1.0,1.861,2.0,ja,Förlust (förl./str.),0.909,0.5,-0.139,-0.104
-2026020107,2026-10-14,8479193,Casey DeSmith,1,Dallas Stars,DAL,Colorado Avalanche,Borta,V,3,2,Straffar,65.0,ja,Målvakt,27.0,25.0,2.0,23.0,2.0,2.621,2.0,ja,Vinst,0.926,1.0,0.621,0.466
-2026020108,2026-10-15,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Buffalo Sabres,Hemma,FÖ,4,5,Förlängning,63.23,ja,Målvakt,35.0,30.0,5.0,28.0,4.0,3.183,5.0,ja,Förlust (förl./str.),0.857,-0.75,-1.817,-1.363
-2026020108,2026-10-15,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Toronto Maple Leafs,Borta,V,5,4,Förlängning,63.23,ja,Målvakt,30.0,26.0,4.0,25.0,3.0,3.058,4.0,ja,Vinst,0.867,-0.4,-0.942,-0.706
-2026020109,2026-10-15,8476999,Linus Ullmark,35,Ottawa Senators,OTT,New York Islanders,Hemma,V,2,1,Straffar,65.0,ja,Målvakt,21.0,20.0,1.0,17.0,1.0,1.958,1.0,ja,Vinst,0.952,1.25,0.958,0.718
-2026020109,2026-10-15,8473575,Semyon Varlamov,40,New York Islanders,NYI,Ottawa Senators,Borta,FÖ,1,2,Straffar,65.0,ja,Målvakt,20.0,19.0,1.0,13.0,1.0,2.917,1.0,ja,Förlust (förl./str.),0.95,1.15,1.917,1.438
-2026020110,2026-10-15,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Detroit Red Wings,Borta,F,1,2,Ordinarie,59.92,ja,Målvakt,26.0,24.0,2.0,17.0,2.0,3.669,2.0,ja,Förlust,0.923,0.9,1.669,1.252
-2026020110,2026-10-15,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Philadelphia Flyers,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,18.0,17.0,1.0,12.0,1.0,2.312,1.0,ja,Vinst,0.944,0.95,1.312,0.984
-2026020111,2026-10-15,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Tampa Bay Lightning,Borta,FÖ,3,4,Förlängning,62.12,ja,Målvakt,35.0,31.0,4.0,26.0,3.0,3.721,4.0,ja,Förlust (förl./str.),0.886,0.1,-0.279,-0.209
-2026020111,2026-10-15,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Seattle Kraken,Hemma,V,4,3,Förlängning,62.12,ja,Målvakt,27.0,24.0,3.0,23.0,2.0,3.133,3.0,ja,Vinst,0.889,0.15,0.133,0.1
-2026020112,2026-10-15,8481033,Akira Schmid,40,Florida Panthers,FLA,Vancouver Canucks,Hemma,V,3,2,Förlängning,60.07,ja,Målvakt,18.0,16.0,2.0,14.0,1.0,2.052,2.0,ja,Vinst,0.889,0.1,0.052,0.039
-2026020112,2026-10-15,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Florida Panthers,Borta,FÖ,2,3,Förlängning,62.38,ja,Målvakt,39.0,36.0,3.0,30.0,1.0,3.79,3.0,ja,Förlust (förl./str.),0.923,1.35,0.79,0.592
-2026020113,2026-10-15,8482076,Nico Daws,50,New Jersey Devils,NJD,New York Rangers,Hemma,V,7,1,Ordinarie,59.67,ja,Målvakt,19.0,18.0,1.0,12.0,0.0,1.724,1.0,ja,Vinst,0.947,1.05,0.724,0.543
-2026020113,2026-10-15,8477484,Spencer Martin,41,New York Rangers,NYR,New Jersey Devils,Borta,F,1,7,Ordinarie,35.35,ja,Målvakt,18.0,15.0,3.0,14.0,2.0,2.014,3.0,nej,,0.833,-0.75,-0.986,-0.74
+2026020098,2026-10-13,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Chicago Blackhawks,Borta,F,3,5,Ordinarie,57.95,ja,Målvakt,19.0,15.0,4.0,17.0,3.0,1.849,4.0,ja,Förlust,0.789,-1.5,-2.151,-1.613
+2026020098,2026-10-13,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Pittsburgh Penguins,Hemma,V,5,3,Ordinarie,60.0,ja,Målvakt,27.0,24.0,3.0,22.0,3.0,3.435,3.0,ja,Vinst,0.889,0.15,0.435,0.326
+2026020099,2026-10-13,8475717,Calvin Pickard,31,Minnesota Wild,MIN,Winnipeg Jets,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,25.0,20.0,5.0,21.0,4.0,2.576,5.0,ja,Förlust,0.8,-1.75,-2.424,-1.818
+2026020099,2026-10-13,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Minnesota Wild,Hemma,V,5,2,Ordinarie,59.82,ja,Målvakt,21.0,19.0,2.0,18.0,2.0,2.773,2.0,ja,Vinst,0.905,0.4,0.773,0.58
+2026020100,2026-10-13,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Dallas Stars,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,18.0,1.0,2.796,2.0,ja,Vinst,0.923,0.9,0.796,0.597
+2026020100,2026-10-13,8479979,Jake Oettinger,29,Dallas Stars,DAL,Colorado Avalanche,Hemma,F,2,3,Ordinarie,58.13,ja,Målvakt,25.0,22.0,3.0,17.0,2.0,2.725,3.0,ja,Förlust,0.88,-0.05,-0.275,-0.206
+2026020101,2026-10-13,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Nashville Predators,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,20.0,1.0,2.664,2.0,ja,Vinst,0.926,1.0,0.664,0.498
+2026020101,2026-10-13,8477424,Juuse Saros,74,Nashville Predators,NSH,Vegas Golden Knights,Hemma,F,2,5,Ordinarie,75.53,ja,Målvakt,25.0,20.0,5.0,23.0,5.0,1.968,5.0,ja,Förlust,0.8,-1.75,-3.032,-2.274
+2026020102,2026-10-13,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Utah Mammoth,Borta,F,4,5,Ordinarie,57.43,ja,Målvakt,28.0,23.0,5.0,21.0,4.0,3.025,5.0,ja,Förlust,0.821,-1.45,-1.975,-1.481
+2026020102,2026-10-13,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Toronto Maple Leafs,Hemma,V,5,4,Ordinarie,59.97,ja,Målvakt,26.0,22.0,4.0,12.0,1.0,3.055,4.0,ja,Vinst,0.846,-0.8,-0.945,-0.709
+2026020103,2026-10-13,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Calgary Flames,Hemma,F,2,4,Ordinarie,58.23,ja,Målvakt,35.0,32.0,3.0,28.0,3.0,3.15,3.0,ja,Förlust,0.914,0.95,0.15,0.112
+2026020103,2026-10-13,8481692,Dustin Wolf,32,Calgary Flames,CGY,Anaheim Ducks,Borta,V,4,2,Ordinarie,59.65,ja,Målvakt,25.0,23.0,2.0,22.0,0.0,3.158,2.0,ja,Vinst,0.92,0.8,1.158,0.868
+2026020104,2026-10-13,8482221,Devon Levi,27,Edmonton Oilers,EDM,Los Angeles Kings,Borta,V,4,1,Ordinarie,59.63,ja,Målvakt,40.0,39.0,1.0,31.0,1.0,3.188,1.0,ja,Vinst,0.975,3.15,2.188,1.641
+2026020104,2026-10-13,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Edmonton Oilers,Hemma,F,1,4,Ordinarie,20.0,ja,Målvakt,7.0,4.0,3.0,5.0,2.0,0.519,3.0,ja,Förlust,0.571,-1.85,-2.481,-1.861
+2026020104,2026-10-13,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Edmonton Oilers,Hemma,F,1,4,Ordinarie,39.12,ja,Målvakt,9.0,9.0,0.0,5.0,0.0,0.839,0.0,nej,,1.0,0.9,0.839,0.629
+2026020105,2026-10-13,8480280,Jeremy Swayman,1,Boston Bruins,BOS,San Jose Sharks,Borta,V,6,3,Ordinarie,60.0,ja,Målvakt,38.0,35.0,3.0,31.0,1.0,2.98,3.0,ja,Vinst,0.921,1.25,-0.02,-0.015
+2026020105,2026-10-13,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Boston Bruins,Hemma,F,3,6,Ordinarie,57.68,ja,Målvakt,25.0,20.0,5.0,21.0,5.0,3.16,5.0,ja,Förlust,0.8,-1.75,-1.84,-1.38
+2026020106,2026-10-14,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Montréal Canadiens,Hemma,V,5,4,Ordinarie,60.0,ja,Målvakt,30.0,26.0,4.0,22.0,3.0,3.652,4.0,ja,Vinst,0.867,-0.4,-0.348,-0.261
+2026020106,2026-10-14,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Washington Capitals,Borta,F,4,5,Ordinarie,57.23,ja,Målvakt,23.0,18.0,5.0,18.0,3.0,2.719,5.0,ja,Förlust,0.783,-1.95,-2.281,-1.711
+2026020107,2026-10-14,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,Dallas Stars,Hemma,FÖ,2,3,Straffar,65.0,ja,Målvakt,22.0,20.0,2.0,17.0,1.0,1.864,2.0,ja,Förlust (förl./str.),0.909,0.5,-0.136,-0.102
+2026020107,2026-10-14,8479193,Casey DeSmith,1,Dallas Stars,DAL,Colorado Avalanche,Borta,V,3,2,Straffar,65.0,ja,Målvakt,27.0,25.0,2.0,23.0,2.0,2.616,2.0,ja,Vinst,0.926,1.0,0.616,0.462
+2026020108,2026-10-15,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Buffalo Sabres,Hemma,FÖ,4,5,Förlängning,63.23,ja,Målvakt,35.0,30.0,5.0,28.0,4.0,3.181,5.0,ja,Förlust (förl./str.),0.857,-0.75,-1.819,-1.364
+2026020108,2026-10-15,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Toronto Maple Leafs,Borta,V,5,4,Förlängning,63.23,ja,Målvakt,30.0,26.0,4.0,25.0,3.0,3.062,4.0,ja,Vinst,0.867,-0.4,-0.938,-0.704
+2026020109,2026-10-15,8476999,Linus Ullmark,35,Ottawa Senators,OTT,New York Islanders,Hemma,V,2,1,Straffar,65.0,ja,Målvakt,21.0,20.0,1.0,17.0,1.0,1.955,1.0,ja,Vinst,0.952,1.25,0.955,0.716
+2026020109,2026-10-15,8473575,Semyon Varlamov,40,New York Islanders,NYI,Ottawa Senators,Borta,FÖ,1,2,Straffar,65.0,ja,Målvakt,20.0,19.0,1.0,13.0,1.0,2.915,1.0,ja,Förlust (förl./str.),0.95,1.15,1.915,1.436
+2026020110,2026-10-15,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Detroit Red Wings,Borta,F,1,2,Ordinarie,59.92,ja,Målvakt,26.0,24.0,2.0,17.0,2.0,3.662,2.0,ja,Förlust,0.923,0.9,1.662,1.246
+2026020110,2026-10-15,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Philadelphia Flyers,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,18.0,17.0,1.0,12.0,1.0,2.303,1.0,ja,Vinst,0.944,0.95,1.303,0.977
+2026020111,2026-10-15,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Tampa Bay Lightning,Borta,FÖ,3,4,Förlängning,62.12,ja,Målvakt,35.0,31.0,4.0,26.0,3.0,3.728,4.0,ja,Förlust (förl./str.),0.886,0.1,-0.272,-0.204
+2026020111,2026-10-15,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Seattle Kraken,Hemma,V,4,3,Förlängning,62.12,ja,Målvakt,27.0,24.0,3.0,23.0,2.0,3.125,3.0,ja,Vinst,0.889,0.15,0.125,0.094
+2026020112,2026-10-15,8481033,Akira Schmid,40,Florida Panthers,FLA,Vancouver Canucks,Hemma,V,3,2,Förlängning,60.07,ja,Målvakt,18.0,16.0,2.0,14.0,1.0,2.045,2.0,ja,Vinst,0.889,0.1,0.045,0.034
+2026020112,2026-10-15,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Florida Panthers,Borta,FÖ,2,3,Förlängning,62.38,ja,Målvakt,39.0,36.0,3.0,30.0,1.0,3.768,3.0,ja,Förlust (förl./str.),0.923,1.35,0.768,0.576
+2026020113,2026-10-15,8482076,Nico Daws,50,New Jersey Devils,NJD,New York Rangers,Hemma,V,7,1,Ordinarie,59.67,ja,Målvakt,19.0,18.0,1.0,12.0,0.0,1.721,1.0,ja,Vinst,0.947,1.05,0.721,0.541
+2026020113,2026-10-15,8477484,Spencer Martin,41,New York Rangers,NYR,New Jersey Devils,Borta,F,1,7,Ordinarie,35.35,ja,Målvakt,18.0,15.0,3.0,14.0,2.0,2.016,3.0,nej,,0.833,-0.75,-0.984,-0.738
 2026020113,2026-10-15,8482193,Dylan Garand,33,New York Rangers,NYR,New Jersey Devils,Borta,F,1,7,Ordinarie,24.42,ja,Målvakt,13.0,9.0,4.0,12.0,4.0,1.09,4.0,ja,Förlust,0.692,-2.1,-2.91,-2.182
-2026020114,2026-10-15,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Chicago Blackhawks,Borta,FÖ,3,4,Förlängning,61.62,ja,Målvakt,28.0,24.0,4.0,18.0,2.0,3.181,4.0,ja,Förlust (förl./str.),0.857,-0.6,-0.819,-0.614
-2026020114,2026-10-15,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Winnipeg Jets,Hemma,V,4,3,Förlängning,61.62,ja,Målvakt,34.0,31.0,3.0,27.0,2.0,3.914,3.0,ja,Vinst,0.912,0.85,0.914,0.686
+2026020114,2026-10-15,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Chicago Blackhawks,Borta,FÖ,3,4,Förlängning,61.62,ja,Målvakt,28.0,24.0,4.0,18.0,2.0,3.185,4.0,ja,Förlust (förl./str.),0.857,-0.6,-0.815,-0.611
+2026020114,2026-10-15,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Winnipeg Jets,Hemma,V,4,3,Förlängning,61.62,ja,Målvakt,34.0,31.0,3.0,27.0,2.0,3.915,3.0,ja,Vinst,0.912,0.85,0.915,0.686
 2026020115,2026-10-15,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Nashville Predators,Borta,V,3,2,Straffar,65.0,ja,Målvakt,34.0,32.0,2.0,20.0,0.0,3.902,2.0,ja,Vinst,0.941,1.7,1.902,1.426
-2026020115,2026-10-15,8477424,Juuse Saros,74,Nashville Predators,NSH,San Jose Sharks,Hemma,FÖ,2,3,Straffar,67.8,ja,Målvakt,32.0,30.0,2.0,24.0,2.0,3.504,2.0,ja,Förlust (förl./str.),0.938,1.5,1.504,1.128
-2026020116,2026-10-15,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,St. Louis Blues,Hemma,V,5,4,Ordinarie,59.82,ja,Målvakt,26.0,22.0,4.0,18.0,1.0,2.88,4.0,ja,Vinst,0.846,-0.8,-1.12,-0.84
-2026020116,2026-10-15,8480981,Joel Hofer,30,St. Louis Blues,STL,Minnesota Wild,Borta,F,4,5,Ordinarie,57.45,ja,Målvakt,39.0,34.0,5.0,25.0,4.0,3.7,5.0,ja,Förlust,0.872,-0.35,-1.3,-0.975
-2026020117,2026-10-15,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Edmonton Oilers,Borta,V,4,2,Ordinarie,59.65,ja,Målvakt,24.0,22.0,2.0,20.0,1.0,2.087,2.0,ja,Vinst,0.917,0.7,0.087,0.065
-2026020117,2026-10-15,8482221,Devon Levi,27,Edmonton Oilers,EDM,Utah Mammoth,Hemma,F,2,4,Ordinarie,58.08,ja,Målvakt,24.0,21.0,3.0,18.0,1.0,3.047,3.0,ja,Förlust,0.875,-0.15,0.047,0.035
-2026020118,2026-10-15,8481692,Dustin Wolf,32,Calgary Flames,CGY,Vegas Golden Knights,Borta,F,2,6,Ordinarie,60.0,ja,Målvakt,33.0,27.0,6.0,20.0,3.0,3.923,6.0,ja,Förlust,0.818,-1.8,-2.077,-1.558
-2026020118,2026-10-15,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Calgary Flames,Hemma,V,6,2,Ordinarie,59.57,ja,Målvakt,30.0,28.0,2.0,26.0,0.0,3.618,2.0,ja,Vinst,0.933,1.3,1.618,1.214
-2026020119,2026-10-16,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Colorado Avalanche,Borta,F,2,5,Ordinarie,57.43,ja,Målvakt,32.0,27.0,5.0,23.0,4.0,3.766,5.0,ja,Förlust,0.844,-1.05,-1.234,-0.926
-2026020119,2026-10-16,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Pittsburgh Penguins,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,26.0,2.0,3.835,2.0,ja,Vinst,0.935,1.4,1.835,1.376
-2026020120,2026-10-16,8480022,Michael DiPietro,30,Boston Bruins,BOS,Anaheim Ducks,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,24.0,2.0,3.581,2.0,ja,Vinst,0.926,1.0,1.581,1.186
-2026020120,2026-10-16,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Boston Bruins,Hemma,F,2,4,Ordinarie,59.35,ja,Målvakt,22.0,18.0,4.0,19.0,1.0,2.981,4.0,ja,Förlust,0.818,-1.2,-1.019,-0.764
-2026020121,2026-10-17,8480313,Logan Thompson,48,Washington Capitals,WSH,New Jersey Devils,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,24.0,1.0,4.564,2.0,ja,Vinst,0.935,1.4,2.564,1.923
-2026020121,2026-10-17,8474596,Jake Allen,34,New Jersey Devils,NJD,Washington Capitals,Borta,F,2,4,Ordinarie,60.0,ja,Målvakt,25.0,21.0,4.0,22.0,3.0,2.485,4.0,ja,Förlust,0.84,-0.9,-1.515,-1.136
-2026020122,2026-10-17,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Winnipeg Jets,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,23.0,21.0,2.0,16.0,2.0,2.691,2.0,ja,Vinst,0.913,0.6,0.691,0.518
-2026020122,2026-10-17,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Carolina Hurricanes,Hemma,F,2,3,Ordinarie,59.0,ja,Målvakt,37.0,34.0,3.0,32.0,1.0,3.406,3.0,ja,Förlust,0.919,1.15,0.406,0.304
-2026020123,2026-10-17,8483710,Dennis Hildeby,35,Tampa Bay Lightning,TBL,Vancouver Canucks,Hemma,V,4,2,Ordinarie,69.75,ja,Målvakt,14.0,12.0,2.0,12.0,1.0,1.896,2.0,ja,Vinst,0.857,-0.3,-0.104,-0.078
-2026020123,2026-10-17,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Tampa Bay Lightning,Borta,F,2,4,Ordinarie,66.55,ja,Målvakt,35.0,31.0,4.0,31.0,3.0,3.371,4.0,ja,Förlust,0.886,0.1,-0.629,-0.472
-2026020124,2026-10-17,8478916,Joey Daccord,35,Seattle Kraken,SEA,Florida Panthers,Borta,F,3,8,Ordinarie,58.57,ja,Målvakt,37.0,29.0,8.0,28.0,6.0,3.794,8.0,ja,Förlust,0.784,-3.1,-4.206,-3.155
-2026020124,2026-10-17,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Seattle Kraken,Hemma,V,8,3,Ordinarie,60.0,ja,Målvakt,23.0,20.0,3.0,18.0,3.0,1.685,3.0,ja,Vinst,0.87,-0.25,-1.315,-0.986
-2026020125,2026-10-17,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,New York Islanders,Hemma,F,1,4,Ordinarie,59.3,ja,Målvakt,19.0,16.0,3.0,17.0,3.0,1.949,3.0,ja,Förlust,0.842,-0.65,-1.051,-0.788
-2026020125,2026-10-17,8478009,Ilya Sorokin,30,New York Islanders,NYI,Toronto Maple Leafs,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,29.0,28.0,1.0,19.0,1.0,3.428,1.0,ja,Vinst,0.966,2.05,2.428,1.821
-2026020126,2026-10-17,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Montréal Canadiens,Borta,FÖ,3,4,Förlängning,60.02,ja,Målvakt,34.0,30.0,4.0,22.0,2.0,4.063,4.0,ja,Förlust (förl./str.),0.882,0.0,0.063,0.047
-2026020126,2026-10-17,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Buffalo Sabres,Hemma,V,4,3,Förlängning,60.9,ja,Målvakt,26.0,23.0,3.0,21.0,2.0,3.089,3.0,ja,Vinst,0.885,0.05,0.089,0.067
-2026020127,2026-10-17,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Detroit Red Wings,Borta,FÖ,3,4,Straffar,64.63,ja,Målvakt,27.0,24.0,3.0,18.0,1.0,3.057,3.0,ja,Förlust (förl./str.),0.889,0.15,0.057,0.043
-2026020127,2026-10-17,8476434,John Gibson,36,Detroit Red Wings,DET,San Jose Sharks,Hemma,V,4,3,Straffar,64.33,ja,Målvakt,34.0,31.0,3.0,22.0,1.0,4.173,3.0,ja,Vinst,0.912,0.85,1.173,0.88
-2026020128,2026-10-17,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Philadelphia Flyers,Borta,F,1,3,Ordinarie,57.77,ja,Målvakt,27.0,25.0,2.0,16.0,1.0,2.408,2.0,ja,Förlust,0.926,1.0,0.408,0.306
-2026020128,2026-10-17,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Ottawa Senators,Hemma,V,3,1,Ordinarie,59.72,ja,Målvakt,26.0,25.0,1.0,20.0,1.0,2.817,1.0,ja,Vinst,0.962,1.75,1.817,1.363
-2026020129,2026-10-17,8482193,Dylan Garand,33,New York Rangers,NYR,Columbus Blue Jackets,Borta,FÖ,0,1,Förlängning,63.43,ja,Målvakt,29.0,28.0,1.0,22.0,0.0,3.386,1.0,ja,Förlust (förl./str.),0.966,2.05,2.386,1.79
-2026020129,2026-10-17,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,New York Rangers,Hemma,V,1,0,Förlängning,62.72,ja,Målvakt,29.0,29.0,0.0,25.0,0.0,3.334,0.0,ja,Vinst,1.0,2.9,3.334,2.5
-2026020130,2026-10-17,8479979,Jake Oettinger,29,Dallas Stars,DAL,Chicago Blackhawks,Borta,V,4,0,Ordinarie,59.83,ja,Målvakt,19.0,19.0,0.0,14.0,0.0,2.575,0.0,ja,Vinst,1.0,1.9,2.575,1.931
-2026020130,2026-10-17,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Dallas Stars,Hemma,F,0,4,Ordinarie,59.67,ja,Målvakt,32.0,28.0,4.0,20.0,3.0,3.436,4.0,ja,Förlust,0.875,-0.2,-0.564,-0.423
+2026020115,2026-10-15,8477424,Juuse Saros,74,Nashville Predators,NSH,San Jose Sharks,Hemma,FÖ,2,3,Straffar,67.8,ja,Målvakt,32.0,30.0,2.0,24.0,2.0,3.512,2.0,ja,Förlust (förl./str.),0.938,1.5,1.512,1.134
+2026020116,2026-10-15,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,St. Louis Blues,Hemma,V,5,4,Ordinarie,59.82,ja,Målvakt,26.0,22.0,4.0,18.0,1.0,2.881,4.0,ja,Vinst,0.846,-0.8,-1.119,-0.839
+2026020116,2026-10-15,8480981,Joel Hofer,30,St. Louis Blues,STL,Minnesota Wild,Borta,F,4,5,Ordinarie,57.45,ja,Målvakt,39.0,34.0,5.0,25.0,4.0,3.698,5.0,ja,Förlust,0.872,-0.35,-1.302,-0.976
+2026020117,2026-10-15,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Edmonton Oilers,Borta,V,4,2,Ordinarie,59.65,ja,Målvakt,24.0,22.0,2.0,20.0,1.0,2.088,2.0,ja,Vinst,0.917,0.7,0.088,0.066
+2026020117,2026-10-15,8482221,Devon Levi,27,Edmonton Oilers,EDM,Utah Mammoth,Hemma,F,2,4,Ordinarie,58.08,ja,Målvakt,24.0,21.0,3.0,18.0,1.0,3.043,3.0,ja,Förlust,0.875,-0.15,0.043,0.032
+2026020118,2026-10-15,8481692,Dustin Wolf,32,Calgary Flames,CGY,Vegas Golden Knights,Borta,F,2,6,Ordinarie,60.0,ja,Målvakt,33.0,27.0,6.0,20.0,3.0,3.915,6.0,ja,Förlust,0.818,-1.8,-2.085,-1.564
+2026020118,2026-10-15,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Calgary Flames,Hemma,V,6,2,Ordinarie,59.57,ja,Målvakt,30.0,28.0,2.0,26.0,0.0,3.614,2.0,ja,Vinst,0.933,1.3,1.614,1.211
+2026020119,2026-10-16,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Colorado Avalanche,Borta,F,2,5,Ordinarie,57.43,ja,Målvakt,32.0,27.0,5.0,23.0,4.0,3.769,5.0,ja,Förlust,0.844,-1.05,-1.231,-0.923
+2026020119,2026-10-16,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Pittsburgh Penguins,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,26.0,2.0,3.831,2.0,ja,Vinst,0.935,1.4,1.831,1.373
+2026020120,2026-10-16,8480022,Michael DiPietro,30,Boston Bruins,BOS,Anaheim Ducks,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,24.0,2.0,3.575,2.0,ja,Vinst,0.926,1.0,1.575,1.181
+2026020120,2026-10-16,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Boston Bruins,Hemma,F,2,4,Ordinarie,59.35,ja,Målvakt,22.0,18.0,4.0,19.0,1.0,2.976,4.0,ja,Förlust,0.818,-1.2,-1.024,-0.768
+2026020121,2026-10-17,8480313,Logan Thompson,48,Washington Capitals,WSH,New Jersey Devils,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,24.0,1.0,4.547,2.0,ja,Vinst,0.935,1.4,2.547,1.91
+2026020121,2026-10-17,8474596,Jake Allen,34,New Jersey Devils,NJD,Washington Capitals,Borta,F,2,4,Ordinarie,60.0,ja,Målvakt,25.0,21.0,4.0,22.0,3.0,2.478,4.0,ja,Förlust,0.84,-0.9,-1.522,-1.142
+2026020122,2026-10-17,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Winnipeg Jets,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,23.0,21.0,2.0,16.0,2.0,2.688,2.0,ja,Vinst,0.913,0.6,0.688,0.516
+2026020122,2026-10-17,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Carolina Hurricanes,Hemma,F,2,3,Ordinarie,59.0,ja,Målvakt,37.0,34.0,3.0,32.0,1.0,3.412,3.0,ja,Förlust,0.919,1.15,0.412,0.309
+2026020123,2026-10-17,8483710,Dennis Hildeby,35,Tampa Bay Lightning,TBL,Vancouver Canucks,Hemma,V,4,2,Ordinarie,69.75,ja,Målvakt,14.0,12.0,2.0,12.0,1.0,1.894,2.0,ja,Vinst,0.857,-0.3,-0.106,-0.08
+2026020123,2026-10-17,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Tampa Bay Lightning,Borta,F,2,4,Ordinarie,66.55,ja,Målvakt,35.0,31.0,4.0,31.0,3.0,3.376,4.0,ja,Förlust,0.886,0.1,-0.624,-0.468
+2026020124,2026-10-17,8478916,Joey Daccord,35,Seattle Kraken,SEA,Florida Panthers,Borta,F,3,8,Ordinarie,58.57,ja,Målvakt,37.0,29.0,8.0,28.0,6.0,3.787,8.0,ja,Förlust,0.784,-3.1,-4.213,-3.16
+2026020124,2026-10-17,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Seattle Kraken,Hemma,V,8,3,Ordinarie,60.0,ja,Målvakt,23.0,20.0,3.0,18.0,3.0,1.686,3.0,ja,Vinst,0.87,-0.25,-1.314,-0.986
+2026020125,2026-10-17,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,New York Islanders,Hemma,F,1,4,Ordinarie,59.3,ja,Målvakt,19.0,16.0,3.0,17.0,3.0,1.95,3.0,ja,Förlust,0.842,-0.65,-1.05,-0.788
+2026020125,2026-10-17,8478009,Ilya Sorokin,30,New York Islanders,NYI,Toronto Maple Leafs,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,29.0,28.0,1.0,19.0,1.0,3.422,1.0,ja,Vinst,0.966,2.05,2.422,1.816
+2026020126,2026-10-17,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Montréal Canadiens,Borta,FÖ,3,4,Förlängning,60.02,ja,Målvakt,34.0,30.0,4.0,22.0,2.0,4.059,4.0,ja,Förlust (förl./str.),0.882,0.0,0.059,0.044
+2026020126,2026-10-17,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Buffalo Sabres,Hemma,V,4,3,Förlängning,60.9,ja,Målvakt,26.0,23.0,3.0,21.0,2.0,3.081,3.0,ja,Vinst,0.885,0.05,0.081,0.061
+2026020127,2026-10-17,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Detroit Red Wings,Borta,FÖ,3,4,Straffar,64.63,ja,Målvakt,27.0,24.0,3.0,18.0,1.0,3.048,3.0,ja,Förlust (förl./str.),0.889,0.15,0.048,0.036
+2026020127,2026-10-17,8476434,John Gibson,36,Detroit Red Wings,DET,San Jose Sharks,Hemma,V,4,3,Straffar,64.33,ja,Målvakt,34.0,31.0,3.0,22.0,1.0,4.17,3.0,ja,Vinst,0.912,0.85,1.17,0.878
+2026020128,2026-10-17,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Philadelphia Flyers,Borta,F,1,3,Ordinarie,57.77,ja,Målvakt,27.0,25.0,2.0,16.0,1.0,2.394,2.0,ja,Förlust,0.926,1.0,0.394,0.296
+2026020128,2026-10-17,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Ottawa Senators,Hemma,V,3,1,Ordinarie,59.72,ja,Målvakt,26.0,25.0,1.0,20.0,1.0,2.815,1.0,ja,Vinst,0.962,1.75,1.815,1.361
+2026020129,2026-10-17,8482193,Dylan Garand,33,New York Rangers,NYR,Columbus Blue Jackets,Borta,FÖ,0,1,Förlängning,63.43,ja,Målvakt,29.0,28.0,1.0,22.0,0.0,3.393,1.0,ja,Förlust (förl./str.),0.966,2.05,2.393,1.795
+2026020129,2026-10-17,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,New York Rangers,Hemma,V,1,0,Förlängning,62.72,ja,Målvakt,29.0,29.0,0.0,25.0,0.0,3.328,0.0,ja,Vinst,1.0,2.9,3.328,2.496
+2026020130,2026-10-17,8479979,Jake Oettinger,29,Dallas Stars,DAL,Chicago Blackhawks,Borta,V,4,0,Ordinarie,59.83,ja,Målvakt,19.0,19.0,0.0,14.0,0.0,2.576,0.0,ja,Vinst,1.0,1.9,2.576,1.932
+2026020130,2026-10-17,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Dallas Stars,Hemma,F,0,4,Ordinarie,59.67,ja,Målvakt,32.0,28.0,4.0,20.0,3.0,3.44,4.0,ja,Förlust,0.875,-0.2,-0.56,-0.42
 2026020131,2026-10-17,8477424,Juuse Saros,74,Nashville Predators,NSH,St. Louis Blues,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,23.0,1.0,2.427,2.0,ja,Vinst,0.923,0.9,0.427,0.32
-2026020131,2026-10-17,8476412,Jordan Binnington,50,St. Louis Blues,STL,Nashville Predators,Borta,F,2,5,Ordinarie,59.65,ja,Målvakt,24.0,19.0,5.0,13.0,3.0,2.587,5.0,ja,Förlust,0.792,-1.85,-2.413,-1.81
-2026020132,2026-10-17,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Los Angeles Kings,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,19.0,1.0,2.951,1.0,ja,Vinst,0.962,1.75,1.951,1.463
-2026020132,2026-10-17,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Boston Bruins,Hemma,F,1,4,Ordinarie,57.63,ja,Målvakt,26.0,24.0,2.0,22.0,2.0,2.157,2.0,ja,Förlust,0.923,0.9,0.157,0.118
-2026020133,2026-10-17,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Utah Mammoth,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,28.0,26.0,2.0,25.0,2.0,3.022,2.0,ja,Vinst,0.929,1.1,1.022,0.766
-2026020133,2026-10-17,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Edmonton Oilers,Hemma,F,2,6,Ordinarie,26.2,ja,Målvakt,4.0,3.0,1.0,4.0,1.0,0.595,1.0,nej,,0.75,-0.45,-0.405,-0.304
-2026020133,2026-10-17,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Edmonton Oilers,Hemma,F,2,6,Ordinarie,33.8,ja,Målvakt,17.0,12.0,5.0,16.0,4.0,1.693,5.0,ja,Förlust,0.706,-2.55,-3.307,-2.48
-2026020134,2026-10-17,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Pittsburgh Penguins,Hemma,V,6,2,Ordinarie,59.92,ja,Målvakt,24.0,22.0,2.0,23.0,1.0,2.731,2.0,ja,Vinst,0.917,0.7,0.731,0.548
-2026020134,2026-10-17,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Vegas Golden Knights,Borta,F,2,6,Ordinarie,59.7,ja,Målvakt,19.0,14.0,5.0,17.0,4.0,2.097,5.0,ja,Förlust,0.737,-2.35,-2.903,-2.177
-2026020135,2026-10-18,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Minnesota Wild,Borta,F,1,2,Ordinarie,58.0,ja,Målvakt,34.0,32.0,2.0,30.0,1.0,3.7,2.0,ja,Förlust,0.941,1.7,1.7,1.275
+2026020131,2026-10-17,8476412,Jordan Binnington,50,St. Louis Blues,STL,Nashville Predators,Borta,F,2,5,Ordinarie,59.65,ja,Målvakt,24.0,19.0,5.0,13.0,3.0,2.592,5.0,ja,Förlust,0.792,-1.85,-2.408,-1.806
+2026020132,2026-10-17,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Los Angeles Kings,Borta,V,4,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,19.0,1.0,2.949,1.0,ja,Vinst,0.962,1.75,1.949,1.462
+2026020132,2026-10-17,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Boston Bruins,Hemma,F,1,4,Ordinarie,57.63,ja,Målvakt,26.0,24.0,2.0,22.0,2.0,2.154,2.0,ja,Förlust,0.923,0.9,0.154,0.115
+2026020133,2026-10-17,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Utah Mammoth,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,28.0,26.0,2.0,25.0,2.0,3.024,2.0,ja,Vinst,0.929,1.1,1.024,0.768
+2026020133,2026-10-17,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Edmonton Oilers,Hemma,F,2,6,Ordinarie,26.2,ja,Målvakt,4.0,3.0,1.0,4.0,1.0,0.593,1.0,nej,,0.75,-0.45,-0.407,-0.305
+2026020133,2026-10-17,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Edmonton Oilers,Hemma,F,2,6,Ordinarie,33.8,ja,Målvakt,17.0,12.0,5.0,16.0,4.0,1.689,5.0,ja,Förlust,0.706,-2.55,-3.311,-2.483
+2026020134,2026-10-17,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Pittsburgh Penguins,Hemma,V,6,2,Ordinarie,59.92,ja,Målvakt,24.0,22.0,2.0,23.0,1.0,2.722,2.0,ja,Vinst,0.917,0.7,0.722,0.542
+2026020134,2026-10-17,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Vegas Golden Knights,Borta,F,2,6,Ordinarie,59.7,ja,Målvakt,19.0,14.0,5.0,17.0,4.0,2.088,5.0,ja,Förlust,0.737,-2.35,-2.912,-2.184
+2026020135,2026-10-18,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Minnesota Wild,Borta,F,1,2,Ordinarie,58.0,ja,Målvakt,34.0,32.0,2.0,30.0,1.0,3.699,2.0,ja,Förlust,0.941,1.7,1.699,1.274
 2026020135,2026-10-18,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Columbus Blue Jackets,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,14.0,13.0,1.0,8.0,0.0,1.304,1.0,ja,Vinst,0.929,0.55,0.304,0.228
-2026020136,2026-10-18,8482445,Devin Cooley,1,Calgary Flames,CGY,Carolina Hurricanes,Hemma,V,3,2,Ordinarie,59.78,ja,Målvakt,36.0,34.0,2.0,29.0,2.0,3.957,2.0,ja,Vinst,0.944,1.9,1.957,1.468
-2026020136,2026-10-18,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Calgary Flames,Borta,F,2,3,Ordinarie,58.18,ja,Målvakt,34.0,31.0,3.0,25.0,2.0,2.574,3.0,ja,Förlust,0.912,0.85,-0.426,-0.32
-2026020137,2026-10-19,8478024,Ville Husso,33,Anaheim Ducks,ANA,New York Rangers,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,30.0,25.0,5.0,25.0,4.0,4.692,5.0,ja,Förlust,0.833,-1.25,-0.308,-0.231
-2026020137,2026-10-19,8482193,Dylan Garand,33,New York Rangers,NYR,Anaheim Ducks,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,23.0,2.0,3.206,2.0,ja,Vinst,0.935,1.4,1.206,0.904
-2026020138,2026-10-19,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Colorado Avalanche,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,22.0,2.0,2.365,2.0,ja,Vinst,0.923,0.9,0.365,0.274
-2026020138,2026-10-19,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Philadelphia Flyers,Borta,F,2,3,Ordinarie,57.97,ja,Målvakt,24.0,21.0,3.0,18.0,2.0,3.243,3.0,ja,Förlust,0.875,-0.15,0.243,0.182
-2026020139,2026-10-19,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,San Jose Sharks,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,31.0,30.0,1.0,27.0,1.0,3.504,1.0,ja,Vinst,0.968,2.25,2.504,1.878
-2026020139,2026-10-19,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Toronto Maple Leafs,Borta,F,1,3,Ordinarie,58.98,ja,Målvakt,31.0,29.0,2.0,22.0,0.0,4.062,2.0,ja,Förlust,0.935,1.4,2.062,1.546
-2026020140,2026-10-19,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Pittsburgh Penguins,Hemma,V,5,4,Ordinarie,60.0,ja,Målvakt,19.0,15.0,4.0,15.0,2.0,2.184,4.0,ja,Vinst,0.789,-1.5,-1.816,-1.362
-2026020140,2026-10-19,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Utah Mammoth,Borta,F,4,5,Ordinarie,58.73,ja,Målvakt,29.0,24.0,5.0,27.0,4.0,3.778,5.0,ja,Förlust,0.828,-1.35,-1.222,-0.916
-2026020141,2026-10-20,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Montréal Canadiens,Borta,V,4,3,Förlängning,62.22,ja,Målvakt,34.0,31.0,3.0,32.0,3.0,3.74,3.0,ja,Vinst,0.912,0.85,0.74,0.555
-2026020141,2026-10-20,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,San Jose Sharks,Hemma,FÖ,3,4,Förlängning,62.03,ja,Målvakt,30.0,26.0,4.0,25.0,2.0,3.229,4.0,ja,Förlust (förl./str.),0.867,-0.4,-0.771,-0.578
-2026020142,2026-10-20,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,New Jersey Devils,Borta,F,3,4,Ordinarie,56.4,ja,Målvakt,40.0,37.0,3.0,35.0,3.0,2.821,3.0,ja,Förlust,0.925,1.45,-0.179,-0.134
+2026020136,2026-10-18,8482445,Devin Cooley,1,Calgary Flames,CGY,Carolina Hurricanes,Hemma,V,3,2,Ordinarie,59.78,ja,Målvakt,36.0,34.0,2.0,29.0,2.0,3.953,2.0,ja,Vinst,0.944,1.9,1.953,1.465
+2026020136,2026-10-18,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Calgary Flames,Borta,F,2,3,Ordinarie,58.18,ja,Målvakt,34.0,31.0,3.0,25.0,2.0,2.572,3.0,ja,Förlust,0.912,0.85,-0.428,-0.321
+2026020137,2026-10-19,8478024,Ville Husso,33,Anaheim Ducks,ANA,New York Rangers,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,30.0,25.0,5.0,25.0,4.0,4.693,5.0,ja,Förlust,0.833,-1.25,-0.307,-0.23
+2026020137,2026-10-19,8482193,Dylan Garand,33,New York Rangers,NYR,Anaheim Ducks,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,31.0,29.0,2.0,23.0,2.0,3.194,2.0,ja,Vinst,0.935,1.4,1.194,0.896
+2026020138,2026-10-19,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Colorado Avalanche,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,22.0,2.0,2.361,2.0,ja,Vinst,0.923,0.9,0.361,0.271
+2026020138,2026-10-19,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Philadelphia Flyers,Borta,F,2,3,Ordinarie,57.97,ja,Målvakt,24.0,21.0,3.0,18.0,2.0,3.237,3.0,ja,Förlust,0.875,-0.15,0.237,0.178
+2026020139,2026-10-19,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,San Jose Sharks,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,31.0,30.0,1.0,27.0,1.0,3.515,1.0,ja,Vinst,0.968,2.25,2.515,1.886
+2026020139,2026-10-19,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Toronto Maple Leafs,Borta,F,1,3,Ordinarie,58.98,ja,Målvakt,31.0,29.0,2.0,22.0,0.0,4.073,2.0,ja,Förlust,0.935,1.4,2.073,1.555
+2026020140,2026-10-19,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Pittsburgh Penguins,Hemma,V,5,4,Ordinarie,60.0,ja,Målvakt,19.0,15.0,4.0,15.0,2.0,2.177,4.0,ja,Vinst,0.789,-1.5,-1.823,-1.367
+2026020140,2026-10-19,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Utah Mammoth,Borta,F,4,5,Ordinarie,58.73,ja,Målvakt,29.0,24.0,5.0,27.0,4.0,3.779,5.0,ja,Förlust,0.828,-1.35,-1.221,-0.916
+2026020141,2026-10-20,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Montréal Canadiens,Borta,V,4,3,Förlängning,62.22,ja,Målvakt,34.0,31.0,3.0,32.0,3.0,3.722,3.0,ja,Vinst,0.912,0.85,0.722,0.542
+2026020141,2026-10-20,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,San Jose Sharks,Hemma,FÖ,3,4,Förlängning,62.03,ja,Målvakt,30.0,26.0,4.0,25.0,2.0,3.216,4.0,ja,Förlust (förl./str.),0.867,-0.4,-0.784,-0.588
+2026020142,2026-10-20,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,New Jersey Devils,Borta,F,3,4,Ordinarie,56.4,ja,Målvakt,40.0,37.0,3.0,35.0,3.0,2.815,3.0,ja,Förlust,0.925,1.45,-0.185,-0.139
 2026020142,2026-10-20,8474596,Jake Allen,34,New Jersey Devils,NJD,Colorado Avalanche,Hemma,V,4,3,Ordinarie,60.0,ja,Målvakt,34.0,31.0,3.0,26.0,2.0,2.925,3.0,ja,Vinst,0.912,0.85,-0.075,-0.056
-2026020143,2026-10-20,8478009,Ilya Sorokin,30,New York Islanders,NYI,Anaheim Ducks,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,17.0,15.0,2.0,15.0,1.0,1.997,2.0,ja,Vinst,0.882,0.0,-0.003,-0.002
-2026020143,2026-10-20,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,New York Islanders,Borta,F,2,3,Ordinarie,57.32,ja,Målvakt,25.0,22.0,3.0,20.0,2.0,4.965,3.0,ja,Förlust,0.88,-0.05,1.965,1.474
-2026020144,2026-10-20,8480313,Logan Thompson,48,Washington Capitals,WSH,Los Angeles Kings,Hemma,F,2,5,Ordinarie,58.03,ja,Målvakt,25.0,21.0,4.0,21.0,3.0,2.796,4.0,ja,Förlust,0.84,-0.9,-1.204,-0.903
-2026020144,2026-10-20,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Washington Capitals,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,32.0,30.0,2.0,21.0,1.0,4.423,2.0,ja,Vinst,0.938,1.5,2.423,1.817
-2026020145,2026-10-20,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Columbus Blue Jackets,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,37.0,35.0,2.0,24.0,2.0,3.546,2.0,ja,Vinst,0.946,2.0,1.546,1.16
-2026020145,2026-10-20,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Toronto Maple Leafs,Hemma,F,2,6,Ordinarie,27.95,ja,Målvakt,3.0,2.0,1.0,3.0,1.0,0.416,1.0,nej,,0.667,-0.55,-0.584,-0.438
-2026020145,2026-10-20,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Toronto Maple Leafs,Hemma,F,2,6,Ordinarie,32.03,ja,Målvakt,19.0,14.0,5.0,11.0,3.0,2.31,5.0,ja,Förlust,0.737,-2.35,-2.69,-2.018
-2026020146,2026-10-20,8480981,Joel Hofer,30,St. Louis Blues,STL,Winnipeg Jets,Hemma,V,2,1,Ordinarie,59.62,ja,Målvakt,33.0,32.0,1.0,26.0,1.0,2.597,1.0,ja,Vinst,0.97,2.45,1.597,1.198
-2026020146,2026-10-20,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,St. Louis Blues,Borta,F,1,2,Ordinarie,58.05,ja,Målvakt,28.0,26.0,2.0,21.0,1.0,3.229,2.0,ja,Förlust,0.929,1.1,1.229,0.922
-2026020147,2026-10-20,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Dallas Stars,Borta,FÖ,2,3,Förlängning,63.87,ja,Målvakt,25.0,22.0,3.0,16.0,2.0,4.106,3.0,ja,Förlust (förl./str.),0.88,-0.05,1.106,0.83
-2026020147,2026-10-20,8479979,Jake Oettinger,29,Dallas Stars,DAL,Boston Bruins,Hemma,V,3,2,Förlängning,63.4,ja,Målvakt,20.0,18.0,2.0,15.0,2.0,2.212,2.0,ja,Vinst,0.9,0.3,0.212,0.159
-2026020148,2026-10-20,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Edmonton Oilers,Borta,FÖ,3,4,Förlängning,63.53,ja,Målvakt,32.0,28.0,4.0,24.0,1.0,4.373,4.0,ja,Förlust (förl./str.),0.875,-0.2,0.373,0.28
-2026020148,2026-10-20,8482221,Devon Levi,27,Edmonton Oilers,EDM,Minnesota Wild,Hemma,V,4,3,Förlängning,63.47,ja,Målvakt,30.0,27.0,3.0,28.0,3.0,4.906,3.0,ja,Vinst,0.9,0.45,1.906,1.43
-2026020149,2026-10-20,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Detroit Red Wings,Hemma,V,4,3,Straffar,64.8,ja,Målvakt,25.0,22.0,3.0,17.0,1.0,2.707,3.0,ja,Vinst,0.88,-0.05,-0.293,-0.22
-2026020149,2026-10-20,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Seattle Kraken,Borta,FÖ,3,4,Straffar,62.97,ja,Målvakt,27.0,24.0,3.0,22.0,2.0,2.499,3.0,ja,Förlust (förl./str.),0.889,0.15,-0.501,-0.376
+2026020143,2026-10-20,8478009,Ilya Sorokin,30,New York Islanders,NYI,Anaheim Ducks,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,17.0,15.0,2.0,15.0,1.0,1.999,2.0,ja,Vinst,0.882,0.0,-0.001,-0.001
+2026020143,2026-10-20,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,New York Islanders,Borta,F,2,3,Ordinarie,57.32,ja,Målvakt,25.0,22.0,3.0,20.0,2.0,4.961,3.0,ja,Förlust,0.88,-0.05,1.961,1.471
+2026020144,2026-10-20,8480313,Logan Thompson,48,Washington Capitals,WSH,Los Angeles Kings,Hemma,F,2,5,Ordinarie,58.03,ja,Målvakt,25.0,21.0,4.0,21.0,3.0,2.788,4.0,ja,Förlust,0.84,-0.9,-1.212,-0.909
+2026020144,2026-10-20,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Washington Capitals,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,32.0,30.0,2.0,21.0,1.0,4.413,2.0,ja,Vinst,0.938,1.5,2.413,1.81
+2026020145,2026-10-20,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Columbus Blue Jackets,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,37.0,35.0,2.0,24.0,2.0,3.539,2.0,ja,Vinst,0.946,2.0,1.539,1.154
+2026020145,2026-10-20,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Toronto Maple Leafs,Hemma,F,2,6,Ordinarie,27.95,ja,Målvakt,3.0,2.0,1.0,3.0,1.0,0.417,1.0,nej,,0.667,-0.55,-0.583,-0.437
+2026020145,2026-10-20,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Toronto Maple Leafs,Hemma,F,2,6,Ordinarie,32.03,ja,Målvakt,19.0,14.0,5.0,11.0,3.0,2.305,5.0,ja,Förlust,0.737,-2.35,-2.695,-2.021
+2026020146,2026-10-20,8480981,Joel Hofer,30,St. Louis Blues,STL,Winnipeg Jets,Hemma,V,2,1,Ordinarie,59.62,ja,Målvakt,33.0,32.0,1.0,26.0,1.0,2.598,1.0,ja,Vinst,0.97,2.45,1.598,1.199
+2026020146,2026-10-20,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,St. Louis Blues,Borta,F,1,2,Ordinarie,58.05,ja,Målvakt,28.0,26.0,2.0,21.0,1.0,3.233,2.0,ja,Förlust,0.929,1.1,1.233,0.925
+2026020147,2026-10-20,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Dallas Stars,Borta,FÖ,2,3,Förlängning,63.87,ja,Målvakt,25.0,22.0,3.0,16.0,2.0,4.097,3.0,ja,Förlust (förl./str.),0.88,-0.05,1.097,0.823
+2026020147,2026-10-20,8479979,Jake Oettinger,29,Dallas Stars,DAL,Boston Bruins,Hemma,V,3,2,Förlängning,63.4,ja,Målvakt,20.0,18.0,2.0,15.0,2.0,2.21,2.0,ja,Vinst,0.9,0.3,0.21,0.158
+2026020148,2026-10-20,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Edmonton Oilers,Borta,FÖ,3,4,Förlängning,63.53,ja,Målvakt,32.0,28.0,4.0,24.0,1.0,4.363,4.0,ja,Förlust (förl./str.),0.875,-0.2,0.363,0.272
+2026020148,2026-10-20,8482221,Devon Levi,27,Edmonton Oilers,EDM,Minnesota Wild,Hemma,V,4,3,Förlängning,63.47,ja,Målvakt,30.0,27.0,3.0,28.0,3.0,4.88,3.0,ja,Vinst,0.9,0.45,1.88,1.41
+2026020149,2026-10-20,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Detroit Red Wings,Hemma,V,4,3,Straffar,64.8,ja,Målvakt,25.0,22.0,3.0,17.0,1.0,2.698,3.0,ja,Vinst,0.88,-0.05,-0.302,-0.226
+2026020149,2026-10-20,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Seattle Kraken,Borta,FÖ,3,4,Straffar,62.97,ja,Målvakt,27.0,24.0,3.0,22.0,2.0,2.5,3.0,ja,Förlust (förl./str.),0.889,0.15,-0.5,-0.375
 2026020150,2026-10-20,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Vancouver Canucks,Borta,V,6,3,Ordinarie,60.0,ja,Målvakt,17.0,14.0,3.0,15.0,2.0,1.933,3.0,ja,Vinst,0.824,-0.85,-1.067,-0.8
-2026020150,2026-10-20,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Carolina Hurricanes,Hemma,F,3,6,Ordinarie,59.18,ja,Målvakt,43.0,38.0,5.0,34.0,5.0,5.268,5.0,ja,Förlust,0.884,0.05,0.268,0.201
-2026020151,2026-10-20,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Tampa Bay Lightning,Hemma,F,2,6,Ordinarie,59.77,ja,Målvakt,21.0,15.0,6.0,17.0,5.0,2.435,6.0,ja,Förlust,0.714,-3.0,-3.565,-2.674
-2026020151,2026-10-20,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Vegas Golden Knights,Borta,V,6,2,Ordinarie,59.95,ja,Målvakt,34.0,32.0,2.0,25.0,1.0,4.093,2.0,ja,Vinst,0.941,1.7,2.093,1.57
-2026020152,2026-10-21,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Philadelphia Flyers,Hemma,F,1,3,Ordinarie,57.43,ja,Målvakt,26.0,23.0,3.0,17.0,2.0,3.449,3.0,ja,Förlust,0.885,0.05,0.449,0.337
-2026020152,2026-10-21,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Buffalo Sabres,Borta,V,3,1,Ordinarie,60.0,ja,Målvakt,28.0,27.0,1.0,17.0,0.0,3.916,1.0,ja,Vinst,0.964,1.95,2.916,2.187
-2026020153,2026-10-21,8481033,Akira Schmid,40,Florida Panthers,FLA,Ottawa Senators,Borta,F,1,5,Ordinarie,60.0,ja,Målvakt,30.0,25.0,5.0,19.0,4.0,2.612,5.0,ja,Förlust,0.833,-1.25,-2.388,-1.791
-2026020153,2026-10-21,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Florida Panthers,Hemma,V,5,1,Ordinarie,16.42,ja,Målvakt,1.0,1.0,0.0,1.0,0.0,0.06,0.0,nej,,1.0,0.1,0.06,0.045
+2026020150,2026-10-20,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Carolina Hurricanes,Hemma,F,3,6,Ordinarie,59.18,ja,Målvakt,43.0,38.0,5.0,34.0,5.0,5.272,5.0,ja,Förlust,0.884,0.05,0.272,0.204
+2026020151,2026-10-20,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Tampa Bay Lightning,Hemma,F,2,6,Ordinarie,59.77,ja,Målvakt,21.0,15.0,6.0,17.0,5.0,2.443,6.0,ja,Förlust,0.714,-3.0,-3.557,-2.668
+2026020151,2026-10-20,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Vegas Golden Knights,Borta,V,6,2,Ordinarie,59.95,ja,Målvakt,34.0,32.0,2.0,25.0,1.0,4.092,2.0,ja,Vinst,0.941,1.7,2.092,1.569
+2026020152,2026-10-21,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Philadelphia Flyers,Hemma,F,1,3,Ordinarie,57.43,ja,Målvakt,26.0,23.0,3.0,17.0,2.0,3.44,3.0,ja,Förlust,0.885,0.05,0.44,0.33
+2026020152,2026-10-21,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Buffalo Sabres,Borta,V,3,1,Ordinarie,60.0,ja,Målvakt,28.0,27.0,1.0,17.0,0.0,3.908,1.0,ja,Vinst,0.964,1.95,2.908,2.181
+2026020153,2026-10-21,8481033,Akira Schmid,40,Florida Panthers,FLA,Ottawa Senators,Borta,F,1,5,Ordinarie,60.0,ja,Målvakt,30.0,25.0,5.0,19.0,4.0,2.608,5.0,ja,Förlust,0.833,-1.25,-2.392,-1.794
+2026020153,2026-10-21,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Florida Panthers,Hemma,V,5,1,Ordinarie,16.42,ja,Målvakt,1.0,1.0,0.0,1.0,0.0,0.059,0.0,nej,,1.0,0.1,0.059,0.044
 2026020153,2026-10-21,8476999,Linus Ullmark,35,Ottawa Senators,OTT,Florida Panthers,Hemma,V,5,1,Ordinarie,43.58,ja,Målvakt,18.0,17.0,1.0,10.0,0.0,2.0,1.0,ja,Vinst,0.944,0.95,1.0,0.75
-2026020154,2026-10-22,8480022,Michael DiPietro,30,Boston Bruins,BOS,Nashville Predators,Hemma,V,6,0,Ordinarie,60.0,ja,Målvakt,28.0,28.0,0.0,25.0,0.0,3.473,0.0,ja,Vinst,1.0,2.8,3.473,2.605
-2026020154,2026-10-22,8481020,Justus Annunen,29,Nashville Predators,NSH,Boston Bruins,Borta,F,0,6,Ordinarie,60.0,ja,Målvakt,31.0,25.0,6.0,28.0,5.0,4.05,6.0,ja,Förlust,0.806,-2.0,-1.95,-1.462
-2026020155,2026-10-22,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,New York Rangers,Hemma,V,5,4,Ordinarie,59.47,ja,Målvakt,25.0,21.0,4.0,23.0,4.0,2.19,4.0,ja,Vinst,0.84,-0.9,-1.81,-1.358
-2026020155,2026-10-22,8482193,Dylan Garand,33,New York Rangers,NYR,Toronto Maple Leafs,Borta,F,4,5,Ordinarie,59.53,ja,Målvakt,35.0,30.0,5.0,30.0,4.0,3.317,5.0,ja,Förlust,0.857,-0.75,-1.683,-1.262
-2026020156,2026-10-22,8481035,Samuel Ersson,30,Ottawa Senators,OTT,San Jose Sharks,Hemma,F,2,6,Ordinarie,56.1,ja,Målvakt,26.0,22.0,4.0,23.0,2.0,2.702,4.0,ja,Förlust,0.846,-0.8,-1.298,-0.974
-2026020156,2026-10-22,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Ottawa Senators,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,43.0,41.0,2.0,34.0,1.0,4.925,2.0,ja,Vinst,0.953,2.6,2.925,2.194
-2026020157,2026-10-22,8482076,Nico Daws,50,New Jersey Devils,NJD,Anaheim Ducks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,17.0,16.0,1.0,17.0,1.0,1.579,1.0,ja,Vinst,0.941,0.85,0.579,0.434
-2026020157,2026-10-22,8478024,Ville Husso,33,Anaheim Ducks,ANA,New Jersey Devils,Borta,F,1,4,Ordinarie,58.02,ja,Målvakt,28.0,25.0,3.0,26.0,2.0,2.879,3.0,ja,Förlust,0.893,0.25,-0.121,-0.091
-2026020158,2026-10-22,8484900,Cooper Black,31,Florida Panthers,FLA,Pittsburgh Penguins,Borta,F,0,4,Ordinarie,57.08,ja,Målvakt,20.0,17.0,3.0,18.0,3.0,2.231,3.0,ja,Förlust,0.85,-0.55,-0.769,-0.577
-2026020158,2026-10-22,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Florida Panthers,Hemma,V,4,0,Ordinarie,60.0,ja,Målvakt,26.0,26.0,0.0,19.0,0.0,2.337,0.0,ja,Vinst,1.0,2.6,2.337,1.753
-2026020159,2026-10-22,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,New York Islanders,Borta,V,3,2,Förlängning,70.83,ja,Målvakt,43.0,41.0,2.0,37.0,1.0,3.711,2.0,ja,Vinst,0.953,2.6,1.711,1.283
-2026020159,2026-10-22,8473575,Semyon Varlamov,40,New York Islanders,NYI,Los Angeles Kings,Hemma,FÖ,2,3,Förlängning,62.28,ja,Målvakt,27.0,24.0,3.0,21.0,2.0,3.768,3.0,ja,Förlust (förl./str.),0.889,0.15,0.768,0.576
-2026020160,2026-10-22,8478499,Adin Hill,33,Vegas Golden Knights,VGK,St. Louis Blues,Borta,F,2,6,Ordinarie,60.0,ja,Målvakt,31.0,25.0,6.0,28.0,4.0,2.706,6.0,ja,Förlust,0.806,-2.0,-3.294,-2.47
-2026020160,2026-10-22,8480981,Joel Hofer,30,St. Louis Blues,STL,Vegas Golden Knights,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,28.0,2.0,3.058,2.0,ja,Vinst,0.931,1.2,1.058,0.794
-2026020161,2026-10-22,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Dallas Stars,Borta,FÖ,2,3,Förlängning,63.78,ja,Målvakt,38.0,35.0,3.0,29.0,0.0,4.244,3.0,ja,Förlust (förl./str.),0.921,1.25,1.244,0.933
-2026020161,2026-10-22,8479979,Jake Oettinger,29,Dallas Stars,DAL,Winnipeg Jets,Hemma,V,3,2,Förlängning,63.05,ja,Målvakt,19.0,17.0,2.0,12.0,2.0,2.377,2.0,ja,Vinst,0.895,0.2,0.377,0.283
-2026020162,2026-10-22,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Calgary Flames,Borta,F,1,2,Ordinarie,57.95,ja,Målvakt,22.0,20.0,2.0,13.0,0.0,1.966,2.0,ja,Förlust,0.909,0.5,-0.034,-0.026
-2026020162,2026-10-22,8482445,Devin Cooley,1,Calgary Flames,CGY,Minnesota Wild,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,37.0,36.0,1.0,21.0,1.0,3.934,1.0,ja,Vinst,0.973,2.85,2.934,2.2
-2026020163,2026-10-22,8482221,Devon Levi,27,Edmonton Oilers,EDM,Carolina Hurricanes,Hemma,V,6,5,Straffar,64.2,ja,Målvakt,27.0,22.0,5.0,21.0,4.0,3.141,5.0,ja,Vinst,0.815,-1.55,-1.859,-1.394
-2026020163,2026-10-22,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Edmonton Oilers,Borta,FÖ,5,6,Straffar,65.0,ja,Målvakt,21.0,16.0,5.0,11.0,1.0,2.704,5.0,ja,Förlust (förl./str.),0.762,-2.15,-2.296,-1.722
-2026020164,2026-10-22,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Seattle Kraken,Borta,F,3,5,Ordinarie,58.23,ja,Målvakt,22.0,18.0,4.0,15.0,2.0,2.137,4.0,ja,Förlust,0.818,-1.2,-1.863,-1.397
-2026020164,2026-10-22,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Utah Mammoth,Hemma,V,5,3,Ordinarie,59.68,ja,Målvakt,36.0,33.0,3.0,29.0,1.0,2.948,3.0,ja,Vinst,0.917,1.05,-0.052,-0.039
-2026020165,2026-10-22,8476434,John Gibson,36,Detroit Red Wings,DET,Vancouver Canucks,Borta,V,5,2,Ordinarie,40.0,ja,Målvakt,5.0,4.0,1.0,4.0,0.0,0.78,1.0,ja,Vinst,0.8,-0.35,-0.22,-0.165
-2026020165,2026-10-22,8485545,Michal Postava,35,Detroit Red Wings,DET,Vancouver Canucks,Borta,V,5,2,Ordinarie,19.75,ja,Målvakt,8.0,7.0,1.0,6.0,1.0,0.939,1.0,nej,,0.875,-0.05,-0.061,-0.046
-2026020165,2026-10-22,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Detroit Red Wings,Hemma,F,2,5,Ordinarie,60.0,ja,Målvakt,31.0,26.0,5.0,26.0,4.0,3.497,5.0,ja,Förlust,0.839,-1.15,-1.503,-1.127
+2026020154,2026-10-22,8480022,Michael DiPietro,30,Boston Bruins,BOS,Nashville Predators,Hemma,V,6,0,Ordinarie,60.0,ja,Målvakt,28.0,28.0,0.0,25.0,0.0,3.467,0.0,ja,Vinst,1.0,2.8,3.467,2.6
+2026020154,2026-10-22,8481020,Justus Annunen,29,Nashville Predators,NSH,Boston Bruins,Borta,F,0,6,Ordinarie,60.0,ja,Målvakt,31.0,25.0,6.0,28.0,5.0,4.051,6.0,ja,Förlust,0.806,-2.0,-1.949,-1.462
+2026020155,2026-10-22,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,New York Rangers,Hemma,V,5,4,Ordinarie,59.47,ja,Målvakt,25.0,21.0,4.0,23.0,4.0,2.195,4.0,ja,Vinst,0.84,-0.9,-1.805,-1.354
+2026020155,2026-10-22,8482193,Dylan Garand,33,New York Rangers,NYR,Toronto Maple Leafs,Borta,F,4,5,Ordinarie,59.53,ja,Målvakt,35.0,30.0,5.0,30.0,4.0,3.321,5.0,ja,Förlust,0.857,-0.75,-1.679,-1.259
+2026020156,2026-10-22,8481035,Samuel Ersson,30,Ottawa Senators,OTT,San Jose Sharks,Hemma,F,2,6,Ordinarie,56.1,ja,Målvakt,26.0,22.0,4.0,23.0,2.0,2.705,4.0,ja,Förlust,0.846,-0.8,-1.295,-0.971
+2026020156,2026-10-22,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Ottawa Senators,Borta,V,6,2,Ordinarie,60.0,ja,Målvakt,43.0,41.0,2.0,34.0,1.0,4.914,2.0,ja,Vinst,0.953,2.6,2.914,2.186
+2026020157,2026-10-22,8482076,Nico Daws,50,New Jersey Devils,NJD,Anaheim Ducks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,17.0,16.0,1.0,17.0,1.0,1.577,1.0,ja,Vinst,0.941,0.85,0.577,0.433
+2026020157,2026-10-22,8478024,Ville Husso,33,Anaheim Ducks,ANA,New Jersey Devils,Borta,F,1,4,Ordinarie,58.02,ja,Målvakt,28.0,25.0,3.0,26.0,2.0,2.877,3.0,ja,Förlust,0.893,0.25,-0.123,-0.092
+2026020158,2026-10-22,8484900,Cooper Black,31,Florida Panthers,FLA,Pittsburgh Penguins,Borta,F,0,4,Ordinarie,57.08,ja,Målvakt,20.0,17.0,3.0,18.0,3.0,2.238,3.0,ja,Förlust,0.85,-0.55,-0.762,-0.572
+2026020158,2026-10-22,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Florida Panthers,Hemma,V,4,0,Ordinarie,60.0,ja,Målvakt,26.0,26.0,0.0,19.0,0.0,2.343,0.0,ja,Vinst,1.0,2.6,2.343,1.757
+2026020159,2026-10-22,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,New York Islanders,Borta,V,3,2,Förlängning,70.83,ja,Målvakt,43.0,41.0,2.0,37.0,1.0,3.7,2.0,ja,Vinst,0.953,2.6,1.7,1.275
+2026020159,2026-10-22,8473575,Semyon Varlamov,40,New York Islanders,NYI,Los Angeles Kings,Hemma,FÖ,2,3,Förlängning,62.28,ja,Målvakt,27.0,24.0,3.0,21.0,2.0,3.755,3.0,ja,Förlust (förl./str.),0.889,0.15,0.755,0.566
+2026020160,2026-10-22,8478499,Adin Hill,33,Vegas Golden Knights,VGK,St. Louis Blues,Borta,F,2,6,Ordinarie,60.0,ja,Målvakt,31.0,25.0,6.0,28.0,4.0,2.711,6.0,ja,Förlust,0.806,-2.0,-3.289,-2.467
+2026020160,2026-10-22,8480981,Joel Hofer,30,St. Louis Blues,STL,Vegas Golden Knights,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,28.0,2.0,3.063,2.0,ja,Vinst,0.931,1.2,1.063,0.797
+2026020161,2026-10-22,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Dallas Stars,Borta,FÖ,2,3,Förlängning,63.78,ja,Målvakt,38.0,35.0,3.0,29.0,0.0,4.24,3.0,ja,Förlust (förl./str.),0.921,1.25,1.24,0.93
+2026020161,2026-10-22,8479979,Jake Oettinger,29,Dallas Stars,DAL,Winnipeg Jets,Hemma,V,3,2,Förlängning,63.05,ja,Målvakt,19.0,17.0,2.0,12.0,2.0,2.365,2.0,ja,Vinst,0.895,0.2,0.365,0.274
+2026020162,2026-10-22,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Calgary Flames,Borta,F,1,2,Ordinarie,57.95,ja,Målvakt,22.0,20.0,2.0,13.0,0.0,1.969,2.0,ja,Förlust,0.909,0.5,-0.031,-0.023
+2026020162,2026-10-22,8482445,Devin Cooley,1,Calgary Flames,CGY,Minnesota Wild,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,37.0,36.0,1.0,21.0,1.0,3.919,1.0,ja,Vinst,0.973,2.85,2.919,2.189
+2026020163,2026-10-22,8482221,Devon Levi,27,Edmonton Oilers,EDM,Carolina Hurricanes,Hemma,V,6,5,Straffar,64.2,ja,Målvakt,27.0,22.0,5.0,21.0,4.0,3.148,5.0,ja,Vinst,0.815,-1.55,-1.852,-1.389
+2026020163,2026-10-22,8483548,Brandon Bussi,32,Carolina Hurricanes,CAR,Edmonton Oilers,Borta,FÖ,5,6,Straffar,65.0,ja,Målvakt,21.0,16.0,5.0,11.0,1.0,2.702,5.0,ja,Förlust (förl./str.),0.762,-2.15,-2.298,-1.724
+2026020164,2026-10-22,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Seattle Kraken,Borta,F,3,5,Ordinarie,58.23,ja,Målvakt,22.0,18.0,4.0,15.0,2.0,2.131,4.0,ja,Förlust,0.818,-1.2,-1.869,-1.402
+2026020164,2026-10-22,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Utah Mammoth,Hemma,V,5,3,Ordinarie,59.68,ja,Målvakt,36.0,33.0,3.0,29.0,1.0,2.946,3.0,ja,Vinst,0.917,1.05,-0.054,-0.04
+2026020165,2026-10-22,8476434,John Gibson,36,Detroit Red Wings,DET,Vancouver Canucks,Borta,V,5,2,Ordinarie,40.0,ja,Målvakt,5.0,4.0,1.0,4.0,0.0,0.779,1.0,ja,Vinst,0.8,-0.35,-0.221,-0.166
+2026020165,2026-10-22,8485545,Michal Postava,35,Detroit Red Wings,DET,Vancouver Canucks,Borta,V,5,2,Ordinarie,19.75,ja,Målvakt,8.0,7.0,1.0,6.0,1.0,0.937,1.0,nej,,0.875,-0.05,-0.063,-0.047
+2026020165,2026-10-22,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Detroit Red Wings,Hemma,F,2,5,Ordinarie,60.0,ja,Målvakt,31.0,26.0,5.0,26.0,4.0,3.5,5.0,ja,Förlust,0.839,-1.15,-1.5,-1.125
 2026020166,2026-10-23,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Chicago Blackhawks,Borta,V,4,1,Ordinarie,59.92,ja,Målvakt,21.0,20.0,1.0,15.0,1.0,2.219,1.0,ja,Vinst,0.952,1.25,1.219,0.914
 2026020166,2026-10-23,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Montréal Canadiens,Hemma,F,1,4,Ordinarie,59.23,ja,Målvakt,27.0,24.0,3.0,21.0,2.0,2.738,3.0,ja,Förlust,0.889,0.15,-0.262,-0.196
-2026020167,2026-10-23,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Tampa Bay Lightning,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,34.0,31.0,3.0,26.0,2.0,3.627,3.0,ja,Vinst,0.912,0.85,0.627,0.47
-2026020167,2026-10-23,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Colorado Avalanche,Borta,F,3,6,Ordinarie,59.87,ja,Målvakt,23.0,18.0,5.0,18.0,4.0,2.21,5.0,ja,Förlust,0.783,-1.95,-2.79,-2.093
-2026020168,2026-10-24,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Philadelphia Flyers,Borta,V,5,4,Ordinarie,60.0,ja,Målvakt,32.0,28.0,4.0,24.0,1.0,2.815,4.0,ja,Vinst,0.875,-0.2,-1.185,-0.889
-2026020168,2026-10-24,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Anaheim Ducks,Hemma,F,4,5,Ordinarie,57.82,ja,Målvakt,26.0,21.0,5.0,14.0,4.0,4.212,5.0,ja,Förlust,0.808,-1.65,-0.788,-0.591
-2026020169,2026-10-24,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,New Jersey Devils,Borta,F,1,3,Ordinarie,58.48,ja,Målvakt,25.0,23.0,2.0,18.0,2.0,3.208,2.0,ja,Förlust,0.92,0.8,1.208,0.906
-2026020169,2026-10-24,8474596,Jake Allen,34,New Jersey Devils,NJD,Los Angeles Kings,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,13.0,12.0,1.0,13.0,1.0,1.255,1.0,ja,Vinst,0.923,0.45,0.255,0.191
-2026020170,2026-10-24,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Boston Bruins,Borta,F,4,6,Ordinarie,58.63,ja,Målvakt,34.0,29.0,5.0,26.0,4.0,4.942,5.0,ja,Förlust,0.853,-0.85,-0.058,-0.044
-2026020170,2026-10-24,8480280,Jeremy Swayman,1,Boston Bruins,BOS,San Jose Sharks,Hemma,V,6,4,Ordinarie,60.0,ja,Målvakt,27.0,23.0,4.0,15.0,0.0,2.423,4.0,ja,Vinst,0.852,-0.7,-1.577,-1.183
-2026020171,2026-10-24,8477992,Jonas Johansson,31,Ottawa Senators,OTT,New York Rangers,Hemma,V,7,4,Ordinarie,59.57,ja,Målvakt,28.0,24.0,4.0,19.0,2.0,3.656,4.0,ja,Vinst,0.857,-0.6,-0.344,-0.258
-2026020171,2026-10-24,8482193,Dylan Garand,33,New York Rangers,NYR,Ottawa Senators,Borta,F,4,7,Ordinarie,58.48,ja,Målvakt,22.0,17.0,5.0,18.0,5.0,2.786,5.0,ja,Förlust,0.773,-2.05,-2.214,-1.66
-2026020172,2026-10-24,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Nashville Predators,Hemma,V,3,2,Förlängning,61.48,ja,Målvakt,26.0,24.0,2.0,25.0,2.0,2.598,2.0,ja,Vinst,0.923,0.9,0.598,0.448
-2026020172,2026-10-24,8477424,Juuse Saros,74,Nashville Predators,NSH,Pittsburgh Penguins,Borta,FÖ,2,3,Förlängning,63.73,ja,Målvakt,37.0,34.0,3.0,31.0,1.0,4.063,3.0,ja,Förlust (förl./str.),0.919,1.15,1.063,0.797
-2026020173,2026-10-24,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Washington Capitals,Borta,FÖ,3,4,Förlängning,63.7,ja,Målvakt,34.0,30.0,4.0,23.0,3.0,4.117,4.0,ja,Förlust (förl./str.),0.882,0.0,0.117,0.088
-2026020173,2026-10-24,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Buffalo Sabres,Hemma,V,4,3,Förlängning,63.7,ja,Målvakt,21.0,18.0,3.0,16.0,3.0,2.156,3.0,ja,Vinst,0.857,-0.45,-0.844,-0.633
-2026020174,2026-10-24,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Vegas Golden Knights,Hemma,V,2,1,Förlängning,60.98,ja,Målvakt,27.0,26.0,1.0,24.0,1.0,2.478,1.0,ja,Vinst,0.963,1.85,1.478,1.108
-2026020174,2026-10-24,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Columbus Blue Jackets,Borta,FÖ,1,2,Förlängning,60.98,ja,Målvakt,20.0,18.0,2.0,15.0,1.0,2.213,2.0,ja,Förlust (förl./str.),0.9,0.3,0.213,0.16
-2026020175,2026-10-24,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,St. Louis Blues,Borta,V,4,0,Ordinarie,59.83,ja,Målvakt,24.0,24.0,0.0,22.0,0.0,2.233,0.0,ja,Vinst,1.0,2.4,2.233,1.675
-2026020175,2026-10-24,8480981,Joel Hofer,30,St. Louis Blues,STL,Carolina Hurricanes,Hemma,F,0,4,Ordinarie,60.0,ja,Målvakt,39.0,35.0,4.0,36.0,2.0,3.789,4.0,ja,Förlust,0.897,0.5,-0.211,-0.158
-2026020176,2026-10-24,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Edmonton Oilers,Borta,V,7,2,Ordinarie,60.0,ja,Målvakt,32.0,30.0,2.0,23.0,0.0,3.345,2.0,ja,Vinst,0.938,1.5,1.345,1.009
-2026020176,2026-10-24,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Toronto Maple Leafs,Hemma,F,2,7,Ordinarie,59.75,ja,Målvakt,31.0,25.0,6.0,28.0,5.0,2.716,6.0,ja,Förlust,0.806,-2.0,-3.284,-2.463
-2026020177,2026-10-24,8483710,Dennis Hildeby,35,Tampa Bay Lightning,TBL,Utah Mammoth,Borta,FÖ,4,5,Förlängning,61.73,ja,Målvakt,28.0,23.0,5.0,20.0,3.0,3.574,5.0,ja,Förlust (förl./str.),0.821,-1.45,-1.426,-1.07
-2026020177,2026-10-24,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Tampa Bay Lightning,Hemma,V,5,4,Förlängning,61.73,ja,Målvakt,33.0,29.0,4.0,27.0,3.0,3.706,4.0,ja,Vinst,0.879,-0.1,-0.294,-0.22
-2026020178,2026-10-24,8476434,John Gibson,36,Detroit Red Wings,DET,Calgary Flames,Borta,F,1,4,Ordinarie,60.0,ja,Målvakt,25.0,21.0,4.0,20.0,2.0,1.796,4.0,ja,Förlust,0.84,-0.9,-2.204,-1.653
+2026020167,2026-10-23,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Tampa Bay Lightning,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,34.0,31.0,3.0,26.0,2.0,3.62,3.0,ja,Vinst,0.912,0.85,0.62,0.465
+2026020167,2026-10-23,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Colorado Avalanche,Borta,F,3,6,Ordinarie,59.87,ja,Målvakt,23.0,18.0,5.0,18.0,4.0,2.212,5.0,ja,Förlust,0.783,-1.95,-2.788,-2.091
+2026020168,2026-10-24,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Philadelphia Flyers,Borta,V,5,4,Ordinarie,60.0,ja,Målvakt,32.0,28.0,4.0,24.0,1.0,2.814,4.0,ja,Vinst,0.875,-0.2,-1.186,-0.89
+2026020168,2026-10-24,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Anaheim Ducks,Hemma,F,4,5,Ordinarie,57.82,ja,Målvakt,26.0,21.0,5.0,14.0,4.0,4.204,5.0,ja,Förlust,0.808,-1.65,-0.796,-0.597
+2026020169,2026-10-24,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,New Jersey Devils,Borta,F,1,3,Ordinarie,58.48,ja,Målvakt,25.0,23.0,2.0,18.0,2.0,3.205,2.0,ja,Förlust,0.92,0.8,1.205,0.904
+2026020169,2026-10-24,8474596,Jake Allen,34,New Jersey Devils,NJD,Los Angeles Kings,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,13.0,12.0,1.0,13.0,1.0,1.256,1.0,ja,Vinst,0.923,0.45,0.256,0.192
+2026020170,2026-10-24,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Boston Bruins,Borta,F,4,6,Ordinarie,58.63,ja,Målvakt,34.0,29.0,5.0,26.0,4.0,4.935,5.0,ja,Förlust,0.853,-0.85,-0.065,-0.049
+2026020170,2026-10-24,8480280,Jeremy Swayman,1,Boston Bruins,BOS,San Jose Sharks,Hemma,V,6,4,Ordinarie,60.0,ja,Målvakt,27.0,23.0,4.0,15.0,0.0,2.424,4.0,ja,Vinst,0.852,-0.7,-1.576,-1.182
+2026020171,2026-10-24,8477992,Jonas Johansson,31,Ottawa Senators,OTT,New York Rangers,Hemma,V,7,4,Ordinarie,59.57,ja,Målvakt,28.0,24.0,4.0,19.0,2.0,3.66,4.0,ja,Vinst,0.857,-0.6,-0.34,-0.255
+2026020171,2026-10-24,8482193,Dylan Garand,33,New York Rangers,NYR,Ottawa Senators,Borta,F,4,7,Ordinarie,58.48,ja,Målvakt,22.0,17.0,5.0,18.0,5.0,2.785,5.0,ja,Förlust,0.773,-2.05,-2.215,-1.661
+2026020172,2026-10-24,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Nashville Predators,Hemma,V,3,2,Förlängning,61.48,ja,Målvakt,26.0,24.0,2.0,25.0,2.0,2.594,2.0,ja,Vinst,0.923,0.9,0.594,0.446
+2026020172,2026-10-24,8477424,Juuse Saros,74,Nashville Predators,NSH,Pittsburgh Penguins,Borta,FÖ,2,3,Förlängning,63.73,ja,Målvakt,37.0,34.0,3.0,31.0,1.0,4.061,3.0,ja,Förlust (förl./str.),0.919,1.15,1.061,0.796
+2026020173,2026-10-24,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Washington Capitals,Borta,FÖ,3,4,Förlängning,63.7,ja,Målvakt,34.0,30.0,4.0,23.0,3.0,4.118,4.0,ja,Förlust (förl./str.),0.882,0.0,0.118,0.088
+2026020173,2026-10-24,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Buffalo Sabres,Hemma,V,4,3,Förlängning,63.7,ja,Målvakt,21.0,18.0,3.0,16.0,3.0,2.153,3.0,ja,Vinst,0.857,-0.45,-0.847,-0.635
+2026020174,2026-10-24,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Vegas Golden Knights,Hemma,V,2,1,Förlängning,60.98,ja,Målvakt,27.0,26.0,1.0,24.0,1.0,2.475,1.0,ja,Vinst,0.963,1.85,1.475,1.106
+2026020174,2026-10-24,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Columbus Blue Jackets,Borta,FÖ,1,2,Förlängning,60.98,ja,Målvakt,20.0,18.0,2.0,15.0,1.0,2.205,2.0,ja,Förlust (förl./str.),0.9,0.3,0.205,0.154
+2026020175,2026-10-24,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,St. Louis Blues,Borta,V,4,0,Ordinarie,59.83,ja,Målvakt,24.0,24.0,0.0,22.0,0.0,2.235,0.0,ja,Vinst,1.0,2.4,2.235,1.676
+2026020175,2026-10-24,8480981,Joel Hofer,30,St. Louis Blues,STL,Carolina Hurricanes,Hemma,F,0,4,Ordinarie,60.0,ja,Målvakt,39.0,35.0,4.0,36.0,2.0,3.786,4.0,ja,Förlust,0.897,0.5,-0.214,-0.16
+2026020176,2026-10-24,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Edmonton Oilers,Borta,V,7,2,Ordinarie,60.0,ja,Målvakt,32.0,30.0,2.0,23.0,0.0,3.333,2.0,ja,Vinst,0.938,1.5,1.333,1.0
+2026020176,2026-10-24,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Toronto Maple Leafs,Hemma,F,2,7,Ordinarie,59.75,ja,Målvakt,31.0,25.0,6.0,28.0,5.0,2.709,6.0,ja,Förlust,0.806,-2.0,-3.291,-2.468
+2026020177,2026-10-24,8483710,Dennis Hildeby,35,Tampa Bay Lightning,TBL,Utah Mammoth,Borta,FÖ,4,5,Förlängning,61.73,ja,Målvakt,28.0,23.0,5.0,20.0,3.0,3.559,5.0,ja,Förlust (förl./str.),0.821,-1.45,-1.441,-1.081
+2026020177,2026-10-24,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Tampa Bay Lightning,Hemma,V,5,4,Förlängning,61.73,ja,Målvakt,33.0,29.0,4.0,27.0,3.0,3.707,4.0,ja,Vinst,0.879,-0.1,-0.293,-0.22
+2026020178,2026-10-24,8476434,John Gibson,36,Detroit Red Wings,DET,Calgary Flames,Borta,F,1,4,Ordinarie,60.0,ja,Målvakt,25.0,21.0,4.0,20.0,2.0,1.794,4.0,ja,Förlust,0.84,-0.9,-2.206,-1.654
 2026020178,2026-10-24,8482445,Devin Cooley,1,Calgary Flames,CGY,Detroit Red Wings,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,29.0,28.0,1.0,24.0,1.0,2.645,1.0,ja,Vinst,0.966,2.05,1.645,1.234
-2026020179,2026-10-24,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Seattle Kraken,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,24.0,23.0,1.0,19.0,1.0,2.208,1.0,ja,Vinst,0.958,1.55,1.208,0.906
-2026020179,2026-10-24,8478916,Joey Daccord,35,Seattle Kraken,SEA,Minnesota Wild,Hemma,F,1,5,Ordinarie,56.58,ja,Målvakt,35.0,31.0,4.0,29.0,4.0,3.801,4.0,ja,Förlust,0.886,0.1,-0.199,-0.149
-2026020180,2026-10-25,8481033,Akira Schmid,40,Florida Panthers,FLA,Chicago Blackhawks,Borta,V,3,2,Ordinarie,59.92,ja,Målvakt,21.0,19.0,2.0,11.0,2.0,3.61,2.0,ja,Vinst,0.905,0.4,1.61,1.208
-2026020180,2026-10-25,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Florida Panthers,Hemma,F,2,3,Ordinarie,57.63,ja,Målvakt,33.0,30.0,3.0,26.0,2.0,3.136,3.0,ja,Förlust,0.909,0.75,0.136,0.102
-2026020181,2026-10-25,8478009,Ilya Sorokin,30,New York Islanders,NYI,Dallas Stars,Borta,F,3,6,Ordinarie,59.93,ja,Målvakt,38.0,32.0,6.0,35.0,4.0,4.046,6.0,ja,Förlust,0.842,-1.3,-1.954,-1.466
-2026020181,2026-10-25,8479979,Jake Oettinger,29,Dallas Stars,DAL,New York Islanders,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,20.0,17.0,3.0,16.0,2.0,2.112,3.0,ja,Vinst,0.85,-0.55,-0.888,-0.666
-2026020182,2026-10-25,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Winnipeg Jets,Borta,V,2,1,Ordinarie,60.0,ja,Målvakt,34.0,33.0,1.0,24.0,1.0,3.836,1.0,ja,Vinst,0.971,2.55,2.836,2.127
-2026020182,2026-10-25,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Montréal Canadiens,Hemma,F,1,2,Ordinarie,58.42,ja,Målvakt,21.0,19.0,2.0,19.0,2.0,3.152,2.0,ja,Förlust,0.905,0.4,1.152,0.864
+2026020179,2026-10-24,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Seattle Kraken,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,24.0,23.0,1.0,19.0,1.0,2.216,1.0,ja,Vinst,0.958,1.55,1.216,0.912
+2026020179,2026-10-24,8478916,Joey Daccord,35,Seattle Kraken,SEA,Minnesota Wild,Hemma,F,1,5,Ordinarie,56.58,ja,Målvakt,35.0,31.0,4.0,29.0,4.0,3.805,4.0,ja,Förlust,0.886,0.1,-0.195,-0.146
+2026020180,2026-10-25,8481033,Akira Schmid,40,Florida Panthers,FLA,Chicago Blackhawks,Borta,V,3,2,Ordinarie,59.92,ja,Målvakt,21.0,19.0,2.0,11.0,2.0,3.611,2.0,ja,Vinst,0.905,0.4,1.611,1.208
+2026020180,2026-10-25,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Florida Panthers,Hemma,F,2,3,Ordinarie,57.63,ja,Målvakt,33.0,30.0,3.0,26.0,2.0,3.145,3.0,ja,Förlust,0.909,0.75,0.145,0.109
+2026020181,2026-10-25,8478009,Ilya Sorokin,30,New York Islanders,NYI,Dallas Stars,Borta,F,3,6,Ordinarie,59.93,ja,Målvakt,38.0,32.0,6.0,35.0,4.0,4.036,6.0,ja,Förlust,0.842,-1.3,-1.964,-1.473
+2026020181,2026-10-25,8479979,Jake Oettinger,29,Dallas Stars,DAL,New York Islanders,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,20.0,17.0,3.0,16.0,2.0,2.106,3.0,ja,Vinst,0.85,-0.55,-0.894,-0.67
+2026020182,2026-10-25,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Winnipeg Jets,Borta,V,2,1,Ordinarie,60.0,ja,Målvakt,34.0,33.0,1.0,24.0,1.0,3.83,1.0,ja,Vinst,0.971,2.55,2.83,2.122
+2026020182,2026-10-25,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Montréal Canadiens,Hemma,F,1,2,Ordinarie,58.42,ja,Målvakt,21.0,19.0,2.0,19.0,2.0,3.157,2.0,ja,Förlust,0.905,0.4,1.157,0.868
 2026020183,2026-10-25,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,Nashville Predators,Borta,F,2,6,Ordinarie,59.9,ja,Målvakt,35.0,29.0,6.0,24.0,2.0,3.429,6.0,ja,Förlust,0.829,-1.6,-2.571,-1.928
-2026020183,2026-10-25,8481020,Justus Annunen,29,Nashville Predators,NSH,Colorado Avalanche,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,18.0,1.0,2.367,2.0,ja,Vinst,0.905,0.4,0.367,0.275
+2026020183,2026-10-25,8481020,Justus Annunen,29,Nashville Predators,NSH,Colorado Avalanche,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,18.0,1.0,2.37,2.0,ja,Vinst,0.905,0.4,0.37,0.277
 2026020184,2026-10-25,8475717,Calvin Pickard,31,Minnesota Wild,MIN,Vancouver Canucks,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,17.0,15.0,2.0,14.0,2.0,1.634,2.0,ja,Vinst,0.882,0.0,-0.366,-0.274
-2026020184,2026-10-25,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Minnesota Wild,Hemma,F,2,4,Ordinarie,57.1,ja,Målvakt,34.0,30.0,4.0,25.0,2.0,4.911,4.0,ja,Förlust,0.882,0.0,0.911,0.683
-2026020185,2026-10-26,8482193,Dylan Garand,33,New York Rangers,NYR,Los Angeles Kings,Hemma,F,3,6,Ordinarie,38.08,ja,Målvakt,17.0,15.0,2.0,10.0,1.0,1.672,2.0,nej,Förlust,0.882,0.0,-0.328,-0.246
-2026020185,2026-10-26,8473503,James Reimer,47,New York Rangers,NYR,Los Angeles Kings,Hemma,F,3,6,Ordinarie,20.0,ja,Målvakt,8.0,5.0,3.0,7.0,2.0,1.208,3.0,ja,,0.625,-1.75,-1.792,-1.344
-2026020185,2026-10-26,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,New York Rangers,Borta,V,6,3,Ordinarie,59.32,ja,Målvakt,26.0,23.0,3.0,23.0,1.0,2.848,3.0,ja,Vinst,0.885,0.05,-0.152,-0.114
-2026020186,2026-10-26,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Calgary Flames,Borta,F,2,5,Ordinarie,58.92,ja,Målvakt,32.0,29.0,3.0,24.0,2.0,3.108,3.0,ja,Förlust,0.906,0.65,0.108,0.081
-2026020186,2026-10-26,8482445,Devin Cooley,1,Calgary Flames,CGY,Toronto Maple Leafs,Hemma,V,5,2,Ordinarie,59.63,ja,Målvakt,28.0,26.0,2.0,17.0,2.0,2.457,2.0,ja,Vinst,0.929,1.1,0.457,0.343
-2026020187,2026-10-26,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Detroit Red Wings,Hemma,FÖ,3,4,Straffar,65.0,ja,Målvakt,29.0,26.0,3.0,21.0,1.0,2.789,3.0,ja,Förlust (förl./str.),0.897,0.35,-0.211,-0.158
-2026020187,2026-10-26,8485545,Michal Postava,35,Detroit Red Wings,DET,Edmonton Oilers,Borta,V,4,3,Straffar,63.27,ja,Målvakt,28.0,25.0,3.0,17.0,2.0,3.281,3.0,ja,Vinst,0.893,0.25,0.281,0.211
-2026020188,2026-10-27,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Philadelphia Flyers,Borta,V,4,3,Förlängning,62.37,ja,Målvakt,31.0,28.0,3.0,24.0,2.0,3.636,3.0,ja,Vinst,0.903,0.55,0.636,0.477
-2026020188,2026-10-27,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Columbus Blue Jackets,Hemma,FÖ,3,4,Förlängning,61.18,ja,Målvakt,15.0,11.0,4.0,10.0,2.0,1.594,4.0,ja,Förlust (förl./str.),0.733,-1.9,-2.406,-1.804
-2026020189,2026-10-27,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Carolina Hurricanes,Borta,F,1,2,Ordinarie,57.78,ja,Målvakt,30.0,28.0,2.0,25.0,2.0,4.094,2.0,ja,Förlust,0.933,1.3,2.094,1.57
-2026020189,2026-10-27,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Boston Bruins,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,15.0,14.0,1.0,9.0,0.0,2.178,1.0,ja,Vinst,0.933,0.65,1.178,0.884
-2026020190,2026-10-27,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Chicago Blackhawks,Borta,F,1,2,Ordinarie,58.53,ja,Målvakt,27.0,25.0,2.0,24.0,1.0,3.781,2.0,ja,Förlust,0.926,1.0,1.781,1.336
-2026020190,2026-10-27,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Los Angeles Kings,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,21.0,1.0,3.459,1.0,ja,Vinst,0.962,1.75,2.459,1.844
-2026020191,2026-10-27,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,St. Louis Blues,Borta,V,2,0,Ordinarie,59.63,ja,Målvakt,46.0,46.0,0.0,31.0,0.0,4.161,0.0,ja,Vinst,1.0,4.6,4.161,3.121
-2026020191,2026-10-27,8476412,Jordan Binnington,50,St. Louis Blues,STL,Montréal Canadiens,Hemma,F,0,2,Ordinarie,54.1,ja,Målvakt,20.0,18.0,2.0,14.0,2.0,2.03,2.0,ja,Förlust,0.9,0.3,0.03,0.022
-2026020192,2026-10-27,8473575,Semyon Varlamov,40,New York Islanders,NYI,Nashville Predators,Borta,V,4,3,Straffar,63.17,ja,Målvakt,23.0,20.0,3.0,16.0,2.0,3.492,3.0,ja,Vinst,0.87,-0.25,0.492,0.369
-2026020192,2026-10-27,8477424,Juuse Saros,74,Nashville Predators,NSH,New York Islanders,Hemma,FÖ,3,4,Straffar,65.0,ja,Målvakt,28.0,25.0,3.0,23.0,2.0,3.758,3.0,ja,Förlust (förl./str.),0.893,0.25,0.758,0.568
-2026020193,2026-10-27,8476945,Connor Hellebuyck,37,New Jersey Devils,NJD,Dallas Stars,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,18.0,17.0,1.0,17.0,1.0,1.985,1.0,ja,Vinst,0.944,0.95,0.985,0.739
-2026020193,2026-10-27,8479193,Casey DeSmith,1,Dallas Stars,DAL,New Jersey Devils,Hemma,F,1,5,Ordinarie,60.0,ja,Målvakt,27.0,22.0,5.0,20.0,5.0,2.725,5.0,ja,Förlust,0.815,-1.55,-2.275,-1.706
-2026020194,2026-10-27,8481033,Akira Schmid,40,Florida Panthers,FLA,Winnipeg Jets,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,25.0,24.0,1.0,20.0,0.0,2.847,1.0,ja,Vinst,0.96,1.65,1.847,1.385
-2026020194,2026-10-27,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Florida Panthers,Hemma,F,1,5,Ordinarie,60.0,ja,Målvakt,24.0,19.0,5.0,14.0,2.0,3.466,5.0,ja,Förlust,0.792,-1.85,-1.534,-1.15
-2026020195,2026-10-27,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Utah Mammoth,Borta,V,3,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,19.0,0.0,3.09,1.0,ja,Vinst,0.963,1.85,2.09,1.568
-2026020195,2026-10-27,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Minnesota Wild,Hemma,F,1,3,Ordinarie,57.37,ja,Målvakt,30.0,27.0,3.0,22.0,1.0,2.926,3.0,ja,Förlust,0.9,0.45,-0.074,-0.055
-2026020196,2026-10-27,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Ottawa Senators,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,18.0,0.0,2.914,1.0,ja,Vinst,0.962,1.75,1.914,1.436
-2026020196,2026-10-27,8477992,Jonas Johansson,31,Ottawa Senators,OTT,Vegas Golden Knights,Borta,F,1,4,Ordinarie,58.12,ja,Målvakt,27.0,25.0,2.0,23.0,1.0,3.393,2.0,ja,Förlust,0.926,1.0,1.393,1.045
-2026020197,2026-10-27,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Vancouver Canucks,Hemma,FÖ,5,6,Förlängning,64.82,ja,Målvakt,33.0,27.0,6.0,15.0,3.0,4.175,6.0,ja,Förlust (förl./str.),0.818,-1.8,-1.825,-1.369
-2026020197,2026-10-27,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Anaheim Ducks,Borta,V,6,5,Förlängning,62.78,ja,Målvakt,23.0,18.0,5.0,18.0,4.0,2.368,5.0,ja,Vinst,0.783,-1.95,-2.632,-1.974
-2026020198,2026-10-27,8481551,Colten Ellis,92,Buffalo Sabres,BUF,San Jose Sharks,Borta,V,2,0,Ordinarie,59.97,ja,Målvakt,23.0,23.0,0.0,19.0,0.0,2.573,0.0,ja,Vinst,1.0,2.3,2.573,1.93
-2026020198,2026-10-27,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Buffalo Sabres,Hemma,F,0,2,Ordinarie,59.35,ja,Målvakt,39.0,38.0,1.0,32.0,1.0,4.153,1.0,ja,Förlust,0.974,3.05,3.153,2.365
-2026020199,2026-10-28,8480313,Logan Thompson,48,Washington Capitals,WSH,Philadelphia Flyers,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,25.0,23.0,2.0,21.0,1.0,2.284,2.0,ja,Vinst,0.92,0.8,0.284,0.213
-2026020199,2026-10-28,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Washington Capitals,Borta,F,2,5,Ordinarie,58.15,ja,Målvakt,29.0,25.0,4.0,25.0,3.0,3.027,4.0,ja,Förlust,0.862,-0.5,-0.973,-0.73
-2026020200,2026-10-28,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Calgary Flames,Hemma,V,4,0,Ordinarie,60.0,ja,Målvakt,24.0,24.0,0.0,24.0,0.0,2.162,0.0,ja,Vinst,1.0,2.4,2.162,1.622
+2026020184,2026-10-25,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Minnesota Wild,Hemma,F,2,4,Ordinarie,57.1,ja,Målvakt,34.0,30.0,4.0,25.0,2.0,4.901,4.0,ja,Förlust,0.882,0.0,0.901,0.676
+2026020185,2026-10-26,8482193,Dylan Garand,33,New York Rangers,NYR,Los Angeles Kings,Hemma,F,3,6,Ordinarie,38.08,ja,Målvakt,17.0,15.0,2.0,10.0,1.0,1.671,2.0,nej,Förlust,0.882,0.0,-0.329,-0.247
+2026020185,2026-10-26,8473503,James Reimer,47,New York Rangers,NYR,Los Angeles Kings,Hemma,F,3,6,Ordinarie,20.0,ja,Målvakt,8.0,5.0,3.0,7.0,2.0,1.207,3.0,ja,,0.625,-1.75,-1.793,-1.345
+2026020185,2026-10-26,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,New York Rangers,Borta,V,6,3,Ordinarie,59.32,ja,Målvakt,26.0,23.0,3.0,23.0,1.0,2.852,3.0,ja,Vinst,0.885,0.05,-0.148,-0.111
+2026020186,2026-10-26,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Calgary Flames,Borta,F,2,5,Ordinarie,58.92,ja,Målvakt,32.0,29.0,3.0,24.0,2.0,3.109,3.0,ja,Förlust,0.906,0.65,0.109,0.082
+2026020186,2026-10-26,8482445,Devin Cooley,1,Calgary Flames,CGY,Toronto Maple Leafs,Hemma,V,5,2,Ordinarie,59.63,ja,Målvakt,28.0,26.0,2.0,17.0,2.0,2.459,2.0,ja,Vinst,0.929,1.1,0.459,0.344
+2026020187,2026-10-26,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Detroit Red Wings,Hemma,FÖ,3,4,Straffar,65.0,ja,Målvakt,29.0,26.0,3.0,21.0,1.0,2.791,3.0,ja,Förlust (förl./str.),0.897,0.35,-0.209,-0.157
+2026020187,2026-10-26,8485545,Michal Postava,35,Detroit Red Wings,DET,Edmonton Oilers,Borta,V,4,3,Straffar,63.27,ja,Målvakt,28.0,25.0,3.0,17.0,2.0,3.283,3.0,ja,Vinst,0.893,0.25,0.283,0.212
+2026020188,2026-10-27,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Philadelphia Flyers,Borta,V,4,3,Förlängning,62.37,ja,Målvakt,31.0,28.0,3.0,24.0,2.0,3.604,3.0,ja,Vinst,0.903,0.55,0.604,0.453
+2026020188,2026-10-27,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Columbus Blue Jackets,Hemma,FÖ,3,4,Förlängning,61.18,ja,Målvakt,15.0,11.0,4.0,10.0,2.0,1.59,4.0,ja,Förlust (förl./str.),0.733,-1.9,-2.41,-1.808
+2026020189,2026-10-27,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Carolina Hurricanes,Borta,F,1,2,Ordinarie,57.78,ja,Målvakt,30.0,28.0,2.0,25.0,2.0,4.091,2.0,ja,Förlust,0.933,1.3,2.091,1.568
+2026020189,2026-10-27,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Boston Bruins,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,15.0,14.0,1.0,9.0,0.0,2.168,1.0,ja,Vinst,0.933,0.65,1.168,0.876
+2026020190,2026-10-27,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Chicago Blackhawks,Borta,F,1,2,Ordinarie,58.53,ja,Målvakt,27.0,25.0,2.0,24.0,1.0,3.775,2.0,ja,Förlust,0.926,1.0,1.775,1.331
+2026020190,2026-10-27,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Los Angeles Kings,Hemma,V,2,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,21.0,1.0,3.447,1.0,ja,Vinst,0.962,1.75,2.447,1.835
+2026020191,2026-10-27,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,St. Louis Blues,Borta,V,2,0,Ordinarie,59.63,ja,Målvakt,46.0,46.0,0.0,31.0,0.0,4.147,0.0,ja,Vinst,1.0,4.6,4.147,3.11
+2026020191,2026-10-27,8476412,Jordan Binnington,50,St. Louis Blues,STL,Montréal Canadiens,Hemma,F,0,2,Ordinarie,54.1,ja,Målvakt,20.0,18.0,2.0,14.0,2.0,2.028,2.0,ja,Förlust,0.9,0.3,0.028,0.021
+2026020192,2026-10-27,8473575,Semyon Varlamov,40,New York Islanders,NYI,Nashville Predators,Borta,V,4,3,Straffar,63.17,ja,Målvakt,23.0,20.0,3.0,16.0,2.0,3.484,3.0,ja,Vinst,0.87,-0.25,0.484,0.363
+2026020192,2026-10-27,8477424,Juuse Saros,74,Nashville Predators,NSH,New York Islanders,Hemma,FÖ,3,4,Straffar,65.0,ja,Målvakt,28.0,25.0,3.0,23.0,2.0,3.759,3.0,ja,Förlust (förl./str.),0.893,0.25,0.759,0.569
+2026020193,2026-10-27,8476945,Connor Hellebuyck,37,New Jersey Devils,NJD,Dallas Stars,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,18.0,17.0,1.0,17.0,1.0,1.982,1.0,ja,Vinst,0.944,0.95,0.982,0.736
+2026020193,2026-10-27,8479193,Casey DeSmith,1,Dallas Stars,DAL,New Jersey Devils,Hemma,F,1,5,Ordinarie,60.0,ja,Målvakt,27.0,22.0,5.0,20.0,5.0,2.717,5.0,ja,Förlust,0.815,-1.55,-2.283,-1.712
+2026020194,2026-10-27,8481033,Akira Schmid,40,Florida Panthers,FLA,Winnipeg Jets,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,25.0,24.0,1.0,20.0,0.0,2.857,1.0,ja,Vinst,0.96,1.65,1.857,1.393
+2026020194,2026-10-27,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Florida Panthers,Hemma,F,1,5,Ordinarie,60.0,ja,Målvakt,24.0,19.0,5.0,14.0,2.0,3.473,5.0,ja,Förlust,0.792,-1.85,-1.527,-1.145
+2026020195,2026-10-27,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Utah Mammoth,Borta,V,3,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,19.0,0.0,3.094,1.0,ja,Vinst,0.963,1.85,2.094,1.57
+2026020195,2026-10-27,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Minnesota Wild,Hemma,F,1,3,Ordinarie,57.37,ja,Målvakt,30.0,27.0,3.0,22.0,1.0,2.922,3.0,ja,Förlust,0.9,0.45,-0.078,-0.058
+2026020196,2026-10-27,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Ottawa Senators,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,26.0,25.0,1.0,18.0,0.0,2.91,1.0,ja,Vinst,0.962,1.75,1.91,1.432
+2026020196,2026-10-27,8477992,Jonas Johansson,31,Ottawa Senators,OTT,Vegas Golden Knights,Borta,F,1,4,Ordinarie,58.12,ja,Målvakt,27.0,25.0,2.0,23.0,1.0,3.392,2.0,ja,Förlust,0.926,1.0,1.392,1.044
+2026020197,2026-10-27,8480843,Lukas Dostal,1,Anaheim Ducks,ANA,Vancouver Canucks,Hemma,FÖ,5,6,Förlängning,64.82,ja,Målvakt,33.0,27.0,6.0,15.0,3.0,4.169,6.0,ja,Förlust (förl./str.),0.818,-1.8,-1.831,-1.373
+2026020197,2026-10-27,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Anaheim Ducks,Borta,V,6,5,Förlängning,62.78,ja,Målvakt,23.0,18.0,5.0,18.0,4.0,2.369,5.0,ja,Vinst,0.783,-1.95,-2.631,-1.973
+2026020198,2026-10-27,8481551,Colten Ellis,92,Buffalo Sabres,BUF,San Jose Sharks,Borta,V,2,0,Ordinarie,59.97,ja,Målvakt,23.0,23.0,0.0,19.0,0.0,2.575,0.0,ja,Vinst,1.0,2.3,2.575,1.931
+2026020198,2026-10-27,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Buffalo Sabres,Hemma,F,0,2,Ordinarie,59.35,ja,Målvakt,39.0,38.0,1.0,32.0,1.0,4.155,1.0,ja,Förlust,0.974,3.05,3.155,2.366
+2026020199,2026-10-28,8480313,Logan Thompson,48,Washington Capitals,WSH,Philadelphia Flyers,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,25.0,23.0,2.0,21.0,1.0,2.275,2.0,ja,Vinst,0.92,0.8,0.275,0.206
+2026020199,2026-10-28,8479361,Joseph Woll,53,Philadelphia Flyers,PHI,Washington Capitals,Borta,F,2,5,Ordinarie,58.15,ja,Målvakt,29.0,25.0,4.0,25.0,3.0,3.021,4.0,ja,Förlust,0.862,-0.5,-0.979,-0.734
+2026020200,2026-10-28,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,Calgary Flames,Hemma,V,4,0,Ordinarie,60.0,ja,Målvakt,24.0,24.0,0.0,24.0,0.0,2.16,0.0,ja,Vinst,1.0,2.4,2.16,1.62
 2026020200,2026-10-28,8482445,Devin Cooley,1,Calgary Flames,CGY,Edmonton Oilers,Borta,F,0,4,Ordinarie,20.0,ja,Målvakt,9.0,8.0,1.0,8.0,1.0,0.797,1.0,ja,Förlust,0.889,0.05,-0.203,-0.152
-2026020200,2026-10-28,8481692,Dustin Wolf,32,Calgary Flames,CGY,Edmonton Oilers,Borta,F,0,4,Ordinarie,40.0,ja,Målvakt,23.0,20.0,3.0,17.0,2.0,2.6,3.0,nej,,0.87,-0.25,-0.4,-0.3
-2026020201,2026-10-28,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,New Jersey Devils,Hemma,V,5,2,Ordinarie,59.45,ja,Målvakt,22.0,20.0,2.0,18.0,1.0,2.635,2.0,ja,Vinst,0.909,0.5,0.635,0.476
-2026020201,2026-10-28,8474596,Jake Allen,34,New Jersey Devils,NJD,Colorado Avalanche,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,44.0,39.0,5.0,37.0,4.0,4.477,5.0,ja,Förlust,0.886,0.15,-0.523,-0.392
-2026020202,2026-10-28,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Seattle Kraken,Borta,F,4,5,Ordinarie,59.27,ja,Målvakt,17.0,12.0,5.0,13.0,4.0,2.45,5.0,ja,Förlust,0.706,-2.55,-2.55,-1.912
-2026020202,2026-10-28,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Toronto Maple Leafs,Hemma,V,5,4,Ordinarie,59.85,ja,Målvakt,21.0,17.0,4.0,13.0,0.0,1.96,4.0,ja,Vinst,0.81,-1.3,-2.04,-1.53
-2026020203,2026-10-29,8476434,John Gibson,36,Detroit Red Wings,DET,Chicago Blackhawks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,19.0,18.0,1.0,17.0,1.0,1.693,1.0,ja,Vinst,0.947,1.05,0.693,0.52
-2026020203,2026-10-29,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Detroit Red Wings,Borta,F,1,4,Ordinarie,59.27,ja,Målvakt,30.0,27.0,3.0,24.0,2.0,4.856,3.0,ja,Förlust,0.9,0.45,1.856,1.392
-2026020204,2026-10-29,8482076,Nico Daws,35,Winnipeg Jets,WPG,Tampa Bay Lightning,Borta,F,4,6,Ordinarie,18.97,ja,Målvakt,9.0,9.0,0.0,7.0,0.0,0.782,0.0,nej,,1.0,0.9,0.782,0.586
-2026020204,2026-10-29,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Winnipeg Jets,Hemma,V,6,4,Ordinarie,60.0,ja,Målvakt,21.0,17.0,4.0,16.0,3.0,2.133,4.0,ja,Vinst,0.81,-1.3,-1.867,-1.4
-2026020204,2026-10-29,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Tampa Bay Lightning,Borta,F,4,6,Ordinarie,40.0,ja,Målvakt,21.0,16.0,5.0,14.0,4.0,3.664,5.0,ja,Förlust,0.762,-2.15,-1.336,-1.002
-2026020205,2026-10-29,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Pittsburgh Penguins,Borta,V,4,3,Förlängning,66.57,ja,Målvakt,34.0,31.0,3.0,29.0,2.0,3.052,3.0,ja,Vinst,0.912,0.85,0.052,0.039
-2026020205,2026-10-29,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Utah Mammoth,Hemma,FÖ,3,4,Förlängning,63.45,ja,Målvakt,34.0,30.0,4.0,28.0,2.0,4.112,4.0,ja,Förlust (förl./str.),0.882,0.0,0.112,0.084
-2026020206,2026-10-29,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Columbus Blue Jackets,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,21.0,0.0,2.641,2.0,ja,Vinst,0.923,0.9,0.641,0.481
-2026020206,2026-10-29,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Carolina Hurricanes,Borta,F,2,3,Ordinarie,58.85,ja,Målvakt,27.0,24.0,3.0,21.0,3.0,2.911,3.0,ja,Förlust,0.889,0.15,-0.089,-0.067
-2026020207,2026-10-29,8480280,Jeremy Swayman,1,Boston Bruins,BOS,St. Louis Blues,Borta,F,1,4,Ordinarie,60.0,ja,Målvakt,18.0,14.0,4.0,15.0,2.0,2.437,4.0,ja,Förlust,0.778,-1.6,-1.563,-1.172
-2026020207,2026-10-29,8480981,Joel Hofer,30,St. Louis Blues,STL,Boston Bruins,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,32.0,31.0,1.0,29.0,1.0,2.766,1.0,ja,Vinst,0.969,2.35,1.766,1.324
-2026020208,2026-10-29,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Nashville Predators,Borta,V,4,3,Ordinarie,60.0,ja,Målvakt,27.0,24.0,3.0,19.0,2.0,2.651,3.0,ja,Vinst,0.889,0.15,-0.349,-0.262
-2026020208,2026-10-29,8477424,Juuse Saros,74,Nashville Predators,NSH,Washington Capitals,Hemma,F,3,4,Ordinarie,57.95,ja,Målvakt,29.0,25.0,4.0,25.0,4.0,2.809,4.0,ja,Förlust,0.862,-0.5,-1.191,-0.893
-2026020209,2026-10-29,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Dallas Stars,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,19.0,17.0,2.0,12.0,1.0,2.008,2.0,ja,Vinst,0.895,0.2,0.008,0.006
-2026020209,2026-10-29,8479979,Jake Oettinger,29,Dallas Stars,DAL,Montréal Canadiens,Hemma,F,2,5,Ordinarie,57.7,ja,Målvakt,20.0,16.0,4.0,14.0,4.0,2.448,4.0,ja,Förlust,0.8,-1.4,-1.552,-1.164
+2026020200,2026-10-28,8481692,Dustin Wolf,32,Calgary Flames,CGY,Edmonton Oilers,Borta,F,0,4,Ordinarie,40.0,ja,Målvakt,23.0,20.0,3.0,17.0,2.0,2.608,3.0,nej,,0.87,-0.25,-0.392,-0.294
+2026020201,2026-10-28,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,New Jersey Devils,Hemma,V,5,2,Ordinarie,59.45,ja,Målvakt,22.0,20.0,2.0,18.0,1.0,2.641,2.0,ja,Vinst,0.909,0.5,0.641,0.481
+2026020201,2026-10-28,8474596,Jake Allen,34,New Jersey Devils,NJD,Colorado Avalanche,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,44.0,39.0,5.0,37.0,4.0,4.458,5.0,ja,Förlust,0.886,0.15,-0.542,-0.406
+2026020202,2026-10-28,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Seattle Kraken,Borta,F,4,5,Ordinarie,59.27,ja,Målvakt,17.0,12.0,5.0,13.0,4.0,2.457,5.0,ja,Förlust,0.706,-2.55,-2.543,-1.907
+2026020202,2026-10-28,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Toronto Maple Leafs,Hemma,V,5,4,Ordinarie,59.85,ja,Målvakt,21.0,17.0,4.0,13.0,0.0,1.958,4.0,ja,Vinst,0.81,-1.3,-2.042,-1.531
+2026020203,2026-10-29,8476434,John Gibson,36,Detroit Red Wings,DET,Chicago Blackhawks,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,19.0,18.0,1.0,17.0,1.0,1.69,1.0,ja,Vinst,0.947,1.05,0.69,0.518
+2026020203,2026-10-29,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Detroit Red Wings,Borta,F,1,4,Ordinarie,59.27,ja,Målvakt,30.0,27.0,3.0,24.0,2.0,4.845,3.0,ja,Förlust,0.9,0.45,1.845,1.384
+2026020204,2026-10-29,8482076,Nico Daws,35,Winnipeg Jets,WPG,Tampa Bay Lightning,Borta,F,4,6,Ordinarie,18.97,ja,Målvakt,9.0,9.0,0.0,7.0,0.0,0.783,0.0,nej,,1.0,0.9,0.783,0.587
+2026020204,2026-10-29,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Winnipeg Jets,Hemma,V,6,4,Ordinarie,60.0,ja,Målvakt,21.0,17.0,4.0,16.0,3.0,2.139,4.0,ja,Vinst,0.81,-1.3,-1.861,-1.396
+2026020204,2026-10-29,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Tampa Bay Lightning,Borta,F,4,6,Ordinarie,40.0,ja,Målvakt,21.0,16.0,5.0,14.0,4.0,3.648,5.0,ja,Förlust,0.762,-2.15,-1.352,-1.014
+2026020205,2026-10-29,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Pittsburgh Penguins,Borta,V,4,3,Förlängning,66.57,ja,Målvakt,34.0,31.0,3.0,29.0,2.0,3.054,3.0,ja,Vinst,0.912,0.85,0.054,0.04
+2026020205,2026-10-29,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Utah Mammoth,Hemma,FÖ,3,4,Förlängning,63.45,ja,Målvakt,34.0,30.0,4.0,28.0,2.0,4.126,4.0,ja,Förlust (förl./str.),0.882,0.0,0.126,0.094
+2026020206,2026-10-29,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Columbus Blue Jackets,Hemma,V,3,2,Ordinarie,60.0,ja,Målvakt,26.0,24.0,2.0,21.0,0.0,2.634,2.0,ja,Vinst,0.923,0.9,0.634,0.476
+2026020206,2026-10-29,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Carolina Hurricanes,Borta,F,2,3,Ordinarie,58.85,ja,Målvakt,27.0,24.0,3.0,21.0,3.0,2.905,3.0,ja,Förlust,0.889,0.15,-0.095,-0.071
+2026020207,2026-10-29,8480280,Jeremy Swayman,1,Boston Bruins,BOS,St. Louis Blues,Borta,F,1,4,Ordinarie,60.0,ja,Målvakt,18.0,14.0,4.0,15.0,2.0,2.431,4.0,ja,Förlust,0.778,-1.6,-1.569,-1.177
+2026020207,2026-10-29,8480981,Joel Hofer,30,St. Louis Blues,STL,Boston Bruins,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,32.0,31.0,1.0,29.0,1.0,2.75,1.0,ja,Vinst,0.969,2.35,1.75,1.312
+2026020208,2026-10-29,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Nashville Predators,Borta,V,4,3,Ordinarie,60.0,ja,Målvakt,27.0,24.0,3.0,19.0,2.0,2.653,3.0,ja,Vinst,0.889,0.15,-0.347,-0.26
+2026020208,2026-10-29,8477424,Juuse Saros,74,Nashville Predators,NSH,Washington Capitals,Hemma,F,3,4,Ordinarie,57.95,ja,Målvakt,29.0,25.0,4.0,25.0,4.0,2.806,4.0,ja,Förlust,0.862,-0.5,-1.194,-0.896
+2026020209,2026-10-29,8482487,Jakub Dobes,75,Montréal Canadiens,MTL,Dallas Stars,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,19.0,17.0,2.0,12.0,1.0,2.005,2.0,ja,Vinst,0.895,0.2,0.005,0.004
+2026020209,2026-10-29,8479979,Jake Oettinger,29,Dallas Stars,DAL,Montréal Canadiens,Hemma,F,2,5,Ordinarie,57.7,ja,Målvakt,20.0,16.0,4.0,14.0,4.0,2.439,4.0,ja,Förlust,0.8,-1.4,-1.561,-1.171
 2026020210,2026-10-29,8478009,Ilya Sorokin,30,New York Islanders,NYI,Minnesota Wild,Borta,V,4,3,Förlängning,60.55,ja,Målvakt,25.0,22.0,3.0,21.0,3.0,2.266,3.0,ja,Vinst,0.88,-0.05,-0.734,-0.55
 2026020210,2026-10-29,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,New York Islanders,Hemma,FÖ,3,4,Förlängning,60.55,ja,Målvakt,26.0,22.0,4.0,23.0,2.0,2.789,4.0,ja,Förlust (förl./str.),0.846,-0.8,-1.211,-0.908
-2026020211,2026-10-29,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Anaheim Ducks,Borta,V,7,6,Ordinarie,59.93,ja,Målvakt,35.0,29.0,6.0,17.0,1.0,4.129,6.0,ja,Vinst,0.829,-1.6,-1.871,-1.403
-2026020211,2026-10-29,8478024,Ville Husso,33,Anaheim Ducks,ANA,Buffalo Sabres,Hemma,F,6,7,Ordinarie,53.57,ja,Målvakt,31.0,24.0,7.0,23.0,5.0,3.719,7.0,ja,Förlust,0.774,-2.85,-3.281,-2.461
-2026020212,2026-10-29,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Los Angeles Kings,Borta,FÖ,5,6,Förlängning,32.52,ja,Målvakt,22.0,20.0,2.0,6.0,0.0,2.478,2.0,nej,Förlust (förl./str.),0.909,0.5,0.478,0.358
-2026020212,2026-10-29,8477992,Jonas Johansson,31,Ottawa Senators,OTT,Los Angeles Kings,Borta,FÖ,5,6,Förlängning,30.9,ja,Målvakt,16.0,12.0,4.0,10.0,3.0,2.27,4.0,ja,,0.75,-1.8,-1.73,-1.297
-2026020212,2026-10-29,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Ottawa Senators,Hemma,V,6,5,Förlängning,62.93,ja,Målvakt,22.0,17.0,5.0,17.0,3.0,2.495,5.0,ja,Vinst,0.773,-2.05,-2.505,-1.879
-2026020213,2026-10-29,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Vancouver Canucks,Hemma,V,3,2,Ordinarie,59.62,ja,Målvakt,25.0,23.0,2.0,17.0,2.0,2.741,2.0,ja,Vinst,0.92,0.8,0.741,0.556
-2026020213,2026-10-29,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,San Jose Sharks,Borta,F,2,3,Ordinarie,56.45,ja,Målvakt,24.0,21.0,3.0,14.0,2.0,2.62,3.0,ja,Förlust,0.875,-0.15,-0.38,-0.285
-2026020214,2026-10-30,8476945,Connor Hellebuyck,37,New Jersey Devils,NJD,Vegas Golden Knights,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,17.0,1.0,1.945,2.0,ja,Vinst,0.905,0.4,-0.055,-0.041
-2026020214,2026-10-30,8478499,Adin Hill,33,Vegas Golden Knights,VGK,New Jersey Devils,Hemma,F,2,5,Ordinarie,58.2,ja,Målvakt,31.0,27.0,4.0,26.0,4.0,2.504,4.0,ja,Förlust,0.871,-0.3,-1.496,-1.122
-2026020215,2026-10-30,8481033,Akira Schmid,40,Florida Panthers,FLA,Winnipeg Jets,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,24.0,22.0,2.0,15.0,1.0,2.117,2.0,ja,Vinst,0.917,0.7,0.117,0.088
-2026020215,2026-10-30,8482076,Nico Daws,35,Winnipeg Jets,WPG,Florida Panthers,Borta,F,2,5,Ordinarie,58.1,ja,Målvakt,37.0,33.0,4.0,26.0,2.0,3.982,4.0,ja,Förlust,0.892,0.3,-0.018,-0.013
-2026020216,2026-10-30,8481692,Dustin Wolf,32,Calgary Flames,CGY,Seattle Kraken,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,22.0,20.0,2.0,19.0,1.0,1.92,2.0,ja,Vinst,0.909,0.5,-0.08,-0.06
+2026020211,2026-10-29,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Anaheim Ducks,Borta,V,7,6,Ordinarie,59.93,ja,Målvakt,35.0,29.0,6.0,17.0,1.0,4.119,6.0,ja,Vinst,0.829,-1.6,-1.881,-1.411
+2026020211,2026-10-29,8478024,Ville Husso,33,Anaheim Ducks,ANA,Buffalo Sabres,Hemma,F,6,7,Ordinarie,53.57,ja,Målvakt,31.0,24.0,7.0,23.0,5.0,3.713,7.0,ja,Förlust,0.774,-2.85,-3.287,-2.465
+2026020212,2026-10-29,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Los Angeles Kings,Borta,FÖ,5,6,Förlängning,32.52,ja,Målvakt,22.0,20.0,2.0,6.0,0.0,2.473,2.0,nej,Förlust (förl./str.),0.909,0.5,0.473,0.355
+2026020212,2026-10-29,8477992,Jonas Johansson,31,Ottawa Senators,OTT,Los Angeles Kings,Borta,FÖ,5,6,Förlängning,30.9,ja,Målvakt,16.0,12.0,4.0,10.0,3.0,2.276,4.0,ja,,0.75,-1.8,-1.724,-1.293
+2026020212,2026-10-29,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,Ottawa Senators,Hemma,V,6,5,Förlängning,62.93,ja,Målvakt,22.0,17.0,5.0,17.0,3.0,2.499,5.0,ja,Vinst,0.773,-2.05,-2.501,-1.876
+2026020213,2026-10-29,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Vancouver Canucks,Hemma,V,3,2,Ordinarie,59.62,ja,Målvakt,25.0,23.0,2.0,17.0,2.0,2.742,2.0,ja,Vinst,0.92,0.8,0.742,0.556
+2026020213,2026-10-29,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,San Jose Sharks,Borta,F,2,3,Ordinarie,56.45,ja,Målvakt,24.0,21.0,3.0,14.0,2.0,2.624,3.0,ja,Förlust,0.875,-0.15,-0.376,-0.282
+2026020214,2026-10-30,8476945,Connor Hellebuyck,37,New Jersey Devils,NJD,Vegas Golden Knights,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,17.0,1.0,1.948,2.0,ja,Vinst,0.905,0.4,-0.052,-0.039
+2026020214,2026-10-30,8478499,Adin Hill,33,Vegas Golden Knights,VGK,New Jersey Devils,Hemma,F,2,5,Ordinarie,58.2,ja,Målvakt,31.0,27.0,4.0,26.0,4.0,2.501,4.0,ja,Förlust,0.871,-0.3,-1.499,-1.124
+2026020215,2026-10-30,8481033,Akira Schmid,40,Florida Panthers,FLA,Winnipeg Jets,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,24.0,22.0,2.0,15.0,1.0,2.118,2.0,ja,Vinst,0.917,0.7,0.118,0.088
+2026020215,2026-10-30,8482076,Nico Daws,35,Winnipeg Jets,WPG,Florida Panthers,Borta,F,2,5,Ordinarie,58.1,ja,Målvakt,37.0,33.0,4.0,26.0,2.0,3.969,4.0,ja,Förlust,0.892,0.3,-0.031,-0.023
+2026020216,2026-10-30,8481692,Dustin Wolf,32,Calgary Flames,CGY,Seattle Kraken,Hemma,V,6,2,Ordinarie,60.0,ja,Målvakt,22.0,20.0,2.0,19.0,1.0,1.916,2.0,ja,Vinst,0.909,0.5,-0.084,-0.063
 2026020216,2026-10-30,8475831,Philipp Grubauer,31,Seattle Kraken,SEA,Calgary Flames,Borta,F,2,6,Ordinarie,30.67,ja,Målvakt,14.0,10.0,4.0,11.0,2.0,1.262,4.0,ja,Förlust,0.714,-2.0,-2.738,-2.054
-2026020216,2026-10-30,8478916,Joey Daccord,35,Seattle Kraken,SEA,Calgary Flames,Borta,F,2,6,Ordinarie,29.33,ja,Målvakt,13.0,11.0,2.0,11.0,2.0,1.016,2.0,nej,,0.846,-0.4,-0.984,-0.738
-2026020217,2026-10-31,8482821,Arvid Soderblom,40,Chicago Blackhawks,CHI,Boston Bruins,Borta,FÖ,4,5,Förlängning,62.53,ja,Målvakt,32.0,27.0,5.0,19.0,3.0,3.977,5.0,ja,Förlust (förl./str.),0.844,-1.05,-1.023,-0.767
-2026020217,2026-10-31,8480022,Michael DiPietro,30,Boston Bruins,BOS,Chicago Blackhawks,Hemma,V,5,4,Förlängning,61.47,ja,Målvakt,41.0,37.0,4.0,29.0,2.0,3.408,4.0,ja,Vinst,0.902,0.7,-0.592,-0.444
-2026020218,2026-10-31,8476434,John Gibson,36,Detroit Red Wings,DET,St. Louis Blues,Hemma,F,4,5,Ordinarie,57.0,ja,Målvakt,15.0,10.0,5.0,15.0,5.0,2.379,5.0,ja,Förlust,0.667,-2.75,-2.621,-1.966
-2026020218,2026-10-31,8480981,Joel Hofer,30,St. Louis Blues,STL,Detroit Red Wings,Borta,V,5,4,Ordinarie,59.47,ja,Målvakt,28.0,24.0,4.0,24.0,3.0,2.237,4.0,ja,Vinst,0.857,-0.6,-1.763,-1.322
-2026020219,2026-10-31,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Nashville Predators,Borta,FÖ,4,5,Straffar,65.0,ja,Målvakt,33.0,29.0,4.0,26.0,3.0,3.187,4.0,ja,Förlust (förl./str.),0.879,-0.1,-0.813,-0.61
-2026020219,2026-10-31,8481020,Justus Annunen,29,Nashville Predators,NSH,Tampa Bay Lightning,Hemma,V,5,4,Straffar,64.87,ja,Målvakt,26.0,22.0,4.0,18.0,4.0,2.857,4.0,ja,Vinst,0.846,-0.8,-1.143,-0.857
-2026020220,2026-10-31,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,New York Islanders,Borta,V,4,0,Ordinarie,60.0,ja,Målvakt,18.0,18.0,0.0,12.0,0.0,2.044,0.0,ja,Vinst,1.0,1.8,2.044,1.533
-2026020220,2026-10-31,8478009,Ilya Sorokin,30,New York Islanders,NYI,Edmonton Oilers,Hemma,F,0,4,Ordinarie,59.43,ja,Målvakt,23.0,20.0,3.0,15.0,2.0,2.192,3.0,ja,Förlust,0.87,-0.25,-0.808,-0.606
-2026020221,2026-10-31,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Los Angeles Kings,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,22.0,1.0,3.393,2.0,ja,Vinst,0.931,1.2,1.393,1.045
-2026020221,2026-10-31,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Buffalo Sabres,Hemma,F,2,3,Ordinarie,57.95,ja,Målvakt,31.0,28.0,3.0,21.0,1.0,2.453,3.0,ja,Förlust,0.903,0.55,-0.547,-0.41
-2026020222,2026-10-31,8481035,Samuel Ersson,30,Ottawa Senators,OTT,San Jose Sharks,Borta,V,5,1,Ordinarie,59.58,ja,Målvakt,23.0,22.0,1.0,16.0,1.0,1.844,1.0,ja,Vinst,0.957,1.45,0.844,0.633
-2026020222,2026-10-31,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Ottawa Senators,Hemma,F,1,5,Ordinarie,57.52,ja,Målvakt,34.0,30.0,4.0,25.0,2.0,4.172,4.0,ja,Förlust,0.882,0.0,0.172,0.129
-2026020223,2026-10-31,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Pittsburgh Penguins,Hemma,V,5,4,Ordinarie,60.0,ja,Målvakt,29.0,25.0,4.0,22.0,2.0,3.704,4.0,ja,Vinst,0.862,-0.5,-0.296,-0.222
-2026020223,2026-10-31,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Montréal Canadiens,Borta,F,4,5,Ordinarie,57.67,ja,Målvakt,27.0,22.0,5.0,22.0,5.0,2.7,5.0,ja,Förlust,0.815,-1.55,-2.3,-1.725
-2026020224,2026-10-31,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Vancouver Canucks,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,28.0,26.0,2.0,20.0,1.0,2.741,2.0,ja,Vinst,0.929,1.1,0.741,0.556
-2026020224,2026-10-31,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Toronto Maple Leafs,Hemma,F,2,4,Ordinarie,58.22,ja,Målvakt,27.0,24.0,3.0,23.0,3.0,3.1,3.0,ja,Förlust,0.889,0.15,0.1,0.075
-2026020225,2026-10-31,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Dallas Stars,Borta,F,1,3,Ordinarie,58.43,ja,Målvakt,16.0,14.0,2.0,14.0,1.0,2.307,2.0,ja,Förlust,0.875,-0.1,0.307,0.23
-2026020225,2026-10-31,8479979,Jake Oettinger,29,Dallas Stars,DAL,Columbus Blue Jackets,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,25.0,24.0,1.0,22.0,1.0,2.729,1.0,ja,Vinst,0.96,1.65,1.729,1.297
-2026020226,2026-10-31,8482949,Arsenii Sergeev,35,Calgary Flames,CGY,Colorado Avalanche,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,33.0,28.0,5.0,26.0,4.0,3.763,5.0,ja,Förlust,0.848,-0.95,-1.237,-0.928
-2026020226,2026-10-31,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Calgary Flames,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,25.0,2.0,2.634,2.0,ja,Vinst,0.926,1.0,0.634,0.476
-2026020227,2026-11-01,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Winnipeg Jets,Hemma,V,7,0,Ordinarie,59.97,ja,Målvakt,26.0,26.0,0.0,19.0,0.0,2.912,0.0,ja,Vinst,1.0,2.6,2.912,2.184
-2026020227,2026-11-01,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Carolina Hurricanes,Borta,F,0,7,Ordinarie,30.85,ja,Målvakt,15.0,13.0,2.0,14.0,1.0,1.931,2.0,nej,,0.867,-0.2,-0.069,-0.052
-2026020227,2026-11-01,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Carolina Hurricanes,Borta,F,0,7,Ordinarie,29.15,ja,Målvakt,17.0,12.0,5.0,8.0,3.0,3.084,5.0,ja,Förlust,0.706,-2.55,-1.916,-1.437
-2026020228,2026-11-01,8480313,Logan Thompson,48,Washington Capitals,WSH,Minnesota Wild,Hemma,F,1,5,Ordinarie,58.87,ja,Målvakt,28.0,24.0,4.0,23.0,2.0,2.704,4.0,ja,Förlust,0.857,-0.6,-1.296,-0.972
-2026020228,2026-11-01,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Washington Capitals,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,24.0,1.0,3.587,1.0,ja,Vinst,0.963,1.85,2.587,1.94
-2026020229,2026-11-01,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Philadelphia Flyers,Borta,F,3,6,Ordinarie,58.42,ja,Målvakt,20.0,15.0,5.0,17.0,5.0,2.002,5.0,ja,Förlust,0.75,-2.25,-2.998,-2.248
-2026020229,2026-11-01,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Utah Mammoth,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,22.0,19.0,3.0,16.0,1.0,2.81,3.0,ja,Vinst,0.864,-0.35,-0.19,-0.143
-2026020230,2026-11-01,8477035,Matt Tomkins,90,Edmonton Oilers,EDM,New York Rangers,Borta,V,4,1,Ordinarie,59.22,ja,Målvakt,28.0,27.0,1.0,23.0,1.0,2.49,1.0,ja,Vinst,0.964,1.95,1.49,1.118
-2026020230,2026-11-01,8482193,Dylan Garand,33,New York Rangers,NYR,Edmonton Oilers,Hemma,F,1,4,Ordinarie,57.83,ja,Målvakt,24.0,21.0,3.0,20.0,2.0,2.821,3.0,ja,Förlust,0.875,-0.15,-0.179,-0.134
-2026020231,2026-11-01,8477992,Jonas Johansson,31,Ottawa Senators,OTT,Anaheim Ducks,Borta,F,3,6,Ordinarie,60.0,ja,Målvakt,33.0,27.0,6.0,22.0,2.0,2.807,6.0,ja,Förlust,0.818,-1.8,-3.193,-2.395
-2026020231,2026-11-01,8476316,Laurent Brossoit,31,Anaheim Ducks,ANA,Ottawa Senators,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,22.0,19.0,3.0,15.0,3.0,2.727,3.0,ja,Vinst,0.864,-0.35,-0.273,-0.205
-2026020232,2026-11-02,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Vegas Golden Knights,Hemma,V,3,2,Straffar,65.0,ja,Målvakt,23.0,21.0,2.0,14.0,1.0,2.435,2.0,ja,Vinst,0.913,0.6,0.435,0.326
-2026020232,2026-11-02,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Boston Bruins,Borta,FÖ,2,3,Straffar,65.0,ja,Målvakt,27.0,25.0,2.0,13.0,1.0,3.066,2.0,ja,Förlust (förl./str.),0.926,1.0,1.066,0.8
-2026020233,2026-11-02,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Florida Panthers,Borta,V,5,3,Ordinarie,60.0,ja,Målvakt,26.0,23.0,3.0,16.0,1.0,4.031,3.0,ja,Vinst,0.885,0.05,1.031,0.773
-2026020233,2026-11-02,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Detroit Red Wings,Hemma,F,3,5,Ordinarie,57.55,ja,Målvakt,28.0,24.0,4.0,19.0,3.0,2.927,4.0,ja,Förlust,0.857,-0.6,-1.073,-0.805
-2026020234,2026-11-02,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Chicago Blackhawks,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,23.0,21.0,2.0,14.0,2.0,2.241,2.0,ja,Vinst,0.913,0.6,0.241,0.181
+2026020216,2026-10-30,8478916,Joey Daccord,35,Seattle Kraken,SEA,Calgary Flames,Borta,F,2,6,Ordinarie,29.33,ja,Målvakt,13.0,11.0,2.0,11.0,2.0,1.015,2.0,nej,,0.846,-0.4,-0.985,-0.739
+2026020217,2026-10-31,8482821,Arvid Soderblom,40,Chicago Blackhawks,CHI,Boston Bruins,Borta,FÖ,4,5,Förlängning,62.53,ja,Målvakt,32.0,27.0,5.0,19.0,3.0,3.97,5.0,ja,Förlust (förl./str.),0.844,-1.05,-1.03,-0.772
+2026020217,2026-10-31,8480022,Michael DiPietro,30,Boston Bruins,BOS,Chicago Blackhawks,Hemma,V,5,4,Förlängning,61.47,ja,Målvakt,41.0,37.0,4.0,29.0,2.0,3.416,4.0,ja,Vinst,0.902,0.7,-0.584,-0.438
+2026020218,2026-10-31,8476434,John Gibson,36,Detroit Red Wings,DET,St. Louis Blues,Hemma,F,4,5,Ordinarie,57.0,ja,Målvakt,15.0,10.0,5.0,15.0,5.0,2.376,5.0,ja,Förlust,0.667,-2.75,-2.624,-1.968
+2026020218,2026-10-31,8480981,Joel Hofer,30,St. Louis Blues,STL,Detroit Red Wings,Borta,V,5,4,Ordinarie,59.47,ja,Målvakt,28.0,24.0,4.0,24.0,3.0,2.23,4.0,ja,Vinst,0.857,-0.6,-1.77,-1.328
+2026020219,2026-10-31,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Nashville Predators,Borta,FÖ,4,5,Straffar,65.0,ja,Målvakt,33.0,29.0,4.0,26.0,3.0,3.182,4.0,ja,Förlust (förl./str.),0.879,-0.1,-0.818,-0.613
+2026020219,2026-10-31,8481020,Justus Annunen,29,Nashville Predators,NSH,Tampa Bay Lightning,Hemma,V,5,4,Straffar,64.87,ja,Målvakt,26.0,22.0,4.0,18.0,4.0,2.865,4.0,ja,Vinst,0.846,-0.8,-1.135,-0.851
+2026020220,2026-10-31,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,New York Islanders,Borta,V,4,0,Ordinarie,60.0,ja,Målvakt,18.0,18.0,0.0,12.0,0.0,2.038,0.0,ja,Vinst,1.0,1.8,2.038,1.528
+2026020220,2026-10-31,8478009,Ilya Sorokin,30,New York Islanders,NYI,Edmonton Oilers,Hemma,F,0,4,Ordinarie,59.43,ja,Målvakt,23.0,20.0,3.0,15.0,2.0,2.187,3.0,ja,Förlust,0.87,-0.25,-0.813,-0.61
+2026020221,2026-10-31,8480045,Ukko-Pekka Luukkonen,1,Buffalo Sabres,BUF,Los Angeles Kings,Borta,V,3,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,22.0,1.0,3.396,2.0,ja,Vinst,0.931,1.2,1.396,1.047
+2026020221,2026-10-31,8476341,Anton Forsberg,31,Los Angeles Kings,LAK,Buffalo Sabres,Hemma,F,2,3,Ordinarie,57.95,ja,Målvakt,31.0,28.0,3.0,21.0,1.0,2.442,3.0,ja,Förlust,0.903,0.55,-0.558,-0.419
+2026020222,2026-10-31,8481035,Samuel Ersson,30,Ottawa Senators,OTT,San Jose Sharks,Borta,V,5,1,Ordinarie,59.58,ja,Målvakt,23.0,22.0,1.0,16.0,1.0,1.838,1.0,ja,Vinst,0.957,1.45,0.838,0.628
+2026020222,2026-10-31,8477968,Alex Nedeljkovic,33,San Jose Sharks,SJS,Ottawa Senators,Hemma,F,1,5,Ordinarie,57.52,ja,Målvakt,34.0,30.0,4.0,25.0,2.0,4.171,4.0,ja,Förlust,0.882,0.0,0.171,0.128
+2026020223,2026-10-31,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Pittsburgh Penguins,Hemma,V,5,4,Ordinarie,60.0,ja,Målvakt,29.0,25.0,4.0,22.0,2.0,3.691,4.0,ja,Vinst,0.862,-0.5,-0.309,-0.232
+2026020223,2026-10-31,8483703,Sergei Murashov,1,Pittsburgh Penguins,PIT,Montréal Canadiens,Borta,F,4,5,Ordinarie,57.67,ja,Målvakt,27.0,22.0,5.0,22.0,5.0,2.694,5.0,ja,Förlust,0.815,-1.55,-2.306,-1.73
+2026020224,2026-10-31,8476932,Anthony Stolarz,41,Toronto Maple Leafs,TOR,Vancouver Canucks,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,28.0,26.0,2.0,20.0,1.0,2.738,2.0,ja,Vinst,0.929,1.1,0.738,0.554
+2026020224,2026-10-31,8482447,Leevi Meriläinen,31,Vancouver Canucks,VAN,Toronto Maple Leafs,Hemma,F,2,4,Ordinarie,58.22,ja,Målvakt,27.0,24.0,3.0,23.0,3.0,3.092,3.0,ja,Förlust,0.889,0.15,0.092,0.069
+2026020225,2026-10-31,8482982,Jet Greaves,73,Columbus Blue Jackets,CBJ,Dallas Stars,Borta,F,1,3,Ordinarie,58.43,ja,Målvakt,16.0,14.0,2.0,14.0,1.0,2.302,2.0,ja,Förlust,0.875,-0.1,0.302,0.226
+2026020225,2026-10-31,8479979,Jake Oettinger,29,Dallas Stars,DAL,Columbus Blue Jackets,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,25.0,24.0,1.0,22.0,1.0,2.719,1.0,ja,Vinst,0.96,1.65,1.719,1.289
+2026020226,2026-10-31,8482949,Arsenii Sergeev,35,Calgary Flames,CGY,Colorado Avalanche,Borta,F,2,5,Ordinarie,60.0,ja,Målvakt,33.0,28.0,5.0,26.0,4.0,3.762,5.0,ja,Förlust,0.848,-0.95,-1.238,-0.928
+2026020226,2026-10-31,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Calgary Flames,Hemma,V,5,2,Ordinarie,60.0,ja,Målvakt,27.0,25.0,2.0,25.0,2.0,2.635,2.0,ja,Vinst,0.926,1.0,0.635,0.476
+2026020227,2026-11-01,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Winnipeg Jets,Hemma,V,7,0,Ordinarie,59.97,ja,Målvakt,26.0,26.0,0.0,19.0,0.0,2.902,0.0,ja,Vinst,1.0,2.6,2.902,2.176
+2026020227,2026-11-01,8483532,Clay Stevenson,33,Winnipeg Jets,WPG,Carolina Hurricanes,Borta,F,0,7,Ordinarie,30.85,ja,Målvakt,15.0,13.0,2.0,14.0,1.0,1.927,2.0,nej,,0.867,-0.2,-0.073,-0.055
+2026020227,2026-11-01,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Carolina Hurricanes,Borta,F,0,7,Ordinarie,29.15,ja,Målvakt,17.0,12.0,5.0,8.0,3.0,3.078,5.0,ja,Förlust,0.706,-2.55,-1.922,-1.442
+2026020228,2026-11-01,8480313,Logan Thompson,48,Washington Capitals,WSH,Minnesota Wild,Hemma,F,1,5,Ordinarie,58.87,ja,Målvakt,28.0,24.0,4.0,23.0,2.0,2.699,4.0,ja,Förlust,0.857,-0.6,-1.301,-0.976
+2026020228,2026-11-01,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Washington Capitals,Borta,V,5,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,24.0,1.0,3.575,1.0,ja,Vinst,0.963,1.85,2.575,1.931
+2026020229,2026-11-01,8478872,Karel Vejmelka,70,Utah Mammoth,UTA,Philadelphia Flyers,Borta,F,3,6,Ordinarie,58.42,ja,Målvakt,20.0,15.0,5.0,17.0,5.0,1.994,5.0,ja,Förlust,0.75,-2.25,-3.006,-2.254
+2026020229,2026-11-01,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Utah Mammoth,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,22.0,19.0,3.0,16.0,1.0,2.806,3.0,ja,Vinst,0.864,-0.35,-0.194,-0.146
+2026020230,2026-11-01,8477035,Matt Tomkins,90,Edmonton Oilers,EDM,New York Rangers,Borta,V,4,1,Ordinarie,59.22,ja,Målvakt,28.0,27.0,1.0,23.0,1.0,2.482,1.0,ja,Vinst,0.964,1.95,1.482,1.112
+2026020230,2026-11-01,8482193,Dylan Garand,33,New York Rangers,NYR,Edmonton Oilers,Hemma,F,1,4,Ordinarie,57.83,ja,Målvakt,24.0,21.0,3.0,20.0,2.0,2.813,3.0,ja,Förlust,0.875,-0.15,-0.187,-0.14
+2026020231,2026-11-01,8477992,Jonas Johansson,31,Ottawa Senators,OTT,Anaheim Ducks,Borta,F,3,6,Ordinarie,60.0,ja,Målvakt,33.0,27.0,6.0,22.0,2.0,2.795,6.0,ja,Förlust,0.818,-1.8,-3.205,-2.404
+2026020231,2026-11-01,8476316,Laurent Brossoit,31,Anaheim Ducks,ANA,Ottawa Senators,Hemma,V,6,3,Ordinarie,60.0,ja,Målvakt,22.0,19.0,3.0,15.0,3.0,2.718,3.0,ja,Vinst,0.864,-0.35,-0.282,-0.211
+2026020232,2026-11-02,8480280,Jeremy Swayman,1,Boston Bruins,BOS,Vegas Golden Knights,Hemma,V,3,2,Straffar,65.0,ja,Målvakt,23.0,21.0,2.0,14.0,1.0,2.431,2.0,ja,Vinst,0.913,0.6,0.431,0.323
+2026020232,2026-11-02,8479394,Carter Hart,79,Vegas Golden Knights,VGK,Boston Bruins,Borta,FÖ,2,3,Straffar,65.0,ja,Målvakt,27.0,25.0,2.0,13.0,1.0,3.063,2.0,ja,Förlust (förl./str.),0.926,1.0,1.063,0.797
+2026020233,2026-11-02,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Florida Panthers,Borta,V,5,3,Ordinarie,60.0,ja,Målvakt,26.0,23.0,3.0,16.0,1.0,4.035,3.0,ja,Vinst,0.885,0.05,1.035,0.776
+2026020233,2026-11-02,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Detroit Red Wings,Hemma,F,3,5,Ordinarie,57.55,ja,Målvakt,28.0,24.0,4.0,19.0,3.0,2.918,4.0,ja,Förlust,0.857,-0.6,-1.082,-0.812
+2026020234,2026-11-02,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Chicago Blackhawks,Borta,V,5,2,Ordinarie,60.0,ja,Målvakt,23.0,21.0,2.0,14.0,2.0,2.24,2.0,ja,Vinst,0.913,0.6,0.24,0.18
 2026020234,2026-11-02,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Colorado Avalanche,Hemma,F,2,5,Ordinarie,58.9,ja,Målvakt,28.0,24.0,4.0,19.0,3.0,3.009,4.0,ja,Förlust,0.857,-0.6,-0.991,-0.743
-2026020235,2026-11-02,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Calgary Flames,Hemma,F,1,2,Ordinarie,58.22,ja,Målvakt,22.0,20.0,2.0,20.0,2.0,2.06,2.0,ja,Förlust,0.909,0.5,0.06,0.045
-2026020235,2026-11-02,8481692,Dustin Wolf,32,Calgary Flames,CGY,San Jose Sharks,Borta,V,2,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,21.0,1.0,2.965,1.0,ja,Vinst,0.963,1.85,1.965,1.474
-2026020236,2026-11-03,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Utah Mammoth,Hemma,F,2,3,Ordinarie,58.5,ja,Målvakt,36.0,33.0,3.0,27.0,1.0,3.835,3.0,ja,Förlust,0.917,1.05,0.835,0.626
-2026020236,2026-11-03,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Toronto Maple Leafs,Borta,V,3,2,Ordinarie,59.97,ja,Målvakt,29.0,27.0,2.0,23.0,2.0,2.109,2.0,ja,Vinst,0.931,1.2,0.109,0.082
-2026020237,2026-11-03,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Winnipeg Jets,Hemma,FÖ,4,5,Förlängning,63.5,ja,Målvakt,47.0,42.0,5.0,29.0,2.0,5.183,5.0,ja,Förlust (förl./str.),0.894,0.45,0.183,0.137
-2026020237,2026-11-03,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Montréal Canadiens,Borta,V,5,4,Förlängning,62.3,ja,Målvakt,22.0,18.0,4.0,16.0,2.0,2.633,4.0,ja,Vinst,0.818,-1.2,-1.367,-1.025
-2026020238,2026-11-03,8476434,John Gibson,36,Detroit Red Wings,DET,Tampa Bay Lightning,Borta,F,2,4,Ordinarie,20.0,ja,Målvakt,13.0,11.0,2.0,10.0,1.0,1.822,2.0,ja,,0.846,-0.4,-0.178,-0.134
-2026020238,2026-11-03,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Tampa Bay Lightning,Borta,F,2,4,Ordinarie,36.98,ja,Målvakt,13.0,12.0,1.0,11.0,1.0,1.923,1.0,nej,Förlust,0.923,0.45,0.923,0.692
-2026020238,2026-11-03,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Detroit Red Wings,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,13.0,1.0,2.982,2.0,ja,Vinst,0.905,0.4,0.982,0.736
-2026020239,2026-11-03,8476945,Connor Hellebuyck,37,New Jersey Devils,NJD,Edmonton Oilers,Hemma,V,4,3,Straffar,65.0,ja,Målvakt,21.0,18.0,3.0,15.0,1.0,1.723,3.0,ja,Vinst,0.857,-0.45,-1.277,-0.958
-2026020239,2026-11-03,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,New Jersey Devils,Borta,FÖ,3,4,Straffar,64.78,ja,Målvakt,34.0,31.0,3.0,24.0,1.0,2.976,3.0,ja,Förlust (förl./str.),0.912,0.85,-0.024,-0.018
-2026020240,2026-11-03,8482193,Dylan Garand,33,New York Rangers,NYR,St. Louis Blues,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,33.0,32.0,1.0,24.0,1.0,2.909,1.0,ja,Vinst,0.97,2.45,1.909,1.432
-2026020240,2026-11-03,8480981,Joel Hofer,30,St. Louis Blues,STL,New York Rangers,Borta,F,1,3,Ordinarie,58.55,ja,Målvakt,30.0,28.0,2.0,19.0,2.0,3.858,2.0,ja,Förlust,0.933,1.3,1.858,1.394
-2026020241,2026-11-03,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Philadelphia Flyers,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,25.0,23.0,2.0,21.0,1.0,3.136,2.0,ja,Vinst,0.92,0.8,1.136,0.852
+2026020235,2026-11-02,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Calgary Flames,Hemma,F,1,2,Ordinarie,58.22,ja,Målvakt,22.0,20.0,2.0,20.0,2.0,2.058,2.0,ja,Förlust,0.909,0.5,0.058,0.044
+2026020235,2026-11-02,8481692,Dustin Wolf,32,Calgary Flames,CGY,San Jose Sharks,Borta,V,2,1,Ordinarie,60.0,ja,Målvakt,27.0,26.0,1.0,21.0,1.0,2.969,1.0,ja,Vinst,0.963,1.85,1.969,1.477
+2026020236,2026-11-03,8475683,Sergei Bobrovsky,72,Toronto Maple Leafs,TOR,Utah Mammoth,Hemma,F,2,3,Ordinarie,58.5,ja,Målvakt,36.0,33.0,3.0,27.0,1.0,3.827,3.0,ja,Förlust,0.917,1.05,0.827,0.62
+2026020236,2026-11-03,8482657,Sebastian Cossa,33,Utah Mammoth,UTA,Toronto Maple Leafs,Borta,V,3,2,Ordinarie,59.97,ja,Målvakt,29.0,27.0,2.0,23.0,2.0,2.113,2.0,ja,Vinst,0.931,1.2,0.113,0.085
+2026020237,2026-11-03,8484170,Jacob Fowler,32,Montréal Canadiens,MTL,Winnipeg Jets,Hemma,FÖ,4,5,Förlängning,63.5,ja,Målvakt,47.0,42.0,5.0,29.0,2.0,5.161,5.0,ja,Förlust (förl./str.),0.894,0.45,0.161,0.121
+2026020237,2026-11-03,8479973,Stuart Skinner,74,Winnipeg Jets,WPG,Montréal Canadiens,Borta,V,5,4,Förlängning,62.3,ja,Målvakt,22.0,18.0,4.0,16.0,2.0,2.632,4.0,ja,Vinst,0.818,-1.2,-1.368,-1.026
+2026020238,2026-11-03,8476434,John Gibson,36,Detroit Red Wings,DET,Tampa Bay Lightning,Borta,F,2,4,Ordinarie,20.0,ja,Målvakt,13.0,11.0,2.0,10.0,1.0,1.827,2.0,ja,,0.846,-0.4,-0.173,-0.13
+2026020238,2026-11-03,8480193,Daniil Tarasov,80,Detroit Red Wings,DET,Tampa Bay Lightning,Borta,F,2,4,Ordinarie,36.98,ja,Målvakt,13.0,12.0,1.0,11.0,1.0,1.928,1.0,nej,Förlust,0.923,0.45,0.928,0.696
+2026020238,2026-11-03,8476883,Andrei Vasilevskiy,88,Tampa Bay Lightning,TBL,Detroit Red Wings,Hemma,V,4,2,Ordinarie,60.0,ja,Målvakt,21.0,19.0,2.0,13.0,1.0,2.976,2.0,ja,Vinst,0.905,0.4,0.976,0.732
+2026020239,2026-11-03,8476945,Connor Hellebuyck,37,New Jersey Devils,NJD,Edmonton Oilers,Hemma,V,4,3,Straffar,65.0,ja,Målvakt,21.0,18.0,3.0,15.0,1.0,1.718,3.0,ja,Vinst,0.857,-0.45,-1.282,-0.962
+2026020239,2026-11-03,8477465,Tristan Jarry,35,Edmonton Oilers,EDM,New Jersey Devils,Borta,FÖ,3,4,Straffar,64.78,ja,Målvakt,34.0,31.0,3.0,24.0,1.0,2.968,3.0,ja,Förlust (förl./str.),0.912,0.85,-0.032,-0.024
+2026020240,2026-11-03,8482193,Dylan Garand,33,New York Rangers,NYR,St. Louis Blues,Hemma,V,3,1,Ordinarie,60.0,ja,Målvakt,33.0,32.0,1.0,24.0,1.0,2.913,1.0,ja,Vinst,0.97,2.45,1.913,1.435
+2026020240,2026-11-03,8480981,Joel Hofer,30,St. Louis Blues,STL,New York Rangers,Borta,F,1,3,Ordinarie,58.55,ja,Målvakt,30.0,28.0,2.0,19.0,2.0,3.853,2.0,ja,Förlust,0.933,1.3,1.853,1.39
+2026020241,2026-11-03,8482661,Jesper Wallstedt,30,Minnesota Wild,MIN,Philadelphia Flyers,Borta,V,4,2,Ordinarie,60.0,ja,Målvakt,25.0,23.0,2.0,21.0,1.0,3.132,2.0,ja,Vinst,0.92,0.8,1.132,0.849
 2026020241,2026-11-03,8478435,Dan Vladar,80,Philadelphia Flyers,PHI,Minnesota Wild,Hemma,F,2,4,Ordinarie,58.55,ja,Målvakt,21.0,18.0,3.0,17.0,3.0,2.515,3.0,ja,Förlust,0.857,-0.45,-0.485,-0.364
-2026020242,2026-11-03,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Pittsburgh Penguins,Borta,V,3,2,Ordinarie,59.98,ja,Målvakt,25.0,23.0,2.0,19.0,2.0,2.916,2.0,ja,Vinst,0.92,0.8,0.916,0.687
-2026020242,2026-11-03,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Vegas Golden Knights,Hemma,F,2,3,Ordinarie,59.6,ja,Målvakt,23.0,20.0,3.0,13.0,1.0,2.837,3.0,ja,Förlust,0.87,-0.25,-0.163,-0.122
-2026020243,2026-11-03,8480313,Logan Thompson,48,Washington Capitals,WSH,Dallas Stars,Hemma,F,5,6,Ordinarie,25.28,ja,Målvakt,11.0,7.0,4.0,9.0,3.0,1.142,4.0,ja,,0.636,-2.3,-2.858,-2.144
-2026020243,2026-11-03,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Dallas Stars,Hemma,F,5,6,Ordinarie,31.82,ja,Målvakt,11.0,9.0,2.0,9.0,2.0,2.036,2.0,nej,Förlust,0.818,-0.6,0.036,0.027
-2026020243,2026-11-03,8479979,Jake Oettinger,29,Dallas Stars,DAL,Washington Capitals,Borta,V,6,5,Ordinarie,60.0,ja,Målvakt,25.0,20.0,5.0,17.0,2.0,2.588,5.0,ja,Vinst,0.8,-1.75,-2.412,-1.809
-2026020244,2026-11-03,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Colorado Avalanche,Hemma,V,7,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,25.0,1.0,2.926,2.0,ja,Vinst,0.931,1.2,0.926,0.694
-2026020244,2026-11-03,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,Columbus Blue Jackets,Borta,F,2,7,Ordinarie,27.33,ja,Målvakt,9.0,5.0,4.0,7.0,3.0,1.211,4.0,ja,Förlust,0.556,-2.5,-2.789,-2.092
-2026020244,2026-11-03,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Columbus Blue Jackets,Borta,F,2,7,Ordinarie,32.32,ja,Målvakt,15.0,12.0,3.0,12.0,2.0,1.771,3.0,nej,,0.8,-1.05,-1.229,-0.922
-2026020245,2026-11-03,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Nashville Predators,Borta,F,1,4,Ordinarie,57.2,ja,Målvakt,19.0,16.0,3.0,15.0,3.0,2.697,3.0,ja,Förlust,0.842,-0.65,-0.303,-0.227
-2026020245,2026-11-03,8477424,Juuse Saros,74,Nashville Predators,NSH,Carolina Hurricanes,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,30.0,29.0,1.0,25.0,1.0,3.934,1.0,ja,Vinst,0.967,2.15,2.934,2.2
-2026020246,2026-11-03,8476316,Laurent Brossoit,31,Anaheim Ducks,ANA,Vancouver Canucks,Borta,V,5,4,Ordinarie,59.52,ja,Målvakt,23.0,19.0,4.0,18.0,2.0,2.511,4.0,ja,Vinst,0.826,-1.1,-1.489,-1.117
-2026020246,2026-11-03,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Anaheim Ducks,Hemma,F,4,5,Ordinarie,58.28,ja,Målvakt,22.0,17.0,5.0,16.0,1.0,2.424,5.0,ja,Förlust,0.773,-2.05,-2.576,-1.932
+2026020242,2026-11-03,8478499,Adin Hill,33,Vegas Golden Knights,VGK,Pittsburgh Penguins,Borta,V,3,2,Ordinarie,59.98,ja,Målvakt,25.0,23.0,2.0,19.0,2.0,2.919,2.0,ja,Vinst,0.92,0.8,0.919,0.689
+2026020242,2026-11-03,8481668,Arturs Silovs,37,Pittsburgh Penguins,PIT,Vegas Golden Knights,Hemma,F,2,3,Ordinarie,59.6,ja,Målvakt,23.0,20.0,3.0,13.0,1.0,2.841,3.0,ja,Förlust,0.87,-0.25,-0.159,-0.119
+2026020243,2026-11-03,8480313,Logan Thompson,48,Washington Capitals,WSH,Dallas Stars,Hemma,F,5,6,Ordinarie,25.28,ja,Målvakt,11.0,7.0,4.0,9.0,3.0,1.141,4.0,ja,,0.636,-2.3,-2.859,-2.144
+2026020243,2026-11-03,8479292,Charlie Lindgren,79,Washington Capitals,WSH,Dallas Stars,Hemma,F,5,6,Ordinarie,31.82,ja,Målvakt,11.0,9.0,2.0,9.0,2.0,2.033,2.0,nej,Förlust,0.818,-0.6,0.033,0.025
+2026020243,2026-11-03,8479979,Jake Oettinger,29,Dallas Stars,DAL,Washington Capitals,Borta,V,6,5,Ordinarie,60.0,ja,Målvakt,25.0,20.0,5.0,17.0,2.0,2.583,5.0,ja,Vinst,0.8,-1.75,-2.417,-1.813
+2026020244,2026-11-03,8475660,Cam Talbot,33,Columbus Blue Jackets,CBJ,Colorado Avalanche,Hemma,V,7,2,Ordinarie,60.0,ja,Målvakt,29.0,27.0,2.0,25.0,1.0,2.915,2.0,ja,Vinst,0.931,1.2,0.915,0.686
+2026020244,2026-11-03,8475809,Scott Wedgewood,41,Colorado Avalanche,COL,Columbus Blue Jackets,Borta,F,2,7,Ordinarie,27.33,ja,Målvakt,9.0,5.0,4.0,7.0,3.0,1.205,4.0,ja,Förlust,0.556,-2.5,-2.795,-2.096
+2026020244,2026-11-03,8478406,Mackenzie Blackwood,39,Colorado Avalanche,COL,Columbus Blue Jackets,Borta,F,2,7,Ordinarie,32.32,ja,Målvakt,15.0,12.0,3.0,12.0,2.0,1.765,3.0,nej,,0.8,-1.05,-1.235,-0.926
+2026020245,2026-11-03,8481611,Pyotr Kochetkov,52,Carolina Hurricanes,CAR,Nashville Predators,Borta,F,1,4,Ordinarie,57.2,ja,Målvakt,19.0,16.0,3.0,15.0,3.0,2.696,3.0,ja,Förlust,0.842,-0.65,-0.304,-0.228
+2026020245,2026-11-03,8477424,Juuse Saros,74,Nashville Predators,NSH,Carolina Hurricanes,Hemma,V,4,1,Ordinarie,60.0,ja,Målvakt,30.0,29.0,1.0,25.0,1.0,3.931,1.0,ja,Vinst,0.967,2.15,2.931,2.198
+2026020246,2026-11-03,8476316,Laurent Brossoit,31,Anaheim Ducks,ANA,Vancouver Canucks,Borta,V,5,4,Ordinarie,59.52,ja,Målvakt,23.0,19.0,4.0,18.0,2.0,2.503,4.0,ja,Vinst,0.826,-1.1,-1.497,-1.123
+2026020246,2026-11-03,8480947,Kevin Lankinen,32,Vancouver Canucks,VAN,Anaheim Ducks,Hemma,F,4,5,Ordinarie,58.28,ja,Målvakt,22.0,17.0,5.0,16.0,1.0,2.42,5.0,ja,Förlust,0.773,-2.05,-2.58,-1.935
+2026020247,2026-11-04,8481035,Samuel Ersson,30,Ottawa Senators,OTT,Buffalo Sabres,Borta,V,2,1,Ordinarie,59.2,ja,Målvakt,24.0,23.0,1.0,21.0,1.0,2.215,1.0,ja,Vinst,0.958,1.55,1.215,0.911
+2026020247,2026-11-04,8481551,Colten Ellis,92,Buffalo Sabres,BUF,Ottawa Senators,Hemma,F,1,2,Ordinarie,58.42,ja,Målvakt,30.0,28.0,2.0,25.0,2.0,3.31,2.0,ja,Förlust,0.933,1.3,1.31,0.982
+2026020248,2026-11-04,8474593,Jacob Markstrom,25,Florida Panthers,FLA,Chicago Blackhawks,Hemma,V,5,3,Ordinarie,60.0,ja,Målvakt,20.0,17.0,3.0,15.0,2.0,2.165,3.0,ja,Vinst,0.85,-0.55,-0.835,-0.626
+2026020248,2026-11-04,8481519,Spencer Knight,30,Chicago Blackhawks,CHI,Florida Panthers,Borta,F,3,5,Ordinarie,59.32,ja,Målvakt,29.0,25.0,4.0,19.0,3.0,3.598,4.0,ja,Förlust,0.862,-0.5,-0.402,-0.302
+2026020249,2026-11-04,8482137,Yaroslav Askarov,30,San Jose Sharks,SJS,Los Angeles Kings,Borta,F,2,7,Ordinarie,60.0,ja,Målvakt,27.0,20.0,7.0,16.0,4.0,4.009,7.0,ja,Förlust,0.741,-3.25,-2.991,-2.243
+2026020249,2026-11-04,8475311,Darcy Kuemper,35,Los Angeles Kings,LAK,San Jose Sharks,Hemma,V,7,2,Ordinarie,59.92,ja,Målvakt,32.0,30.0,2.0,20.0,0.0,2.884,2.0,ja,Vinst,0.938,1.5,0.884,0.663
+2026020250,2026-11-04,8481692,Dustin Wolf,32,Calgary Flames,CGY,Seattle Kraken,Borta,FÖ,1,2,Förlängning,60.92,ja,Målvakt,29.0,27.0,2.0,23.0,1.0,2.661,2.0,ja,Förlust (förl./str.),0.931,1.2,0.661,0.496
+2026020250,2026-11-04,8478916,Joey Daccord,35,Seattle Kraken,SEA,Calgary Flames,Hemma,V,2,1,Förlängning,60.92,ja,Målvakt,26.0,25.0,1.0,23.0,1.0,2.737,1.0,ja,Vinst,0.962,1.75,1.737,1.303
