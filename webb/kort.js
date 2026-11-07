@@ -4,6 +4,7 @@
   var q = new URLSearchParams(location.search);
   var id = q.get('id');
   var exportMode = q.get('export') === '1';
+  if (exportMode) document.documentElement.dataset.tema = 'ljust';
   var formel = q.get('formel') === 'original' ? 'gs' : 'plus';
   var G = null;
   if (exportMode) document.body.classList.add('export');
@@ -45,7 +46,8 @@
     if (!src) return prick(abbr, size);
     var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size;
     img.onerror = function () { if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
-    img.src = src;
+    var mork = !exportMode && window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
+    img.src = mork ? src.replace('_light.svg', '_dark.svg') : src;
     return img;
   }
   function bilderKlara() {

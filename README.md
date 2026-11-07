@@ -12,6 +12,10 @@ Allt körs gratis på GitHub. Du behöver inte ha datorn igång.
 - **Spelare, Tabell och Målvakter** med lagens loggor, filter och sortering.
 - **Matchrapport** för varje match: alla mål med assist, lagens statistik och hela statistiken för alla spelare.
 - **Spelarsidor** med all säsongsstatistik och match för match. Tryck på en spelare var som helst på sidan.
+- **Sökruta** i sidhuvudet för spelare, målvakter och lag.
+- **Lagsidor** med resultat, en graf över chanser för och emot under säsongen, kommande matcher med vinstchans, senaste matcherna, spelare och målvakter. Tryck på ett lag i tabellen.
+- **Grafer på spelarsidorna:** Game Score+ match för match och mål mot förväntade mål över säsongen.
+- **Mörkt läge** som följer telefonens eller datorns inställning. Matchkorten behåller sina ljusa färger.
 - **Tur & otur:** förväntade poäng visar vilka spelare som borde ha fler poäng än de har, och vilka som haft flyt.
 - **Excel-fil** med all statistik, en flik per tabell.
 - **Anpassad för mobil och dator:**

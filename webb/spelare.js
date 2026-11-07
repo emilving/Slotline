@@ -3,6 +3,7 @@
   'use strict';
   var MAN_K = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
   var FARG = window.LAGFARG || {};
+  var MORK = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
   var id = new URLSearchParams(location.search).get('id');
   function $(s) { return document.querySelector(s); }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -23,7 +24,7 @@
     if (!src) return prick(abbr, size);
     var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size;
     img.onerror = function () { if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
-    img.src = src; return img;
+    img.src = MORK ? src.replace('_light.svg', '_dark.svg') : src; return img;
   }
   function varde(r) {
     var v = r[1], typ = r[2];
@@ -46,7 +47,8 @@
     $('#sp-logo').appendChild(logo(S.logo, 64, S.k));
     var h = $('#sp-namn'); h.textContent = S.n;
     if (S.rook) { var r = el('span', 'rookie', 'R'); r.title = 'Rookie'; h.appendChild(r); }
-    $('#sp-sub').textContent = S.lag + ' · ' + S.pos + (S.rook ? ' · Rookie' : '');
+    var sub = $('#sp-sub'); var la = el('a', 'sp-lank', S.lag); la.href = 'lag.html?k=' + S.k; sub.appendChild(la);
+    sub.appendChild(document.createTextNode(' · ' + S.pos + (S.rook ? ' · Rookie' : '')));
 
     var tiles = $('#sp-tiles');
     var plus = S.plus;
@@ -68,6 +70,38 @@
       if (diff <= -1) { tur.className = 'sp-tur otur'; tur.textContent = 'Borde ha fler poäng. Chanserna han varit med om är värda ' + xp.toFixed(1).replace('.', ',') + ' poäng, men han har ' + p + '. Det är ' + a + ' färre än väntat.'; }
       else if (diff >= 1) { tur.className = 'sp-tur tur'; tur.textContent = 'Har haft flyt. Han har ' + p + ' poäng, men chanserna är bara värda ' + xp.toFixed(1).replace('.', ',') + '. Det är ' + a + ' fler än väntat.'; }
       else { tur.className = 'sp-tur'; tur.textContent = 'Poängen stämmer med chanserna: ' + p + ' poäng mot ' + xp.toFixed(1).replace('.', ',') + ' förväntade.'; }
+    }
+
+    // grafer
+    var lg = S.logg;
+    if (lg.length >= 2 && window.Graf) {
+      var cs = getComputedStyle(document.documentElement);
+      var c = function (n, f) { return cs.getPropertyValue(n).trim() || f; };
+      var niva = function (v) { return v == null ? c('--rule', '#ccc') : v < 0 ? c('--svag', '#C8392B') : v < 1 ? c('--godk', '#86A7D2') : v < 2 ? c('--bra', '#4677BA') : c('--lys', '#1B4A8A'); };
+      var gw = $('#sp-grafer');
+      gw.appendChild(el('h2', 'sp-h', 'Match för match'));
+      var duo = el('div', 'g-duo'); gw.appendChild(duo);
+      var b1 = el('div', 'box short g-box'); b1.appendChild(el('h3', 'g-h', (plus ? 'Game Score+' : 'Game Score') + ' per match'));
+      var g1 = el('div'); b1.appendChild(g1); duo.appendChild(b1);
+      var b2 = el('div', 'box short g-box'); duo.appendChild(b2);
+      Graf.staplar(g1, lg.map(function (m) {
+        var v = plus ? m.pl : m.gs;
+        return { v: v, farg: niva(v), etikett: datum(m.d), titel: datum(m.d) + (m.hemma ? ' mot ' : ' @ ') + m.mot + ': ' + tal(v) + (S.mv ? '' : ' (' + m.g + '+' + m.a + ')') };
+      }));
+      var g2 = el('div');
+      var acc = function (f) { var t = 0; return lg.map(function (m) { var v = f(m); t += v == null ? 0 : v; return Math.round(t * 100) / 100; }); };
+      if (S.mv) {
+        b2.appendChild(el('h3', 'g-h', 'Räddade mål över förväntan (GSAx), hela säsongen')); b2.appendChild(g2);
+        Graf.linjer(g2, [{ namn: 'GSAx', farg: c('--bra', '#4677BA'), varden: acc(function (m) { return m.gsax; }) }], lg.map(function (m) { return datum(m.d); }), { min: 0 });
+        Graf.forklaring(g2, [{ namn: 'Över noll = räddat fler än väntat', farg: c('--bra', '#4677BA') }]);
+      } else {
+        b2.appendChild(el('h3', 'g-h', 'Mål mot förväntade mål, hela säsongen')); b2.appendChild(g2);
+        Graf.linjer(g2, [
+          { namn: 'Mål', farg: c('--ink', '#13202E'), varden: acc(function (m) { return m.g; }) },
+          { namn: 'Förväntade mål', farg: c('--bra', '#4677BA'), varden: acc(function (m) { return m.xg; }), streckad: true }
+        ], lg.map(function (m) { return datum(m.d); }));
+        Graf.forklaring(g2, [{ namn: 'Mål', farg: c('--ink', '#13202E') }, { namn: 'Förväntade mål (xG)', farg: c('--bra', '#4677BA'), streckad: true }]);
+      }
     }
 
     var gr = $('#sp-grupper');

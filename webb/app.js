@@ -44,6 +44,7 @@
       node.appendChild(el('span', 'accent', m[2]));
     } else node.textContent = namn;
   }
+  var MORK = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
   function avg(p) { return formel === 'plus' ? p.pl : p.gs; }
   function sum(p) { return formel === 'plus' ? p.plS : p.gsS; }
   function td(tr, content, cls) {
@@ -68,7 +69,7 @@
     img.width = size; img.height = size;
     img.decoding = 'async';
     img.addEventListener('error', function () { if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); });
-    img.src = info.logo;
+    img.src = MORK ? info.logo.replace('_light.svg', '_dark.svg') : info.logo;
     return img;
   }
   function team(abbr, size, text) {
@@ -202,6 +203,8 @@
     b.addEventListener('click', function () { lagSort = b.dataset.lsort; drawTeams(); });
   });
   function visaLag(lag) {
+    var t = D.lag.filter(function (x) { return x.lag === lag; })[0];
+    if (t && t.k) { location.href = 'lag.html?k=' + t.k; return; }
     state.lag = lag;
     $('#f-lag').value = lag;
     if (location.hash === '#spelare') show('spelare'); else location.hash = 'spelare';
@@ -243,6 +246,28 @@
     foot.appendChild(el('span', null, 'Väntade mål ' + f1(g.b.xg) + '–' + f1(g.h.xg)));
     foot.appendChild(el('span', null, 'Hemma: ' + g.h.k));
     a.appendChild(foot);
+
+    // xG de tre senaste matcherna, kompakt
+    var x3 = function (t) {
+      if (!t.s3 || !t.s3.length) return null;
+      var f = 0, b = 0; t.s3.forEach(function (m) { f += m.xf; b += m.xa; });
+      return [f / t.s3.length, b / t.s3.length];
+    };
+    var xb = x3(g.b), xh = x3(g.h);
+    if (xb || xh) {
+      var xr = el('div', 'mu-x3');
+      var cellx = function (v, cls) {
+        var d = el('span', 'x3v ' + cls);
+        if (!v) { d.textContent = '–'; return d; }
+        var diff = v[0] - v[1];
+        d.appendChild(el('b', diff > 0.05 ? 'upp' : diff < -0.05 ? 'ned' : '', f1(v[0]) + '–' + f1(v[1])));
+        return d;
+      };
+      xr.appendChild(cellx(xb, 'b'));
+      xr.appendChild(el('span', 'x3l', 'xG senaste 3'));
+      xr.appendChild(cellx(xh, 'h'));
+      a.appendChild(xr);
+    }
 
     // troliga målvakter och chansen om reserven står
     if ((g.b.mv && g.b.mv.length) || (g.h.mv && g.h.mv.length)) {
@@ -455,6 +480,24 @@
       tr.addEventListener('click', function () { visaLag(t.lag); });
       tr.addEventListener('keydown', function (e) { if (e.key === 'Enter') visaLag(t.lag); });
       tb.appendChild(tr);
+    });
+
+    // mest otur just nu
+    var ob = $('#t-otur tbody');
+    ob.textContent = '';
+    var otur = D.spelare.filter(function (p) { return p.xp != null && p.gp >= 5; })
+      .map(function (p) { return { p: p, d: p.p - p.xp }; })
+      .sort(function (a, b) { return a.d - b.d; }).slice(0, 5);
+    $('#o-otur-block').hidden = !otur.length;
+    otur.forEach(function (x, i) {
+      var tr = el('tr');
+      td(tr, String(i + 1), 'rk');
+      td(tr, spelarLank(x.p), 'nm');
+      td(tr, team(x.p.k, 22), 'm hn');
+      td(tr, String(x.p.p), 'n');
+      td(tr, f1(x.p.xp), 'n m');
+      var c = td(tr, f1(x.d), 'n val'); c.style.color = 'var(--bra)';
+      ob.appendChild(tr);
     });
   }
 

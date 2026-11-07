@@ -390,7 +390,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
                       "mv": False, "rook": r.get("Rookie") == "ja", "grupper": grupper(r, SPELARGRUPPER),
                       "logg": [{"id": int(x["Match-id"]), "d": x["Datum"], "mot": abbr.get(x["Motståndare"], ""), "hemma": x["Hemma/borta"] == "Hemma",
                                 "res": x["Resultat"], "st": [val(x["Mål för"]), val(x["Mål mot"])], "g": val(x["Mål"]), "a": val(x["Assist"]),
-                                "p": val(x["Poäng"]), "s": val(x["Skott"]), "pm": val(x.get("Plus/minus")), "toi": num(x.get("Istid (min)")),
+                                "p": val(x["Poäng"]), "s": val(x["Skott"]), "pm": val(x.get("Plus/minus")), "toi": num(x.get("Istid (min)")), "xg": num(x.get("ixG")),
                                 "gs": num(x.get("Game Score")), "pl": num(x.get("Game Score+"))} for _, x in logg.iterrows()]}
     for _, r in (G.iterrows() if not G.empty else []):
         pid = int(r["Spelar-id"])
@@ -402,11 +402,31 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
                                 "sv": val(x.get("Räddningar")), "ga": val(x.get("Insläppta")), "svp": num(x.get("Räddnings-%"), 3),
                                 "gsax": num(x.get("GSAx")), "toi": num(x.get("Istid (min)")), "bes": x.get("Beslut") if isinstance(x.get("Beslut"), str) else "",
                                 "gs": num(x.get("Game Score")), "pl": num(x.get("Game Score+"))} for _, x in logg.iterrows()]}
+    # en fil per lag
+    ordning = sorted(lag, key=lambda t: (-(t["pts"] or 0), t["gp"] or 0, -(t["w"] or 0)))
+    plats = {t["k"]: i + 1 for i, t in enumerate(ordning)}
+    lagsidor = {}
+    for t in lag:
+        k, namn_ = t["k"], t["lag"]
+        tm = T[T["Lag"] == namn_].sort_values(["Datum", "Match-id"])
+        serie = [{"id": int(x["Match-id"]), "d": str(x["Datum"]), "mot": abbr.get(x["Motståndare"], ""), "hemma": x["Hemma/borta"] == "Hemma",
+                  "res": x["Resultat"], "gf": val(x["Mål för"]), "ga": val(x["Mål mot"]), "xgf": num(x.get("xGF")), "xga": num(x.get("xGA")),
+                  "avg": x.get("Avgjord i") if isinstance(x.get("Avgjord i"), str) else ""} for _, x in tm.iterrows()]
+        xs = [m for m in serie if m["xgf"] is not None]
+        lagsidor[k] = {
+            "k": k, "n": namn_, "logo": lag_info.get(k, {}).get("logo", ""), "sajt": cfg.get("sajtnamn", "Slotline"), "plus": bool(has_plus),
+            "plats": plats.get(k), "antal": len(lag), "rekord": t,
+            "xgf": num(sum(m["xgf"] for m in xs) / len(xs)) if xs else None, "xga": num(sum(m["xga"] for m in xs) / len(xs)) if xs else None,
+            "serie": serie,
+            "spelare": [x for x in spelare if x["k"] == k],
+            "mv": [x for x in mv if x["k"] == k],
+            "kommande": [g for g in kommande if g["b"]["k"] == k or g["h"]["k"] == k][:8],
+        }
     for v in sidor.values():
         v["logo"] = lag_info.get(v["k"], {}).get("logo", "")
         v["sajt"] = cfg.get("sajtnamn", "Slotline")
         v["plus"] = bool(has_plus)
-    return data, cards, sidor
+    return data, cards, sidor, lagsidor
 
 
 def card_hash(card):
@@ -494,7 +514,11 @@ def main(argv=None):
     (site / ".nojekyll").write_text("")
     (site / "data" / "matcher").mkdir(parents=True, exist_ok=True)
 
-    data, cards, sidor = build_data(data_root / "csv", a.sasong, cfg)
+    data, cards, sidor, lagsidor = build_data(data_root / "csv", a.sasong, cfg)
+    (site / "data" / "lag").mkdir(parents=True, exist_ok=True)
+    for k, ls in lagsidor.items():
+        if k:
+            (site / "data" / "lag" / f"{k}.json").write_text(json.dumps(ls, ensure_ascii=False, allow_nan=False), encoding="utf-8")
     (site / "data" / "spelare").mkdir(parents=True, exist_ok=True)
     for pid, sp in sidor.items():
         (site / "data" / "spelare" / f"{pid}.json").write_text(json.dumps(sp, ensure_ascii=False, allow_nan=False), encoding="utf-8")
