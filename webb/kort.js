@@ -45,7 +45,7 @@
   function smallLogo(src, size, abbr) {
     if (!src) return prick(abbr, size);
     var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size;
-    img.onerror = function () { if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
+    img.onerror = function () { if (/_dark\.svg$/.test(img.src)) { img.src = img.src.replace('_dark.svg', '_light.svg'); return; } if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
     var mork = !exportMode && window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
     img.src = mork ? src.replace('_light.svg', '_dark.svg') : src;
     return img;

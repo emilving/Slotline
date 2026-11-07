@@ -68,7 +68,7 @@
     img.alt = '';
     img.width = size; img.height = size;
     img.decoding = 'async';
-    img.addEventListener('error', function () { if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); });
+    img.addEventListener('error', function () { if (/_dark\.svg$/.test(img.src)) { img.src = img.src.replace('_dark.svg', '_light.svg'); return; } if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); });
     img.src = MORK ? info.logo.replace('_light.svg', '_dark.svg') : info.logo;
     return img;
   }

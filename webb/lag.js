@@ -16,7 +16,7 @@
   function logo(src, size, abbr) {
     if (!src) return prick(abbr, size);
     var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size;
-    img.onerror = function () { if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
+    img.onerror = function () { if (/_dark\.svg$/.test(img.src)) { img.src = img.src.replace('_dark.svg', '_light.svg'); return; } if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
     img.src = MORK ? src.replace('_light.svg', '_dark.svg') : src; return img;
   }
   function lank(href, text) { var a = el('a', 'sp-lank', text); a.href = href; return a; }

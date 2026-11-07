@@ -47,7 +47,7 @@
     if (!traffar.length) { lista.appendChild(el('div', 'sok-tom', input.value.trim().length < 2 ? 'Skriv minst två bokstäver' : 'Ingen träff')); lista.hidden = false; return; }
     traffar.forEach(function (p, i) {
       var a = el('a', 'sok-rad' + (i === val ? ' vald' : '')); a.href = p.url; a.setAttribute('role', 'option');
-      if (p.logo) { var img = el('img'); img.src = MORK ? p.logo.replace('_light.svg', '_dark.svg') : p.logo; img.alt = ''; img.width = 26; img.height = 26; a.appendChild(img); }
+      if (p.logo) { var img = el('img'); img.src = MORK ? p.logo.replace('_light.svg', '_dark.svg') : p.logo; img.alt = ''; img.width = 26; img.height = 26; img.onerror = function () { if (/_dark\.svg$/.test(this.src)) this.src = this.src.replace('_dark.svg', '_light.svg'); }; a.appendChild(img); }
       else a.appendChild(el('span', 'sok-ph'));
       var t = el('span', 'sok-t'); t.appendChild(el('b', null, p.namn)); t.appendChild(el('small', null, p.typ === 'lag' ? 'Lag · ' + p.meta : p.meta)); a.appendChild(t);
       lista.appendChild(a);
