@@ -86,6 +86,8 @@ jobs:
           for f in Spelare Målvakter Lag Matcher Vinstchans Prognoser "Lag per match" "Målvakter per match" "Lag förra säsongen" "Målvakter förra säsongen"; do
             if [ -f "nhl_data/$SASONG/csv/$f.csv" ]; then cp "nhl_data/$SASONG/csv/$f.csv" statistik/; fi
           done
+          # Vilka som spelade i varje match (kort version) – underlag för att testa hur saknade spelare påverkar vinstchansen
+          python -c "import pandas as pd, sys; k={'Match-id','Datum','Lag','Spelar-id','Spelare','Positionsgrupp','Istid (min)','Poäng','Game Score+'}; pd.read_csv(sys.argv[1], usecols=lambda c: c in k).to_csv('statistik/Laguppställningar.csv', index=False, encoding='utf-8-sig')" "nhl_data/$SASONG/csv/Per match.csv" || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add statistik

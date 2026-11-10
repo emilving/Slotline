@@ -36,15 +36,15 @@ import pandas as pd
 LIGASNITT_START = 3.0   # mål per lag och match innan säsongen har gett någon data
 HALVERING = 20          # matcher – så gammal är en match när den väger hälften
 KRYMP = 6               # antal matcher varje lag dras mot sin utgångsnivå
-XG_VIKT = 0.7           # hur mycket xG väger jämfört med riktiga mål i anfallet
+XG_VIKT = 0.85          # hur mycket xG väger jämfört med riktiga mål i anfallet (lag som gjort fler mål än chanserna räcker till brukar falla tillbaka)
 FORRA_VIKT = 0.5        # hur mycket av förra säsongens nivå som behålls (resten = ligasnitt)
 MV_KRYMP = 50.0         # förväntade mål en målvakt dras mot sin utgångsnivå (ungefär 18 matcher)
 MV_FORRA_VIKT = 0.5     # hur mycket av förra säsongens räddningsprocent som behålls
 MV_NY = 1.03            # utgångsnivå för målvakt utan NHL-matcher förra säsongen (lite sämre än snittet)
-SKARPA = 0.9           # < 1 dämpar de mest extrema matcherna (få matcher in på säsongen gör ytterlägena osäkra)
+SKARPA = 1.0            # < 1 dämpar de mest extrema matcherna. Testet i november visade att dämpningen gjorde modellen för försiktig.
 MV_SENASTE = 10         # så många av lagets senaste matcher avgör vem som är förstemålvakt
-HEMMA = 1.05            # hemmalagets anfall gånger, bortalagets delat med
-TROTT = 0.97            # anfall gånger (och försvar delat med) dagen efter en match
+HEMMA = 1.07            # hemmalagets anfall gånger, bortalagets delat med
+TROTT = 0.94            # anfall gånger (och försvar delat med) dagen efter en match
 ANDEL_FORLANGNING = 0.6 # andel av de oavgjorda matcherna som avgörs i förlängning
 MAX_MAL = 15
 MIN_MATCHER_TRAFF = 3   # båda lagen ska ha spelat så här många matcher innan en prognos räknas i träffsäkerheten
