@@ -28,6 +28,7 @@
     s.style.width = size + 'px'; s.style.height = size + 'px';
     s.style.setProperty('--c', (FARG[abbr] || ['#9AA8B6'])[0]);
     s.setAttribute('aria-hidden', 'true');
+    if (abbr) s.dataset.lag = abbr;
     s.appendChild(el('i'));
     return s;
   }
@@ -36,6 +37,7 @@
     var size = parseInt(slot.getAttribute('width') || slot.style.width, 10) || 30;
     var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size;
     if (slot.id) img.id = slot.id;
+    if (abbr) img.dataset.lag = abbr;
     var ersatt = function () { var p = prick(abbr, size); if (slot.id) p.id = slot.id; if (img.parentNode) img.parentNode.replaceChild(p, img); };
     slot.parentNode.replaceChild(img, slot);
     if (!src) { ersatt(); return; }
@@ -44,7 +46,7 @@
   }
   function smallLogo(src, size, abbr) {
     if (!src) return prick(abbr, size);
-    var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size;
+    var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size; img.dataset.lag = abbr;
     img.onerror = function () { if (/_dark\.svg$/.test(img.src)) { img.src = img.src.replace('_dark.svg', '_light.svg'); return; } if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
     var mork = !exportMode && window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
     img.src = mork ? src.replace('_light.svg', '_dark.svg') : src;
@@ -102,7 +104,7 @@
       if (m.per !== per) { per = m.per; ml.appendChild(el('div', 'r-per', periodNamn(per))); }
       var row = el('div', 'r-mal-rad');
       row.appendChild(el('div', 'r-tid', m.tid));
-      var lag = el('div', 'r-lagk'); lag.appendChild(smallLogo(logo[m.k], 26, m.k)); lag.appendChild(el('span', null, m.k)); row.appendChild(lag);
+      var lag = el('div', 'r-lagk'); lag.dataset.lag = m.k; lag.appendChild(smallLogo(logo[m.k], 26, m.k)); lag.appendChild(el('span', null, m.k)); row.appendChild(lag);
       var st = el('div', 'r-st'); st.textContent = m.st[0] + '–' + m.st[1]; row.appendChild(st);
       var txt = el('div', 'r-txt');
       var rad1 = el('div', 'r-skytt'); rad1.appendChild(spelarLank(m.n, m.id, m.tot));
@@ -125,7 +127,7 @@
       var sb = el('div', 'box short r-mal');
       R.straff.forEach(function (x) {
         var row = el('div', 'r-mal-rad straff');
-        var lag = el('div', 'r-lagk'); lag.appendChild(smallLogo(logo[x.k], 26, x.k)); lag.appendChild(el('span', null, x.k)); row.appendChild(lag);
+        var lag = el('div', 'r-lagk'); lag.dataset.lag = x.k; lag.appendChild(smallLogo(logo[x.k], 26, x.k)); lag.appendChild(el('span', null, x.k)); row.appendChild(lag);
         var t = el('div', 'r-txt'); t.appendChild(spelarLank(x.n, x.id)); row.appendChild(t);
         row.appendChild(el('div', x.mal ? 'r-sm ja' : 'r-sm', x.mal ? 'Mål' : 'Miss'));
         sb.appendChild(row);
@@ -145,7 +147,7 @@
     })();
     var huvud = el('div', 'r-cmp-h');
     [b, h].forEach(function (t, i) {
-      var c = el('div', i ? 'h' : 'b'); c.appendChild(smallLogo(t.logo, 26, t.k)); c.appendChild(el('span', null, t.k)); huvud.appendChild(c);
+      var c = el('div', i ? 'h' : 'b'); c.dataset.lag = t.k; c.appendChild(smallLogo(t.logo, 26, t.k)); c.appendChild(el('span', null, t.k)); huvud.appendChild(c);
       if (!i) huvud.appendChild(el('div'));
     });
     lg.appendChild(huvud);
@@ -183,7 +185,7 @@
     var sp = $('#r-spelare'); sp.textContent = '';
     [['b', b], ['h', h]].forEach(function (x) {
       var t = x[1], key = x[0];
-      var hd = el('h3', 'r-laghuvud'); hd.appendChild(smallLogo(t.logo, 28, t.k)); hd.appendChild(document.createTextNode(t.n)); sp.appendChild(hd);
+      var hd = el('h3', 'r-laghuvud'); hd.dataset.lag = t.k; hd.appendChild(smallLogo(t.logo, 28, t.k)); hd.appendChild(document.createTextNode(t.n)); sp.appendChild(hd);
       var wrap = el('div', 'box short r-tab');
       var tab = el('table', 'rows r-rows');
       var th = el('thead'); var tr = el('tr');
@@ -247,6 +249,8 @@
     $('#k-date').textContent = G.datumText;
     $('#k-bn').textContent = b.n; $('#k-bk').textContent = b.k;
     $('#k-hn').textContent = h.n; $('#k-hk').textContent = h.k;
+    ['#k-bn', '#k-bk'].forEach(function (q) { $(q).dataset.lag = b.k; });
+    ['#k-hn', '#k-hk'].forEach(function (q) { $(q).dataset.lag = h.k; });
     var bm = $('#k-bm'), hm = $('#k-hm');
     bm.textContent = b.m; hm.textContent = h.m;
     bm.className = awayWon ? '' : 'lose'; hm.className = awayWon ? 'lose' : '';
@@ -284,6 +288,7 @@
       var col = el('div', 'k-col');
       var head = el('div', 'k-head');
       var hn = el('div', 'n');
+      hn.dataset.lag = t.k;
       hn.appendChild(smallLogo(t.logo, 30, t.k));
       hn.appendChild(document.createTextNode(t.n));
       head.appendChild(hn);

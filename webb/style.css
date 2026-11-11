@@ -565,3 +565,10 @@ body.mobil .rapport { padding: 0 16px; }
     --svag: #C8392B; --godk: #86A7D2; --bra: #4677BA; --lys: #1B4A8A; color: var(--ink);
   }
 }
+
+/* ---------- loggor och lagnamn leder till lagsidan ---------- */
+[data-lag] { cursor: pointer; }
+span[data-lag]:hover, div[data-lag]:hover, h3[data-lag]:hover, b[data-lag]:hover { text-decoration: underline; text-underline-offset: 3px; }
+img[data-lag], .lagprick[data-lag] { transition: transform .12s; }
+img[data-lag]:hover, .lagprick[data-lag]:hover { transform: scale(1.08); }
+body.export [data-lag] { cursor: default; text-decoration: none !important; transform: none !important; }

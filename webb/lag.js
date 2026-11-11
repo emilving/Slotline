@@ -12,10 +12,10 @@
   function f1(v) { return v == null ? '–' : v.toFixed(1).replace('.', ',').replace('-', '−'); }
   function tid(min) { if (min == null) return '–'; var t = Math.round(min * 60); return Math.floor(t / 60) + ':' + ('0' + (t % 60)).slice(-2); }
   function datum(s) { var d = new Date(s + 'T12:00:00'); return d.getDate() + ' ' + MAN_K[d.getMonth()]; }
-  function prick(abbr, size) { var s = el('span', 'lagprick'); s.style.width = size + 'px'; s.style.height = size + 'px'; s.style.setProperty('--c', (FARG[abbr] || ['#9AA8B6'])[0]); s.appendChild(el('i')); return s; }
+  function prick(abbr, size) { var s = el('span', 'lagprick'); s.style.width = size + 'px'; s.style.height = size + 'px'; s.style.setProperty('--c', (FARG[abbr] || ['#9AA8B6'])[0]); if (abbr) s.dataset.lag = abbr; s.appendChild(el('i')); return s; }
   function logo(src, size, abbr) {
     if (!src) return prick(abbr, size);
-    var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size;
+    var img = el('img', 'logo'); img.alt = ''; img.width = size; img.height = size; if (abbr) img.dataset.lag = abbr;
     img.onerror = function () { if (/_dark\.svg$/.test(img.src)) { img.src = img.src.replace('_dark.svg', '_light.svg'); return; } if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); };
     img.src = MORK ? src.replace('_light.svg', '_dark.svg') : src; return img;
   }
@@ -63,7 +63,7 @@
       var nar = el('div', 'l-km-nar'); nar.appendChild(el('b', null, DAG[d.getDay()] + ' ' + d.getDate() + ' ' + MAN_K[d.getMonth()]));
       if (m.start) nar.appendChild(el('small', null, ('0' + d.getHours()).slice(-2) + '.' + ('0' + d.getMinutes()).slice(-2)));
       a.appendChild(nar);
-      var mo = el('div', 'l-km-mot'); mo.appendChild(document.createTextNode(hemma ? 'mot ' : '@ ')); mo.appendChild(logo(loggor[mot.k], 26, mot.k)); mo.appendChild(el('b', null, mot.k));
+      var mo = el('div', 'l-km-mot'); mo.dataset.lag = mot.k; mo.appendChild(document.createTextNode(hemma ? 'mot ' : '@ ')); mo.appendChild(logo(loggor[mot.k], 26, mot.k)); mo.appendChild(el('b', null, mot.k));
       var mv = (jag.mv || [])[0]; if (mv) mo.appendChild(el('small', 'l-km-mv', mv.n));
       a.appendChild(mo);
       var p = Math.round(jag.p * 100);
@@ -76,7 +76,7 @@
     L.serie.slice(-10).reverse().forEach(function (m) {
       var r = el('tr', 'click'); r.tabIndex = 0;
       cell(r, datum(m.d), 'm');
-      var mo = el('span', 'sp-mot'); mo.appendChild(document.createTextNode(m.hemma ? 'mot ' : '@ ')); mo.appendChild(logo(loggor[m.mot], 20, m.mot)); mo.appendChild(document.createTextNode(m.mot)); cell(r, mo, '');
+      var mo = el('span', 'sp-mot'); mo.dataset.lag = m.mot; mo.appendChild(document.createTextNode(m.hemma ? 'mot ' : '@ ')); mo.appendChild(logo(loggor[m.mot], 20, m.mot)); mo.appendChild(document.createTextNode(m.mot)); cell(r, mo, '');
       cell(r, el('span', 'sp-res ' + (m.res === 'V' ? 'v' : 'f'), m.res + ' ' + m.gf + '–' + m.ga + (m.avg && m.avg !== 'Ordinarie' && m.avg !== 'REG' ? ' (' + (m.avg === 'SO' || /straff/i.test(m.avg) ? 'str' : 'öt') + ')' : '')), '');
       cell(r, m.xgf != null ? f1(m.xgf) + '–' + f1(m.xga) : '–', 'n m');
       var ga = function () { location.href = 'kort.html?id=' + m.id; };

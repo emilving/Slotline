@@ -58,6 +58,7 @@
     s.style.width = size + 'px'; s.style.height = size + 'px';
     s.style.setProperty('--c', (FARG[abbr] || ['#9AA8B6'])[0]);
     s.setAttribute('aria-hidden', 'true');
+    if (abbr) s.dataset.lag = abbr;
     s.appendChild(el('i'));
     return s;
   }
@@ -68,18 +69,21 @@
     img.alt = '';
     img.width = size; img.height = size;
     img.decoding = 'async';
+    if (abbr) img.dataset.lag = abbr;
     img.addEventListener('error', function () { if (/_dark\.svg$/.test(img.src)) { img.src = img.src.replace('_dark.svg', '_light.svg'); return; } if (img.parentNode) img.parentNode.replaceChild(prick(abbr, size), img); });
     img.src = MORK ? info.logo.replace('_light.svg', '_dark.svg') : info.logo;
     return img;
   }
   function team(abbr, size, text) {
     var s = el('span', 'tt');
+    if (abbr) s.dataset.lag = abbr;
     s.appendChild(logo(abbr, size || 22));
     s.appendChild(el('span', null, text || abbr));
     return s;
   }
   function lagNamn(abbr, size, full) {
     var s = el('span', 'tt');
+    if (abbr) s.dataset.lag = abbr;
     s.appendChild(logo(abbr, size));
     s.appendChild(el('span', 'full', full));
     s.appendChild(el('span', 'kort', abbr));
@@ -224,10 +228,11 @@
       var t = x[1], o = x[2];
       var box = el('div', 'mu-team ' + x[0]);
       var id = el('div', 'mu-id');
+      id.dataset.lag = t.k;
       id.appendChild(logo(t.k, 40));
       id.appendChild(el('span', 'mu-ab', t.k));
       box.appendChild(id);
-      box.appendChild(el('div', 'mu-fn', t.n));
+      var fn = el('div', 'mu-fn', t.n); fn.dataset.lag = t.k; box.appendChild(fn);
       box.appendChild(el('div', 'mu-pct' + (t.p >= o.p ? ' fav' : ''), pct(t.p)));
       teams.appendChild(box);
     });
@@ -383,8 +388,8 @@
     a.href = 'kort.html?id=' + g.id + (formel === 'gs' ? '&formel=original' : '');
     var row = el('div', 'row');
     var bortaVann = g.bm > g.hm;
-    var tb = el('span', 'tm' + (bortaVann ? '' : ' lose')); tb.appendChild(logo(g.bk, 30)); tb.appendChild(el('span', null, g.bk));
-    var th = el('span', 'tm' + (bortaVann ? ' lose' : '')); th.appendChild(el('span', null, g.hk)); th.appendChild(logo(g.hk, 30));
+    var tb = el('span', 'tm' + (bortaVann ? '' : ' lose')); tb.dataset.lag = g.bk; tb.appendChild(logo(g.bk, 30)); tb.appendChild(el('span', null, g.bk));
+    var th = el('span', 'tm' + (bortaVann ? ' lose' : '')); th.dataset.lag = g.hk; th.appendChild(el('span', null, g.hk)); th.appendChild(logo(g.hk, 30));
     var sc = el('span', 'sc');
     sc.appendChild(el('span', bortaVann ? null : 'lose', String(g.bm)));
     sc.appendChild(document.createTextNode('–'));
