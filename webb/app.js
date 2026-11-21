@@ -473,6 +473,26 @@
       $('#o-last-day').textContent = dagRubrik(senast) + '.';
       lista.forEach(function (g) { games.appendChild(matchKort(g)); });
     }
+    var N = D.natt, nb = $('#o-natt');
+    nb.textContent = '';
+    nb.hidden = !(N && N.n && N.d === senast);
+    if (!nb.hidden) {
+      var sum = el('div', 'natt-sum');
+      sum.appendChild(el('b', null, N.k + ' av ' + N.n));
+      sum.appendChild(el('span', null, 'favoriter vann i natt'));
+      nb.appendChild(sum);
+      var lst = el('div', 'natt-lista');
+      N.m.forEach(function (m) {
+        var a = el('a', 'natt-m ' + (m.ok ? 'ok' : 'miss')); a.href = 'kort.html?id=' + m.id;
+        a.title = m.b + ' ' + pct(m.pb) + ' – ' + m.h + ' ' + pct(m.ph) + ' före matchen. Slutade ' + m.bm + '–' + m.hm + (m.avg && m.avg !== 'Ordinarie' ? ' (' + (m.avg === 'Straffar' ? 'straffar' : 'förl.') + ')' : '') + '.';
+        a.appendChild(el('span', 'natt-ik', m.ok ? '✓' : '✗'));
+        var favP = m.fav === m.h ? m.ph : m.pb;
+        a.appendChild(el('span', 'natt-t', m.fav + ' ' + pct(favP)));
+        lst.appendChild(a);
+      });
+      nb.appendChild(lst);
+      if (N.vn) nb.appendChild(el('div', 'natt-vecka', 'Senaste veckan: ' + N.vk + ' av ' + N.vn + ' (' + Math.round(100 * N.vk / N.vn) + ' %).'));
+    }
 
     var tb = $('#t-topp tbody');
     tb.textContent = '';
@@ -620,7 +640,56 @@
   }
 
   // ---------- Tabell ----------
+  var tabVy = 'tabell';
+  document.querySelectorAll('#tab-vy button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      tabVy = b.dataset.vy;
+      document.querySelectorAll('#tab-vy button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      drawTeams();
+    });
+  });
+  function drawSlutspel() {
+    var S = D.slutspel || [];
+    var box = $('#ss-konf'); box.textContent = '';
+    if (!S.length) { box.appendChild(el('p', 'note', 'Slutspelschansen räknas vid nästa uppdatering.')); $('#ss-not').textContent = ''; return; }
+    ['Östra', 'Västra'].forEach(function (konf) {
+      var lag = S.filter(function (t) { return t.konf === konf; }).sort(function (a, b) { return (b.po - a.po) || (b.xpts - a.xpts); });
+      if (!lag.length) return;
+      var sek = el('section', 'ss-konf');
+      sek.appendChild(el('h2', null, konf + ' konferensen'));
+      var wrap = el('div', 'box short');
+      var tab = el('table', 'rows kompakt ss-tab');
+      var hr = el('tr');
+      [['#', 'rk'], ['Lag', ''], ['P', 'n'], ['Väntat', 'n'], ['Slutspel', 'barc'], ['', 'n'], ['Vinner div.', 'n hn']].forEach(function (c) { hr.appendChild(el('th', c[1], c[0])); });
+      var th = el('thead'); th.appendChild(hr); tab.appendChild(th);
+      var tb = el('tbody');
+      lag.forEach(function (t, i) {
+        var tr = el('tr', 'click' + (i === 7 ? ' ss-streck' : '')); tr.tabIndex = 0;
+        td(tr, String(i + 1), 'rk');
+        td(tr, lagNamn(t.k, 24, t.n), 'nm');
+        td(tr, String(t.pts), 'n');
+        var v = el('span', 'ss-v'); v.appendChild(el('b', null, String(Math.round(t.xpts)))); v.appendChild(el('small', null, t.lo + '–' + t.hi));
+        td(tr, v, 'n');
+        var farg = t.po >= 0.75 ? 'var(--lys)' : t.po >= 0.5 ? 'var(--bra)' : t.po >= 0.25 ? 'var(--godk)' : 'var(--rule)';
+        barCell(tr, t.po, 0, 1, farg);
+        td(tr, t.po >= 0.995 ? '>99 %' : t.po <= 0.005 ? '<1 %' : Math.round(t.po * 100) + ' %', 'n val');
+        td(tr, t.div1 >= 0.005 ? Math.round(t.div1 * 100) + ' %' : '–', 'n m hn');
+        tr.addEventListener('click', function () { location.href = 'lag.html?k=' + t.k; });
+        tr.addEventListener('keydown', function (e) { if (e.key === 'Enter') location.href = 'lag.html?k=' + t.k; });
+        tb.appendChild(tr);
+      });
+      tab.appendChild(tb); wrap.appendChild(tab); sek.appendChild(wrap); box.appendChild(sek);
+    });
+    $('#ss-not').textContent = 'Sidan spelar igenom resten av grundserien ' + (D.simuleringar || 10000).toLocaleString('sv-SE') +
+      ' gånger med vinstchansmodellen: lagens anfall, försvar och målvakter, hemmaplan och back-to-back. Lagens styrka varierar lite mellan simuleringarna, eftersom ingen vet exakt hur bra de är. ' +
+      'De tre bästa i varje division och två wildcards per konferens går till slutspel. "Väntat" är väntade poäng efter 82 matcher, med ett troligt spann under. Strecket går efter de åtta lag som troligast går till slutspel.';
+  }
   function drawTeams() {
+    var ss = tabVy === 'slutspel';
+    $('#slutspel').hidden = !ss; $('#tab-tabell').hidden = ss;
+    if (page === 'lag') $('#subbar').hidden = ss;
+    $('#tab-lead').textContent = ss ? 'Chansen att gå till slutspel, räknad genom att spela igenom resten av säsongen.' : 'Poäng och lagets sammanlagda Game Score per match. Tryck på ett lag för att se lagets sida.';
+    if (ss) { drawSlutspel(); return; }
     var best = {};
     D.spelare.forEach(function (p) {
       if (p.gp < MIN || avg(p) == null) return;

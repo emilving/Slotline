@@ -12,6 +12,8 @@ Allt körs gratis på GitHub. Du behöver inte ha datorn igång.
 - **Spelare, Tabell och Målvakter** med lagens loggor, filter och sortering.
 - **Matchrapport** för varje match: alla mål med assist, lagens statistik och hela statistiken för alla spelare.
 - **Spelarsidor** med all säsongsstatistik och match för match. Tryck på en spelare var som helst på sidan.
+- **Slutspelschans:** under Tabell spelar sidan igenom resten av grundserien 10 000 gånger med vinstchansmodellen och visar varje lags chans att gå till slutspel, väntade poäng och chansen att vinna divisionen.
+- **Nattens prognoser** på översikten: hur många favoriter som vann i natt och senaste veckan.
 - **Sökruta** i sidhuvudet för spelare, målvakter och lag.
 - **Lagsidor** med resultat, en graf över chanser för och emot under säsongen, kommande matcher med vinstchans, senaste matcherna, spelare och målvakter. Tryck på ett lag i tabellen.
 - **Grafer på spelarsidorna:** Game Score+ match för match och mål mot förväntade mål över säsongen.
@@ -94,6 +96,7 @@ Har en spelare färre poäng än förväntat har han haft otur, och brukar komma
 |---|---|
 | `nhl_stats.py` | Hämtar matcherna och schemat från NHL och räknar all statistik. Kan också köras på egen dator och ger då en Excel-fil. |
 | `vinstchans.py` | Modellen för vinstchans. |
+| `slutspel.py` | Simuleringen av resten av säsongen (slutspelschans). |
 | `bygg_sida.py` | Bygger webbsidan och matchkorten från statistiken. |
 | `webb/` | Webbsidans utseende: startsidan, matchkortet och stilen. |
 | `.github/workflows/uppdatera.yml` | Schemat som kör allt varje morgon. `uppdatera.yml` är en kopia att klistra in i steg 4. |

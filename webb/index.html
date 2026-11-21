@@ -83,6 +83,7 @@
     <div class="block">
       <div class="block-head"><h2>Senaste resultaten</h2><a class="more" href="#matcher">Alla matcher</a></div>
       <p class="note" id="o-last-day"></p>
+      <div class="natt" id="o-natt" hidden></div>
       <div class="games karusell" id="o-games"></div>
     </div>
 
@@ -195,9 +196,17 @@
   <section class="page" id="lag" hidden>
     <div class="page-head">
       <h1>Tabell</h1>
-      <p class="lead">Poäng och lagets sammanlagda Game Score per match. Klicka på ett lag för att se dess spelare.</p>
+      <div class="seg" role="group" aria-label="Visa" id="tab-vy">
+        <button type="button" data-vy="tabell" aria-pressed="true">Tabell</button>
+        <button type="button" data-vy="slutspel" aria-pressed="false">Slutspelschans</button>
+      </div>
+      <p class="lead" id="tab-lead">Poäng och lagets sammanlagda Game Score per match. Tryck på ett lag för att se lagets sida.</p>
     </div>
-    <div class="box" style="margin-top: 16px">
+    <div id="slutspel" hidden>
+      <div class="ss-duo" id="ss-konf"></div>
+      <p class="note ss-not" id="ss-not"></p>
+    </div>
+    <div class="box" style="margin-top: 16px" id="tab-tabell">
       <table class="rows kompakt" id="t-lag">
         <thead><tr>
           <th class="rk">#</th><th>Lag</th><th class="n hn">M</th><th class="n">V</th><th class="n hn">F</th><th class="n hn">FÖ</th>

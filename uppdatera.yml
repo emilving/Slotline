@@ -83,7 +83,7 @@ jobs:
         run: |
           SASONG=$(ls -d nhl_data/*/csv | sort | tail -1 | cut -d/ -f2)
           mkdir -p statistik
-          for f in Spelare Målvakter Lag Matcher Vinstchans Prognoser "Lag per match" "Målvakter per match" "Lag förra säsongen" "Målvakter förra säsongen"; do
+          for f in Spelare Målvakter Lag Matcher Vinstchans Prognoser "Lag per match" "Målvakter per match" "Lag förra säsongen" "Målvakter förra säsongen" Slutspelschans; do
             if [ -f "nhl_data/$SASONG/csv/$f.csv" ]; then cp "nhl_data/$SASONG/csv/$f.csv" statistik/; fi
           done
           # Vilka som spelade i varje match (kort version) – underlag för att testa hur saknade spelare påverkar vinstchansen

@@ -371,7 +371,36 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
             traff["grupper"].append({"namn": namn, "n": int(len(g)), "k": int((g["Favoriten vann"] == "ja").sum()),
                                      "snitt": num(g["Favoritens chans"].mean(), 3) if len(g) else None})
 
+    # senaste nattens prognoser mot resultaten
+    natt = None
+    if not PR.empty:
+        sista = str(PR["Datum"].max())
+        q = PR[PR["Datum"].astype(str) == sista]
+        res = M.set_index("Match-id")
+        rader = []
+        for _, r in q.sort_values("Match-id").iterrows():
+            mm = res.loc[r["Match-id"]] if r["Match-id"] in res.index else None
+            rader.append({"id": int(r["Match-id"]), "b": r["Bortalag kort"], "h": r["Hemmalag kort"],
+                          "pb": num(r["Chans borta"], 3), "ph": num(r["Chans hemma"], 3),
+                          "bm": val(mm["Bortamål"]) if mm is not None else None, "hm": val(mm["Hemmamål"]) if mm is not None else None,
+                          "avg": mm["Avgjord i"] if mm is not None and isinstance(mm["Avgjord i"], str) else "",
+                          "fav": r["Favorit"], "ok": r["Favoriten vann"] == "ja"})
+        vecka = PR[pd.to_datetime(PR["Datum"]) > pd.to_datetime(sista) - pd.Timedelta(days=7)]
+        natt = {"d": sista, "n": len(rader), "k": sum(x["ok"] for x in rader), "m": rader,
+                "vn": int(len(vecka)), "vk": int((vecka["Favoriten vann"] == "ja").sum())}
+
+    # slutspelschans
+    SL = load(csv_dir, "Slutspelschans")
+    slutspel = []
+    if not SL.empty:
+        slutspel = [{"k": r["Lagförkortning"], "n": r["Lag"], "div": r["Division"], "konf": r["Konferens"],
+                     "gp": val(r["Matcher"]), "pts": val(r["Poäng"]), "kvar": val(r["Matcher kvar"]),
+                     "xpts": num(r["Förväntade poäng"], 1), "lo": val(r["Poäng låg (10 %)"]), "hi": val(r["Poäng hög (90 %)"]),
+                     "po": num(r["Slutspel"], 4), "div1": num(r["Vinner divisionen"], 4), "konf1": num(r["Etta i konferensen"], 4),
+                     "bast": num(r["Bästa laget i grundserien"], 4)} for _, r in SL.iterrows()]
+
     data = {
+        "natt": natt, "slutspel": slutspel, "simuleringar": val(SL["Simuleringar"].iloc[0]) if not SL.empty else None,
         "sasong": f"{season[:4]}/{season[6:]}", "uppdaterad": now_text(),
         "sajt": cfg.get("sajtnamn", "Slotline"), "lagInfo": lag_info, "kommande": kommande, "traff": traff,
         "forsta": str(M["Datum"].min()), "sista": str(M["Datum"].max()),
@@ -421,6 +450,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
             "spelare": [x for x in spelare if x["k"] == k],
             "mv": [x for x in mv if x["k"] == k],
             "kommande": [g for g in kommande if g["b"]["k"] == k or g["h"]["k"] == k][:8],
+            "slutspel": next((x for x in slutspel if x["k"] == k), None),
         }
     for v in sidor.values():
         v["logo"] = lag_info.get(v["k"], {}).get("logo", "")

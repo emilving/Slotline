@@ -1267,11 +1267,28 @@ def main(argv=None):
     except Exception as e:  # noqa: BLE001 – vinstchansen får aldrig stoppa resten
         problems.append(f"Vinstchansen kunde inte räknas: {type(e).__name__}: {e}")
         progn, komm = pd.DataFrame(), pd.DataFrame()
+    slut = pd.DataFrame()
+    if 2 in types and not a.offline:
+        try:
+            import slutspel as SP
+            log("Spelar igenom resten av säsongen för slutspelschansen …")
+            spelade = set(T_out["Match-id"].astype(int))
+            rest = SP.kvarvarande(f, season, list_games, spelade, today)
+            slut = SP.simulera(T_out, GK, forra_lag, forra_mv, rest, SP.indelning(f, WEB), seed=int(today.strftime("%Y%m%d")))
+            fel = slut[(slut["Matcher"] + slut["Matcher kvar"]) != SP.MATCHER_PER_LAG]
+            if len(fel):
+                problems.append(f"Slutspelschansen: {len(fel)} lag har inte {SP.MATCHER_PER_LAG} matcher i schemat (t.ex. {fel.iloc[0]['Lagförkortning']}: "
+                                f"{fel.iloc[0]['Matcher']} spelade + {fel.iloc[0]['Matcher kvar']} kvar).")
+            log(f"  {len(rest)} matcher kvar, {SP.SIMULERINGAR} simuleringar.")
+        except Exception as e:  # noqa: BLE001 – slutspelschansen får aldrig stoppa resten
+            problems.append(f"Slutspelschansen kunde inte räknas: {type(e).__name__}: {e}")
+            slut = pd.DataFrame()
 
     tables = {"Spelare": S, "Målvakter": G, "Lag": L, "Vinstchans": komm, "Per match": per_game_out,
               "Målvakter per match": GK, "Lag per match": T_out, "Matcher": matches, "Prognoser": progn,
               "Skott": shots_out, "Straffläggningar": pd.DataFrame(shootout),
-              "Lag förra säsongen": forra_lag, "Målvakter förra säsongen": forra_mv}
+              "Lag förra säsongen": forra_lag, "Målvakter förra säsongen": forra_mv,
+              "Slutspelschans": slut}
 
     if a.edge:
         log("Hämtar NHL Edge-data …")

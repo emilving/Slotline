@@ -34,6 +34,8 @@
     var gs = plus ? R.pl : R.gs;
     [['Poäng', R.pts], ['Mål för–emot', R.gf + '–' + R.ga], ['xG för/match', f1(L.xgf)], ['xG emot/match', f1(L.xga)],
      ['xG senaste 3', R.x3f != null ? f1(R.x3f) + '–' + f1(R.x3a) : '–'], [plus ? 'Game Score+/match' : 'Game Score/match', tal(gs)]]
+      .concat(L.slutspel ? [['Slutspelschans', L.slutspel.po >= 0.995 ? '>99 %' : L.slutspel.po <= 0.005 ? '<1 %' : Math.round(L.slutspel.po * 100) + ' %'],
+                           ['Väntade poäng, troligt ' + L.slutspel.lo + '–' + L.slutspel.hi, Math.round(L.slutspel.xpts)]] : [])
       .forEach(function (t) { var d = el('div', 'sp-tile'); d.appendChild(el('div', 'v', String(t[1]))); d.appendChild(el('div', 'l', t[0])); $('#l-tiles').appendChild(d); });
 
     // graf: rullande snitt över 5 matcher
