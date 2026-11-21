@@ -1,0 +1,33 @@
+﻿Lag,Lagförkortning,Lag-id,Division,Konferens,Matcher,Poäng,Vinster ordinarie tid,Matcher kvar,Förväntade poäng,Poäng låg (10 %),Poäng hög (90 %),Slutspel,Vinner divisionen,Etta i konferensen,Bästa laget i grundserien,Simuleringar
+Minnesota Wild,MIN,30,Central,Västra,24,38,16,60,118.3,108,129,0.9944,0.6669,0.6275,0.1855,10000
+Dallas Stars,DAL,25,Central,Västra,22,30,8,62,108.6,97,120,0.9331,0.1499,0.1351,0.0226,10000
+Colorado Avalanche,COL,21,Central,Västra,23,29,13,61,107.0,96,118,0.9198,0.1275,0.1137,0.0178,10000
+Vegas Golden Knights,VGK,54,Pacific,Västra,24,31,11,60,102.7,91,114,0.9327,0.4942,0.0441,0.0062,10000
+Edmonton Oilers,EDM,22,Pacific,Västra,24,37,14,60,100.9,89,112,0.9012,0.3892,0.031,0.0028,10000
+Utah Mammoth,UTA,68,Central,Västra,23,25,9,61,98.7,87,110,0.6702,0.0244,0.0213,0.0025,10000
+St. Louis Blues,STL,19,Central,Västra,22,24,10,62,97.1,86,108,0.6099,0.0159,0.0127,0.0009,10000
+Nashville Predators,NSH,18,Central,Västra,22,27,8,62,95.9,84,108,0.5249,0.0131,0.0099,0.0004,10000
+Los Angeles Kings,LAK,26,Pacific,Västra,20,16,4,64,90.6,79,102,0.5645,0.0742,0.0027,0.0,10000
+Winnipeg Jets,WPG,52,Central,Västra,23,25,8,61,89.8,78,102,0.2671,0.0023,0.0018,0.0001,10000
+Seattle Kraken,SEA,55,Pacific,Västra,19,21,7,65,84.2,72,97,0.2767,0.0229,0.0001,0.0,10000
+Calgary Flames,CGY,20,Pacific,Västra,23,21,9,61,81.9,71,93,0.1889,0.009,0.0,0.0,10000
+Anaheim Ducks,ANA,24,Pacific,Västra,23,23,10,61,78.4,67,90,0.1195,0.0068,0.0001,0.0,10000
+San Jose Sharks,SJS,28,Pacific,Västra,24,22,3,60,78.1,67,90,0.0949,0.0037,0.0,0.0,10000
+Chicago Blackhawks,CHI,16,Central,Västra,22,14,4,62,67.2,55,79,0.0022,0.0,0.0,0.0,10000
+Vancouver Canucks,VAN,23,Pacific,Västra,24,11,3,60,51.8,41,63,0.0,0.0,0.0,0.0,10000
+Carolina Hurricanes,CAR,12,Metropolitan,Östra,22,35,15,62,126.2,116,136,0.9996,0.9303,0.7723,0.6227,10000
+Tampa Bay Lightning,TBL,14,Atlantic,Östra,22,32,13,62,113.2,102,124,0.9729,0.4677,0.1045,0.07,10000
+Boston Bruins,BOS,6,Atlantic,Östra,22,29,11,62,110.8,100,122,0.9566,0.3239,0.0625,0.0365,10000
+New Jersey Devils,NJD,1,Metropolitan,Östra,22,30,10,62,105.0,94,116,0.862,0.0337,0.0187,0.01,10000
+Montréal Canadiens,MTL,8,Atlantic,Östra,23,32,9,61,104.6,93,116,0.8417,0.1215,0.0156,0.0081,10000
+New York Rangers,NYR,3,Metropolitan,Östra,22,27,13,62,104.3,93,116,0.859,0.0315,0.0167,0.0096,10000
+Ottawa Senators,OTT,9,Atlantic,Östra,23,31,11,61,101.1,90,112,0.7353,0.065,0.007,0.0031,10000
+Florida Panthers,FLA,13,Atlantic,Östra,23,27,10,61,95.0,83,107,0.4775,0.0184,0.0011,0.0005,10000
+New York Islanders,NYI,2,Metropolitan,Östra,21,25,8,63,94.4,83,106,0.4549,0.003,0.0012,0.0005,10000
+Washington Capitals,WSH,15,Metropolitan,Östra,20,20,8,64,91.4,79,104,0.338,0.0014,0.0004,0.0002,10000
+Buffalo Sabres,BUF,7,Atlantic,Östra,22,22,7,62,87.0,75,99,0.1738,0.0026,0.0,0.0,10000
+Detroit Red Wings,DET,17,Atlantic,Östra,22,19,6,62,84.2,72,96,0.1024,0.0009,0.0,0.0,10000
+Philadelphia Flyers,PHI,4,Metropolitan,Östra,25,22,7,59,82.9,72,94,0.0821,0.0001,0.0,0.0,10000
+Pittsburgh Penguins,PIT,5,Metropolitan,Östra,21,16,3,63,81.3,69,93,0.0682,0.0,0.0,0.0,10000
+Columbus Blue Jackets,CBJ,29,Metropolitan,Östra,20,16,3,64,80.5,68,93,0.0567,0.0,0.0,0.0,10000
+Toronto Maple Leafs,TOR,10,Atlantic,Östra,24,19,7,60,75.9,64,88,0.0193,0.0,0.0,0.0,10000
