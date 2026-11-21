@@ -1275,10 +1275,9 @@ def main(argv=None):
             spelade = set(T_out["Match-id"].astype(int))
             rest = SP.kvarvarande(f, season, list_games, spelade, today)
             slut = SP.simulera(T_out, GK, forra_lag, forra_mv, rest, SP.indelning(f, WEB), seed=int(today.strftime("%Y%m%d")))
-            fel = slut[(slut["Matcher"] + slut["Matcher kvar"]) != SP.MATCHER_PER_LAG]
-            if len(fel):
-                problems.append(f"Slutspelschansen: {len(fel)} lag har inte {SP.MATCHER_PER_LAG} matcher i schemat (t.ex. {fel.iloc[0]['Lagförkortning']}: "
-                                f"{fel.iloc[0]['Matcher']} spelade + {fel.iloc[0]['Matcher kvar']} kvar).")
+            tot = (slut["Matcher"] + slut["Matcher kvar"]).value_counts()
+            if len(tot) > 1:
+                problems.append(f"Slutspelschansen: lagen har olika många matcher i schemat ({dict(tot)}). Någon match saknas troligen.")
             log(f"  {len(rest)} matcher kvar, {SP.SIMULERINGAR} simuleringar.")
         except Exception as e:  # noqa: BLE001 – slutspelschansen får aldrig stoppa resten
             problems.append(f"Slutspelschansen kunde inte räknas: {type(e).__name__}: {e}")

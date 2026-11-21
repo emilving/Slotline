@@ -682,7 +682,7 @@
     });
     $('#ss-not').textContent = 'Sidan spelar igenom resten av grundserien ' + (D.simuleringar || 10000).toLocaleString('sv-SE') +
       ' gånger med vinstchansmodellen: lagens anfall, försvar och målvakter, hemmaplan och back-to-back. Lagens styrka varierar lite mellan simuleringarna, eftersom ingen vet exakt hur bra de är. ' +
-      'De tre bästa i varje division och två wildcards per konferens går till slutspel. "Väntat" är väntade poäng efter 82 matcher, med ett troligt spann under. Strecket går efter de åtta lag som troligast går till slutspel.';
+      'De tre bästa i varje division och två wildcards per konferens går till slutspel. "Väntat" är väntade poäng efter ' + (D.matcher_totalt || 84) + ' matcher, med ett troligt spann under. Strecket går efter de åtta lag som troligast går till slutspel.';
   }
   function drawTeams() {
     var ss = tabVy === 'slutspel';

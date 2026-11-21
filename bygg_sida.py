@@ -401,6 +401,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
 
     data = {
         "natt": natt, "slutspel": slutspel, "simuleringar": val(SL["Simuleringar"].iloc[0]) if not SL.empty else None,
+        "matcher_totalt": int((SL["Matcher"] + SL["Matcher kvar"]).max()) if not SL.empty else None,
         "sasong": f"{season[:4]}/{season[6:]}", "uppdaterad": now_text(),
         "sajt": cfg.get("sajtnamn", "Slotline"), "lagInfo": lag_info, "kommande": kommande, "traff": traff,
         "forsta": str(M["Datum"].min()), "sista": str(M["Datum"].max()),

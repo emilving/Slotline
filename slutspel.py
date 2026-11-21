@@ -27,7 +27,6 @@ import vinstchans as VC
 
 SIMULERINGAR = 10000
 STYRKA_OSAKERHET = 0.07   # standardavvikelse (log-skala) för lagets anfall och försvar i en simulering
-MATCHER_PER_LAG = 82
 FORLANGNING_NHL = 0.23    # andel matcher som går till förlängning i NHL över flera säsonger
 
 # NHL:s indelning. Används om tabellen från NHL inte går att hämta.
