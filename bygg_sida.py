@@ -418,6 +418,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
         logg = P[P["Spelar-id"] == pid].sort_values("Datum")
         sidor[pid] = {"id": pid, "n": r["Spelare"], "lag": r["Lag"], "k": abbr.get(r["Lag"], ""), "pos": r.get("Position", ""),
                       "mv": False, "rook": r.get("Rookie") == "ja", "grupper": grupper(r, SPELARGRUPPER),
+                      "hist": r.get("Lag under säsongen") if isinstance(r.get("Lag under säsongen"), str) else "",
                       "logg": [{"id": int(x["Match-id"]), "d": x["Datum"], "mot": abbr.get(x["Motståndare"], ""), "hemma": x["Hemma/borta"] == "Hemma",
                                 "res": x["Resultat"], "st": [val(x["Mål för"]), val(x["Mål mot"])], "g": val(x["Mål"]), "a": val(x["Assist"]),
                                 "p": val(x["Poäng"]), "s": val(x["Skott"]), "pm": val(x.get("Plus/minus")), "toi": num(x.get("Istid (min)")), "xg": num(x.get("ixG")),
@@ -427,6 +428,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
         logg = GK[GK["Spelar-id"] == pid].sort_values("Datum")
         sidor[pid] = {"id": pid, "n": r["Spelare"], "lag": r["Lag"], "k": abbr.get(r["Lag"], ""), "pos": "Målvakt",
                       "mv": True, "rook": r.get("Rookie") == "ja", "grupper": grupper(r, MVGRUPPER),
+                      "hist": r.get("Lag under säsongen") if isinstance(r.get("Lag under säsongen"), str) else "",
                       "logg": [{"id": int(x["Match-id"]), "d": x["Datum"], "mot": abbr.get(x["Motståndare"], ""), "hemma": x["Hemma/borta"] == "Hemma",
                                 "res": x["Resultat"], "st": [val(x["Mål för"]), val(x["Mål mot"])], "sa": val(x.get("Skott mot")),
                                 "sv": val(x.get("Räddningar")), "ga": val(x.get("Insläppta")), "svp": num(x.get("Räddnings-%"), 3),

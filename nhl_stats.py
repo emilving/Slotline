@@ -930,7 +930,29 @@ def fetch_last_season(f: Fetcher, season):
     return lag, mv
 
 
+def senaste_lag(df: pd.DataFrame, cols):
+    """En rad per spelare för hela säsongen: lag (och namn/position) från spelarens senaste match,
+    plus vilka lag han spelat för, i ordning, med antal matcher."""
+    if not len(df):
+        return df, {}
+    d = df.sort_values(["Datum", "Match-id"])
+    sist = d.groupby("Spelar-id")[cols].last()
+    historik = {}
+    for pid, g in d.groupby("Spelar-id", sort=False):
+        lag = list(dict.fromkeys(g["Lag"]))
+        if len(lag) > 1:
+            n = g["Lag"].value_counts()
+            historik[pid] = ", ".join(f"{t} ({int(n[t])})" for t in lag)
+    ut = df.copy()
+    for c in cols:
+        ut[c] = ut["Spelar-id"].map(sist[c])
+    return ut, historik
+
+
 def season_tables(per_game: pd.DataFrame, goalies: pd.DataFrame, teams: pd.DataFrame):
+    # Spelare som bytt lag under säsongen räknas som en rad, med det lag de spelar i nu.
+    per_game, hist_s = senaste_lag(per_game, ["Spelare", "Lag", "Position", "Positionsgrupp"])
+    goalies, hist_g = senaste_lag(goalies, ["Spelare", "Lag"])
     sum_cols = [c for c in per_game.columns if c in blank_skater() or c in ("Poäng", "Game Score", "Game Score+", "Istid (min)",
                                                                              "Istid 5v5 (min)", "Istid PP (min)",
                                                                              "Istid SH (min)", "Plus/minus")]
@@ -958,6 +980,7 @@ def season_tables(per_game: pd.DataFrame, goalies: pd.DataFrame, teams: pd.DataF
     S["CA/60 5v5"] = per60(S["CA 5v5"], S["Istid 5v5 (min)"]).round(2)
     S["Mål över xG"] = (S["Mål"] - S["ixG"]).round(2)
     S["Utvisningsnetto"] = S["Dragna utvisningar"] - S["Tagna utvisningar"]
+    S["Lag under säsongen"] = S["Spelar-id"].map(hist_s).fillna("")
     S = S.sort_values("Game Score", ascending=False)
 
     G = None
@@ -977,6 +1000,7 @@ def season_tables(per_game: pd.DataFrame, goalies: pd.DataFrame, teams: pd.DataF
         G["Game Score bästa"] = gg["Game Score"].max().values
         G["Game Score+ snitt"] = (G["Game Score+"] / G["Matcher"]).round(3)
         G["Game Score+ bästa"] = gg["Game Score+"].max().values
+        G["Lag under säsongen"] = G["Spelar-id"].map(hist_g).fillna("")
         G = G.sort_values("Game Score", ascending=False)
 
     tg = teams.groupby("Lag")

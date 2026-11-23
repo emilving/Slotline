@@ -598,3 +598,5 @@ body.export [data-lag] { cursor: default; text-decoration: none !important; tran
 .ss-tab tr.ss-streck td { border-bottom: 2px dashed var(--mute); }
 .ss-not { margin-top: 12px; max-width: 60rem; }
 @media (max-width: 680px) { .ss-duo { grid-template-columns: 1fr; } .ss-tab .barc { display: none; } }
+
+.sp-hist { font-size: 15px; margin-top: 4px; }

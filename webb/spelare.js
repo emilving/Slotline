@@ -49,6 +49,7 @@
     if (S.rook) { var r = el('span', 'rookie', 'R'); r.title = 'Rookie'; h.appendChild(r); }
     var sub = $('#sp-sub'); var la = el('a', 'sp-lank', S.lag); la.href = 'lag.html?k=' + S.k; sub.appendChild(la);
     sub.appendChild(document.createTextNode(' · ' + S.pos + (S.rook ? ' · Rookie' : '')));
+    if (S.hist) sub.appendChild(el('div', 'sp-hist', 'Under säsongen: ' + S.hist.replace(/\((\d+)\)/g, function (_, n) { return '(' + n + (n === '1' ? ' match' : ' matcher') + ')'; }) + '. Statistiken gäller hela säsongen.'));
 
     var tiles = $('#sp-tiles');
     var plus = S.plus;
