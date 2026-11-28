@@ -41,7 +41,7 @@ FORRA_VIKT = 0.5        # hur mycket av förra säsongens nivå som behålls (re
 MV_KRYMP = 50.0         # förväntade mål en målvakt dras mot sin utgångsnivå (ungefär 18 matcher)
 MV_FORRA_VIKT = 0.5     # hur mycket av förra säsongens räddningsprocent som behålls
 MV_NY = 1.03            # utgångsnivå för målvakt utan NHL-matcher förra säsongen (lite sämre än snittet)
-SKARPA = 1.0            # < 1 dämpar de mest extrema matcherna. Testet i november visade att dämpningen gjorde modellen för försiktig.
+SKARPA = 0.9            # < 1 dämpar de mest extrema matcherna. Lika bra som 1.0 över säsongen (test 28 nov) men tryggare när ligan är oförutsägbar.
 MV_SENASTE = 10         # så många av lagets senaste matcher avgör vem som är förstemålvakt
 HEMMA = 1.04            # hemmalagets anfall gånger, bortalagets delat med (ger ungefär 54 % hemmavinster, som i NHL över flera säsonger)
 TROTT = 0.94            # anfall gånger (och försvar delat med) dagen efter en match
@@ -50,7 +50,7 @@ MAX_MAL = 15
 MIN_MATCHER_TRAFF = 3   # båda lagen ska ha spelat så här många matcher innan en prognos räknas i träffsäkerheten
 
 KOLUMNER = ["Match-id", "Datum", "Lag-id", "Lag", "Lagförkortning", "Logga", "Hemma/borta", "Resultat",
-            "Mål för", "Mål mot", "Mål (ej tom bur)", "Insläppta (ej tom bur)", "xGF", "xGA"]
+            "Mål för", "Mål mot", "Mål (ej tom bur)", "Insläppta (ej tom bur)", "xGF", "xGA", "Avgjord i"]
 
 
 def _poisson(lam):
@@ -77,7 +77,7 @@ def lagmatcher(T: pd.DataFrame) -> pd.DataFrame:
     for c in ("Mål (ej tom bur)", "Insläppta (ej tom bur)"):
         if c not in df:
             df[c] = df["Mål för" if c.startswith("Mål") else "Mål mot"]
-    for c in ("xGF", "xGA", "Logga"):
+    for c in ("xGF", "xGA", "Logga", "Avgjord i"):
         if c not in df:
             df[c] = np.nan
     df = df[[c for c in KOLUMNER if c in df]].copy()
@@ -256,9 +256,25 @@ def _form(g: pd.DataFrame, n=5):
     return " ".join(g.sort_values(["Datum", "Match-id"])["Resultat"].tail(n).tolist())
 
 
+def _form_detaljer(g: pd.DataFrame, mot: dict, n=5):
+    """De senaste matcherna som text: datum|motståndare|H/B|mål för|mål mot|resultat|avgjord i, med ; mellan."""
+    ut = []
+    for _, r in g.sort_values(["Datum", "Match-id"]).tail(n).iterrows():
+        avg = r.get("Avgjord i") if isinstance(r.get("Avgjord i"), str) else ""
+        ut.append("|".join([str(r["Datum"]), mot.get((r["Match-id"], r["Lag-id"]), ""), "H" if r["Hemma/borta"] == "Hemma" else "B",
+                            str(int(r["Mål för"])), str(int(r["Mål mot"])), str(r["Resultat"]), avg]))
+    return ";".join(ut)
+
+
 def lagfakta(rows: pd.DataFrame):
     """Säsongssiffror per lag som visas bredvid prognosen."""
     ut = {}
+    per_match = rows.groupby("Match-id")
+    mot = {}
+    for mid, g in per_match:
+        if len(g) == 2:
+            a, b = g.iloc[0], g.iloc[1]
+            mot[(mid, a["Lag-id"])] = b["Lagförkortning"]; mot[(mid, b["Lag-id"])] = a["Lagförkortning"]
     for tid, g in rows.groupby("Lag-id"):
         n = len(g)
         has_xg = g["xGF"].notna().all() and g["xGA"].notna().all()
@@ -270,6 +286,7 @@ def lagfakta(rows: pd.DataFrame):
             "xga": round(g["xGA"].sum() / n, 2) if has_xg else None,
             "gsax": round((g["xGA"].sum() - g["Insläppta (ej tom bur)"].sum()) / n, 2) if has_xg else None,
             "form": _form(g),
+            "form5": _form_detaljer(g, mot),
             "senaste3": g.sort_values(["Datum", "Match-id"]).tail(3),
         }
     return ut
@@ -323,7 +340,7 @@ def kommande(T: pd.DataFrame, matcher: list, GK=None, forra_lag=None, forra_mv=N
                         f"{sida} matcher": f.get("matcher", 0), f"{sida} mål/match": f.get("mal"),
                         f"{sida} insläppta/match": f.get("inslappta"), f"{sida} xG för/match": f.get("xgf"),
                         f"{sida} xG mot/match": f.get("xga"), f"{sida} GSAx/match": f.get("gsax"),
-                        f"{sida} form": f.get("form", "")})
+                        f"{sida} form": f.get("form", ""), f"{sida} form detaljer": f.get("form5", "")})
             s3 = f.get("senaste3")
             if s3 is not None and len(s3) and s3["xGF"].notna().all():
                 mot = {r["Match-id"]: r["Lagförkortning"] for _, r in rows[rows["Match-id"].isin(s3["Match-id"]) & (rows["Lag-id"] != tid)].iterrows()}

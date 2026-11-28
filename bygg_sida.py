@@ -358,6 +358,13 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
                                 "gp": val(r.get(f"{sida} mv{i} matcher")), "sv": num(r.get(f"{sida} mv{i} rädd%"), 4),
                                 "gsax": num(r.get(f"{sida} mv{i} GSAx"))})
             g[key]["mv"] = mv_
+            fd = r.get(f"{sida} form detaljer")
+            if isinstance(fd, str) and fd:
+                g[key]["f5"] = []
+                for x in fd.split(";"):
+                    d_, mot_, hb_, gf_, ga_, res_, avg_ = (x.split("|") + [""] * 7)[:7]
+                    g[key]["f5"].append({"d": d_, "mot": mot_, "hemma": hb_ == "H", "gf": int(gf_ or 0), "ga": int(ga_ or 0),
+                                         "v": res_ == "V", "avg": avg_})
             s3 = r.get(f"{sida} senaste3 xGF")
             if isinstance(s3, str) and s3:
                 xf = [float(x) for x in s3.split(";")]
@@ -506,6 +513,17 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
     return data, cards, sidor, lagsidor
 
 
+def versionera(site: Path):
+    """Lägg ?v=<innehållets hash> på skript och stilmallar i sidorna, så att webbläsare och GitHub
+    aldrig blandar en ny sida med en gammal skriptfil efter en uppdatering."""
+    import re
+    ver = {f.name: hashlib.sha1(f.read_bytes()).hexdigest()[:10] for f in site.iterdir() if f.suffix in (".js", ".css")}
+    for html in site.glob("*.html"):
+        t = html.read_text(encoding="utf-8")
+        t = re.sub(r'(src|href)="([\w.-]+\.(?:js|css))"', lambda m: f'{m.group(1)}="{m.group(2)}?v={ver[m.group(2)]}"' if m.group(2) in ver else m.group(0), t)
+        html.write_text(t, encoding="utf-8")
+
+
 def card_hash(card):
     c = dict(card)
     c.pop("png", None)
@@ -588,6 +606,7 @@ def main(argv=None):
     if site.exists():
         shutil.rmtree(site)
     shutil.copytree(HERE / "webb", site)
+    versionera(site)
     (site / ".nojekyll").write_text("")
     (site / "data" / "matcher").mkdir(parents=True, exist_ok=True)
 

@@ -367,7 +367,7 @@
         };
         rad(staplar(g.b), 'Match för match', staplar(g.h), false, false, 'x3-row');
       }
-      rad(form(g.b.form), 'Form, senaste 5 matcherna', form(g.h.form), false, false, 'form-row');
+      rad(form(g.b.f5 || g.b.form), 'Form, senaste 5 matcherna', form(g.h.f5 || g.h.form), false, false, 'form-row');
       det.appendChild(tab);
       var ib = el('div', 'h2h');
       ib.appendChild(el('div', 'h2h-t', 'Inbördes i år'));
@@ -394,7 +394,24 @@
     }
     return a;
   }
+  var DAG_K = ['sön', 'mån', 'tis', 'ons', 'tor', 'fre', 'lör'];
   function form(s) {
+    if (Array.isArray(s)) {
+      var fb = el('span', 'form');
+      s.forEach(function (m) {
+        var tillagg = m.avg === 'Förlängning' ? 'Ö' : m.avg === 'Straffar' ? 'S' : '';
+        var c = el('span', 'fm ' + (m.v ? 'v' : 'f') + (tillagg ? ' ot' : ''), (m.v ? 'V' : 'F') + tillagg);
+        c.tabIndex = 0;
+        var d = new Date(m.d + 'T12:00:00');
+        var txt = DAG_K[d.getDay()] + ' ' + d.getDate() + ' ' + MAN_K[d.getMonth()] + ' · ' + (m.hemma ? 'mot ' : '@ ') + m.mot + ' · ' +
+          (m.v ? 'vinst ' : 'förlust ') + m.gf + '–' + m.ga + (m.avg === 'Förlängning' ? ' efter förlängning' : m.avg === 'Straffar' ? ' efter straffar' : '');
+        c.setAttribute('aria-label', txt);
+        c.appendChild(el('span', 'fm-bubbla', txt));
+        fb.appendChild(c);
+      });
+      if (!s.length) fb.textContent = '–';
+      return fb;
+    }
     var box = el('span', 'form');
     (s || '').split(' ').filter(Boolean).forEach(function (r) {
       var t = el('span', r, r === 'FÖ' ? 'Ö' : r);

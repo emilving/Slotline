@@ -559,7 +559,7 @@ body.mobil .rapport { padding: 0 16px; }
     --tint-svag: #3A1F1D;
     --jmf-b: #F0B43C;
   }
-  :root:not([data-tema="ljust"]) .form .V { color: #0D141C; }
+  :root:not([data-tema="ljust"]) .form .V, :root:not([data-tema="ljust"]) .form .fm { color: #0D141C; }
   :root:not([data-tema="ljust"]) .rookie { color: #0D141C; }
   /* matchkortet är en bild att dela – det behåller sina ljusa färger */
   :root:not([data-tema="ljust"]) #kort {
@@ -667,3 +667,16 @@ body.export [data-lag] { cursor: default; text-decoration: none !important; tran
   .sp-head { flex-wrap: wrap; }
   .sp-head .jmf-knapp { margin-left: 0; }
 }
+
+/* ---------- form, senaste 5 matcherna ---------- */
+.form .fm { position: relative; width: auto; min-width: 22px; padding: 0 4px; cursor: default; color: #fff; }
+.form .fm.v { background: var(--lys); }
+.form .fm.f { background: var(--svag); }
+.form .fm.ot.v { background: var(--bra); }
+.form .fm.ot.f { background: color-mix(in srgb, var(--svag) 75%, var(--board)); }
+.form .fm:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
+.form .fm .fm-bubbla { display: none; position: absolute; z-index: 20; bottom: calc(100% + 6px); left: 0; width: max-content; max-width: 240px;
+  padding: 6px 10px; border-radius: 8px; background: var(--ink); color: var(--board); font-size: 13px; font-weight: 600; white-space: normal; text-align: left;
+  box-shadow: 0 6px 18px rgba(0,0,0,.25); pointer-events: none; height: auto; }
+.cmp-row .v.h .form .fm .fm-bubbla { left: auto; right: 0; }
+.form .fm:hover .fm-bubbla, .form .fm:focus .fm-bubbla { display: block; }
