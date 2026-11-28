@@ -51,6 +51,8 @@
     var fodd = '';
     if (S.fodd) { var fd = new Date(S.fodd + 'T12:00:00'); fodd = ' (född ' + fd.getDate() + ' ' + MAN_K[fd.getMonth()] + ' ' + fd.getFullYear() + ')'; }
     sub.appendChild(document.createTextNode(' · ' + S.pos + (S.age != null ? ' · ' + S.age + ' år' + fodd : '') + (S.rook ? ' · Rookie' : '')));
+    var jl = el('a', 'more jmf-knapp', S.mv ? 'Jämför med en annan målvakt' : 'Jämför med en annan spelare'); jl.href = 'jamfor.html?a=' + S.id;
+    $('.sp-head').appendChild(jl);
     if (S.hist) sub.appendChild(el('div', 'sp-hist', 'Under säsongen: ' + S.hist.replace(/\((\d+)\)/g, function (_, n) { return '(' + n + (n === '1' ? ' match' : ' matcher') + ')'; }) + '. Statistiken gäller hela säsongen.'));
 
     var tiles = $('#sp-tiles');

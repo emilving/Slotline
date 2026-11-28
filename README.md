@@ -14,6 +14,10 @@ Allt körs gratis på GitHub. Du behöver inte ha datorn igång.
 - **Spelarsidor** med all säsongsstatistik och match för match. Tryck på en spelare var som helst på sidan.
 - **Slutspelschans:** under Tabell spelar sidan igenom resten av grundserien 10 000 gånger med vinstchansmodellen och visar varje lags chans att gå till slutspel, väntade poäng och chansen att vinna divisionen.
 - **Nattens prognoser** på översikten: hur många favoriter som vann i natt och senaste veckan.
+- **Hetast just nu** på översikten: bäst form och flest poäng de senaste fem matcherna, och pågående poängsviter.
+- **Jämför två spelare** (`jamfor.html`): statistik och grafer sida vid sida, med det bättre värdet markerat.
+- **Inbördes möten** i säsongen på vinstchanskorten och vid lagets kommande matcher på lagsidan.
+- **Ålder** för alla spelare.
 - **Sökruta** i sidhuvudet för spelare, målvakter och lag.
 - **Lagsidor** med resultat, en graf över chanser för och emot under säsongen, kommande matcher med vinstchans, senaste matcherna, spelare och målvakter. Tryck på ett lag i tabellen.
 - **Grafer på spelarsidorna:** Game Score+ match för match och mål mot förväntade mål över säsongen.

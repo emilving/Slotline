@@ -67,6 +67,14 @@
       a.appendChild(nar);
       var mo = el('div', 'l-km-mot'); mo.dataset.lag = mot.k; mo.appendChild(document.createTextNode(hemma ? 'mot ' : '@ ')); mo.appendChild(logo(loggor[mot.k], 26, mot.k)); mo.appendChild(el('b', null, mot.k));
       var mv = (jag.mv || [])[0]; if (mv) mo.appendChild(el('small', 'l-km-mv', mv.n));
+      if (m.h2h && m.h2h.length) {
+        var ii = el('small', 'l-km-h2h', 'I år: ' + m.h2h.map(function (x) {
+          var egen = x.h === L.k ? x.hm : x.bm, deras = x.h === L.k ? x.bm : x.hm;
+          var res = egen > deras ? 'V' : (x.avg && x.avg !== 'Ordinarie' ? 'FÖ' : 'F');
+          return res + ' ' + egen + '–' + deras;
+        }).join(', '));
+        mo.appendChild(ii);
+      }
       a.appendChild(mo);
       var p = Math.round(jag.p * 100);
       var ch = el('div', 'l-km-p ' + (p >= 50 ? 'upp' : 'ned'), p + ' %'); a.appendChild(ch);

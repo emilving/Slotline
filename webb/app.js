@@ -369,6 +369,27 @@
       }
       rad(form(g.b.form), 'Form, senaste 5 matcherna', form(g.h.form), false, false, 'form-row');
       det.appendChild(tab);
+      var ib = el('div', 'h2h');
+      ib.appendChild(el('div', 'h2h-t', 'Inbördes i år'));
+      if (!g.h2h || !g.h2h.length) ib.appendChild(el('div', 'h2h-tom', 'Lagen har inte mötts tidigare i säsongen.'));
+      else {
+        var vinst = {}; vinst[g.b.k] = 0; vinst[g.h.k] = 0;
+        g.h2h.forEach(function (m) {
+          var vinnare = m.hm > m.bm ? m.h : m.b; vinst[vinnare] = (vinst[vinnare] || 0) + 1;
+          var r = el('a', 'h2h-m'); r.href = 'kort.html?id=' + m.id;
+          r.appendChild(el('span', 'h2h-d', datum(m.d, true)));
+          var res = el('span', 'h2h-r');
+          res.appendChild(el(m.bm > m.hm ? 'b' : 'span', null, m.b + ' ' + m.bm));
+          res.appendChild(document.createTextNode('–'));
+          res.appendChild(el(m.hm > m.bm ? 'b' : 'span', null, m.hm + ' ' + m.h));
+          if (m.avg && m.avg !== 'Ordinarie') res.appendChild(el('small', null, m.avg === 'Straffar' ? ' str' : ' förl.'));
+          r.appendChild(res);
+          r.appendChild(el('span', 'h2h-x', m.bx != null ? 'xG ' + f1(m.bx) + '–' + f1(m.hx) : ''));
+          ib.appendChild(r);
+        });
+        ib.appendChild(el('div', 'h2h-sum', g.b.k + ' ' + vinst[g.b.k] + ' ' + (vinst[g.b.k] === 1 ? 'vinst' : 'vinster') + ', ' + g.h.k + ' ' + vinst[g.h.k] + '.'));
+      }
+      det.appendChild(ib);
       a.appendChild(det);
     }
     return a;
@@ -523,6 +544,36 @@
       td(tr, f1(x.p.xp), 'n m');
       var c = td(tr, f1(x.d), 'n val'); c.style.color = 'var(--bra)';
       ob.appendChild(tr);
+    });
+
+    // hetast just nu
+    var H = D.hett || [], hb = $('#o-hett');
+    hb.textContent = '';
+    $('#o-hett-block').hidden = !H.length;
+    var gk = formel === 'plus' ? 'pl5' : 'gs5';
+    var listor = [
+      { t: 'Bäst form', u: (formel === 'plus' ? 'Game Score+' : 'Game Score') + ' per match', lista: H.filter(function (p) { return p[gk] != null; }).sort(function (a, b) { return b[gk] - a[gk]; }),
+        v: function (p) { return f2(p[gk]); }, s: function (p) { return p.g5 + '+' + p.a5; } },
+      { t: 'Flest poäng', u: 'mål + assist', lista: H.slice().sort(function (a, b) { return (b.p5 - a.p5) || (b.g5 - a.g5) || ((b[gk] || 0) - (a[gk] || 0)); }),
+        v: function (p) { return String(p.p5); }, s: function (p) { return p.g5 + '+' + p.a5; } },
+      { t: 'Poängsviter', u: 'matcher i rad med poäng', lista: H.filter(function (p) { return p.svit >= 3; }).sort(function (a, b) { return (b.svit - a.svit) || (b.svitp - a.svitp); }),
+        v: function (p) { return String(p.svit); }, s: function (p) { return p.svitp + ' p'; } }
+    ];
+    listor.forEach(function (L) {
+      var box = el('div', 'box short hett-l');
+      var hd = el('div', 'hett-h'); hd.appendChild(el('b', null, L.t)); hd.appendChild(el('small', null, L.u)); box.appendChild(hd);
+      var tab = el('table', 'rows'); var tb = el('tbody');
+      L.lista.slice(0, 5).forEach(function (p, i) {
+        var tr = el('tr');
+        td(tr, String(i + 1), 'rk');
+        td(tr, spelarLank(p), 'nm');
+        td(tr, team(p.k, 20), 'm hn');
+        td(tr, L.s(p), 'n m');
+        td(tr, L.v(p), 'n val');
+        tb.appendChild(tr);
+      });
+      if (!L.lista.length) { var tr = el('tr'); var c = el('td', 'm', 'Ingen just nu.'); c.colSpan = 5; tr.appendChild(c); tb.appendChild(tr); }
+      tab.appendChild(tb); box.appendChild(tab); hb.appendChild(box);
     });
   }
 
