@@ -779,7 +779,7 @@ def fetch_rookies(f: Fetcher, season, player_ids):
     inte 6+ matcher i två tidigare säsonger och inte fyllda 26 år den 15 september.
     Spelarsidan sparas, så bara nya spelare hämtas vid nästa körning."""
     start = int(str(season)[:4])
-    out, failed = {}, 0
+    out, fodd, failed = {}, {}, 0
     for pid in sorted({int(x) for x in player_ids if pd.notna(x)}):
         try:
             data = f.get(f"{WEB}/player/{pid}/landing", f.root / "spelarinfo" / f"{pid}.json")
@@ -792,12 +792,23 @@ def fetch_rookies(f: Fetcher, season, player_ids):
                 per[t["season"]] = per.get(t["season"], 0) + int(t.get("gamesPlayed") or 0)
         rookie = all(n <= 25 for n in per.values()) and sum(n >= 6 for n in per.values()) < 2
         born = str(data.get("birthDate") or "")
+        if len(born) >= 10:
+            fodd[pid] = born[:10]
         if rookie and len(born) >= 10:
             rookie = born[:10] > f"{start - 26}-09-15"
         out[pid] = rookie
     if failed:
-        log(f"  Kunde inte hämta spelarinfo för {failed} spelare (rookie-märkningen saknas för dem).")
-    return out
+        log(f"  Kunde inte hämta spelarinfo för {failed} spelare (rookie-märkningen och åldern saknas för dem).")
+    return out, fodd
+
+
+def alder(fodd: str, idag: dt.date):
+    """Ålder i hela år en viss dag."""
+    try:
+        f = dt.date.fromisoformat(fodd)
+    except (TypeError, ValueError):
+        return None
+    return idag.year - f.year - ((idag.month, idag.day) < (f.month, f.day))
 
 
 def fetch_edge(f: Fetcher, season, players: pd.DataFrame, game_type=2):
@@ -1246,11 +1257,17 @@ def main(argv=None):
     S, G, L = season_tables(P, GK, T)
     log("Kollar vilka spelare som är rookies …")
     ids = list(S["Spelar-id"]) + (list(G["Spelar-id"]) if G is not None else [])
-    rk = fetch_rookies(f, season, ids)
+    rk, fodd = fetch_rookies(f, season, ids)
     ja_nej = lambda x: "ja" if rk.get(int(x)) else "nej"
+    idag = dt.date.today()
+    alder_av = lambda x: alder(fodd.get(int(x)), idag)
     S.insert(S.columns.get_loc("Positionsgrupp") + 1, "Rookie", S["Spelar-id"].map(ja_nej))
+    S.insert(S.columns.get_loc("Rookie") + 1, "Född", S["Spelar-id"].map(lambda x: fodd.get(int(x), "")))
+    S.insert(S.columns.get_loc("Född") + 1, "Ålder", S["Spelar-id"].map(alder_av).astype("Int64"))
     if G is not None:
         G.insert(G.columns.get_loc("Lag") + 1, "Rookie", G["Spelar-id"].map(ja_nej))
+        G.insert(G.columns.get_loc("Rookie") + 1, "Född", G["Spelar-id"].map(lambda x: fodd.get(int(x), "")))
+        G.insert(G.columns.get_loc("Född") + 1, "Ålder", G["Spelar-id"].map(alder_av).astype("Int64"))
     log(f"  {int((S['Rookie'] == 'ja').sum())} rookies bland utespelarna.")
     if model is not None:
         X = expected_points(SH, P)

@@ -93,7 +93,7 @@
     sp.forEach(function (p) {
       var r = el('tr');
       var n = lank('spelare.html?id=' + p.id, p.n); if (p.rook) { var rk = el('span', 'rookie', 'R'); rk.title = 'Rookie'; n.appendChild(rk); }
-      cell(r, n, 'nm'); cell(r, p.pos, 'm hn'); cell(r, p.gp, 'n'); cell(r, p.g, 'n'); cell(r, p.a, 'n'); cell(r, p.p, 'n fet');
+      cell(r, n, 'nm'); cell(r, p.pos, 'm hn'); cell(r, p.age, 'n m hn'); cell(r, p.gp, 'n'); cell(r, p.g, 'n'); cell(r, p.a, 'n'); cell(r, p.p, 'n fet');
       cell(r, p.xp != null ? f1(p.xp) : '–', 'n m hn'); cell(r, tid(p.toi), 'n hn');
       var v = plus ? p.pl : p.gs; var c = cell(r, tal(v), 'n fet'); if (v != null && v < 0) c.style.color = 'var(--svag)';
       ts.appendChild(r);
@@ -101,7 +101,7 @@
     var tm = $('#l-mv tbody');
     L.mv.slice().sort(function (a, b) { return b.gp - a.gp; }).forEach(function (p) {
       var r = el('tr');
-      cell(r, lank('spelare.html?id=' + p.id, p.n), 'nm'); cell(r, p.gp, 'n');
+      cell(r, lank('spelare.html?id=' + p.id, p.n), 'nm'); cell(r, p.age, 'n m hn'); cell(r, p.gp, 'n');
       cell(r, p.sv != null ? (p.sv * 100).toFixed(1).replace('.', ',') + ' %' : '–', 'n'); cell(r, tal(p.gsax), 'n');
       var v = plus ? p.pl : p.gs; var c = cell(r, tal(v), 'n fet'); if (v != null && v < 0) c.style.color = 'var(--svag)';
       tm.appendChild(r);

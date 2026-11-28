@@ -186,7 +186,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
         "g": integer(r["Mål"]), "a": integer(r["Assist"]), "p": integer(r["Poäng"]),
         "gs": num(r["Game Score snitt"]), "gsS": num(r["Game Score"]),
         "pl": num(r.get("Game Score+ snitt")), "plS": num(r.get("Game Score+")),
-        "toi": num(r.get("Istid/match"), 1), "rook": 1 if r.get("Rookie") == "ja" else 0,
+        "toi": num(r.get("Istid/match"), 1), "rook": 1 if r.get("Rookie") == "ja" else 0, "age": val(r.get("Ålder")),
         "xg": num(r.get("Förväntade mål")), "xa": num(r.get("Förväntade assist")), "xp": num(r.get("Förväntade poäng")),
     } for _, r in S.iterrows()]
 
@@ -195,7 +195,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
         "gp": integer(r["Matcher"]), "gs": num(r["Game Score snitt"]), "gsS": num(r["Game Score"]),
         "pl": num(r.get("Game Score+ snitt")), "plS": num(r.get("Game Score+")),
         "sv": num(r.get("Räddnings-%"), 4), "gsax": num(r.get("GSAx")),
-        "rook": 1 if r.get("Rookie") == "ja" else 0,
+        "rook": 1 if r.get("Rookie") == "ja" else 0, "age": val(r.get("Ålder")),
     } for _, r in G.iterrows()] if not G.empty else []
 
     senaste3 = {}
@@ -419,6 +419,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
         sidor[pid] = {"id": pid, "n": r["Spelare"], "lag": r["Lag"], "k": abbr.get(r["Lag"], ""), "pos": r.get("Position", ""),
                       "mv": False, "rook": r.get("Rookie") == "ja", "grupper": grupper(r, SPELARGRUPPER),
                       "hist": r.get("Lag under säsongen") if isinstance(r.get("Lag under säsongen"), str) else "",
+                      "age": val(r.get("Ålder")), "fodd": r.get("Född") if isinstance(r.get("Född"), str) else "",
                       "logg": [{"id": int(x["Match-id"]), "d": x["Datum"], "mot": abbr.get(x["Motståndare"], ""), "hemma": x["Hemma/borta"] == "Hemma",
                                 "res": x["Resultat"], "st": [val(x["Mål för"]), val(x["Mål mot"])], "g": val(x["Mål"]), "a": val(x["Assist"]),
                                 "p": val(x["Poäng"]), "s": val(x["Skott"]), "pm": val(x.get("Plus/minus")), "toi": num(x.get("Istid (min)")), "xg": num(x.get("ixG")),
@@ -429,6 +430,7 @@ def build_data(csv_dir: Path, season: str, cfg: dict):
         sidor[pid] = {"id": pid, "n": r["Spelare"], "lag": r["Lag"], "k": abbr.get(r["Lag"], ""), "pos": "Målvakt",
                       "mv": True, "rook": r.get("Rookie") == "ja", "grupper": grupper(r, MVGRUPPER),
                       "hist": r.get("Lag under säsongen") if isinstance(r.get("Lag under säsongen"), str) else "",
+                      "age": val(r.get("Ålder")), "fodd": r.get("Född") if isinstance(r.get("Född"), str) else "",
                       "logg": [{"id": int(x["Match-id"]), "d": x["Datum"], "mot": abbr.get(x["Motståndare"], ""), "hemma": x["Hemma/borta"] == "Hemma",
                                 "res": x["Resultat"], "st": [val(x["Mål för"]), val(x["Mål mot"])], "sa": val(x.get("Skott mot")),
                                 "sv": val(x.get("Räddningar")), "ga": val(x.get("Insläppta")), "svp": num(x.get("Räddnings-%"), 3),

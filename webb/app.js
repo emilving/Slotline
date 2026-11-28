@@ -595,10 +595,11 @@
         p.gp >= state.min && (!state.rookie || p.rook) && avg(p) != null &&
         (!state.q || p.n.toLowerCase().indexOf(state.q) >= 0 || p.lag.toLowerCase().indexOf(state.q) >= 0);
     });
-    var key = { avg: avg, sum: sum, gp: function (p) { return p.gp; }, p: function (p) { return p.p; } }[state.sort];
+    var key = { avg: avg, sum: sum, gp: function (p) { return p.gp; }, p: function (p) { return p.p; },
+                age: function (p) { return p.age == null ? -99 : -p.age; } }[state.sort];
     list.sort(function (a, b) { return (key(b) - key(a)) || (avg(b) - avg(a)); });
     document.querySelectorAll('#t-spelare th button').forEach(function (b) {
-      b.parentElement.setAttribute('aria-sort', b.dataset.sort === state.sort ? 'descending' : 'none');
+      b.parentElement.setAttribute('aria-sort', b.dataset.sort !== state.sort ? 'none' : state.sort === 'age' ? 'ascending' : 'descending');
     });
     var dom = domain(list.map(avg));
     var tb = $('#t-spelare tbody');
@@ -610,6 +611,7 @@
       td(tr, namn, 'nm');
       td(tr, team(p.k, 22), 'm hn');
       td(tr, p.pos, 'm hn');
+      td(tr, p.age == null ? '–' : String(p.age), 'n m hn');
       td(tr, String(p.gp), 'n hn');
       barCell(tr, avg(p), dom[0], dom[1], tier(avg(p)));
       td(tr, f2(avg(p)), 'n val');
@@ -617,7 +619,7 @@
       td(tr, String(p.p), 'n hn');
       tb.appendChild(tr);
     });
-    if (!list.length) emptyRow(tb, 9, 'Inga spelare matchar filtret.');
+    if (!list.length) emptyRow(tb, 10, 'Inga spelare matchar filtret.');
     $('#c-spelare').textContent = list.length ? list.length + (state.rookie ? (list.length === 1 ? ' rookie' : ' rookies') : ' spelare') : '';
 
     var src = D.topp[formel === 'plus' ? 'pl' : 'gs'];
@@ -747,6 +749,7 @@
       var namn = spelarLank(p);
       td(tr, namn, 'nm');
       td(tr, team(p.k, 22), 'm hn');
+      td(tr, p.age == null ? '–' : String(p.age), 'n m hn');
       td(tr, String(p.gp), 'n');
       barCell(tr, avg(p), dom[0], dom[1], tier(avg(p)));
       td(tr, f2(avg(p)), 'n val');
@@ -754,7 +757,7 @@
       td(tr, f2(p.gsax), 'n hn');
       tb.appendChild(tr);
     });
-    if (!list.length) emptyRow(tb, 8, 'Inga målvakter matchar filtret.');
+    if (!list.length) emptyRow(tb, 9, 'Inga målvakter matchar filtret.');
     $('#c-mv').textContent = list.length ? list.length + (list.length === 1 ? (mvState.rookie ? ' rookie' : ' målvakt') : (mvState.rookie ? ' rookies' : ' målvakter')) : '';
   }
 

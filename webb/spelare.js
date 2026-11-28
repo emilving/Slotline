@@ -48,7 +48,9 @@
     var h = $('#sp-namn'); h.textContent = S.n;
     if (S.rook) { var r = el('span', 'rookie', 'R'); r.title = 'Rookie'; h.appendChild(r); }
     var sub = $('#sp-sub'); var la = el('a', 'sp-lank', S.lag); la.href = 'lag.html?k=' + S.k; sub.appendChild(la);
-    sub.appendChild(document.createTextNode(' · ' + S.pos + (S.rook ? ' · Rookie' : '')));
+    var fodd = '';
+    if (S.fodd) { var fd = new Date(S.fodd + 'T12:00:00'); fodd = ' (född ' + fd.getDate() + ' ' + MAN_K[fd.getMonth()] + ' ' + fd.getFullYear() + ')'; }
+    sub.appendChild(document.createTextNode(' · ' + S.pos + (S.age != null ? ' · ' + S.age + ' år' + fodd : '') + (S.rook ? ' · Rookie' : '')));
     if (S.hist) sub.appendChild(el('div', 'sp-hist', 'Under säsongen: ' + S.hist.replace(/\((\d+)\)/g, function (_, n) { return '(' + n + (n === '1' ? ' match' : ' matcher') + ')'; }) + '. Statistiken gäller hela säsongen.'));
 
     var tiles = $('#sp-tiles');
